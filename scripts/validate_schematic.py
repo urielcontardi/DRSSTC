@@ -65,7 +65,7 @@ for ref,fp in fpmap.items():
  assert p.exists(),p
  pads={x[1] for x in children(parse(p.read_text()),'pad') if x[1]}
  want=sympins[ref]
- if ref=='FB1':want={x for x in want if x not in ('5','8')}  # retencoes 5/8 viraram furos NPTH
+ # FB1 now includes manufacturer retaining pins 5/8 as isolated NC PTH pads.
  assert pads==want,(ref,fp,'pads',pads,'pins',want)
 assert len(fpmap)==41,len(fpmap)
 assert sympins['IC1']=={str(n) for n in range(1,15)}

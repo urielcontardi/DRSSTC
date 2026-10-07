@@ -1,0 +1,4 @@
+PASS: netlist nativa idêntica à base.
+PASS: nets dos pads anteriores preservadas; apenas FB1.5/.8 adicionados como NC.
+PASS: contorno Edge.Cuts preservado.
+48/48 instâncias na cobertura-final.csv.
