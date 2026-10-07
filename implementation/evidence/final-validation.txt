@@ -1,0 +1,6 @@
+PASS: 20 reference nets and 7 direct connections.
+PASS: all unused outputs explicitly NC; isolated domains remain separate.
+PASS: 41 physical references with existing local footprints; symbol pins match every pad.
+PASS: all 14/14/8/8 IC pins represented.
+PASS: KiCad 10.0.6 ERC: only the 2 expected PS1 power_pin_not_driven notes.
+Footprint dimensions marked CONFIRMAR/PROVISORIO still require physical verification.
