@@ -1,0 +1,1664 @@
+{
+  "oneTesla.before-compact.net": {
+    "pinos": 138,
+    "diferencas": [
+      {
+        "ref": "C10",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "/RAW_DC"
+      },
+      {
+        "ref": "C13",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC6",
+        "pin": "3",
+        "base": "+15V",
+        "outro": "/RAW_DC"
+      },
+      {
+        "ref": "PS1",
+        "pin": "4",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "1",
+        "base": "/AC_L_FUSED",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "2",
+        "base": "/AC_N",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C13",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "3",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "CPR1",
+        "pin": "2",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "/PRIMARY_CAP"
+      },
+      {
+        "ref": "P1",
+        "pin": "1",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "/PRIMARY_CAP"
+      },
+      {
+        "ref": "D1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "D2",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "IC1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "R1",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "R3",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "IC1",
+        "pin": "13",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "R2",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "R3",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "IC1",
+        "pin": "4",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC1",
+        "pin": "5",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC2",
+        "pin": "3",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC4",
+        "pin": "2",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC1",
+        "pin": "12",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "unconnected-(IC1-Pad12)"
+      },
+      {
+        "ref": "IC2",
+        "pin": "1",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "IC1",
+        "pin": "6",
+        "base": "Net-(IC3-IN)",
+        "outro": "/FEEDBACK_INV"
+      },
+      {
+        "ref": "IC3",
+        "pin": "2",
+        "base": "Net-(IC3-IN)",
+        "outro": "/FEEDBACK_INV"
+      }
+    ],
+    "extras": [
+      [
+        "C7",
+        "1",
+        "+15V"
+      ],
+      [
+        "IC5",
+        "1",
+        "+15V"
+      ],
+      [
+        "T2",
+        "1",
+        "/AC_L"
+      ],
+      [
+        "T2",
+        "2",
+        "/AC_N"
+      ],
+      [
+        "D3",
+        "4",
+        "/AUX_AC1"
+      ],
+      [
+        "T2",
+        "4",
+        "/AUX_AC1"
+      ],
+      [
+        "D3",
+        "3",
+        "/AUX_AC2"
+      ],
+      [
+        "T2",
+        "3",
+        "/AUX_AC2"
+      ],
+      [
+        "D3",
+        "1",
+        "/RAW_DC"
+      ],
+      [
+        "IC5",
+        "3",
+        "/RAW_DC"
+      ],
+      [
+        "C7",
+        "2",
+        "GND"
+      ],
+      [
+        "D3",
+        "2",
+        "GND"
+      ],
+      [
+        "IC5",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  "oneTesla-revisado.net": {
+    "pinos": 138,
+    "diferencas": [
+      {
+        "ref": "C10",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "/RAW_DC"
+      },
+      {
+        "ref": "C13",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC6",
+        "pin": "3",
+        "base": "+15V",
+        "outro": "/RAW_DC"
+      },
+      {
+        "ref": "PS1",
+        "pin": "4",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "1",
+        "base": "/AC_L_FUSED",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "2",
+        "base": "/AC_N",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C13",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "3",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "CPR1",
+        "pin": "2",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "/PRIMARY_CAP"
+      },
+      {
+        "ref": "P1",
+        "pin": "1",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "/PRIMARY_CAP"
+      },
+      {
+        "ref": "D1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "D2",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "IC1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "R1",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "R3",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "IC1",
+        "pin": "13",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "R2",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "R3",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "IC1",
+        "pin": "4",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC1",
+        "pin": "5",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC2",
+        "pin": "3",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC4",
+        "pin": "2",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC1",
+        "pin": "12",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "unconnected-(IC1-Pad12)"
+      },
+      {
+        "ref": "IC2",
+        "pin": "1",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "IC1",
+        "pin": "6",
+        "base": "Net-(IC3-IN)",
+        "outro": "/FEEDBACK_INV"
+      },
+      {
+        "ref": "IC3",
+        "pin": "2",
+        "base": "Net-(IC3-IN)",
+        "outro": "/FEEDBACK_INV"
+      }
+    ],
+    "extras": [
+      [
+        "C7",
+        "1",
+        "+15V"
+      ],
+      [
+        "IC5",
+        "1",
+        "+15V"
+      ],
+      [
+        "T2",
+        "1",
+        "/AC_L"
+      ],
+      [
+        "T2",
+        "2",
+        "/AC_N"
+      ],
+      [
+        "D3",
+        "4",
+        "/AUX_AC1"
+      ],
+      [
+        "T2",
+        "4",
+        "/AUX_AC1"
+      ],
+      [
+        "D3",
+        "3",
+        "/AUX_AC2"
+      ],
+      [
+        "T2",
+        "3",
+        "/AUX_AC2"
+      ],
+      [
+        "D3",
+        "1",
+        "/RAW_DC"
+      ],
+      [
+        "IC5",
+        "3",
+        "/RAW_DC"
+      ],
+      [
+        "C7",
+        "2",
+        "GND"
+      ],
+      [
+        "D3",
+        "2",
+        "GND"
+      ],
+      [
+        "IC5",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  "oneTesla.net": {
+    "pinos": 131,
+    "diferencas": [],
+    "extras": []
+  },
+  "oneTesla.before-replication.net": {
+    "pinos": 44,
+    "diferencas": [
+      {
+        "ref": "C1",
+        "pin": "1",
+        "base": "+5V",
+        "outro": "unconnected-(C1-Pad1)"
+      },
+      {
+        "ref": "C2",
+        "pin": "1",
+        "base": "+5V",
+        "outro": "unconnected-(C2-Pad1)"
+      },
+      {
+        "ref": "C3",
+        "pin": "1",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C9",
+        "pin": "1",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "D2",
+        "pin": "1",
+        "base": "+5V",
+        "outro": "Net-(D1-A)"
+      },
+      {
+        "ref": "FB1",
+        "pin": "3",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "FB1",
+        "pin": "4",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "14",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "10",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "13",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "14",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "2",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "4",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC6",
+        "pin": "1",
+        "base": "+5V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C10",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C13",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C5",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C6",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C8",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "8",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "8",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC6",
+        "pin": "3",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "4",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "F1",
+        "pin": "1",
+        "base": "/AC_L",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "J1",
+        "pin": "1",
+        "base": "/AC_L",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "D4",
+        "pin": "2",
+        "base": "/AC_L_FUSED",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "F1",
+        "pin": "2",
+        "base": "/AC_L_FUSED",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "1",
+        "base": "/AC_L_FUSED",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "D4",
+        "pin": "3",
+        "base": "/AC_N",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "J1",
+        "pin": "2",
+        "base": "/AC_N",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "J110",
+        "pin": "1",
+        "base": "/AC_N",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "2",
+        "base": "/AC_N",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C11",
+        "pin": "1",
+        "base": "/DC_MID",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C12",
+        "pin": "2",
+        "base": "/DC_MID",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "J110",
+        "pin": "2",
+        "base": "/DC_MID",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "P2",
+        "pin": "1",
+        "base": "/DC_MID",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R5",
+        "pin": "2",
+        "base": "/DC_MID",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R6",
+        "pin": "1",
+        "base": "/DC_MID",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C11",
+        "pin": "2",
+        "base": "/DC_MINUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "D4",
+        "pin": "4",
+        "base": "/DC_MINUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Q2",
+        "pin": "3",
+        "base": "/DC_MINUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R6",
+        "pin": "2",
+        "base": "/DC_MINUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T1",
+        "pin": "6",
+        "base": "/DC_MINUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Z2",
+        "pin": "2",
+        "base": "/DC_MINUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C12",
+        "pin": "1",
+        "base": "/DC_PLUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "D4",
+        "pin": "1",
+        "base": "/DC_PLUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Q1",
+        "pin": "2",
+        "base": "/DC_PLUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R5",
+        "pin": "1",
+        "base": "/DC_PLUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Z1",
+        "pin": "1",
+        "base": "/DC_PLUS",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "6",
+        "base": "/DRIVE_ENABLE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "3",
+        "base": "/DRIVE_ENABLE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "3",
+        "base": "/DRIVE_ENABLE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Q1",
+        "pin": "1",
+        "base": "/GATE_H",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T1",
+        "pin": "3",
+        "base": "/GATE_H",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Q2",
+        "pin": "1",
+        "base": "/GATE_L",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T1",
+        "pin": "5",
+        "base": "/GATE_L",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "FB1",
+        "pin": "1",
+        "base": "/OPTICAL_OUT",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R2",
+        "pin": "1",
+        "base": "/OPTICAL_OUT",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "J1",
+        "pin": "3",
+        "base": "/PE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "J2",
+        "pin": "1",
+        "base": "/PE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "CPR1",
+        "pin": "1",
+        "base": "/SW_NODE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Q1",
+        "pin": "3",
+        "base": "/SW_NODE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Q2",
+        "pin": "2",
+        "base": "/SW_NODE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T1",
+        "pin": "4",
+        "base": "/SW_NODE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Z1",
+        "pin": "2",
+        "base": "/SW_NODE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "Z2",
+        "pin": "1",
+        "base": "/SW_NODE",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C1",
+        "pin": "2",
+        "base": "GND",
+        "outro": "unconnected-(C1-Pad2)"
+      },
+      {
+        "ref": "C10",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C13",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C2",
+        "pin": "2",
+        "base": "GND",
+        "outro": "unconnected-(C2-Pad2)"
+      },
+      {
+        "ref": "C3",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C5",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C6",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C8",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C9",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "D1",
+        "pin": "2",
+        "base": "GND",
+        "outro": "Net-(D1-A)"
+      },
+      {
+        "ref": "FB1",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "11",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "7",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "9",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "11",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "12",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "7",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "4",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "5",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "4",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "5",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC6",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "3",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T3",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C4",
+        "pin": "1",
+        "base": "Net-(C4-Pad1)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "6",
+        "base": "Net-(C4-Pad1)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "7",
+        "base": "Net-(C4-Pad1)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "CPR1",
+        "pin": "2",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "P1",
+        "pin": "1",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "D1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "unconnected-(D1-K-Pad1)"
+      },
+      {
+        "ref": "D2",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "unconnected-(D2-A-Pad2)"
+      },
+      {
+        "ref": "IC1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R1",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R3",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "2",
+        "base": "Net-(IC1-Pad2)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "3",
+        "base": "Net-(IC1-Pad2)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "13",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R2",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R3",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "4",
+        "base": "Net-(IC2A-C)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "5",
+        "base": "Net-(IC2A-C)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "3",
+        "base": "Net-(IC2A-C)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC4",
+        "pin": "2",
+        "base": "Net-(IC2A-C)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "12",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "1",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "6",
+        "base": "Net-(IC3-IN)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "2",
+        "base": "Net-(IC3-IN)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "6",
+        "base": "Net-(IC3-OUT-Pad6)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC3",
+        "pin": "7",
+        "base": "Net-(IC3-OUT-Pad6)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R4",
+        "pin": "1",
+        "base": "Net-(IC3-OUT-Pad6)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R4",
+        "pin": "2",
+        "base": "Net-(T1-AA)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T1",
+        "pin": "1",
+        "base": "Net-(T1-AA)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C4",
+        "pin": "2",
+        "base": "Net-(T1-AB)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T1",
+        "pin": "2",
+        "base": "Net-(T1-AB)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "R1",
+        "pin": "1",
+        "base": "Net-(T3-S1)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "T3",
+        "pin": "1",
+        "base": "Net-(T3-S1)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "FB1",
+        "pin": "5",
+        "base": "unconnected-(FB1-NC-Pad5)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "FB1",
+        "pin": "8",
+        "base": "unconnected-(FB1-NC-Pad8)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "8",
+        "base": "unconnected-(IC1-Pad8)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC1",
+        "pin": "10",
+        "base": "unconnected-(IC1-Pad10)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "5",
+        "base": "unconnected-(IC2A-Q-Pad5)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "9",
+        "base": "unconnected-(IC2B-Q-Pad9)",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC2",
+        "pin": "8",
+        "base": "unconnected-(IC2B-~{Q}-Pad8)",
+        "outro": "AUSENTE"
+      }
+    ],
+    "extras": [
+      [
+        "U2",
+        "2",
+        "+5V"
+      ],
+      [
+        "U2",
+        "4",
+        "+5V"
+      ],
+      [
+        "U1",
+        "1",
+        "Net-(D1-A)"
+      ],
+      [
+        "U1",
+        "2",
+        "Net-(U1-Pad2)"
+      ],
+      [
+        "U1",
+        "3",
+        "Net-(U1-Pad2)"
+      ],
+      [
+        "U1",
+        "4",
+        "Net-(U2A-C)"
+      ],
+      [
+        "U2",
+        "3",
+        "Net-(U2A-C)"
+      ],
+      [
+        "U1",
+        "5",
+        "unconnected-(U1-Pad5)"
+      ],
+      [
+        "U1",
+        "6",
+        "unconnected-(U1-Pad6)"
+      ],
+      [
+        "U1",
+        "8",
+        "unconnected-(U1-Pad8)"
+      ],
+      [
+        "U1",
+        "9",
+        "unconnected-(U1-Pad9)"
+      ],
+      [
+        "U1",
+        "10",
+        "unconnected-(U1-Pad10)"
+      ],
+      [
+        "U1",
+        "11",
+        "unconnected-(U1-Pad11)"
+      ],
+      [
+        "U1",
+        "12",
+        "unconnected-(U1-Pad12)"
+      ],
+      [
+        "U1",
+        "13",
+        "unconnected-(U1-Pad13)"
+      ],
+      [
+        "U1",
+        "7",
+        "unconnected-(U1G-GND-Pad7)"
+      ],
+      [
+        "U1",
+        "14",
+        "unconnected-(U1G-VCC-Pad14)"
+      ],
+      [
+        "U2",
+        "5",
+        "unconnected-(U2A-Q-Pad5)"
+      ],
+      [
+        "U2",
+        "6",
+        "unconnected-(U2A-~{Q}-Pad6)"
+      ],
+      [
+        "U2",
+        "1",
+        "unconnected-(U2A-~{R}-Pad1)"
+      ],
+      [
+        "U2",
+        "11",
+        "unconnected-(U2B-C-Pad11)"
+      ],
+      [
+        "U2",
+        "12",
+        "unconnected-(U2B-D-Pad12)"
+      ],
+      [
+        "U2",
+        "9",
+        "unconnected-(U2B-Q-Pad9)"
+      ],
+      [
+        "U2",
+        "8",
+        "unconnected-(U2B-~{Q}-Pad8)"
+      ],
+      [
+        "U2",
+        "13",
+        "unconnected-(U2B-~{R}-Pad13)"
+      ],
+      [
+        "U2",
+        "10",
+        "unconnected-(U2B-~{S}-Pad10)"
+      ],
+      [
+        "U2",
+        "7",
+        "unconnected-(U2C-GND-Pad7)"
+      ],
+      [
+        "U2",
+        "14",
+        "unconnected-(U2C-VCC-Pad14)"
+      ],
+      [
+        "U3",
+        "4",
+        "unconnected-(U3-AGND-Pad4)"
+      ],
+      [
+        "U3",
+        "3",
+        "unconnected-(U3-ENBL-Pad3)"
+      ],
+      [
+        "U3",
+        "2",
+        "unconnected-(U3-IN-Pad2)"
+      ],
+      [
+        "U3",
+        "6",
+        "unconnected-(U3-OUT-Pad6)"
+      ],
+      [
+        "U3",
+        "7",
+        "unconnected-(U3-OUT-Pad7)"
+      ],
+      [
+        "U3",
+        "5",
+        "unconnected-(U3-PGND-Pad5)"
+      ],
+      [
+        "U3",
+        "1",
+        "unconnected-(U3-VDD-Pad1)"
+      ],
+      [
+        "U3",
+        "8",
+        "unconnected-(U3-VDD-Pad8)"
+      ]
+    ]
+  },
+  "oneTesla.saved-old-copy.net": {
+    "pinos": 138,
+    "diferencas": [
+      {
+        "ref": "C10",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "/RAW_DC"
+      },
+      {
+        "ref": "C13",
+        "pin": "1",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "IC6",
+        "pin": "3",
+        "base": "+15V",
+        "outro": "/RAW_DC"
+      },
+      {
+        "ref": "PS1",
+        "pin": "4",
+        "base": "+15V",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "1",
+        "base": "/AC_L_FUSED",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "2",
+        "base": "/AC_N",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "C13",
+        "pin": "2",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "PS1",
+        "pin": "3",
+        "base": "GND",
+        "outro": "AUSENTE"
+      },
+      {
+        "ref": "CPR1",
+        "pin": "2",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "/PRIMARY_CAP"
+      },
+      {
+        "ref": "P1",
+        "pin": "1",
+        "base": "Net-(CPR1-Pad2)",
+        "outro": "/PRIMARY_CAP"
+      },
+      {
+        "ref": "D1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "D2",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "IC1",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "R1",
+        "pin": "2",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "R3",
+        "pin": "1",
+        "base": "Net-(D1-K)",
+        "outro": "/CT_SIGNAL"
+      },
+      {
+        "ref": "IC1",
+        "pin": "13",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "R2",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "R3",
+        "pin": "2",
+        "base": "Net-(IC1-Pad13)",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "IC1",
+        "pin": "4",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC1",
+        "pin": "5",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC2",
+        "pin": "3",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC4",
+        "pin": "2",
+        "base": "Net-(IC2A-C)",
+        "outro": "/FEEDBACK"
+      },
+      {
+        "ref": "IC1",
+        "pin": "12",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "unconnected-(IC1-Pad12)"
+      },
+      {
+        "ref": "IC2",
+        "pin": "1",
+        "base": "Net-(IC2A-~{R})",
+        "outro": "/RESET_MIX"
+      },
+      {
+        "ref": "IC1",
+        "pin": "6",
+        "base": "Net-(IC3-IN)",
+        "outro": "/FEEDBACK_INV"
+      },
+      {
+        "ref": "IC3",
+        "pin": "2",
+        "base": "Net-(IC3-IN)",
+        "outro": "/FEEDBACK_INV"
+      }
+    ],
+    "extras": [
+      [
+        "C7",
+        "1",
+        "+15V"
+      ],
+      [
+        "IC5",
+        "1",
+        "+15V"
+      ],
+      [
+        "T2",
+        "1",
+        "/AC_L"
+      ],
+      [
+        "T2",
+        "2",
+        "/AC_N"
+      ],
+      [
+        "D3",
+        "4",
+        "/AUX_AC1"
+      ],
+      [
+        "T2",
+        "4",
+        "/AUX_AC1"
+      ],
+      [
+        "D3",
+        "3",
+        "/AUX_AC2"
+      ],
+      [
+        "T2",
+        "3",
+        "/AUX_AC2"
+      ],
+      [
+        "D3",
+        "1",
+        "/RAW_DC"
+      ],
+      [
+        "IC5",
+        "3",
+        "/RAW_DC"
+      ],
+      [
+        "C7",
+        "2",
+        "GND"
+      ],
+      [
+        "D3",
+        "2",
+        "GND"
+      ],
+      [
+        "IC5",
+        "2",
+        "GND"
+      ]
+    ]
+  }
+}

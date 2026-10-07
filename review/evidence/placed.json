@@ -1,0 +1,2293 @@
+[
+  {
+    "ref": "Z2",
+    "footprint": "oneTesla:D_DO-201AD_P15.24mm_Horizontal",
+    "x": 78.105,
+    "y": 67.31,
+    "rot": -90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -7.366,
+        "y": 0.0,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "1.1",
+        "rede": "/SW_NODE",
+        "bx": 78.105,
+        "by": 59.944
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.366,
+        "y": 0.0,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "1.1",
+        "rede": "/DC_MINUS",
+        "bx": 78.105,
+        "by": 74.676
+      }
+    ]
+  },
+  {
+    "ref": "P1",
+    "footprint": "oneTesla:Primary_Terminal_M6_CONFIRMAR",
+    "x": 41.275,
+    "y": 91.44,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2.2",
+        "rede": "Net-(CPR1-Pad2)",
+        "bx": 41.275,
+        "by": 91.44
+      }
+    ]
+  },
+  {
+    "ref": "D1",
+    "footprint": "oneTesla:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "x": 22.86,
+    "y": 59.055,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "roundrect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "Net-(D1-K)",
+        "bx": 22.86,
+        "by": 59.055
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "GND",
+        "bx": 15.239999999999998,
+        "by": 59.055
+      }
+    ]
+  },
+  {
+    "ref": "C10",
+    "footprint": "oneTesla:CP_Radial_D12.5mm_P5.00mm",
+    "x": 6.35,
+    "y": 43.815,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -1.778,
+        "y": 0.0,
+        "sx": 1.8,
+        "sy": 1.8,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 4.571999999999999,
+        "by": 43.815
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 1.778,
+        "y": 0.0,
+        "sx": 1.8,
+        "sy": 1.8,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 8.128,
+        "by": 43.815
+      }
+    ]
+  },
+  {
+    "ref": "C12",
+    "footprint": "oneTesla:CP_Radial_D30.0mm_P10.00mm_SnapIn",
+    "x": 66.675,
+    "y": 31.75,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -5.08,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2",
+        "rede": "/DC_PLUS",
+        "bx": 61.595,
+        "by": 31.75
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.08,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2",
+        "rede": "/DC_MID",
+        "bx": 71.755,
+        "by": 31.75
+      }
+    ]
+  },
+  {
+    "ref": "R2",
+    "footprint": "oneTesla:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "x": 25.4,
+    "y": 61.595,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "/OPTICAL_OUT",
+        "bx": 25.4,
+        "by": 61.595
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "Net-(IC1-Pad13)",
+        "bx": 33.019999999999996,
+        "by": 61.595
+      }
+    ]
+  },
+  {
+    "ref": "C6",
+    "footprint": "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "x": 41.315,
+    "y": 62.23,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "+15V",
+        "bx": 41.315,
+        "by": 62.23
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "GND",
+        "bx": 46.315,
+        "by": 62.23
+      }
+    ]
+  },
+  {
+    "ref": "C9",
+    "footprint": "oneTesla:CP_Radial_D8.0mm_P3.50mm",
+    "x": 8.89,
+    "y": 50.8,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 10.16,
+        "by": 50.8
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 7.620000000000001,
+        "by": 50.8
+      }
+    ]
+  },
+  {
+    "ref": "J110",
+    "footprint": "oneTesla:J110_WireLink_P10.16mm",
+    "x": 73.025,
+    "y": 10.795,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -5.08,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2.2",
+        "rede": "/AC_N",
+        "bx": 78.105,
+        "by": 10.795
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.08,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2.2",
+        "rede": "/DC_MID",
+        "bx": 67.94500000000001,
+        "by": 10.795
+      }
+    ]
+  },
+  {
+    "ref": "SEM_REF_10",
+    "footprint": "oneTesla:MountingHole_D4.0",
+    "x": 3.9243,
+    "y": 102.1588,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "4",
+        "rede": "",
+        "bx": 3.9243,
+        "by": 102.1588
+      }
+    ]
+  },
+  {
+    "ref": "R3",
+    "footprint": "oneTesla:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "x": 25.4,
+    "y": 59.055,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "Net-(D1-K)",
+        "bx": 25.4,
+        "by": 59.055
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "Net-(IC1-Pad13)",
+        "bx": 33.019999999999996,
+        "by": 59.055
+      }
+    ]
+  },
+  {
+    "ref": "R5",
+    "footprint": "oneTesla:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal",
+    "x": 79.375,
+    "y": 20.32,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -5.08,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "/DC_PLUS",
+        "bx": 84.455,
+        "by": 20.32
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.08,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "/DC_MID",
+        "bx": 74.295,
+        "by": 20.32
+      }
+    ]
+  },
+  {
+    "ref": "JPRT1",
+    "footprint": "oneTesla:Ring_D6_D3.81",
+    "x": 101.6,
+    "y": 94.615,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 6.0,
+        "sy": 6.0,
+        "furo": "3.81",
+        "rede": "/DC_MID",
+        "bx": 101.6,
+        "by": 94.615
+      }
+    ]
+  },
+  {
+    "ref": "IC3",
+    "footprint": "oneTesla:DIP-8_W7.62mm_Socket_LongPads",
+    "x": 40.005,
+    "y": 45.72,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 40.005,
+        "by": 45.72
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC3-IN)",
+        "bx": 40.005,
+        "by": 48.26
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "/DRIVE_ENABLE",
+        "bx": 40.005,
+        "by": 50.8
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 40.005,
+        "by": 53.339999999999996
+      },
+      {
+        "num": "5",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 47.625,
+        "by": 53.339999999999996
+      },
+      {
+        "num": "6",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC3-OUT-Pad6)",
+        "bx": 47.625,
+        "by": 50.8
+      },
+      {
+        "num": "7",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC3-OUT-Pad6)",
+        "bx": 47.625,
+        "by": 48.26
+      },
+      {
+        "num": "8",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 47.625,
+        "by": 45.72
+      }
+    ]
+  },
+  {
+    "ref": "C8",
+    "footprint": "oneTesla:CP_Radial_D8.0mm_P3.50mm",
+    "x": 43.815,
+    "y": 38.1,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 42.544999999999995,
+        "by": 38.1
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 45.085,
+        "by": 38.1
+      }
+    ]
+  },
+  {
+    "ref": "C4",
+    "footprint": "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "x": 53.38,
+    "y": 71.755,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "Net-(C4-Pad1)",
+        "bx": 53.38,
+        "by": 71.755
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "Net-(T1-AB)",
+        "bx": 58.38,
+        "by": 71.755
+      }
+    ]
+  },
+  {
+    "ref": "D4",
+    "footprint": "oneTesla:Diode_Bridge_Vishay_KBU",
+    "x": 73.025,
+    "y": 15.875,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.8,
+        "sy": 2.8,
+        "furo": "1.4986",
+        "rede": "/DC_PLUS",
+        "bx": 73.025,
+        "by": 15.875
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 10.16,
+        "y": 0.0,
+        "sx": 2.8,
+        "sy": 2.8,
+        "furo": "1.4986",
+        "rede": "/AC_L_FUSED",
+        "bx": 83.185,
+        "by": 15.875
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.08,
+        "y": 0.0,
+        "sx": 2.8,
+        "sy": 2.8,
+        "furo": "1.4986",
+        "rede": "/AC_N",
+        "bx": 78.105,
+        "by": 15.875
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 15.24,
+        "y": 0.0,
+        "sx": 2.8,
+        "sy": 2.8,
+        "furo": "1.4986",
+        "rede": "/DC_MINUS",
+        "bx": 88.265,
+        "by": 15.875
+      }
+    ]
+  },
+  {
+    "ref": "JPRT2",
+    "footprint": "oneTesla:Ring_D6_D3.81",
+    "x": 88.9,
+    "y": 102.235,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 6.0,
+        "sy": 6.0,
+        "furo": "3.81",
+        "rede": "Net-(CPR1-Pad2)",
+        "bx": 88.9,
+        "by": 102.235
+      }
+    ]
+  },
+  {
+    "ref": "C1",
+    "footprint": "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "x": 9.485,
+    "y": 56.515,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "+5V",
+        "bx": 9.485,
+        "by": 56.515
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "GND",
+        "bx": 4.484999999999999,
+        "by": 56.515
+      }
+    ]
+  },
+  {
+    "ref": "SEM_REF_20",
+    "footprint": "oneTesla:MountingHole_D5.5",
+    "x": 91.186,
+    "y": 69.215,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 5.5,
+        "sy": 5.5,
+        "furo": "5.5",
+        "rede": "",
+        "bx": 91.186,
+        "by": 69.215
+      }
+    ]
+  },
+  {
+    "ref": "IC6",
+    "footprint": "oneTesla:TO-92_Inline",
+    "x": 3.81,
+    "y": 50.8,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": -1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 3.81,
+        "by": 52.07
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": -1.905,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 1.905,
+        "by": 50.8
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 3.81,
+        "by": 49.529999999999994
+      }
+    ]
+  },
+  {
+    "ref": "PS1",
+    "footprint": "oneTesla:HLK-15M15BL",
+    "x": 44.25,
+    "y": 22.0,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1",
+        "rede": "/AC_L_FUSED",
+        "bx": 44.25,
+        "by": 22.0
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 7.8,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1",
+        "rede": "/AC_N",
+        "bx": 44.25,
+        "by": 14.2
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 42.5,
+        "y": -7.4,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1",
+        "rede": "GND",
+        "bx": 1.7499999999999991,
+        "by": 29.4
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 42.5,
+        "y": 15.2,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1",
+        "rede": "+15V",
+        "bx": 1.7500000000000018,
+        "by": 6.799999999999997
+      }
+    ]
+  },
+  {
+    "ref": "Q1",
+    "footprint": "oneTesla:TO-3P-3_Horizontal_TabDown",
+    "x": 71.9455,
+    "y": 45.985,
+    "rot": -90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 4.5,
+        "furo": "1.4986",
+        "rede": "/GATE_H",
+        "bx": 71.9455,
+        "by": 45.985
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.45,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 4.5,
+        "furo": "1.4986",
+        "rede": "/DC_PLUS",
+        "bx": 71.9455,
+        "by": 51.435
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 10.9,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 4.5,
+        "furo": "1.4986",
+        "rede": "/SW_NODE",
+        "bx": 71.9455,
+        "by": 56.885
+      }
+    ]
+  },
+  {
+    "ref": "CPR1",
+    "footprint": "oneTesla:CDE_940C30S68K_F_CONFIRMAR",
+    "x": 68.58,
+    "y": 86.36,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -29.21,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "1.4",
+        "rede": "/SW_NODE",
+        "bx": 39.37,
+        "by": 86.36
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 29.21,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "1.4",
+        "rede": "Net-(CPR1-Pad2)",
+        "bx": 97.78999999999999,
+        "by": 86.36
+      }
+    ]
+  },
+  {
+    "ref": "SEM_REF_25",
+    "footprint": "oneTesla:MountingHole_D4.0",
+    "x": 3.8735,
+    "y": 2.3495,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "4",
+        "rede": "",
+        "bx": 3.8735,
+        "by": 2.3495
+      }
+    ]
+  },
+  {
+    "ref": "T3",
+    "footprint": "oneTesla:CT_1_300_P12.70mm_CONFIRMAR",
+    "x": 30.48,
+    "y": 91.44,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": -6.35,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.27",
+        "rede": "Net-(T3-S1)",
+        "bx": 30.48,
+        "by": 97.78999999999999
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 6.35,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.27",
+        "rede": "GND",
+        "bx": 30.48,
+        "by": 85.09
+      }
+    ]
+  },
+  {
+    "ref": "C3",
+    "footprint": "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "x": 15.875,
+    "y": 35.6,
+    "rot": -90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "+5V",
+        "bx": 15.875,
+        "by": 35.6
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "GND",
+        "bx": 15.875,
+        "by": 40.6
+      }
+    ]
+  },
+  {
+    "ref": "T1",
+    "footprint": "oneTesla:GDT_6Pin_CONFIRMAR",
+    "x": 60.325,
+    "y": 58.42,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": -9.017,
+        "y": -4.572,
+        "sx": 2.2,
+        "sy": 2.2,
+        "furo": "1.016",
+        "rede": "Net-(T1-AA)",
+        "bx": 55.753,
+        "by": 67.437
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -9.017,
+        "y": 4.445,
+        "sx": 2.2,
+        "sy": 2.2,
+        "furo": "1.016",
+        "rede": "Net-(T1-AB)",
+        "bx": 64.77000000000001,
+        "by": 67.437
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 3.683,
+        "y": -4.445,
+        "sx": 2.2,
+        "sy": 2.2,
+        "furo": "1.016",
+        "rede": "/GATE_H",
+        "bx": 55.88,
+        "by": 54.737
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 8.763,
+        "y": -4.445,
+        "sx": 2.2,
+        "sy": 2.2,
+        "furo": "1.016",
+        "rede": "/SW_NODE",
+        "bx": 55.88,
+        "by": 49.657000000000004
+      },
+      {
+        "num": "5",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 8.763,
+        "y": 4.445,
+        "sx": 2.2,
+        "sy": 2.2,
+        "furo": "1.016",
+        "rede": "/GATE_L",
+        "bx": 64.77000000000001,
+        "by": 49.657000000000004
+      },
+      {
+        "num": "6",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 3.683,
+        "y": 4.445,
+        "sx": 2.2,
+        "sy": 2.2,
+        "furo": "1.016",
+        "rede": "/DC_MINUS",
+        "bx": 64.77000000000001,
+        "by": 54.737
+      }
+    ]
+  },
+  {
+    "ref": "P2",
+    "footprint": "oneTesla:Primary_Terminal_M6_CONFIRMAR",
+    "x": 19.685,
+    "y": 91.44,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2.2",
+        "rede": "/DC_MID",
+        "bx": 19.685,
+        "by": 91.44
+      }
+    ]
+  },
+  {
+    "ref": "R4",
+    "footprint": "oneTesla:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "x": 52.705,
+    "y": 53.975,
+    "rot": -90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "Net-(IC3-OUT-Pad6)",
+        "bx": 52.705,
+        "by": 53.975
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "Net-(T1-AA)",
+        "bx": 52.705,
+        "by": 61.595
+      }
+    ]
+  },
+  {
+    "ref": "F1",
+    "footprint": "oneTesla:Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal",
+    "x": 85.09,
+    "y": 3.81,
+    "rot": 180.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.08,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1938",
+        "rede": "/AC_L",
+        "bx": 80.01,
+        "by": 3.8099999999999996
+      },
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 10.16,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1938",
+        "rede": "/AC_L",
+        "bx": 74.93,
+        "by": 3.8099999999999987
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -10.16,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1938",
+        "rede": "/AC_L_FUSED",
+        "bx": 95.25,
+        "by": 3.8100000000000014
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -5.08,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 2.5,
+        "furo": "1.1938",
+        "rede": "/AC_L_FUSED",
+        "bx": 90.17,
+        "by": 3.8100000000000005
+      }
+    ]
+  },
+  {
+    "ref": "IC2",
+    "footprint": "oneTesla:DIP-14_W7.62mm_Socket_LongPads",
+    "x": 19.05,
+    "y": 42.545,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC2A-~{R})",
+        "bx": 19.05,
+        "by": 42.545
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 21.59,
+        "by": 42.545
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC2A-C)",
+        "bx": 24.130000000000003,
+        "by": 42.545
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 26.67,
+        "by": 42.545
+      },
+      {
+        "num": "5",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 10.16,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "unconnected-(IC2A-Q-Pad5)",
+        "bx": 29.21,
+        "by": 42.545
+      },
+      {
+        "num": "6",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 12.7,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "/DRIVE_ENABLE",
+        "bx": 31.75,
+        "by": 42.545
+      },
+      {
+        "num": "7",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 15.24,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 34.29,
+        "by": 42.545
+      },
+      {
+        "num": "8",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 15.24,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "unconnected-(IC2B-~{Q}-Pad8)",
+        "bx": 34.29,
+        "by": 34.925000000000004
+      },
+      {
+        "num": "9",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 12.7,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "unconnected-(IC2B-Q-Pad9)",
+        "bx": 31.75,
+        "by": 34.925000000000004
+      },
+      {
+        "num": "10",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 10.16,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 29.21,
+        "by": 34.925000000000004
+      },
+      {
+        "num": "11",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 26.67,
+        "by": 34.925000000000004
+      },
+      {
+        "num": "12",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 24.130000000000003,
+        "by": 34.925000000000004
+      },
+      {
+        "num": "13",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 21.59,
+        "by": 34.925000000000004
+      },
+      {
+        "num": "14",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 19.05,
+        "by": 34.925000000000004
+      }
+    ]
+  },
+  {
+    "ref": "FB1",
+    "footprint": "oneTesla:HFBR-2521ETZ",
+    "x": 10.16,
+    "y": 63.5,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": -2.54,
+        "y": -7.62,
+        "sx": 1.651,
+        "sy": 1.651,
+        "furo": "1.651",
+        "rede": "",
+        "bx": 2.54,
+        "by": 66.04
+      },
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 3.2,
+        "sy": 3.2,
+        "furo": "3.2",
+        "rede": "",
+        "bx": 10.16,
+        "by": 63.5
+      },
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 2.54,
+        "y": -7.62,
+        "sx": 1.651,
+        "sy": 1.651,
+        "furo": "1.651",
+        "rede": "",
+        "bx": 2.54,
+        "by": 60.96
+      },
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": -5.08,
+        "sx": 1.5,
+        "sy": 1.5,
+        "furo": "0.8",
+        "rede": "/OPTICAL_OUT",
+        "bx": 5.08,
+        "by": 63.5
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 1.905,
+        "y": -5.08,
+        "sx": 1.5,
+        "sy": 1.5,
+        "furo": "0.8",
+        "rede": "GND",
+        "bx": 5.08,
+        "by": 61.595
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": -1.905,
+        "y": -5.08,
+        "sx": 1.5,
+        "sy": 1.5,
+        "furo": "0.8",
+        "rede": "+5V",
+        "bx": 5.08,
+        "by": 65.405
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 3.81,
+        "y": -5.08,
+        "sx": 1.5,
+        "sy": 1.5,
+        "furo": "0.8",
+        "rede": "+5V",
+        "bx": 5.08,
+        "by": 59.69
+      }
+    ]
+  },
+  {
+    "ref": "R6",
+    "footprint": "oneTesla:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal",
+    "x": 98.425,
+    "y": 16.51,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -5.08,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "/DC_MID",
+        "bx": 93.345,
+        "by": 16.51
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.08,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "/DC_MINUS",
+        "bx": 103.505,
+        "by": 16.51
+      }
+    ]
+  },
+  {
+    "ref": "SEM_REF_35",
+    "footprint": "oneTesla:MountingHole_D5.5",
+    "x": 91.186,
+    "y": 51.435,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 5.5,
+        "sy": 5.5,
+        "furo": "5.5",
+        "rede": "",
+        "bx": 91.186,
+        "by": 51.435
+      }
+    ]
+  },
+  {
+    "ref": "D2",
+    "footprint": "oneTesla:D_DO-35_SOD27_P7.62mm_Horizontal",
+    "x": 15.24,
+    "y": 61.595,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "roundrect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "+5V",
+        "bx": 15.24,
+        "by": 61.595
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8",
+        "rede": "Net-(D1-K)",
+        "bx": 22.86,
+        "by": 61.595
+      }
+    ]
+  },
+  {
+    "ref": "SEM_REF_37",
+    "footprint": "oneTesla:MountingHole_D4.0",
+    "x": 102.3239,
+    "y": 101.6762,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "4",
+        "rede": "",
+        "bx": 102.3239,
+        "by": 101.6762
+      }
+    ]
+  },
+  {
+    "ref": "J2",
+    "footprint": "oneTesla:Chassis_PE_M3",
+    "x": 102.362,
+    "y": 2.7559,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 5.1,
+        "sy": 5.1,
+        "furo": "3.2",
+        "rede": "/PE",
+        "bx": 102.362,
+        "by": 2.7559
+      }
+    ]
+  },
+  {
+    "ref": "C2",
+    "footprint": "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "x": 15.875,
+    "y": 47.665,
+    "rot": -90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "+5V",
+        "bx": 15.875,
+        "by": 47.665
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "GND",
+        "bx": 15.875,
+        "by": 52.665
+      }
+    ]
+  },
+  {
+    "ref": "C5",
+    "footprint": "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "x": 41.315,
+    "y": 42.545,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "+15V",
+        "bx": 41.315,
+        "by": 42.545
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.0,
+        "y": 0.0,
+        "sx": 2.0,
+        "sy": 2.0,
+        "furo": "1",
+        "rede": "GND",
+        "bx": 46.315,
+        "by": 42.545
+      }
+    ]
+  },
+  {
+    "ref": "C13",
+    "footprint": "oneTesla:CP_Radial_D8.0mm_P3.50mm",
+    "x": 43.815,
+    "y": 57.785,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 42.544999999999995,
+        "by": 57.785
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 1.27,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 45.085,
+        "by": 57.785
+      }
+    ]
+  },
+  {
+    "ref": "IC4",
+    "footprint": "oneTesla:DIP-8_W7.62mm_Socket_LongPads",
+    "x": 40.005,
+    "y": 65.405,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 40.005,
+        "by": 65.405
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC2A-C)",
+        "bx": 40.005,
+        "by": 67.94500000000001
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "/DRIVE_ENABLE",
+        "bx": 40.005,
+        "by": 70.485
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 40.005,
+        "by": 73.025
+      },
+      {
+        "num": "5",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 47.625,
+        "by": 73.025
+      },
+      {
+        "num": "6",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(C4-Pad1)",
+        "bx": 47.625,
+        "by": 70.485
+      },
+      {
+        "num": "7",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(C4-Pad1)",
+        "bx": 47.625,
+        "by": 67.94500000000001
+      },
+      {
+        "num": "8",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+15V",
+        "bx": 47.625,
+        "by": 65.405
+      }
+    ]
+  },
+  {
+    "ref": "IC1",
+    "footprint": "oneTesla:DIP-14_W7.62mm_Socket_LongPads",
+    "x": 19.05,
+    "y": 55.245,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(D1-K)",
+        "bx": 19.05,
+        "by": 55.245
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC1-Pad2)",
+        "bx": 21.59,
+        "by": 55.245
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC1-Pad2)",
+        "bx": 24.130000000000003,
+        "by": 55.245
+      },
+      {
+        "num": "4",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC2A-C)",
+        "bx": 26.67,
+        "by": 55.245
+      },
+      {
+        "num": "5",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 10.16,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC2A-C)",
+        "bx": 29.21,
+        "by": 55.245
+      },
+      {
+        "num": "6",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 12.7,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC3-IN)",
+        "bx": 31.75,
+        "by": 55.245
+      },
+      {
+        "num": "7",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 15.24,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 34.29,
+        "by": 55.245
+      },
+      {
+        "num": "8",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 15.24,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "unconnected-(IC1-Pad8)",
+        "bx": 34.29,
+        "by": 47.625
+      },
+      {
+        "num": "9",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 12.7,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 31.75,
+        "by": 47.625
+      },
+      {
+        "num": "10",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 10.16,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "unconnected-(IC1-Pad10)",
+        "bx": 29.21,
+        "by": 47.625
+      },
+      {
+        "num": "11",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 7.62,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "GND",
+        "bx": 26.67,
+        "by": 47.625
+      },
+      {
+        "num": "12",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 5.08,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC2A-~{R})",
+        "bx": 24.130000000000003,
+        "by": 47.625
+      },
+      {
+        "num": "13",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 2.54,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "Net-(IC1-Pad13)",
+        "bx": 21.59,
+        "by": 47.625
+      },
+      {
+        "num": "14",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.62,
+        "y": 0.0,
+        "sx": 1.6,
+        "sy": 1.6,
+        "furo": "0.8128",
+        "rede": "+5V",
+        "bx": 19.05,
+        "by": 47.625
+      }
+    ]
+  },
+  {
+    "ref": "J1",
+    "footprint": "oneTesla:IEC_C6_CONFIRMAR",
+    "x": 52.705,
+    "y": -3.429,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": -6.5,
+        "y": 9.5,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "3",
+        "rede": "",
+        "bx": 46.205,
+        "by": 6.071
+      },
+      {
+        "num": "",
+        "tipo": "np_thru_hole",
+        "forma": "circle",
+        "x": 6.5,
+        "y": 9.5,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "3",
+        "rede": "",
+        "bx": 59.205,
+        "by": 6.071
+      },
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": -7.0,
+        "y": 14.5,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "1.5",
+        "rede": "/AC_L",
+        "bx": 45.705,
+        "by": 11.071
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.0,
+        "y": 14.5,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "1.5",
+        "rede": "/AC_N",
+        "bx": 59.705,
+        "by": 11.071
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 0.0,
+        "y": 14.5,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "1.5",
+        "rede": "/PE",
+        "bx": 52.705,
+        "by": 11.071
+      }
+    ]
+  },
+  {
+    "ref": "R1",
+    "footprint": "oneTesla:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm",
+    "x": 11.43,
+    "y": 86.36,
+    "rot": 90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -11.43,
+        "y": 0.0,
+        "sx": 2.4,
+        "sy": 2.4,
+        "furo": "1.3",
+        "rede": "Net-(T3-S1)",
+        "bx": 11.43,
+        "by": 97.78999999999999
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 11.43,
+        "y": 0.0,
+        "sx": 2.4,
+        "sy": 2.4,
+        "furo": "1.3",
+        "rede": "Net-(D1-K)",
+        "bx": 11.43,
+        "by": 74.93
+      }
+    ]
+  },
+  {
+    "ref": "Q2",
+    "footprint": "oneTesla:TO-3P-3_Horizontal_TabDown",
+    "x": 71.9455,
+    "y": 63.765,
+    "rot": -90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "rect",
+        "x": 0.0,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 4.5,
+        "furo": "1.4986",
+        "rede": "/GATE_L",
+        "bx": 71.9455,
+        "by": 63.765
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.45,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 4.5,
+        "furo": "1.4986",
+        "rede": "/SW_NODE",
+        "bx": 71.9455,
+        "by": 69.215
+      },
+      {
+        "num": "3",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 10.9,
+        "y": 0.0,
+        "sx": 2.5,
+        "sy": 4.5,
+        "furo": "1.4986",
+        "rede": "/DC_MINUS",
+        "bx": 71.9455,
+        "by": 74.665
+      }
+    ]
+  },
+  {
+    "ref": "Z1",
+    "footprint": "oneTesla:D_DO-201AD_P15.24mm_Horizontal",
+    "x": 78.105,
+    "y": 48.895,
+    "rot": -90.0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -7.366,
+        "y": 0.0,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "1.1",
+        "rede": "/DC_PLUS",
+        "bx": 78.105,
+        "by": 41.529
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 7.366,
+        "y": 0.0,
+        "sx": 3.0,
+        "sy": 3.0,
+        "furo": "1.1",
+        "rede": "/SW_NODE",
+        "bx": 78.105,
+        "by": 56.261
+      }
+    ]
+  },
+  {
+    "ref": "C11",
+    "footprint": "oneTesla:CP_Radial_D30.0mm_P10.00mm_SnapIn",
+    "x": 92.71,
+    "y": 31.75,
+    "rot": 0,
+    "pads": [
+      {
+        "num": "1",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": -5.08,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2",
+        "rede": "/DC_MID",
+        "bx": 87.63,
+        "by": 31.75
+      },
+      {
+        "num": "2",
+        "tipo": "thru_hole",
+        "forma": "circle",
+        "x": 5.08,
+        "y": 0.0,
+        "sx": 4.0,
+        "sy": 4.0,
+        "furo": "2",
+        "rede": "/DC_MINUS",
+        "bx": 97.78999999999999,
+        "by": 31.75
+      }
+    ]
+  }
+]

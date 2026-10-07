@@ -1,0 +1,1366 @@
+(export
+	(version "E")
+	(design
+		(source "/project/misc/oneTesla.before-replication.kicad_sch")
+		(date "2026-10-07T16:50:06")
+		(tool "Eeschema 10.0.6-10.0.6~ubuntu24.04.1")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "oneTesla.before-replication.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "C_Polarized")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project/misc/oneTesla.before-replication.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0cf0564e-58c1-4edb-9f77-dcb2cd79649d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "C_Polarized")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project/misc/oneTesla.before-replication.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b1ef54e9-4f3c-4521-973b-a79741e7c4af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project/misc/oneTesla.before-replication.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "116171ff-366f-401a-9b58-b5de31ecddf8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project/misc/oneTesla.before-replication.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae6c2679-3ea7-4037-83f7-d2409e92b81c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "74HCT14")
+			(footprint "oneTesla:SOP-14_5.3x10.2mm_P1.27mm")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf")
+			(description "Hex inverter schmitt trigger, TTL input levels")
+			(fields
+				(field
+					(name "Footprint") "oneTesla:SOP-14_5.3x10.2mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf")
+				(field
+					(name "Description") "Hex inverter schmitt trigger, TTL input levels")
+			)
+			(libsource
+				(lib "oneTesla")
+				(part "74HCT14")
+				(description "Hex inverter schmitt trigger, TTL input levels")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project/misc/oneTesla.before-replication.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS TTL not inverter schmitt")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOP*5.3x10.2mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2c0e6fac-b158-43a3-9540-e3cd0b4b5a2d" "34eed385-f350-47c2-a52e-1956f1e3e0c5"
+				"28d57d73-03f4-48d4-a8fd-66625144ccb3" "56e1f697-052e-4ca6-b81e-22f06cc98ec6"
+				"977fc924-084b-4176-bdf6-6587544363e1" "c2224501-3666-4d52-ab6b-a7f44c0cc3c5"
+				"1c58c4b7-f119-496d-9526-24f8b9288907"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+				(unit
+					(name "D")
+					(pins
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+				(unit
+					(name "E")
+					(pins
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+				(unit
+					(name "F")
+					(pins
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+					)
+				)
+				(unit
+					(name "G")
+					(pins
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "74HCT74")
+			(footprint "oneTesla:SOP-14_5.3x10.2mm_P1.27mm")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf")
+			(description "Dual D Flip-flop, Set & Reset, TTL input levels")
+			(fields
+				(field
+					(name "Footprint") "oneTesla:SOP-14_5.3x10.2mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf")
+				(field
+					(name "Description") "Dual D Flip-flop, Set & Reset, TTL input levels")
+			)
+			(libsource
+				(lib "oneTesla")
+				(part "74HCT74")
+				(description "Dual D Flip-flop, Set & Reset, TTL input levels")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project/misc/oneTesla.before-replication.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "TTL DFF")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOP*5.3x10.2mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ac569a93-26cf-40bc-ab2e-705cf610fbe0" "e109dc74-52be-4363-95f5-01021ca3d749"
+				"a225cfc6-f5d3-4b1a-bf55-f854c5c9131e"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "UCC37321")
+			(footprint "oneTesla:DIP-8_W7.62mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/ucc37321.pdf")
+			(description "Single 9-A high-speed low-side MOSFET driver with enable, inverting, PDIP-8")
+			(fields
+				(field
+					(name "Footprint") "oneTesla:DIP-8_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ucc37321.pdf")
+				(field
+					(name "Description") "Single 9-A high-speed low-side MOSFET driver with enable, inverting, PDIP-8")
+			)
+			(libsource
+				(lib "oneTesla")
+				(part "UCC37321")
+				(description "Single 9-A high-speed low-side MOSFET driver with enable, inverting, PDIP-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project/misc/oneTesla.before-replication.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "MOSFET gate driver low-side inverting enable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP*W7.62mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "556d0599-123d-4097-b168-fbd40e216e94")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "1N4148W")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(docs "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(footprints
+				(fp "D*SOD?123*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "1N4148W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "oneTesla")
+			(part "74HCT14")
+			(description "Hex inverter schmitt trigger, TTL input levels")
+			(docs "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf")
+			(footprints
+				(fp "SOP*5.3x10.2mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74HCT14")
+				(field
+					(name "Footprint") "oneTesla:SOP-14_5.3x10.2mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf")
+				(field
+					(name "Description") "Hex inverter schmitt trigger, TTL input levels")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "11")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "13")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "14")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "oneTesla")
+			(part "74HCT74")
+			(description "Dual D Flip-flop, Set & Reset, TTL input levels")
+			(docs "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf")
+			(footprints
+				(fp "SOP*5.3x10.2mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74HCT74")
+				(field
+					(name "Footprint") "oneTesla:SOP-14_5.3x10.2mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf")
+				(field
+					(name "Description") "Dual D Flip-flop, Set & Reset, TTL input levels")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{R}")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "D")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "~{S}")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "Q")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "~{Q}")
+					(type "output")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "~{Q}")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "Q")
+					(type "output")
+				)
+				(pin
+					(num "10")
+					(name "~{S}")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "C")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "D")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "~{R}")
+					(type "input")
+				)
+				(pin
+					(num "14")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "oneTesla")
+			(part "UCC37321")
+			(description "Single 9-A high-speed low-side MOSFET driver with enable, inverting, PDIP-8")
+			(docs "https://www.ti.com/lit/ds/symlink/ucc37321.pdf")
+			(footprints
+				(fp "DIP*W7.62mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "UCC37321")
+				(field
+					(name "Footprint") "oneTesla:DIP-8_W7.62mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ucc37321.pdf")
+				(field
+					(name "Description") "Single 9-A high-speed low-side MOSFET driver with enable, inverting, PDIP-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "IN")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "ENBL")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "AGND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "PGND")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "7")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "VDD")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "~{S}_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "2")
+			(name "Net-(D1-A)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "3")
+			(name "Net-(U1-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pintype "output")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(U2A-C)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "unconnected-(C1-Pad1)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "unconnected-(C1-Pad2)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "unconnected-(C2-Pad1)")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "unconnected-(C2-Pad2)")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "unconnected-(D1-K-Pad1)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "unconnected-(D2-A-Pad2)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(U1-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(U1-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(U1-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(U1-Pad9)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "9")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(U1-Pad10)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(U1-Pad11)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(U1-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(U1-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(U1G-GND-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(U1G-VCC-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "VCC_14")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(U2A-Q-Pad5)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "Q_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(U2A-~{Q}-Pad6)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "~{Q}_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(U2A-~{R}-Pad1)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "~{R}_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(U2B-C-Pad11)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(U2B-D-Pad12)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "D_12")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(U2B-Q-Pad9)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "Q_9")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(U2B-~{Q}-Pad8)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "~{Q}_8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(U2B-~{R}-Pad13)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "~{R}_13")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(U2B-~{S}-Pad10)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "~{S}_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(U2C-GND-Pad7)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U2C-VCC-Pad14)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "VCC_14")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U3-AGND-Pad4)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "AGND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U3-ENBL-Pad3)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "ENBL_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U3-IN-Pad2)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "IN_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U3-OUT-Pad6)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "OUT_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U3-OUT-Pad7)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "7")
+				(pinfunction "OUT_7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(U3-PGND-Pad5)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "PGND_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(U3-VDD-Pad1)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(U3-VDD-Pad8)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "8")
+				(pinfunction "VDD_8")
+				(pintype "power_in")
+			)
+		)
+	)
+)

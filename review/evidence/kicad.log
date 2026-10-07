@@ -1,0 +1,24 @@
+Found 529 violations
+Found 0 unconnected items
+Found 56 schematic parity issues
+Saved DRC Report to /review/evidence/drc.json
+Found 0 violations
+Saved ERC Report to /review/evidence/erc-oneTesla-revisado.json
+Found 2 violations
+Saved ERC Report to /review/evidence/erc-oneTesla.json
+Found 132 violations
+Saved ERC Report to /review/evidence/erc-oneTesla.before-compact.json
+Found 84 violations
+Saved ERC Report to /review/evidence/erc-oneTesla.before-replication.json
+Found 132 violations
+Saved ERC Report to /review/evidence/erc-oneTesla.saved-old-copy.json
+Plotted to '/review/evidence/top.svg'.
+Done.
+Plotted to '/review/evidence/bottom.svg'.
+Done.
+Plotted to '/review/evidence/assembly.svg'.
+Done.
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+10.0.6

@@ -1,0 +1,605 @@
+                                                                                                                  DATA SHEET
+                                                                                                               www.onsemi.com
+
+
+IGBT – Field Stop                                                                                                       C
+
+
+650 V, 60 A
+
+FGA60N65SMD                                                                                          G
+
+
+General Description
+                                                                                                                        E
+  Using Novel Field Stop IGBT Technology, onsemi’s new series
+of Field Stop IGBTs offer the optimum performance for Solar
+Inverter, UPS, SMPS, Welder and PFC applications where low
+conduction and switching losses are essential.
+
+Features                                                                                         G
+                                                                                                     C
+• Maximum Junction Temperature: TJ = 175 °C                                                              E
+• Positive Temperature Co-efficient for Easy Parallel Operating                           TO-3P-3LD / EIAJ SC-65, ISOLATED
+• High Current Capability                                                                           CASE 340BZ
+• Low Saturation Voltage: VCE(sat) = 1.9 V(Typ.) @ IC = 60 A
+• Fast Switching: EOFF = 7.5 mJ/A                                                                MARKING DIAGRAM
+• Tighten Parameter Distribution
+• This Device is Pb-Free and is RoHS Compliant
+Applications
+                                                                                                             FGA60N
+• Solar Inverter, UPS, SMPS, Welder, PFC                                                                     65SMD
+                                                                                                             AYWWZZ
+ABSOLUTE MAXIMUM RATINGS
+  Symbol                            Rating                       Value        Unit
+   VCES        Collector to Emitter Voltage                       650          V
+   VGES        Gate to Emitter Voltage                            ±20          V
+               Transient Gate to Emitter Voltage                  ±30          V     FGA60N65SMD = Specific Device Code
+                                                                                     A           = Assembly Location
+     IC        Collector Current                   TC = 25 °C     120          A     YWW         = Date Code (Year & Work Week)
+                                                   TC = 100 °C    60           A     ZZ          = Lot Code
+
+    ICM        Pulsed Collector Current (Note 1)                  180          A
+     IF        Diode Forward Current               TC = 25 °C     60           A             ORDERING INFORMATION
+
+                                                   TC = 100 °C    30           A
+                                                                                        Device               Package        Shipping
+    IFM        Pulsed Diode Maximum Forward Current               180          A
+               (Note 1)                                                              FGA60N65SMD             TO-3P-3L       450 / Box
+
+    PD         Maximum Power                       TC = 25 °C     600          W
+               Dissipation
+                                                   TC = 100 °C    300          W
+     TJ        Operating Junction Temperature                    −55 to       °C
+                                                                 +175
+    Tstg       Storage Temperature Range                         −55 to       °C
+                                                                 +175
+     TL        Maximum Lead Temp. for Soldering                   300         °C
+               Purposes, 1/8” from Case for 5 Seconds
+Stresses exceeding those listed in the Maximum Ratings table may damage the
+device. If any of these limits are exceeded, device functionality should not be
+assumed, damage may occur and reliability may be affected.
+1. Repetitive rating: Pulse width limited by max. junction temperature
+
+
+
+
+© Semiconductor Components Industries, LLC, 2011                          1                              Publication Order Number:
+July, 2026 − Rev. 5                                                                                              FGA60N65SMD/D
+                                                         FGA60N65SMD
+
+ THERMAL CHARACTERISTICS
+    Symbol                                     Characteristic                                            Value                    Unit
+  RqJC(IGBT)      Thermal Resistance, Junction to Case                                                      0.25                  °C/W
+  RqJC(Diode)     Thermal Resistance, Junction to Case                                                       1.1                  °C/W
+      RqJA        Thermal Resistance, Junction to Ambient                                                    40                   °C/W
+
+
+ ELECTRICAL CHARACTERISTICS OF THE IGBT (TC = 25°C unless otherwise noted)
+  Symbol                     Parameter                                Test Condition                  Min.         Typ.    Max.      Unit
+OFF CHARACTERISTICS
+   BVCES       Collector to Emitter Breakdown Voltage     VGE = 0 V, IC = 250 mA                       650          −        −           V
+  DBV CES      Temperature Coefficient of Breakdown       VGE = 0 V, IC = 250 mA                        −          0.6       −       V/°C
+               Voltage
+     DT J
+    ICES       Collector Cut-Off Current                  VCE = VCES, VGE = 0 V                         −           −      250        mA
+    IGES       G-E Leakage Current                        VGE = VGES, VCE = 0 V                         −           −      ±400       nA
+ON CHARACTERISTICS
+   VGE(th)     G-E Threshold Voltage                      IC = 250 mA, VCE = VGE                       3.5         4.5      6.0          V
+  VCE(sat)     Collector to Emitter Saturation Voltage    IC = 60 A, VGE = 15 V                         −          1.9     2.5           V
+                                                          IC = 60 A, VGE = 15 V, TC = 175 °C            −          2.1      −            V
+DYNAMIC CHARACTERISTICS
+    Cies       Input Capacitance                          VCE = 30 V, VGE = 0 V, f = 1 MHz              −          2915      −        pF
+    Coes       Output Capacitance                                                                       −          270       −        pF
+    Cres       Reverse Transfer Capacitance                                                             −          85       −         pF
+SWITCHING CHARACTERISTICS
+    td(on)     Turn-On Delay Time                         VCC = 400 V, IC = 60 A, VGE = 15 V,           −           18       −           ns
+                                                          RG = 3 W, Inductive Load, TC = 25 °C
+      tr       Rise Time                                                                                −           47       −           ns
+    td(off)    Turn-Off Delay Time                                                                      −          104       −           ns
+      tf       Fall Time                                                                                −           50       −           ns
+    Eon        Turn-On Switching Loss                                                                   −          1.54     −         mJ
+     Eoff      Turn-Off Switching Loss                                                                  −          0.45      −        mJ
+     Ets       Total Switching Loss                                                                     −          1.99      −        mJ
+    td(on)     Turn-On Delay Time                         VCC = 400 V, IC = 60 A, VGE = 15 V,           −           18       −           ns
+                                                          RG = 3 W, Inductive Load, TC = 175 °C
+      tr       Rise Time                                                                                −           41       −           ns
+    td(off)    Turn-Off Delay Time                                                                      −          115       −           ns
+      tf       Fall Time                                                                                −           48       −           ns
+    Eon        Turn-On Switching Loss                                                                   −          2.08     −         mJ
+     Eoff      Turn-Off Switching Loss                                                                  −          0.78      −        mJ
+     Ets       Total Switching Loss                                                                     −          2.86      −        mJ
+     Qg        Total Gate Charge                          VCE = 400 V, IC = 60 A, VGE = 15 V            −          189      −         nC
+    Qge        Gate to Emitter Charge                                                                   −           20       −        nC
+    Qgc        Gate to Collector Charge                                                                 −           91       −        nC
+Product parametric performance is indicated in the Electrical Characteristics for the listed test conditions, unless otherwise noted. Product
+performance may not be indicated by the Electrical Characteristics if operated under different conditions.
+
+
+
+
+                                                           www.onsemi.com
+                                                                     2
+                                                         FGA60N65SMD
+
+ ELECTRICAL CHARACTERISTICS OF THE DIODE (TC = 25°C unless otherwise noted)
+  Symbol                     Parameter                                Test Condition                   Min.      Typ.      Max.      Unit
+    VFM       Diode Forward Voltage                      IF = 30 A                     TC = 25 °C       −        2.1        2.6        V
+                                                                                       TC = 175 °C      −        1.7         −
+    Erec      Reverse Recovery Energy                    IF = 30 A,                    TC = 175 °C      −        127         −        mJ
+                                                         dIF/dt = 200 A/ms
+     trr      Diode Reverse Recovery Time                                              TC = 25 °C       −         47         −        ns
+                                                                                       TC = 175 °C      −        212         −
+     Qrr      Diode Reverse Recovery Charge                                            TC = 25 °C       −         87         −        nC
+                                                                                       TC = 175 °C      −        933         −
+Product parametric performance is indicated in the Electrical Characteristics for the listed test conditions, unless otherwise noted. Product
+performance may not be indicated by the Electrical Characteristics if operated under different conditions.
+
+
+
+
+                                                           www.onsemi.com
+                                                                     3
+                                                                                                  FGA60N65SMD
+
+                                                                            TYPICAL PERFORMANCE CHARACTERISTICS
+
+                                     180                                                                                                                  180
+                                                                20 V             12 V                                                                                                          20 V               12 V
+                                               TC = 25 °C                                                                                                            TC = 175 °C
+                                                                15 V                                                                                                                           15 V
+                                     150                                                                                                                  150                                                                  10 V
+
+
+
+
+                                                                                                                   IC, Collector Current (A)
+                                                                                                   10 V
+IC, Collector Current (A)
+
+
+
+
+                                     120                                                                                                                  120
+
+                                      90                                                                                                                   90
+
+                                      60                                                                                                                  60                                                           VGE = 8 V
+                                                                                              VGE = 8 V
+                                      30                                                                                                                  30
+
+                                       0                                                                                                                   0
+                                           0                    2                    4                    6                                                     0                       2                   4                         6
+                                                       VCE, Collector-Emitter Voltage (V)                                                                                        VCE, Collector-Emitter Voltage (V)
+
+                                                Figure 1. Typical Output Characteristics                                                                               Figure 2. Typical Output Characteristics
+
+                                     180                                                                                                                  3.5
+                                               Common Emitter                                                                                                         Common Emitter
+
+
+                                                                                                                   VCE, Collector-Emitter Voltage (V)
+                                               VGE = 15 V                                                                                                             VGE = 15 V
+                                     150
+                                               TC = 25 °C
+IC, Collector Current (A)
+
+
+
+
+                                                                                                                                                          3.0                                             120 A
+                                               TC = 175 °C
+                                     120
+                                                                                                                                                          2.5
+                                      90
+                                                                                                                                                                                                           60 A
+                                                                                                                                                          2.0
+                                     60
+                                                                                                                                                                                                          IC = 30 A
+                                                                                                                                                          1.5
+                                     30
+
+                                      0                                                                                                                   1.0
+                                           0           1             2           3            4           5                                                     25          50          75          100    125           150      175
+                                                       VCE, Collector-Emitter Voltage (V)                                                                                              TC, Case Temperature (5C)
+
+                                                  Figure 3. Typical Saturation Voltage                                                                                      Figure 4. Saturation Voltage vs. Case
+                                                             Characteristics                                                                                                Temperature at Variant Current Level
+
+                                      20                                                                                                                   20
+                                                                                     Common Emitter                                                                                                        Common Emitter
+VCE, Collector-Emitter Voltage (V)
+
+
+
+
+                                                                                                                     VCE, Collector-Emitter Voltage (V)
+
+
+
+
+                                                                                     TC = 25 °C                                                                                                            TC = 175 °C
+                                      16                                                                                                                   16
+
+
+                                     12                                                                                                                   12
+
+
+                                      8                                                                                                                    8
+
+                                                                                                                                                                                            120 A
+                                      4         60 A                120 A                                                                                  4
+                                                                                                                                                                     60 A
+                                               IC = 30 A
+                                                                                                                                                                     IC = 30 A
+                                       0                                                                                                                    0
+                                           4               8                12           16               20                                                    4                  8                12            16                  20
+                                                           VGE, Gate-Emitter Voltage (V)                                                                                           VGE, Gate-Emitter Voltage (V)
+
+                                                  Figure 5. Saturation Voltage vs. VGE                                                                                   Figure 6. Saturation Voltage vs. VGE
+
+
+
+
+                                                                                                  www.onsemi.com
+                                                                                                               4
+                                                                                     FGA60N65SMD
+
+                                                          TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+
+                         7000                                                                                                                 15
+                                                                      Common Emitter                                                                   Common Emitter
+
+
+
+
+                                                                                                             VGE, Gate-Emitter Voltage (V)
+                         6000                                         VGE = 0 V, f = 1 MHz                                                             TC = 25 °C
+                                                                      TC = 25 °C                                                              12
+                                                                                                                                                                                 VCC = 200 V
+Capacitance (pF)
+
+
+
+
+                         5000
+                                                                                                                                                                                                            300 V
+                         4000                                  Cies                                                                            9
+                                                                                                                                                                                              400 V
+
+                         3000
+                                                                                                                                               6
+
+                         2000                                  Coes
+                                                                                                                                               3
+                         1000                                  Cres
+
+                           0                                                                                                                   0
+                                0.1                       1                     10           30                                                    0          40            80          120              160        200
+                                            VCE, Collector-Emitter Voltage (V)                                                                                            Qg, Gate Charge (nC)
+
+                                        Figure 7. Capacitance Characteristics                                                                              Figure 8. Gate Charge Characteristics
+
+                          100                                                                                                       6000
+                                                                                                                                                       Common Emitter
+                           80
+                                           tr                                                                                                          VCC = 400 V, VGE = 15 V
+                           60                                                                                                                          IC = 60 A
+   Switching Time (ns)
+
+
+
+
+                                                                                                      Switching Time (ns)
+                                                                                                                                    1000               TC = 25 °C
+                                                                                                                                                       TC = 175 °C
+                           40                                                                                                                                                                td(off)
+                                                 td(on)
+
+                                                                 Common Emitter                                                              100
+                           20                                    VCC = 400 V, VGE = 15 V                                                                                                       tf
+                                                                 IC = 60 A
+                                                                 TC = 25 °C
+                                                                 TC = 175 °C
+                           10                                                                                                                10
+                                0           10            20          30        40           50                                                    0          10            20          30                  40      50
+                                                    RG, Gate Resistance (W)                                                                                             RG, Gate Resistance (W)
+
+                                      Figure 9. Turn-on Characteristics vs. Gate                                                                       Figure 10. Turn-off Characteristics vs. Gate
+                                                      Resistance                                                                                                       Resistance
+                           10                                                                                                       1000
+                                                                                                                                                       Common Emitter
+                                                                                                                                                       VGE = 15 V, RG = 3 W
+                                                                                                                                                       TC = 25 °C
+   Switching Loss (mJ)
+
+
+
+
+                                                 Eon
+                                                                                                      Switching Time (ns)
+
+
+
+
+                                                                                                                                                       TC = 175 °C
+                                                                                                                                             100                                                    tr
+
+
+                            1               Eoff
+
+                                                                 Common Emitter                                                                                                                     td(on)
+                                                                                                                                             10
+                                                                 VCC = 400 V, VGE = 15 V
+                                                                 IC = 60 A
+                                                                 TC = 25 °C
+                                                                 TC = 175 °C
+                          0.1                                                                                                                  1
+                                0           10            20          30        40           50                                                    0               30              60                  90           120
+                                                    RG, Gate Resistance (W)                                                                                             IC, Collector Current (A)
+
+                                Figure 11. Switching Loss vs. Gate Resistance                                                                     Figure 12. Turn-on Characteristics vs. Collector
+                                                                                                                                                                      Current
+
+
+
+
+                                                                                     www.onsemi.com
+                                                                                                  5
+                                                                                         FGA60N65SMD
+
+                                                                 TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+
+                             1000                                                                                                               10
+                                                                                                                                                                                                   Eon
+
+                                                       td(off)
+
+
+
+
+                                                                                                                   Switching Loss (mJ)
+   Switching Time (ns)
+
+
+
+
+                             100                                                                                                                 1
+
+                                                                                                                                                                                                   Eoff
+                                                 tf
+
+                              10                                                                                                               0.1
+                                                                         Common Emitter                                                                                                   Common Emitter
+                                                                         VGE = 15 V, RG = 3 W                                                                                             VGE = 15 V, RG = 3 W
+                                                                         TC = 25 °C                                                                                                       TC = 25 °C
+                                                                         TC = 175 °C                                                                                                      TC = 175 °C
+                               1                                                                                                               0.01
+                                    0            30                 60              90           120                                                  0             30               60             90             120
+                                                      IC, Collector Current (A)                                                                                             IC, Collector Current (A)
+
+                                    Figure 13. Turn-off Characteristics vs. Collector                                                                        Figure 14. Switching Loss vs. Collector
+                                                         Current                                                                                                             Current
+                             120                                                                                                               300
+                                                                         VCC = 400 V
+                                                                                                                                               100                                                        10 ms
+                                                                         Load Current
+IC, Collector Current (A)
+
+
+
+
+                             100                                                                                                                                                                    100 ms
+                                                                         : peak of square wave                    IC, Collector Current (A)
+                                                                         Duty cycle: 50%                                                                                                            1 ms
+                              80                                         TC = 100 °C                                                            10                                             10 ms
+                                                                         Power Dissipation
+                                                                                                                                                                                               DC
+                              60                                         : 300 W
+                                                  TC = 100 °C                                                                                    1
+
+                              40
+                                                                                                                                                          *Notes:
+                                                                                                                                                0.1       1. TC = 25 °C
+                              20
+                                                                                                                                                          2. TJ = 175 °C
+                                                                                                                                                          3. Single Pulse
+                               0                                                                                                               0.01
+                                    1k                  10k                  100k                1M                                                   1                     10               100                  1000
+                                                      f, Switching Frequency (Hz)                                                                                  VCE, Collector-Emitter Voltage (V)
+
+                                          Figure 15. Load Current vs. Frequency                                                                                  Figure 16. SOA Characteristics
+
+                             200                                                                                                                14
+                                                                                                                                                          TC = 25 °C
+                                                                                                           Irr, Reverse Recovery Current (A)
+
+
+
+
+                             100                                                                                                                12        TC = 175 °C
+   IF, Forward Current (A)
+
+
+
+
+                                                        TC = 175 °C
+                                                                                                                                                10
+                                         TC = 125 °C
+                                                                                                                                                 8
+                                         TC = 75 °C
+                              10                                                                                                                 6
+                                                                                                                                                                                              di/dt = 100 A/ms
+                                                                          TC = 175 °C                                                            4                   di/dt = 200 A/ms
+                                                                          TC = 125 °C
+                                                       TC = 25 °C         TC = 75 °C                                                             2
+                                                                          TC = 25 °C
+                               1                                                                                                                 0
+                                    0             1                 2               3            4                                                    0             10               20             30             40
+                                                        VF, Forward Voltage (V)                                                                                             IF, Forward Current (A)
+
+                                            Figure 17. Forward Characteristics                                                                               Figure 18. Reverse Recovery Current
+
+
+
+
+                                                                                         www.onsemi.com
+                                                                                                       6
+                                                                                                  FGA60N65SMD
+
+                                                                       TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+
+                                       400                                                                                                              1400
+
+
+
+
+                                                                                                                     Qrr, Stored Recovery Charge (nC)
+                                                  TC = 25 °C                                                                                                        TC = 25 °C
+    trr, Reverse Recovery Time (ns)
+
+
+
+                                                  TC = 175 °C                                                                                           1200        TC = 175 °C
+                                       300
+                                                                                                                                                        1000
+
+                                       200                                                                                                              800
+                                                                                         di/dt = 100 A/ms
+                                                                 di/dt = 200 A/ms
+                                                                                                                                                        600
+                                        50                                                                                                                                     di/dt = 200 A/ms         di/dt = 100 A/ms
+                                                                                                                                                        400
+
+                                                                                                                                                        200
+
+                                         0                                                                                                                0
+                                              0            15               30              45              60                                                 0          10         20           30       40        50        60
+                                                             IF, Forward Current (A)                                                                                                  IF, Forward Current (A)
+
+                                                    Figure 19. Reverse Recovery Time                                                                                              Figure 20. Stored Charge
+
+
+
+                                        0.5
+Thermal Response (Zthjc)
+
+
+
+
+                                                  0.5
+                                        0.1
+                                                  0.2
+                                                  0.1
+                                                  0.05                                                                                                                                              PDM
+                                                  0.02
+                                       0.01       0.01
+                                                                                                                                                                                                           t1
+                                                  Single Pulse                                                                                                                                                  t2
+                                                                                                                                                                                          Duty Factor: D = t1 / t2
+                                                                                                                                                                                          PEAK Tj = PDM × Zthjc + TC
+                                      1E−3
+                                         1E−5                           1E−4                      1E−3                                                             0.01                       0.1                          1
+                                                                                                  Rectangular Pulse Duration (s)
+
+                                                                                    Figure 21. Transient Thermal Impedance of IGBT
+
+
+
+                                         3
+
+                                         1
+Thermal Response (Zthjc)
+
+
+
+
+                                                  0.5
+
+                                                  0.2
+                                                  0.1
+                                        0.1                                                                                                                                                         PDM
+                                                  0.05
+                                                  0.02
+                                                  0.01                                                                                                                                                     t1
+                                                  Single Pulse                                                                                                                                                  t2
+                                                                                                                                                                                          Duty Factor: D = t1 / t2
+                                       0.01
+                                                                                                                                                                                          PEAK Tj = PDM × Zthjc + TC
+                                      0.005
+                                          1E−5                          1E−4                       1E−3                                                            0.01                           0.1                      1
+                                                                                                 Rectangular Pulse Duration (s)
+
+                                                                               Figure 22. Transient Thermal Impedance of Diode
+
+
+
+
+                                                                                                    www.onsemi.com
+                                                                                                                 7
+                                                         FGA60N65SMD
+
+ REVISION HISTORY
+   Revision                                          Description of Changes                                                  Date
+       3          Document converted to onsemi format.                                                                     10/5/2023
+       4          Updated the Marking Diagram.                                                                             1/30/2024
+       5          Removed Max values in Switching characteristics.                                                         7/14/2026
+This document has undergone updates prior to the inclusion of this revision history table. The changes tracked here only reflect updates made
+on the noted approval dates.
+
+
+
+
+                                                           www.onsemi.com
+                                                                     8
+                                                                                                                   MECHANICAL CASE OUTLINE
+                                                                                                                                                   PACKAGE DIMENSIONS
+
+
+
+                                                                TO−3P−3LD / EIAJ SC−65, ISOLATED
+                                                                          CASE 340BZ
+                                                                            ISSUE O
+                                                                                                                                                                DATE 31 OCT 2016
+
+
+
+
+                                                                                         Electronic versions are uncontrolled except when accessed directly from the Document Repository.
+ DOCUMENT NUMBER:                          98AON13862G                                   Printed versions are uncontrolled except when stamped “CONTROLLED COPY” in red.
+
+             DESCRIPTION:                  TO−3P−3LD / EIAJ SC−65, ISOLATED                                                                                            PAGE 1 OF 1
+
+ onsemi and               are trademarks of Semiconductor Components Industries, LLC dba onsemi or its subsidiaries in the United States and/or other countries. onsemi reserves
+ the right to make changes without further notice to any products herein. onsemi makes no warranty, representation or guarantee regarding the suitability of its products for any particular
+ purpose, nor does onsemi assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation
+ special, consequential or incidental damages. onsemi does not convey any license under its patent rights nor the rights of others.
+
+
+© Semiconductor Components Industries, LLC, 2016                                                                                                                       www.onsemi.com
+ onsemi,                , and other names, marks, and brands are registered and/or common law trademarks of Semiconductor Components Industries, LLC dba “onsemi” or its affiliates
+ and/or subsidiaries in the United States and/or other countries. onsemi owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property.
+ A listing of onsemi’s product/patent coverage may be accessed at www.onsemi.com/site/pdf/Patent−Marking.pdf. onsemi reserves the right to make changes at any time to any
+ products or information herein, without notice. The information herein is provided “as−is” and onsemi makes no warranty, representation or guarantee regarding the accuracy of the
+ information, product features, availability, functionality, or suitability of its products for any particular purpose, nor does onsemi assume any liability arising out of the application or use
+ of any product or circuit, and specifically disclaims any and all liability, including without limitation special, consequential or incidental damages. Buyer is responsible for its products
+ and applications using onsemi products, including compliance with all laws, regulations and safety requirements or standards, regardless of any support or applications information
+ provided by onsemi. “Typical” parameters which may be provided in onsemi data sheets and/or specifications can and do vary in different applications and actual performance may
+ vary over time. All operating parameters, including “Typicals” must be validated for each customer application by customer’s technical experts. onsemi does not convey any license
+ under any of its intellectual property rights nor the rights of others. onsemi products are not designed, intended, or authorized for use as a critical component in life support systems
+ or any FDA Class 3 medical devices or medical devices with a same or similar classification in a foreign jurisdiction or any devices intended for implantation in the human body. Should
+ Buyer purchase or use onsemi products for any such unintended or unauthorized application, Buyer shall indemnify and hold onsemi and its officers, employees, subsidiaries, affiliates,
+ and distributors harmless against all claims, costs, damages, and expenses, and reasonable attorney fees arising out of, directly or indirectly, any claim of personal injury or death
+ associated with such unintended or unauthorized use, even if such claim alleges that onsemi was negligent regarding the design or manufacture of the part. onsemi is an Equal
+ Opportunity/Affirmative Action Employer. This literature is subject to all applicable copyright laws and is not for resale in any manner.
+
+
+ADDITIONAL INFORMATION
+    TECHNICAL PUBLICATIONS:                                                                               ONLINE SUPPORT: www.onsemi.com/support
+    Technical Library: www.onsemi.com/design/resources/technical−documentation                            For additional information, please contact your local Sales Representative at
+    onsemi Website: www.onsemi.com                                                                        www.onsemi.com/support/sales
+
+
+
+
+
