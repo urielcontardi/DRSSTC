@@ -1,0 +1,7 @@
+Importing '/project/misc/driver.brd' using Eagle format...
+Successfully saved imported board to '/review/evidence/eagle-import.kicad_pcb'
+Found 180 violations
+Found 0 unconnected items
+Saved DRC Report to /review/evidence/drc-eagle-import.json
+Plotted to '/review/evidence/eagle-top.svg'.
+Done.

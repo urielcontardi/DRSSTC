@@ -1,0 +1,2126 @@
+                                                                                     UCC27321, UCC27322, UCC37321, UCC37322
+                                                                                    SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+    UCC2732x/UCC3732x Single 9-A High-Speed Low-Side Mosfet Driver With Enable
+
+1 Features                                                             2 Applications
+•   Industry-Standard Pin-Out With Addition of Enable                  •     Switch Mode Power Supplies
+    Function                                                           •     DC-DC Converters
+•   High-Peak Current Drive Capability of ±9 A at                      •     Motor Controllers
+    theMiller plateau region Using TrueDrive                           •     Class-D Switching Amplifiers
+•   Efficient Constant Current Sourcing Using a                        •     Line Drivers
+    Unique BiPolar and CMOS Output Stage                               •     Pulse Transformer Drivers
+•   TTL/CMOS Compatible Inputs Independent of
+    Supply Voltage
+                                                                       3 Description
+•   20-ns Typical Rise and Fall Times With 10-nF                       The UCC2732x/UCC3732x family of high-speed
+    Load                                                               drivers deliver 9 A of peak drive current in an industry
+•   Typical Propagation Delay Times of 25 ns With                      standard pinout. These drivers can drive the largest
+    Input Falling and 35 ns With Input Rising                          of MOSFETs for systems requiring extreme Miller
+•   4-V to 15-V Supply Voltage                                         current due to high dV/dt transitions. This eliminates
+•   Available in Thermally Enhanced MSOP                               additional external circuits and can replace multiple
+    PowerPAD™ Package With 4.7°C/W θjc                                 components to reduce space, design complexity,
+•   Rated From –40°C to +105°C                                         and assembly cost. Two standard logic options
+•   Pb-Free Finish (CU NIPDAU) on 8-pin SOIC and                       are offered, inverting (UCC37321) and noninverting
+    PDIP Packages                                                      (UCC37322).
+                                                                                            Device Information
+                                                                       PART NUMBER             PACKAGE(1)            BODY SIZE (NOM)
+
+                                                                       UCC2732x           MSOP-PowerPAD (8)        3.00 mm × 3.00 mm
+                                                                       UCC3732x           SOIC (8)                 3.91 mm × 4.90 mm
+
+                                                                       (1)    For all available packages, see the orderable addendum at
+                                                                              the end of the data sheet.
+
+                     VDD     1                                                                             8   VDD
+                                                    INVERTING
+
+
+                                                                                                           7 OUT
+                                          VDD
+                                                       NON--
+                        IN   2                      INVERTING                                              6 OUT
+
+                                                RENBL
+                    ENBL     3                  100 kΩ
+
+
+                    AGND     4
+                                                                                                           5   PGND
+
+
+
+                                                          Block Diagram
+
+
+
+
+     An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+     intellectual property matters and other important disclaimers. PRODUCTION DATA.
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                                                                www.ti.com
+
+
+                                                                        Table of Contents
+1 Features............................................................................1   9 Application and Implementation.................................. 17
+2 Applications..................................................................... 1       9.1 Application Information............................................. 17
+3 Description.......................................................................1       9.2 Typical Application.................................................... 17
+4 Description (continued).................................................. 3             10 Power Supply Recommendations..............................22
+5 Related Products............................................................. 4         11 Layout........................................................................... 22
+6 Pin Configuration and Functions...................................5                       11.1 Layout Guidelines................................................... 22
+7 Specifications.................................................................. 6        11.2 Layout Example...................................................... 23
+  7.1 Absolute Maximum Ratings........................................ 6                    11.3 Thermal Considerations.......................................... 23
+  7.2 ESD Ratings............................................................... 6        12 Device and Documentation Support..........................24
+  7.3 Recommended Operating Conditions.........................6                            12.1 Device Support....................................................... 24
+  7.4 Thermal Information....................................................6              12.2 Documentation Support.......................................... 24
+  7.5 Electrical Characteristics.............................................7              12.3 Receiving Notification of Documentation Updates..24
+  7.6 Switching Characteristics............................................8                12.4 Support Resources................................................. 24
+  7.7 Power Dissipation Ratings.......................................... 8                 12.5 Trademarks............................................................. 24
+  7.8 Typical Characteristics.............................................. 10              12.6 Electrostatic Discharge Caution..............................24
+8 Detailed Description......................................................14              12.7 Glossary..................................................................24
+  8.1 Overview................................................................... 14      13 Revision History.......................................................... 25
+  8.2 Functional Block Diagram......................................... 14                14 Mechanical, Packaging, and Orderable
+  8.3 Feature Description...................................................14              Information.................................................................... 25
+  8.4 Device Functional Modes..........................................16
+
+
+
+
+2       Submit Document Feedback                                                                                          Copyright © 2023 Texas Instruments Incorporated
+
+                                              Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                 UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                      SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+4 Description (continued)
+Using a design that inherently minimizes shoot-through current, the outputs of these can provide high gate drive
+current where it is most needed at theMiller plateau region during the MOSFET switching transition. A unique
+hybrid output stage paralleling bipolar and MOSFET transistors (TrueDrive) allows efficient current delivery at
+low supply voltages. With this drive architecture, UCC3732x can be used in industry standard 6-A, 9-A and
+many 12-A driver applications. Latch up and ESD protection circuitries are also included. Finally, the UCC3732x
+provides an enable (ENBL) function to have better control of the operation of the driver applications. ENBL is
+implemented on pin 3, which was previously left unused in the industry standard pinout. It is internally pulled up
+to VDD for active high logic and can be left open for standard operation.
+In addition to the 8-pin SOIC (D) package offerings, the UCC3732x also comes in the thermally enhanced
+but tiny 8-pin MSOP PowerPAD™ (DGN) package. The PowerPAD package drastically lowers the thermal
+resistance to extend the temperature operation range and improve the long-term reliability.
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                    Submit Document Feedback    3
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                      www.ti.com
+
+
+5 Related Products
+           PRODUCT                                      DESCRIPTION                                    PACKAGES
+                                                                                         MSOP–8 PowerPAD, SOIC–8, PDIP–
+    UCC37323/4/5            Dual 4-A Low-Side Drivers
+                                                                                         8
+                                                                                         MSOP–8 PowerPAD, SOIC–8, PDIP–
+    UCC27423/4/5            Dual 4-A Low-Side Drivers with Enable
+                                                                                         8
+    TPS2811/12/13           Dual 2-A Low-Side Drivers with Internal Regulator            TSSOP–8, SOIC–8, PDIP–8
+    TPS2814/15              Dual 2-A Low-Side Drivers with Two Inputs per Channel        TSSOP–8, SOIC–8, PDIP–8
+    TPS2816/17/18/19        Single 2-A Low-Side Driver with Internal Regulator           5-Pin SOT–23
+    TPS2828/29              Single 2-A Low-Side Driver                                   5-Pin SOT–23
+
+
+
+
+4       Submit Document Feedback                                                      Copyright © 2023 Texas Instruments Incorporated
+
+                                   Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                          UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                              SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+6 Pin Configuration and Functions
+
+                                                          VDD       1        8   VDD
+                                                            IN      2        7   OUT
+                                                         ENBL       3        6   OUT
+                                                         AGND       4        5   PGND
+
+                 Figure 6-1. D, and DGN Packages 8-Pin SOIC, and MSOP With PowerPAD Top View
+
+                                                        Table 6-1. Pin Functions
+               PIN
+                                         I/O                                             DESCRIPTION
+ NAME                  NO.
+                                                  The AGND and the PGND must be connected by a single thick trace directly under the
+                                                  device. There must be a low ESR, low ESL capacitor of 0.1 µF between VDD (pin 8)
+                                                  and PGND and a separate 0.1-µF capacitor between VDD (pin 1) and AGND. The power
+ AGND                    4               —
+                                                  MOSFETs must be located on the PGND side of the device while the control circuit must be
+                                                  on the AGND side of the device. The control circuit ground must be common with the AGND
+                                                  while the PGND must be common with the source of the power FETs.
+                                                  Enable input for the driver with logic compatible threshold and hysteresis. The driver output
+                                                  can be enabled and disabled with this pin. It is internally pulled up to VDD with 100-kΩ
+ ENBL                    3                I
+                                                  resistor for active high operation. When the device is disabled, the output state is, low
+                                                  regardless of the input state.
+ IN                      2                I       Input signal of the driver which has logic compatible threshold and hysteresis.
+                                                  Driver outputs that must be connected together externally. The output stage is capable of
+ OUT                    6, 7             O
+                                                  providing 9-A peak drive current to the gate of a power MOSFET.
+                                                  Common ground for output stage. This ground must be connected very closely to the source
+ PGND                    5               —        of the power MOSFET which the driver is driving. Grounds are separated to minimize ringing
+                                                  affects due to output switching di/dt which can affect the input threshold.
+                                                  Supply voltage and the power input connections for this device. Two pins must be connected
+ VDD                    1, 8              I
+                                                  together externally.
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                              Submit Document Feedback             5
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                                          www.ti.com
+
+
+7 Specifications
+7.1 Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted) (1) (2)
+                                                                                               MIN                       MAX                  UNIT
+    Supply voltage, VDD                                                                        –0.3                        16                     V
+    Output current (OUT) DC, IOUT_DC                                                                                      0.6                     A
+    Input voltage (IN), VIN                                                                    –0.3               6 V or VDD + 0.3(3)             V
+    Enable voltage (ENBL)                                                                      –0.3               6 V or VDD    + 0.3(3)          V
+                                               D package                                                                  650                  mW
+    Power dissipation at TA = 25°C             DGN package                                                                 3                      W
+                                               P package                                                                  350                  mW
+    Lead temperature (soldering, 10 s)                                                                                    300                     °C
+    Junction operating temperature, TJ                                                         –55                        150                     °C
+    Storage temperature, Tstg                                                                  –65                        150                     °C
+
+(1)        Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings
+           only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under Section
+           7.3Recommended Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device
+           reliability.
+(2)        All voltages are with respect to GND. Currents are positive into, negative out of the specified terminal.
+(3)        Whichever is larger
+
+7.2 ESD Ratings
+                                                                                                                          VALUE             UNIT
+                                              Human-body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)                       ±2000
+    V(ESD)      Electrostatic discharge       Charged-device model (CDM), per JEDEC specification JESD22-                                     V
+                                                                                                                          ±1000
+                                              C101(2)
+
+(1)        JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2)        JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+
+7.3 Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)
+                                                                                                MIN             NOM             MAX         UNIT
+    Supply voltage, VDD                                                                          4.5                               15         V
+
+
+7.4 Thermal Information
+                                                                                   UCC27322                     UCC27321
+                                                                                                                      DGN (MSOP-
+                                 THERMAL METRIC(1)                                  D (SOIC)           P (PDIP)                              UNIT
+                                                                                                                       PowerPAD)
+                                                                                     8 PINS             8 PINS            8 PINS
+    RθJA         Junction-to-ambient thermal resistance                                56.6              55.9              56.7              °C/W
+    RθJC(top)    Junction-to-case (top) thermal resistance                             52.8              45.3              52.9              °C/W
+    RθJB         Junction-to-board thermal resistance                                  32.6              32.6              32.7              °C/W
+    ψJT          Junction-to-top characterization parameter                            1.8               23.0               1.8              °C/W
+    ψJB          Junction-to-board characterization parameter                          32.3              32.5              32.4              °C/W
+    RθJC(bot)    Junction-to-case (bottom) thermal resistance                          5.9                —                 5.9              °C/W
+
+(1)        For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+           report, SPRA953.
+
+
+
+
+6          Submit Document Feedback                                                                   Copyright © 2023 Texas Instruments Incorporated
+
+                                          Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                      UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                          SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+7.5 Electrical Characteristics
+VDD = 4.5 V to 15 V, TA = –40°C to +105°C for UCC2732x, TA = 0°C to 70°C for UCC3732x, TA = TJ, unless otherwise noted.
+                     PARAMETER                                      TEST CONDITIONS                   MIN     TYP     MAX       UNIT
+ INPUT (IN)
+ VIN_H, logic 1 input threshold                                                                        1.6     2.2      2.5      V
+ VIN_L, logic 0 input threshold                                                                        0.8     1.2      1.5      V
+ Input current                                       0 V ≤ VIN ≤ VDD                                  –10        0      10       µA
+ OUTPUT (OUT)
+ Peak output current(1)                              VDD = 14 V,                                                 9               A
+ Output resistance high(2)                           IOUT = –10 mA                                             0.6      1.5      Ω
+ Output resistance low(2)                            IOUT = 10 mA                                              0.4       1       Ω
+ OVERALL
+                                                     IN = LOW, EN = LOW, VDD = 15 V                            150     225
+
+                                           UCC37321 IN = HIGH, EN = LOW, VDD = 15 V                            440     650
+                                           UCC27321 IN = LOW, EN = HIGH, VDD = 15 V                            370     550
+                                                     IN = HIGH, EN = HIGH, VDD = 15 V                          370     550
+ IDD, static operating current                                                                                                   µA
+                                                     IN = LOW, EN = LOW, VDD = 15 V                            150     225
+
+                                           UCC37322 IN = HIGH, EN = LOW, VDD = 15 V                            450     650
+                                           UCC27322 IN = LOW, EN = HIGH, VDD = 15 V                             75     125
+                                                     IN = HIGH, EN = HIGH, VDD = 15 V                          675    1000
+ ENABLE (ENBL)
+ VEN_H, high-level enable voltage                    LOW to HIGH transition                            1.7     2.2      2.7      V
+ VEN_L, low-level enable voltage                     HIGH to LOW transition                            1.1     1.6       2
+                                                                                                                                 V
+ Hysteresis                                                                                          0.25     0.55    0.90
+ RENBL, enable impedance                             VDD = 14 V, ENBL = GND                            75      100     135       kΩ
+
+(1)    Not tested in production.
+(2)    Output pullup resistance here is a DC measurement that measures resistance of PMOS structure only, not N-channel structure.
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                        Submit Document Feedback        7
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                                                      www.ti.com
+
+7.6 Switching Characteristics
+over operating free-air temperature range (unless otherwise noted)
+                          PARAMETER                                   TEST CONDITIONS                          MIN           TYP            MAX          UNIT
+    ENABLE (ENBL)
+    tD3, propagation delay time(1)                          CLOAD = 10 nF                                                         60            90        ns
+    tD4, propagation delay time(1)                          CLOAD = 10 nF                                                         60            90        ns
+    SWITCHING TIME(2)
+    tR, rise time (OUT)                                     CLOAD = 10 nF                                                         20            70        ns
+    tF, fall time (OUT)                                     CLOAD = 10 nF                                                         20            30        ns
+    tD1, propagation delay, IN rising (IN to OUT)           CLOAD = 10 nF                                                         25            70        ns
+    tD2, propagation delay, IN falling (IN to OUT)          CLOAD = 10 nF                                                         35            70        ns
+
+(1)       See Figure 7-2.
+(2)       See Figure 7-1 for switching waveforms.
+
+7.7 Power Dissipation Ratings
+                                                                                                   Power Rating                         Derating Factor
+          PACKAGE                SUFFIX                  θjc (°C/W)         θja (°C/W)                 (mW)                                 Above
+                                                                                                    TA = 70°C(1)                        70°C (mW/°C)(1)
+            SOIC-8                    D                     42              84 to 160(2)               344 to 655(2)                     6.25 to 11.9(2)
+    MSOP PowerPAD-8                  DGN                    4.7              50 to 59                        1370                               17.1
+
+(1)       125°C operating junction temperature is used for power rating calculations
+(2)       The range of values indicates the effect of the printed-circuit-board. These values are intended to give the system designer an
+          indication of the best and worst case conditions. In general, the system designer should attempt to use larger traces on the
+          printed-circuit-board where possible to spread the heat away form the device more effectively. For additional information on device
+          temperature management, see the Packaging Information section of the Power Supply Control Products Data Book, (SLUD003).
+
+
+                                              (a)                                                              ( b)
+
+                      5V
+
+                      IN              VTH                  VTH                             IN                VTH                  VTH
+
+                      0V
+                                      tD1                  tD2                                         tD1                  tD2
+                                                    tF
+                     VDD
+                                80%                                   80%                        80%                                     80%
+                                                                       tR                                              tR                  tF
+                     OUT                                                                   OUT
+
+                                                    20%                                                               20%
+                      0V
+
+
+          The 20% and 80% thresholds depict the dynamics of the BiPolar output devices that dominate the power MOSFET transition through
+          the Miller regions of operation.
+
+                           Figure 7-1. Switching Waveforms for (a) Inverting Input to (b) Output Times
+
+
+
+
+8          Submit Document Feedback                                                                             Copyright © 2023 Texas Instruments Incorporated
+
+                                            Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                     UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                          SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+                                             5V
+
+                                             ENBL                   VIN_H            VIN_L
+
+                                             0V
+                                                                  tD3              tD4
+
+                                            VDD
+                                                            80%                              80%
+
+                                            OUT                               tR              tF
+
+
+                                                                            20%
+                                             0V
+      The 20% and 80% thresholds depict the dynamics of the BiPolar output devices that dominate the power MOSFET transition through
+      the Miller regions of operation.
+
+                                      Figure 7-2. Switching Waveform for Enable to Output
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                      Submit Document Feedback          9
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                                                                                                                                                                        www.ti.com
+
+7.8 Typical Characteristics
+
+                                                              700                                                                                                                          700
+
+
+                                                              600                                                                                                                          600
+                                                                                                                   ENBL = 0V
+                             IDD – InputCurrentIdle – μA
+
+
+
+
+                                                                                                                                                             IDD – InputCurrentIdle – μA
+                                                                                                                    IN = 5V                                                                                                  ENBL = 0V
+                                                              500                                                                                                                          500                                IN = 5V
+
+
+                                                              400                                                                                                                          400
+                                                                                                ENBL = VDD
+                                                                                                  IN = 5V
+                                                                                                                                                                                                             ENBL = 0V
+                                                              300                                                                                                                          300                IN = 0V
+                                                                                                                         ENBL = 0V                                                                                                                      ENBL = VDD
+                                                                                                                          IN = 0V                                                                                                                         IN = 5V
+                                                              200                                                                                                                          200
+                                                                                                                                                                                                                                   ENBL = VDD , IN = 0V
+
+                                                              100                                                                                                                          100
+
+                                                                                            ENBL = VDD , IN = 0V
+                                                                0                                                                                                                            0
+                                                                    0   2         4      6    8      10    12                  14    16                                                          0     2        4        6          8        10     12         14   16
+                                                                                  VDD – Supply Voltage – V                                                                                                      VDD – Supply Voltage – V
+
+     Figure 7-3. Input Current Idle vs Supply Voltage                                                                                       Figure 7-4. Input Current Idle vs Supply Voltage
+                        (UCCx7321)                                                                                                                             (UCCx7322)
+                                                              800                                                                                                                   800
+
+
+                                                              700                                                                                                                   700                ENBL = HIIGH
+                                                                                                                                                                                                       IN =HIIGH
+          IDD – InputCurrentIdle – μA
+
+
+
+
+                                                                                                                                                 IDD – InputCurrentIdle – μA
+                                                              600                                                    ENBL = HI                                                      600
+                                                                            ENBL = LO            ENBL = HI           IN = LO
+                                                                            IN = HI              IN = HI                                                                                                             ENBL = LOW
+                                                              500                                                                                                                   500                              IN = HIIGH
+
+
+                                                              400                                                                                                                   400
+
+
+                                                                                                                     ENBL = LO                                                      300                              ENBL = LOW
+                                                              300                                                                                                                                                                                   ENBL = HIIGH
+                                                                                                                     IN = LO                                                                                         IN = LOW
+                                                                                                                                                                                                                                                    IN = LOW
+                                                              200                                                                                                                   200
+
+
+                                                              100                                                                                                                   100
+
+
+                                                                0                                                                                                                          0
+                                                                -- 50   -- 25       0          25        50         75         100    125                                                   -- 50    -- 25       0           25         50        100      75       125
+                                                                                   TJ – Temperature – °C                                                                                                         TJ – Temperature – °C
+
+      Figure 7-5. Input Current Idle vs Temperature                                                                                          Figure 7-6. Input Current Idle vs Temperature
+                       (UCCx7321)                                                                                                                             (UCCx7322)
+                                                              70                                                                                                                           70
+                                                                                                              CLOAD = 10 n F                                                                                                                      C LOAD = 10 nF
+
+                                                              60                                                                                                                           60
+
+
+                                                              50                tA = – 40°C                                                                                                50
+                                                                                                                                                                   tR – Fall Time – ns
+                                        tR – Rise Time – ns
+
+
+
+
+                                                              40                                                                                                                           40
+                                                                                             tA = 105°C
+                                                                                                               tA = 25°C
+                                                              30                                                                                                                           30         tA = 105°C
+                                                                                                                                                                                                                                  tA = 25°C
+
+                                                              20                                                                                                                           20
+
+
+                                                              10                  tA = 0°C                                                                                                 10        tA = 0°C
+                                                                                                                                                                                                                                         tA = –40°C
+
+                                                               0                                                                                                                            0
+                                                                    4       6           8           10        12          14         16                                                         4       6          8       10       12                    14        16
+                                                                                 VDD – Supply Voltage – V                                                                                                       VDD -- Supply Voltage -- V
+
+        Figure 7-7. Rise Time vs Supply Voltage                                                                                                 Figure 7-8. Fall Time vs Supply Voltage
+
+
+
+
+10     Submit Document Feedback                                                                                                                                                                                Copyright © 2023 Texas Instruments Incorporated
+
+                                                                                                 Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                                                                                                   UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                                                                                                        SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+                                                40                                                                                                            200
+
+                                                                                      VDD = 5 V                                                                                                      VDD = 5 V
+                                                                                                                                                              160
+                                                30                                                                                                                                            VDD = 10 V
+
+                                                                                 VDD = 10 V                                                                                                   VDD = 15 V
+                 tR – Rise Time – ns
+
+
+
+
+                                                                                                                            tR – Fall Time – ns
+                                                                                 VDD = 15 V                                                                   120
+
+                                                20
+
+                                                                                                                                                                  80
+
+
+                                                10
+                                                                                                                                                                  40
+
+
+
+                                                 0                                                                                                                 0
+                                                     0.1                             1                           10                                                    0.1                           1                             10
+                                                                     CLOAD –- Load Capacitance – nF                                                                                     CLOAD – Load Capacitance – nF
+
+       Figure 7-9. Rise Time vs Load Capacitance                                                                        Figure 7-10. Fall Time vs Output Capacitance
+                                                 70                                                                                                               70
+                                                                                                CLOAD = 10 n F                                                                                                   CLOAD = 10 n F
+                                                 60                                                                                                               60                    tA = 105°C
+
+                                                                    tA = 105°C
+                                                                                                                                                                                                             tA = 25°C
+                      tD1 -– Delay Time -- ns
+
+
+
+
+                                                 50                                                                                                               50
+
+
+
+
+                                                                                                                                         tD2 – Delay Time -- ns
+                                                                                           tA = 25°C
+
+                                                 40                                                                                                               40
+
+
+                                                 30                                                                                                               30
+                                                                                                                                                                             tA = 0°C
+                                                 20                                                                                                               20
+
+                                                             tA = –40°C                                                                                                                                 tA = –40°C
+                                                 10                               tA = 0°C                                                                        10
+
+
+                                                     0                                                                                                             0
+                                                         4      6          8         10         12         14    16                                                    4           6         8         10        12      14       16
+                                                                      VDD – Supply Voltage – V                                                                                           VDD – Supply Voltage – V
+
+      Figure 7-11. tD1 Delay Time vs Supply Voltage                                                                     Figure 7-12. tD2 Delay Time vs Supply Voltage
+                                                 70                                                                                                               70
+
+                                                                                                                                                                                                                  VDD = 5 V
+                                                 60                                                                                                               60
+
+
+                                                 50
+                                                                                                                                   tD2 – Delay Time – ns
+
+
+
+
+                                                                                                                                                                  50
+             tD1 – Delay Time –- ns
+
+
+
+
+                                                             VDD = 5 V             VDD = 10 V
+
+                                                 40                                                                                                               40
+
+
+                                                 30                                                                                                               30
+                                                                                                                                                                                            VDD = 15 V      VDD = 10 V
+                                                 20                                                                                                               20
+                                                                                              VDD = 15 V
+
+                                                 10                                                                                                               10
+
+
+                                                     0                                                                                                             0
+                                                         1                            10                         100
+                                                                                                                                                                       1                         10                               100
+                                                                 CLOAD – Load Capacitance – nF                                                                                     CLOAD – Load Capacitance – nF
+
+   Figure 7-13. tD1 Delay Time vs Load Capacitance                                                                     Figure 7-14. tD2 Delay Time vs Load Capacitance
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                                                                                                      Submit Document Feedback           11
+                                                                                    Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                                                                                                                           www.ti.com
+
+                                                 50
+                                                                                               VDD = 15 V
+                                                 45                                           CLOAD = 10 n F
+                                                                                 tD2            TA = 25°C
+                                                 40
+                                                                                               tRISE
+           Propagation Time -- ns
+
+
+
+                                                 35
+
+                                                 30
+
+                                                 25
+
+                                                 20
+
+                                                 15
+                                                                                                 tFALL
+                                                 10                   tD1
+
+                                                  5
+
+                                                  0
+                                                      0                  5                 10                15
+                                                                   VIN(peak) – Peak Input Voltage – V
+                                                                                                                  Figure 7-16. Input Threshold vs Supply Voltage
+      Figure 7-15. Propagation Times vs Peak Input
+                         Voltage
+                                                3.0                                                                                                          150
+
+                                                                                                                                                             140
+                                                                            ENBL -- ON
+                                                2.5
+           Enable thresholdand hysteresis – V
+
+
+
+
+                                                                                                                                                             130
+
+
+
+
+                                                                                                                       RENBL – Enable Resistance – Ω
+                                                                                                                                                             120
+                                                2.0
+                                                                                                                                                             110
+
+                                                1.5                                                                                                          100
+
+                                                                                                                                                                 90
+                                                1.0
+                                                                                                                                                                 80
+                                                                                        ENBL -- OFF
+                                                                                                                                                                 70
+                                                0.5
+                                                            ENBL -- HYSTERESIS                                                                                   60
+
+                                                 0                                                                                                               50
+                                                  -- 50    -- 25      0     25    50      75          100   125                                                    -- 50   --25     0       25     50     75      100      125
+                                                                      TJ – Temperature –°C                                                                                              TJ – Temperature – °C
+
+     Figure 7-17. Enable Threshold and Hysteresis vs                                                              Figure 7-18. Enable Resistance vs Temperature
+                       Temperature
+
+                                                                                                IN = GND                                                                                                       IN = GND
+                                                                                               ENBL = V DD                                                                                                    ENBL = VDD
+                                                                                                                                       VDD – Input Voltage – V
+           VDD – Input Voltage – V
+                   1 V/div
+
+
+
+
+                                                                                                                                               1 V/div
+
+
+
+
+                                                                                                                                                                                                        OUT
+                                                          VDD
+
+                                                                                       OUT
+
+                            0V                                                                                                                   0V
+                                                                                                                                                                                    VDD
+
+
+                                                                   10 nF Between Output and GND                                                                               10 nF Between Output and GND
+                                                                             50 μs/div                                                                                                  50 μs/div
+
+     Figure 7-19. Output Behavior vs VDD (UCC37321)                                                               Figure 7-20. Output Behavior vs VDD (UCC37321)
+
+
+
+
+12     Submit Document Feedback                                                                                                                                                   Copyright © 2023 Texas Instruments Incorporated
+
+                                                                               Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                                                                  UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                                                             SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+                                                                           IN = VDD                                                                                   IN = VDD
+                                                                          ENBL = VDD                                                                                 ENBL = VDD
+                  VDD – Supply Voltage – V
+
+
+
+
+                                                                                                           VDD – Supply Voltage – V
+                                                                                                                                                            VDD
+                          1 V/div
+
+
+
+
+                                                                                                                   1 V/div
+                                             VDD
+
+
+
+                                                                    OUT                                                                OUT
+
+
+
+
+                 0V                                                                                        0V
+
+
+
+                                                   10 nF Between Output and GND                                                              10 nF Between Output and GND
+                                                             50 μs/div                                                                                 50 μs/div
+
+    Figure 7-21. Output Behavior vs VDD (Inverting)                                          Figure 7-22. Output Behavior vs VDD (Inverting)
+
+                                                                          IN = GND                                                                                  IN = GND
+                                                                          ENBL = VDD                                                                                ENBL = VDD
+              VDD – Supply Voltage – V
+
+
+
+
+                                                                                                     VDD – Supply Voltage – V
+                                                   VDD                                                                                                        VDD
+                      1 V/div
+
+
+
+
+                                                                                                             1 V/div
+                                                                                                                                      OUT
+                                                                           OUT
+
+
+
+
+                 0V                                                                                     0V
+
+
+
+                                                   10 nF Between Output and GND                                                               10 nF Between Output and GND
+                                                             50 μs/div                                                                                  50 μs/div
+
+            Figure 7-23. Output Behavior vs VDD                                                    Figure 7-24. Output Behavior vs VDD
+                       (Noninverting)                                                                         (Noninverting)
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                                                          Submit Document Feedback   13
+                                                              Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                    www.ti.com
+
+
+8 Detailed Description
+8.1 Overview
+The UCC37321 and UCC37322 drivers serve as an interface between low-power controllers and power
+MOSFETs. They can also be used as an interface between DSPs and power MOSFETs. High-frequency power
+supplies often require high-speed, high-current drivers such as the UCC3732x family. A leading application is the
+need to provide a high power buffer stage between the PWM output of the control device and the gates of the
+primary power MOSFET or IGBT switching devices. In other cases, the device drives the power device gates
+through a drive transformer. Synchronous rectification supplies must simultaneously drive multiple devices which
+can present an extremely large load to the control circuitry.
+The inverting driver (UCC37321) is useful for generating inverted gate drive signals from controllers that have
+only outputs of the opposite polarity. For example, this driver can provide a gate signal for ground referenced,
+N-channel synchronous rectifier MOSFETs in buck derived converters. This driver can also be used for
+generating a gate drive signal for a P-channel MOSFET from a controller that is designed for N-channel
+applications.
+MOSFET gate drivers are generally used when it is not feasible to have the primary PWM regulator device
+directly drive the switching devices for one or more reasons. The PWM device may not have the brute drive
+capability required for the intended switching MOSFET, limiting the switching performance in the application. In
+other cases there may be a desire to minimize the effect of high-frequency switching noise by placing the high
+current driver physically close to the load. Also, newer devices that target the highest operating frequencies may
+not incorporate onboard gate drivers at all. Their PWM outputs are only intended to drive the high impedance
+input to a driver such as the UCC3732x. Finally, the control device may be under thermal stress due to power
+dissipation, and an external driver can help by moving the heat from the controller to an external package.
+8.2 Functional Block Diagram
+
+                    VDD     1                                                                   8   VDD
+                                                 INVERTING
+
+
+                                                                                                7 OUT
+                                       VDD
+                                                    NON--
+                       IN   2                    INVERTING                                      6 OUT
+
+                                             RENBL
+                    ENBL    3                100 kΩ
+
+
+                   AGND     4
+                                                                                                5   PGND
+
+
+
+8.3 Feature Description
+8.3.1 Input Stage
+The IN threshold has a 3.3-V logic sensitivity over the full range of VDD voltages; yet, it is equally compatible
+with 0 V to VDD signals. The inputs of UCC3732x family of drivers are designed to withstand 500-mA reverse
+current without either damage to the device or logic upset. In addition, the input threshold turnoff of the
+UCC3732x has been slightly raised for improved noise immunity. The input stage of each driver must be driven
+by a signal with a short rise or fall time. This condition is satisfied in typical power supply applications, where the
+input signals are provided by a PWM controller or logic gates with fast transition times (< 200 ns). The IN input of
+the driver functions as a digital gate, and it is not intended for applications where a slow changing input voltage
+is used to generate a switching output when the logic threshold of the input section is reached. While this may
+not be harmful to the driver, the output of the driver may switch repeatedly at a high frequency.
+
+
+
+14    Submit Document Feedback                                                      Copyright © 2023 Texas Instruments Incorporated
+
+                                 Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                             UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                                  SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+Users should not attempt to shape the input signals to the driver in an attempt to slow down (or delay) the signal
+at the output. If limiting the rise or fall times to the power device is desired, then an external resistance can be
+added between the output of the driver and the load device, which is generally a power MOSFET gate. The
+external resistor may also help remove power dissipation from the device package, as discussed in Section 11.3.
+8.3.2 Output Stage
+The TrueDrive output stage is capable of supplying ±9-A peak current pulses; it swings to both VDD and GND
+and can encourage even the most stubborn MOSFETs to switch. The pullup and pulldown circuits of the driver
+are constructed of bipolar and MOSFET transistors in parallel. The peak output current rating is the combined
+current from the bipolar and MOSFET transistors. The output resistance is the RDS(ON) of the MOSFET transistor
+when the voltage on the driver output is less than the saturation voltage of the bipolar transistor. Each output
+stage also provides a very low impedance to overshoot and undershoot due to the body diode of the internal
+MOSFET. This means that in many cases, external-schottky-clamp diodes are not required.
+This unique BiPolar and MOSFET hybrid output architecture (TrueDrive) allows efficient current sourcing at low
+supply voltages. The UCC3732x family delivers 9 A of gate drive where it is most needed during the MOSFET
+switching transition – at the Miller plateau region – providing improved efficiency gains.
+8.3.3 Source and Sink Capabilities during Miller Plateau
+Large power MOSFETs present a significant load to the control circuitry. Proper drive is required for efficient,
+reliable operation. The UCC3732x drivers have been optimized to provide maximum drive to a power MOSFET
+during the Miller plateau region of the switching transition. This interval occurs while the drain voltage is
+swinging between the voltage levels dictated by the power topology, requiring the charging or discharging of the
+drain-gate capacitance with current supplied or removed by the driver device.
+Two circuits are used to test the current capabilities of the UCC3732x driver (see Reference 1) . In each case
+external circuitry is added to clamp the output near 5 V while the device is sinking or sourcing current. An input
+pulse of 250 ns is applied at a frequency of 1 kHz in the proper polarity for the respective test. In each test
+there is a transient period where the current peaked up and then settled down to a steady-state value. The noted
+current measurements are made at a time of 200 ns after the input pulse is applied, after the initial transient.
+The circuit in Figure 8-1 is used to verify the current sink capability when the output of the driver is clamped
+around 5 V, a typical value of gate-source voltage during the Miller plateau region. The UCC37321 is found to
+sink 9 A at VDD = 15 V.
+                                                                          VDD
+
+
+
+
+                                              UCC37321
+
+                         INPUT           1 VDD           VDD 8
+                                                                                DSCHOTTKY           10 Ω
+                                             IN          OUT
+                                         2                     7
+                                                                                         C2         C3     +   VSUPPLY
+                                                         OUT
+                                         3 ENBL                6                        1 μF      100 μF        5.5 V
+
+
+                                         4   AGND     PGND 5
+                                                                                                VSNS
+
+                                                                                        RSNS
+                                                                   1 μF     100 μF      0.1 Ω
+                                                                   CER      AL EL
+
+
+                                                                                                                     UDG-- 01113
+
+
+                                                    Figure 8-1. Sink Current Test Circuit
+
+The circuit in Figure 8-2 is used to test the current source capability with the output clamped to around 5 V with a
+string of Zener diodes. The UCC37321 is found to source 9 A at VDD = 15 V.
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                   Submit Document Feedback   15
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                                        www.ti.com
+                                                                   VDD
+
+
+
+
+                                      UCC37321
+
+                 INPUT           1   VDD         VDD 8
+                                                                         DSCHOTTKY
+                                     IN          OUT
+                                 2                     7
+                                                                                     C2        C3           4.5 V
+                                                 OUT                                 1μ F
+                                 3   ENBL              6                                       100 μF       DADJ
+
+
+                                 4   AGND        PGND 5
+                                                                                              VSNS
+
+                                                                                      RSNS
+                                                            1μ F         100 μF       0.1 Ω
+                                                            CER          AL EL
+
+
+                                                                                                                       UDG-- 01114
+
+
+                                             Figure 8-2. Source Current Test Circuit
+
+Note that the current sink capability is slightly stronger than the current source capability at lower VDD. This is
+due to the differences in the structure of the bipolar-MOSFET power output section, where the current source is
+a P-channel MOSFET and the current sink has an N-channel MOSFET.
+In most it is advantageous that the turnoff capability of a driver is stronger than the turnon capability. This helps
+to ensure that the MOSFET is held OFF during common power supply transients which may turn the device back
+ON.
+8.3.4 Enable
+The UCC37321/2 provides an enable input for improved control of the driver operation. This input also
+incorporates logic compatible thresholds with hysteresis. It is internally pulled up to VDD with 100-kΩ resistor for
+active high operation. When ENBL is high, the device is enabled and when ENBL is low, the device is disabled.
+The default state of the ENBL pin is to enable the device and therefore it can be left open for standard operation.
+The output state when the device is disabled is low regardless of the input state. See Table 8-1 for the operation
+using enable logic.
+ENBL input is compatible with both logic signals and slow changing analog signals. It can be directly driven or a
+power-up delay can be programmed with a capacitor between ENBL and AGND.
+8.4 Device Functional Modes
+Table 8-1 lists the logic of this device.
+                                                   Table 8-1. Device Logic Table
+                                                               ENBL                  IN              OUT
+                                                                    0                0                  0
+
+                                            INVERTING               0                1                  0
+                                             UCC37321               1                0                  1
+                                                                    1                1                  0
+                                                                    0                0                  0
+                                              NON--                 0                1                  0
+                                            INVERTING
+                                             UCC37322               1                0                  0
+                                                                    1                1                  1
+
+
+
+
+16    Submit Document Feedback                                                                          Copyright © 2023 Texas Instruments Incorporated
+
+                                 Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                      UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                           SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+9 Application and Implementation
+                                                                          Note
+       Information in the following applications sections is not part of the TI component specification,
+       and TI does not warrant its accuracy or completeness. TI’s customers are responsible for
+       determining suitability of components for their purposes, as well as validating and testing their design
+       implementation to confirm system functionality.
+
+9.1 Application Information
+High-current gate driver devices are required in switching power applications for a variety of reasons. To enable
+fast switching of power devices and reduce associated power losses, a powerful gate driver can be employed
+between the PWM output of controllers or signal isolation devices and the gates of the power semiconductor
+devices. Further, gate drivers are indispensable when sometimes it is just not feasible to have the PWM
+controller directly drive the gates of the switching devices. The situation may be encountered because the
+PWM signal from a digital controller or signal isolation device is often a 3.3-V or 5-V logic signal which is not
+capable of effectively turning on a power switch. A level-shifting circuitry is needed to boost the logic-level signal
+to the gate-drive voltage to fully turn on the power device and minimize conduction losses. Traditional buffer
+drive circuits based on NPN/PNP bipolar, (or P- N- channel MOSFET), transistors in totem-pole arrangement,
+being emitter follower configurations, prove inadequate for this because they lack level-shifting capability and
+low-drive voltage protection. Gate drivers effectively combine both the level-shifting and buffer drive functions.
+Gate drivers may also minimize the effect of switching noise by locating the high-current driver physically close
+to the power switch, drive gate-driver transformers and control floating power device gates, reducing power
+dissipation and thermal stress in controllers by absorbing gate-charge power losses.
+In summary gate drivers are extremely important components in switching power combining benefits of high-
+performance, low-cost, low component count, board-space reduction, and simplified system design.
+9.2 Typical Application
+
+                                                              8 VDD              6              Q1
+                                                                           OUT
+                                                              1 VDD        OUT   7
+                                                     C2                              R4
+                                                                     UCC27322D
+                                                          2                      4
+                                                                IN        AGND
+                                        INPUT             3                      5
+                                                               ENBL       PGND
+
+
+                                       ENABLE
+
+                           Figure 9-1. Typical Application Diagram of UCC27322 and UCC37322
+
+9.2.1 Design Requirements
+When selecting the proper gate driver device for an end application, some design considerations must be
+evaluated first to make the most appropriate selection. The following design parameters should be used when
+selecting the proper gate driver device for an end application: input-to-output configuration, the input threshold
+type, bias supply voltage levels, peak source and sink currents, availability of independent enable and disable
+functions, propagation delay, power dissipation, and package type. See the example design parameters and
+requirements in Table 9-1.
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                       Submit Document Feedback     17
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                                   www.ti.com
+
+                                                   Table 9-1. Design Parameters
+                                         DESIGN PARAMETER                      EXAMPLE VALUE
+                                       Input-to-output configuration              Noninverting
+                                           Input threshold type                      CMOS
+                                        Bias supply voltage levels                    12 V
+                                                dVDS/dt(1)                           20 V/ns
+                                             Enable function                           Yes
+                                            Propagation delay                        < 50 ns
+                                            Power dissipation                       < 0.45 W
+                                              Package type                          SOIC (8)
+
+                                 (1)      dVDS/dt is a typical requirement for a given design. This value
+                                          can be used to find the peak source/sink currents needed as
+                                          shown in Section 9.2.2.4.
+
+9.2.2 Detailed Design Procedure
+9.2.2.1 Input-to-Output Configuration
+The design should specify which type of input-to-out configuration should be used. If turning on the power
+MOSFET or IGBT when the input signal is in high state is preferred, then a device capable of the noninverting
+configuration must be selected. If turning off the power MOSFET or IGBT when the input signal is in high state
+is preferred, then a device capable of the inverting configuration must be chosen. Based on this noninverting
+requirement of this application, the proper device out of the UCC27322 or UCC37322 should be selected.
+9.2.2.2 Input Threshold Type
+The type of input voltage threshold determines the type of controller that can be used with the gate driver
+device. The UCC2732x and UCC3732x devices feature a TTL and CMOS-compatible input threshold logic,
+with wide hysteresis. The threshold voltage levels are low voltage and independent of the VDD supply voltage,
+which allows compatibility with both logic-level input signals from microcontrollers as well as higher-voltage input
+signals from analog controllers. See Section 7.5 for the actual input threshold voltage levels and hysteresis
+specifications for the UCC2732x and UCC3732x devices.
+9.2.2.3 VDD Bias Supply Voltage
+The bias supply voltage to be applied to the VDD pins of the device must never exceed the values listed in
+Section 7.3. However, different power switches require different voltage levels to be applied at the gate. With a
+wide operating range from 4.5 V to 15 V, the UCC2732x and UCC3732x can be used to drive a variety of power
+switches, such as Si MOSFETs (for example, Vgs = 4.5 V, 10 V, 12 V), IGBTs (VGE=15 V), and wide-bandgap
+power semiconductors (such as GaN, certain types of which allow no higher than 6 V to be applied to the gate
+terminals).
+9.2.2.4 Peak Source and Sink Currents
+Generally, the switching speed of the power switch during turnon and turnoff must be as fast as possible to
+minimize switching power losses. The gate driver device must be able to provide the required peak current for
+achieving the targeted switching speeds for the targeted power MOSFET.
+Using the example of a power MOSFET, the system requirement for the switching speed is typically described
+in terms of the slew rate of the drain-to-source voltage of the power MOSFET (such as dvDS/dt). For example,
+the system requirement might state that a SPP20N60C3 power MOSFET must be turned on with a Dvds/dt of 20
+V/ns or higher under a DC bus voltage of 400 V in a continuous-conduction-mode (CCM) boost PFC-converter
+application. This type of application is an inductive hard-switching application and reducing switching power loss
+is critical. This requirement means that the entire drain-to-source voltage swing during power MOSFET turnon
+event (from 400 V in the OFF state to VDS(on) in ON state) must be completed in approximately 20 ns or less.
+When the drain-to-source voltage swing occurs, the Miller charge of the power MOSFET (Qgd parameter in
+SPP20N60C3 power MOSFET data sheet is 33 nC typically) is supplied by the peak current of gate driver.
+According to power MOSFET inductive switching mechanism, the gate-to-source voltage of the power MOSFET
+
+18    Submit Document Feedback                                                                     Copyright © 2023 Texas Instruments Incorporated
+
+                                 Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                 UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                      SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+at this time is the Miller plateau voltage, which is typically a few volts higher than the threshold voltage of the
+power MOSFET, VGS(th)).
+To achieve the targeted Dvds/dt, the gate driver must be capable of providing the Qgd charge in 20 ns or less.
+In other words, a peak current of 1.65 A (= 33 nC) / 20 ns) or higher must be provided by the gate driver. The
+UCC2732x and UCC3732x devices can provide 9-A peak sourcing/sinking current which clearly exceeds the
+design requirement and has the capability to meet the switching speed needed. This 9-A peak sourcing/sinking
+current provides an extra margin against part-to-part variations in the Qgd parameter of the power MOSFET
+along with additional flexibility to insert external gate resistors and fine tune the switching speed for efficiency
+versus EMI optimizations. However, in practical designs the parasitic trace in the gate driver circuit of the PCB
+will have a definitive role to play on the power MOSFET switching speed. The effort of this trace inductance is
+to limit the di/dt of the output current pulse of the gate driver. To illustrate this effect, consider output current
+pulse waveform from the gate driver to be approximated to a triangular profile, where the area under the triangle
+(0.5 × IPEAK × time) would equal the total gate charge of the power MOSFET (Qg parameter in SPP20N60C3
+power MOSFET data sheet= 87 nC typically). If the parasitic trace inductance limits the di/dt then a situation may
+occur in which the full peak current capability of the gate driver is not fully achieved in the time required to deliver
+the Qg required for the power MOSFET switching. In other words, the time parameter in the equation would
+dominate and the IPEAK value of the current pulse would be much less than the true peak current capability
+of the device, while the required Qg is still delivered. Because of this, the desired switching speed may not be
+realized, even when theoretical calculations indicate the gate driver can achieve the targeted witching speed.
+Thus, placing the gate driver device very close to the power MOSFET and designing a tight gate drive-loop with
+minimal PCB trace inductance is important to realize the full peak-current capability of the gate driver.
+9.2.2.5 Enable and Disable Function
+Certain applications demand independent control of the output state of the driver without involving the input
+signal. A pin which offers enable and disable functions achieves the requirements. For these applications, the
+UCC2732x and UCC3732x are suitable as they feature an input pin and an Enable pin.
+9.2.2.6 Propagation Delay
+The acceptable propagation delay from the gate driver is dependent on the switching frequency at which it is
+used and the acceptable level of pulse distortion to the system. The UCC2732x and UCC3732x devices feature
+25-ns turnon propagation delay and 35-ns turnoff propagation delay (typical), which ensure very little distortion
+and allow operation at higher frequencies. See Section 7.5 for the propagation and Section 7.6 of the UCC2732x
+and UCC3732x devices.
+9.2.2.7 Power Dissipation
+The UCC3732x family of drivers are capable of delivering 9-A of current to a MOSFET gate for a period of
+several hundred nanoseconds. High peak current is required to turn an N-channel device ON quickly. Then, to
+turn the device OFF, the driver is required to sink a similar amount of current to ground. This repeats at the
+operating frequency of the power device. An N-channel MOSFET is used in this discussion because it is the
+most common type of switching device used in high-frequency power conversion equipment.
+References 1 and 2 contain detailed discussions of the drive current required to drive a power MOSFET and
+other capacitive-input switching devices. Much information is provided in tabular form to give a range of the
+current required for various devices at various frequencies. The information pertinent to calculating gate drive
+current requirements will be summarized here; the original document is available from the TI website.
+When a driver device is tested with a discrete, capacitive load it is a fairly simple matter to calculate the power
+that is required from the bias supply. The energy that must be transferred from the bias supply to charge the
+capacitor is given by Equation 1.
+
+            1
+      E=      CV2
+            2                                                                                                            (1)
+
+where
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                    Submit Document Feedback    19
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                      www.ti.com
+
+•    C is the load capacitor
+•    V is the bias voltage feeding the driver
+There is an equal amount of energy transferred to ground when the capacitor is discharged. This leads to a
+power loss given by Equation 2.
+
+              1
+     P=2 ´      CV2f
+              2                                                                                                            (2)
+
+where
+•    f is the switching frequency
+This power is dissipated in the resistive elements of the circuit. Thus, with no external resistor between the driver
+and gate, this power is dissipated inside the driver. Half of the total power is dissipated when the capacitor is
+charged, and the other half is dissipated when the capacitor is discharged. An example using the conditions of
+the previous gate-drive waveform should help clarify this.
+With VDD = 12 V, CLOAD = 10 nF, and f = 300 kHz, the power loss can be calculated as shown in Equation 4.
+
+     P = 10 nF × (12)2 × (300 kHz) = 0.432 W                                                                               (3)
+
+With a 12-V supply, this would equate, as shown in Equation 4, to a current of:
+
+          P   0.432 W
+     I=     =         = 0.036A
+          V     12 V                                                                                                       (4)
+
+The switching load presented by a power MOSFETcan be converted to an equivalent capacitance by examining
+the gate charge required to switch the device. This gate charge includes the effects of the input capacitance plus
+the added charge needed to swing the drain of the device between the ON and OFF states. Most manufacturers
+provide specifications that provide the typical and maximum gate charge, in nC, to switch the device under
+specified conditions. Using the gate charge Qg, one can determine the power that must be dissipated when
+charging a capacitor. This is done by using the equivalence Qg = CeffV to provide Equation 5 for power.
+
+     P = C × V2 × f = Qg × V × f                                                                                           (5)
+
+Equation 5 allows a power designer to calculate the bias power required to drive a specific MOSFET gate at a
+specific bias voltage.
+
+
+
+
+20    Submit Document Feedback                                                        Copyright © 2023 Texas Instruments Incorporated
+
+                                   Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                                                          UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                                                               SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+9.2.3 Application Curves
+
+                                                                      IN = VDD                                                                              IN = VDD
+                                                                     ENBL = VDD                                                                            ENBL = VDD
+             VDD – Input Voltage – V
+
+
+
+
+                                                                                               VDD – Input Voltage – V
+                     1 V/div
+
+
+
+
+                                                                                                       1 V/div
+                                                                                                                                                            VDD
+                                       VDD
+
+                                                               OUT                                                                       OUT
+             0V                                                                                   0V
+
+
+
+                                             10 nF Between Output and GND                                                        10 nF Between Output and GND
+                                                       50 μs/div                                                                           50 μs/div
+
+    Figure 9-2. Output Behavior vs VDD (UCC37322)                                      Figure 9-3. Output Behavior vs VDD (UCC37322)
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                                              Submit Document Feedback   21
+                                                         Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                    www.ti.com
+
+
+10 Power Supply Recommendations
+Although quiescent VDD current is very low, total supply current is higher, depending on OUTA and OUTB
+current and the operating frequency. Total VDD current is the sum of quiescent VDD current and the average
+OUT current. Knowing the operating frequency and the MOSFET gate charge (Qg), average OUT current can be
+calculated using Equation 6.
+
+     IOUT = Qg × f                                                                                                       (6)
+
+where
+•    f is frequency
+For the best high-speed circuit performance, TI recommends two VDD bypass capacitors to prevent noise
+problems. TI also highly recommends using surface mount components. A 0.1-µF ceramic capacitor must be
+placed closest to the VDD to ground connection. In addition, a larger capacitor (such as 1 µF) with relatively low
+ESR should be connected in parallel to help deliver the high current peaks to the load. The parallel combination
+of capacitors presents a low impedance characteristic for the expected current levels in the driver application.
+11 Layout
+11.1 Layout Guidelines
+It can be a significant challenge to avoid the overshoot, undershoot, and ringing issues that can arise from circuit
+layout. The low impedance of these drivers and their high di/dt can induce ringing between parasitic inductances
+and capacitances in the circuit. Utmost care must be used in the circuit layout.
+In general, position the driver physically as close to its load as possible. Place a 1-µF bypass capacitor as close
+to the output side of the driver as possible, connecting it to pins 1 and 8. Connect a single trace between the
+two VDD pins (pin 1 and pin 8); connect a single trace between PGND and AGND (pin 5 and pin 4). If a ground
+plane is used, it may be connected to AGND; do not extend the plane beneath the output side of the package
+(pins 5 – 8). Connect the load to both OUT pins (pins 7 and 6) with a single trace on the adjacent layer to the
+component layer; route the return current path for the output on the component side, directly over the output
+path.
+Extreme conditions may require decoupling the input power and ground connections from the output power
+and ground connections. The UCCx732x has a feature that allows the user to take these extreme measures, if
+necessary. There is a small amount of internal impedance of about 15 Ω between the AGND and PGND pins;
+there is also a small amount of impedance (approximately 30 Ω) between the two VDD pins. To take advantage
+of this feature, connect a 1-µF bypass capacitor between VDD and PGND (pins 5 and 8) and connect a 0.1-µF
+bypass capacitor between VDD and AGND (pins 1 and 4). Further decoupling can be achieved by connecting
+between the two VDD pins with a jumper that passes through a 40-MHz ferrite bead and connect bias power
+only to pin 8. Even more decoupling can be achieved by connecting between AGND and PGND with a pair of
+anti-parallel diodes (anode connected to cathode and cathode connected to anode).
+
+
+
+
+22    Submit Document Feedback                                                      Copyright © 2023 Texas Instruments Incorporated
+
+                                 Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                 UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                      SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+11.2 Layout Example
+
+
+
+
+                                                  Figure 11-1. Layout Recommendation
+
+11.3 Thermal Considerations
+The useful range of a driver is greatly affected by the drive power requirements of the load and the thermal
+characteristics of the device package. For a power driver to be useful over a particular temperature range
+the package must allow for the efficient removal of the heat produced while keeping the junction temperature
+within rated limits. The UCC3732x family of drivers is available in three different packages to cover a range of
+application requirements.
+As shown in the power dissipation rating table, the 8-pin SOIC (D) and 8-pin PDIP (P) packages each have a
+power rating of around 0.5 W with TA = 70°C. This limit is imposed in conjunction with the power derating factor
+also given in the table. The power dissipation in our earlier example is 0.432 W with a 10-nF load, 12 VDD,
+switched at 300 kHz. Thus, only one load of this size could be driven using the D or P package. The difficulties
+with heat removal limit the drive available in the D or P packages.
+The 8-pin MSOP PowerPAD (DGN) package significantly relieves this concern by offering an effective means
+of removing the heat from the semiconductor junction. As illustrated in Reference 3, the PowerPAD packages
+offer a leadframe die pad that is exposed at the base of the package. This pad is soldered to the copper on
+the PC board directly underneath the device package, reducing the θjc down to 4.7°C/W. Data is presented
+in Reference 3 to show that the power dissipation can be quadrupled in the PowerPAD configuration when
+compared to the standard packages. The PC board must be designed with thermal lands and thermal vias to
+complete the heat removal subsystem, as summarized in Reference 4 .This allows a significant improvement in
+heatsinking over that available in theDor P packages, and is shown to more than double the power capability of
+the D and P packages.
+The PowerPAD is not directly connected to any leads of the package. However, it is electrically and thermally
+connected to the substrate which is the ground of the device.
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                    Submit Document Feedback   23
+                                       Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+UCC27321, UCC27322, UCC37321, UCC37322
+SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023                                                                             www.ti.com
+
+
+12 Device and Documentation Support
+12.1 Device Support
+12.1.1 Third-Party Products Disclaimer
+TI'S PUBLICATION OF INFORMATION REGARDING THIRD-PARTY PRODUCTS OR SERVICES DOES NOT
+CONSTITUTE AN ENDORSEMENT REGARDING THE SUITABILITY OF SUCH PRODUCTS OR SERVICES
+OR A WARRANTY, REPRESENTATION OR ENDORSEMENT OF SUCH PRODUCTS OR SERVICES, EITHER
+ALONE OR IN COMBINATION WITH ANY TI PRODUCT OR SERVICE.
+12.2 Documentation Support
+12.2.1 Related Documentation
+For related documentation see the following:
+1. SEM-1400, Topic 2, A Design and Application Guide for High Speed Power MOSFET Gate Drive Circuits
+2. U-137, Practical Considerations in High PerformanceMOSFET, IGBT andMCTGateDrive Circuits, by Bill
+   Andreycak (SLUA105)
+3. Technical Brief, PowerPad Thermally Enhanced Package (SLMA002)
+4. Application Brief, PowerPAD Made Easy (SLMA004)
+5. Data Book, Power Supply Control Products, (SLUD003)
+12.3 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on
+Notifications to register and receive a weekly digest of any product information that has changed. For change
+details, review the revision history included in any revised document.
+12.4 Support Resources
+TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do
+not necessarily reflect TI's views; see TI's Terms of Use.
+12.5 Trademarks
+PowerPAD™ is a trademark of Texas Instruments.
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+12.6 Electrostatic Discharge Caution
+                This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled
+                with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+                ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may
+                be more susceptible to damage because very small parametric changes could cause the device not to meet its published
+                specifications.
+
+
+12.7 Glossary
+ TI Glossary        This glossary lists and explains terms, acronyms, and definitions.
+
+
+
+
+24    Submit Document Feedback                                                               Copyright © 2023 Texas Instruments Incorporated
+
+                                 Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                                       UCC27321, UCC27322, UCC37321, UCC37322
+www.ti.com                                                                                           SLUS504I – SEPTEMBER 2002 – REVISED NOVEMBER 2023
+
+
+
+
+13 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+
+Changes from Revision H (January 2016) to Revision I (November 2023)                                                                                           Page
+• Deleted P package from Device Information table............................................................................................. 1
+• Deleted P package from Description (continued) section...................................................................................3
+• Deleted P package from Pin Configuration and Functions section.................................................................... 5
+• Changed ESD Ratings from ±2500 V and ±1500 V to ±2000 V and ±1000 V....................................................6
+• Changed input threshold voltage values, deleted VOH output high level and VOL output low level, changed
+  output resistance high and output resistance low values and deleted Latch-up protection from Electrical
+  Characteristics.................................................................................................................................................... 7
+• Deleted P package data from Power Dissipations Ratings section....................................................................8
+• Changed Figure 7-16 .......................................................................................................................................10
+
+Changes from Revision G (May 2013) to Revision H (January 2016)                                           Page
+• Added ESD Ratings table, Feature Description section, Device Functional Modes, Application and
+  Implementation section, Power Supply Recommendations section, Layout section, Device and
+  Documentation Support section, and Mechanical, Packaging, and Orderable Information section................... 1
+
+
+Changes from Revision F (March 2012) to Revision G (May 2013)                                                                                     Page
+• Updated AGND pin description. ........................................................................................................................ 5
+• Changed minimum value for input voltage from –5 to –0.3 V in the Absolute Maximum Ratings table............. 6
+• Added CLOAD = 10 nF to Fall Time vs Supply Voltage graph........................................................................... 10
+• Changed Changed x-axis values from 1, 10, 100 to 0.1, 1, 10 in Rise Time vs Load Capacitance graph.......10
+• Changed Changed x-axis values from 1, 10, 100 to 0.1, 1, 10 in Fall Time vs Output Capacitance graph..... 10
+
+14 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most
+current data available for the designated devices. This data is subject to change without notice and revision of
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                              Submit Document Feedback               25
+                                          Product Folder Links: UCC27321 UCC27322 UCC37321 UCC37322
+                                                                                                                                      PACKAGE OPTION ADDENDUM
+
+  www.ti.com                                                                                                                                                        18-Sep-2026
+
+
+
+
+PACKAGING INFORMATION
+
+ Orderable part number   Status     Material type    Package | Pins    Package qty | Carrier    RoHS       Lead finish/         MSL rating/       Op temp (°C)   Part marking
+                            (1)          (2)                                                     (3)       Ball material        Peak reflow                           (6)
+                                                                                                                (4)                  (5)
+
+       UCC27321D         Obsolete    Production       SOIC (D) | 8               -                -           Call TI              Call TI         -40 to 105       27321
+     UCC27321DGN         Obsolete    Production     HVSSOP (DGN) | 8             -                -           Call TI              Call TI         -40 to 105       27321
+     UCC27321DGNR         Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM    -40 to 105       27321
+    UCC27321DGNR.A        Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM    -40 to 105       27321
+   UCC27321DGNRG4         Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM    -40 to 105       27321
+  UCC27321DGNRG4.A        Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM    -40 to 105       27321
+      UCC27321DR          Active     Production       SOIC (D) | 8      2500 | LARGE T&R          -           Call TI        Level-1-260C-UNLIM    -40 to 105       27321
+     UCC27321DR.A         Active     Production       SOIC (D) | 8      2500 | LARGE T&R          -           Call TI        Level-1-260C-UNLIM    -40 to 105       27321
+       UCC27321P          NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type     -40 to 105    UCC27321P
+      UCC27321P.A         NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type     -40 to 105    UCC27321P
+      UCC27321PE4         NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type     -40 to 105    UCC27321P
+       UCC27322D         Obsolete    Production       SOIC (D) | 8               -                -           Call TI              Call TI         -40 to 105       27322
+     UCC27322DGN         Obsolete    Production     HVSSOP (DGN) | 8             -                -           Call TI              Call TI         -40 to 105       27322
+     UCC27322DGNR         Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM    -40 to 105       27322
+    UCC27322DGNR.A        Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM    -40 to 105       27322
+      UCC27322DR          Active     Production       SOIC (D) | 8      2500 | LARGE T&R          -           Call TI        Level-1-260C-UNLIM    -40 to 105       27322
+     UCC27322DR.A         Active     Production       SOIC (D) | 8      2500 | LARGE T&R          -           Call TI        Level-1-260C-UNLIM    -40 to 105       27322
+     UCC27322DRG4         Active     Production       SOIC (D) | 8      2500 | LARGE T&R          -           Call TI        Level-1-260C-UNLIM    -40 to 105       27322
+       UCC27322P          NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type     -40 to 105    UCC27322P
+      UCC27322P.A         NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type     -40 to 105    UCC27322P
+      UCC27322PE4         NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type     -40 to 105    UCC27322P
+       UCC37321D         Obsolete    Production       SOIC (D) | 8               -                -           Call TI              Call TI           0 to 70        37321
+     UCC37321DGN         Obsolete    Production     HVSSOP (DGN) | 8             -                -           Call TI              Call TI           0 to 70        37321
+     UCC37321DGNR         Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM      0 to 70        37321
+    UCC37321DGNR.A        Active     Production     HVSSOP (DGN) | 8    2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM      0 to 70        37321
+      UCC37321DR          Active     Production       SOIC (D) | 8      2500 | LARGE T&R         Yes      Call TI | Nipdau   Level-1-260C-UNLIM      0 to 70        37321
+     UCC37321DR.A         Active     Production       SOIC (D) | 8      2500 | LARGE T&R         Yes         NIPDAU          Level-1-260C-UNLIM      0 to 70        37321
+       UCC37321P          NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type       0 to 70     UCC37321P
+      UCC37321P.A         NRND       Production        PDIP (P) | 8         50 | TUBE            Yes         NIPDAU           N/A for Pkg Type       0 to 70     UCC37321P
+
+
+                                                                                        Addendum-Page 1
+                                                                                                                                                                     PACKAGE OPTION ADDENDUM
+
+       www.ti.com                                                                                                                                                                                                   18-Sep-2026
+
+
+
+
+       Orderable part number          Status     Material type      Package | Pins      Package qty | Carrier       RoHS             Lead finish/               MSL rating/          Op temp (°C)               Part marking
+                                        (1)            (2)                                                            (3)            Ball material              Peak reflow                                           (6)
+                                                                                                                                          (4)                       (5)
+
+             UCC37322D               Obsolete     Production            SOIC (D) | 8               -                   -                Call TI                   Call TI                0 to 70                    37322
+           UCC37322DGN               Obsolete     Production      HVSSOP (DGN) | 8                 -                   -                Call TI                   Call TI                0 to 70                    37322
+          UCC37322DGNR                Active      Production      HVSSOP (DGN) | 8       2500 | LARGE T&R            Yes               NIPDAU            Level-1-260C-UNLIM              0 to 70                    37322
+         UCC37322DGNR.A               Active      Production      HVSSOP (DGN) | 8       2500 | LARGE T&R            Yes               NIPDAU            Level-1-260C-UNLIM              0 to 70                    37322
+        UCC37322DGNRG4                Active      Production      HVSSOP (DGN) | 8       2500 | LARGE T&R            Yes               NIPDAU            Level-1-260C-UNLIM              0 to 70                    37322
+            UCC37322DR                Active      Production            SOIC (D) | 8     2500 | LARGE T&R            Yes            Call TI | Nipdau     Level-1-260C-UNLIM              0 to 70                    37322
+           UCC37322DR.A               Active      Production            SOIC (D) | 8     2500 | LARGE T&R            Yes               NIPDAU            Level-1-260C-UNLIM              0 to 70                    37322
+             UCC37322P                NRND        Production            PDIP (P) | 8          50 | TUBE              Yes               NIPDAU              N/A for Pkg Type              0 to 70                 UCC37322P
+            UCC37322P.A               NRND        Production            PDIP (P) | 8          50 | TUBE              Yes               NIPDAU              N/A for Pkg Type              0 to 70                 UCC37322P
+
+(1)
+      Status: For more details on status, see our product life cycle.
+
+(2)
+   Material type: When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+
+(3)
+      RoHS values: Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+
+(4)
+   Lead finish/Ball material: Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+
+(5)
+  MSL rating/Peak reflow: The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+
+(6)
+      Part marking: There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+
+
+
+
+                                                                                                          Addendum-Page 2
+                                                                                                                                                                      PACKAGE OPTION ADDENDUM
+
+    www.ti.com                                                                                                                                                                            18-Sep-2026
+
+
+
+
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+
+
+OTHER QUALIFIED VERSIONS OF UCC27321, UCC27322 :
+
+• Automotive : UCC27321-Q1, UCC27322-Q1
+• Enhanced Product : UCC27322-EP
+
+NOTE: Qualified Version Definitions:
+
+        • Automotive - Q100 devices qualified for high-reliability automotive applications targeting zero defects
+        • Enhanced Product - Supports Defense, Aerospace and Medical Applications
+
+
+
+
+                                                                                                          Addendum-Page 3
+                                                                               PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                                                    10-Aug-2026
+
+
+
+TAPE AND REEL INFORMATION
+
+       REEL DIMENSIONS                                                                      TAPE DIMENSIONS
+                                                                                       K0       P1
+
+
+
+                                                                                                                      B0 W
+                                         Reel
+                                       Diameter
+                                                                                    Cavity           A0
+                                                                A0   Dimension designed to accommodate the component width
+                                                                B0   Dimension designed to accommodate the component length
+                                                                K0   Dimension designed to accommodate the component thickness
+                                                                W    Overall width of the carrier tape
+                                                                P1   Pitch between successive cavity centers
+
+
+                                        Reel Width (W1)
+                              QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+
+                                                                                                     Sprocket Holes
+
+
+                                                  Q1       Q2          Q1    Q2
+
+                                                  Q3       Q4          Q3    Q4                  User Direction of Feed
+
+
+
+                                                            Pocket Quadrants
+
+
+*All dimensions are nominal
+             Device           Package Package Pins              SPQ       Reel   Reel   A0                  B0         K0     P1     W     Pin1
+                               Type Drawing                             Diameter Width (mm)                (mm)       (mm)   (mm)   (mm) Quadrant
+                                                                          (mm) W1 (mm)
+    UCC27321DGNR              HVSSOP     DGN           8        2500        330.0        12.4        5.3    3.4       1.4    8.0    12.0    Q1
+   UCC27321DGNRG4             HVSSOP     DGN           8        2500        330.0        12.4        5.3    3.4       1.4    8.0    12.0    Q1
+      UCC27321DR               SOIC        D           8        2500        330.0        12.4        6.4    5.2       2.1    8.0    12.0    Q1
+    UCC27322DGNR              HVSSOP     DGN           8        2500        330.0        12.4        5.3    3.4       1.4    8.0    12.0    Q1
+      UCC27322DR               SOIC        D           8        2500        330.0        12.4        6.4    5.2       2.1    8.0    12.0    Q1
+    UCC37321DGNR              HVSSOP     DGN           8        2500        330.0        12.4        5.3    3.4       1.4    8.0    12.0    Q1
+      UCC37321DR               SOIC        D           8        2500        330.0        12.4        6.4    5.2       2.1    8.0    12.0    Q1
+    UCC37322DGNR              HVSSOP     DGN           8        2500        330.0        12.4        5.3    3.4       1.4    8.0    12.0    Q1
+      UCC37322DR               SOIC        D           8        2500        330.0        12.4        6.4    5.2       2.1    8.0    12.0    Q1
+
+
+
+
+                                                                      Pack Materials-Page 1
+                                                                PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                              10-Aug-2026
+
+
+
+ TAPE AND REEL BOX DIMENSIONS
+
+
+
+
+                                                               Width (mm)
+                                                                              H
+                      W
+
+
+
+
+                                                          L
+
+
+
+
+*All dimensions are nominal
+             Device           Package Type   Package Drawing   Pins         SPQ    Length (mm)   Width (mm)   Height (mm)
+     UCC27321DGNR               HVSSOP            DGN           8           2500      353.0        353.0         32.0
+   UCC27321DGNRG4               HVSSOP            DGN           8           2500      353.0        353.0         32.0
+       UCC27321DR                SOIC              D            8           2500      353.0        353.0         32.0
+     UCC27322DGNR               HVSSOP            DGN           8           2500      353.0        353.0         32.0
+       UCC27322DR                SOIC              D            8           2500      353.0        353.0         32.0
+     UCC37321DGNR               HVSSOP            DGN           8           2500      353.0        353.0         32.0
+       UCC37321DR                SOIC              D            8           2500      353.0        353.0         32.0
+     UCC37322DGNR               HVSSOP            DGN           8           2500      353.0        353.0         32.0
+       UCC37322DR                SOIC              D            8           2500      353.0        353.0         32.0
+
+
+
+
+                                                        Pack Materials-Page 2
+                                                                 PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                   10-Aug-2026
+
+
+
+TUBE
+
+       T - Tube
+        height                                                     L - Tube length
+
+
+                      W - Tube
+                       width
+
+
+         B - Alignment groove width
+
+*All dimensions are nominal
+             Device           Package Name   Package Type   Pins       SPQ     L (mm)   W (mm)   T (µm)   B (mm)
+        UCC27321P                  P            PDIP         8          50      506     13.97    11230     4.32
+      UCC27321P.A                  P            PDIP         8          50      506     13.97    11230     4.32
+      UCC27321PE4                  P            PDIP         8          50      506     13.97    11230     4.32
+        UCC27322P                  P            PDIP         8          50      506     13.97    11230     4.32
+      UCC27322P.A                  P            PDIP         8          50      506     13.97    11230     4.32
+      UCC27322PE4                  P            PDIP         8          50      506     13.97    11230     4.32
+        UCC37321P                  P            PDIP         8          50      506     13.97    11230     4.32
+      UCC37321P.A                  P            PDIP         8          50      506     13.97    11230     4.32
+        UCC37322P                  P            PDIP         8          50      506     13.97    11230     4.32
+      UCC37322P.A                  P            PDIP         8          50      506     13.97    11230     4.32
+
+
+
+
+                                                       Pack Materials-Page 3
+                                                                  GENERIC PACKAGE VIEW
+                                                                  TM
+DGN 8                                              PowerPAD            HVSSOP - 1.1 mm max height
+3 x 3, 0.65 mm pitch                                                                 SMALL OUTLINE PACKAGE
+
+
+
+
+               This image is a representation of the package family, actual package may vary.
+                             Refer to the product data sheet for package details.
+
+
+
+
+                                                                                                   4225482/B
+
+
+
+
+                                                    www.ti.com
+                                                                                                        PACKAGE OUTLINE
+                                                                                            TM
+DGN0008H                                                 SCALE 4.000
+                                                                         PowerPAD VSSOP - 1.1 mm max height
+                                                                                                                 SMALL OUTLINE PACKAGE
+
+
+
+                                                                                                                    C
+                                          5.05
+          A                                    TYP
+                                          4.75                                                                 0.1 C
+                                             PIN 1 INDEX AREA                                                                         SEATING
+                                                                                                                                      PLANE
+                                                                                         6X 0.65
+                                                                              8
+                 1
+
+
+                                                                                            2X
+       3.1
+                                                                                           1.95
+       2.9
+      NOTE 3
+
+
+                 4
+                                                                             5                  0.38
+                                                                                           8X
+                                                                                                0.25
+                                           3.1                                                   0.13   C A B
+                     B
+                                           2.9
+                                          NOTE 4
+
+
+
+
+                                                                                         0.23
+                                                                                         0.13
+
+
+
+                                       SEE DETAIL A
+
+                             (0.48) MAX                                EXPOSED THERMAL PAD
+           (0.205) MAX          NOTE 6
+           NOTE 6
+
+                 4
+                                                                              5
+
+                                                                                                    0.25
+                                                                                                    GAGE PLANE
+           1.8
+           1.1                               9                                                                                          1.1 MAX
+
+
+
+                 1                                                            8
+                                                                                                         0.7                              0.15
+                                                                                  0 -8                   0.4                              0.05
+                                                                                                                    DETAIL A
+                                                                                                                         A 20
+
+
+
+
+                                            1.71
+                                                                                                                       TYPICAL
+                                            1.01
+
+                                                                                                                                4229130/B 05/2024
+                                                                                                 PowerPAD is a trademark of Texas Instruments.
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+   per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+   exceed 0.15 mm per side.
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.25 mm per side.
+5. Reference JEDEC registration MO-187.
+6. Features may differ or may not be present.
+
+
+
+
+                                                                       www.ti.com
+                                                                                            EXAMPLE BOARD LAYOUT
+                                                                                                 TM
+DGN0008H                                                                             PowerPAD VSSOP - 1.1 mm max height
+                                                                                                                      SMALL OUTLINE PACKAGE
+
+
+
+
+                                                                     (2)
+                                                                   NOTE 10
+                             METAL COVERED
+                             BY SOLDER MASK                                  (1.71)
+                                                                             SYMM                SOLDER MASK
+                                                                                                 DEFINED PAD
+                                        8X (1.4)                                                                        (R0.05) TYP
+
+
+                                                                                                               8
+                 8X (0.45)       1
+
+                                                                                                                                   (3)
+                                                                                9                                     SYMM       NOTE 10
+
+                                                                                                                             (1.8)
+
+                        6X (0.65)                                                                                  (1.22)
+                                                                                                               5
+                                    4
+
+                         ( 0.2) TYP
+                                 VIA                                                    (0.55)                     SEE DETAILS
+
+                                                                             (4.4)
+
+                                                       LAND PATTERN EXAMPLE
+                                                          EXPOSED METAL SHOWN
+                                                               SCALE: 15X
+
+
+
+
+                   SOLDER MASK                                                          METAL UNDER                   SOLDER MASK
+                                                      METAL
+                       OPENING                                                          SOLDER MASK                   OPENING
+
+
+          EXPOSED METAL                                                                                                      EXPOSED METAL
+
+                                        0.05 MAX                                                         0.05 MIN
+                                        ALL AROUND                                                       ALL AROUND
+
+                                NON-SOLDER MASK                                                       SOLDER MASK
+                                    DEFINED                                                             DEFINED
+                                  (PREFERRED)
+                                                           SOLDER MASK DETAILS
+                                                                    15.000
+
+
+
+
+                                                                                                                                4229130/B 05/2024
+NOTES: (continued)
+
+ 7. Publication IPC-7351 may have alternate designs.
+ 8. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 9. Vias are optional depending on application, refer to device data sheet. If any vias are implemented, refer to their locations shown
+    on this view. It is recommended that vias under paste be filled, plugged or tented.
+10. Size of metal pad may vary due to creepage requirement.
+
+
+
+
+                                                                               www.ti.com
+                                                                              EXAMPLE STENCIL DESIGN
+                                                                                     TM
+DGN0008H                                                            PowerPAD VSSOP - 1.1 mm max height
+                                                                                                         SMALL OUTLINE PACKAGE
+
+
+
+
+                                                                 (1.71)
+                                                               BASED ON
+                                                              0.125 THICK
+                                                                STENCIL
+                                                                SYMM
+
+                                       8X (1.4)                                                             (R0.05) TYP
+
+                                                                                                     8
+                   8X (0.45)       1
+
+
+                                                                                                                     (1.8)
+                                                                                                         SYMM
+                                                                                                                  BASED ON
+                                                                                                                 0.125 THICK
+                                                                                                                   STENCIL
+                       6X (0.65)
+
+                                   4                                                                 5
+
+
+                 METAL COVERED                                                                      SEE TABLE FOR
+                 BY SOLDER MASK                                                                     DIFFERENT OPENINGS
+                                                                 (4.4)                              FOR OTHER STENCIL
+                                                                                                    THICKNESSES
+
+
+                                                   SOLDER PASTE EXAMPLE
+                                                        EXPOSED PAD 9:
+                                            100% PRINTED SOLDER COVERAGE BY AREA
+                                                          SCALE: 15X
+
+
+
+
+                                                   STENCIL         SOLDER STENCIL
+                                                  THICKNESS           OPENING
+                                                      0.1              1.91 X 2.01
+                                                    0.125         1.71 X 1.80 (SHOWN)
+                                                     0.15              1.56 X 1.64
+                                                    0.175              1.45 X 1.52
+
+
+
+
+                                                                                                                  4229130/B 05/2024
+NOTES: (continued)
+
+11. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.
+12. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+                                                                 www.ti.com
+                                                                                                                  PACKAGE OUTLINE
+D0008A                                                           SCALE 2.800
+                                                                                                          SOIC - 1.75 mm max height
+                                                                                                              SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+                                                                                                                                        C
+
+                                                                                                                     SEATING PLANE
+                                      .228-.244 TYP
+                                      [5.80-6.19]
+                                                                                                                             .004 [0.1] C
+         A                                    PIN 1 ID AREA
+                                                                                           6X .050
+                                                                                              [1.27]
+                                                                               8
+                   1
+
+
+
+
+     .189-.197                                                                              2X
+     [4.81-5.00]                                                                          .150
+       NOTE 3                                                                             [3.81]
+
+
+                                                                                                               4X (0 -15 )
+
+                   4
+                                                                               5
+                                                                                           8X .012-.020
+                       B                .150-.157                                             [0.31-0.51]
+                                                                                                                                    .069 MAX
+                                        [3.81-3.98]                                       .010 [0.25]     C A B                      [1.75]
+                                          NOTE 4
+
+
+
+
+                                                                                            .005-.010 TYP
+                                                                                            [0.13-0.25]
+
+
+                                        4X (0 -15 )
+
+                       SEE DETAIL A
+                                                                                     .010
+                                                                                     [0.25]
+
+
+
+
+                                                                                                                                        .004-.010
+                                                                                   0 -8                                                 [0.11-0.25]
+                                                                                          .016-.050
+                                                                                          [0.41-1.27]                        DETAIL A
+                                                                                                            (.041)           TYPICAL
+                                                                                                            [1.04]
+
+                                                                                                                                     4214825/C 02/2019
+
+NOTES:
+
+1. Linear dimensions are in inches [millimeters]. Dimensions in parenthesis are for reference only. Controlling dimensions are in inches.
+   Dimensioning and tolerancing per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+   exceed .006 [0.15] per side.
+4. This dimension does not include interlead flash.
+5. Reference JEDEC registration MS-012, variation AA.
+
+
+
+
+                                                                        www.ti.com
+                                                                              EXAMPLE BOARD LAYOUT
+D0008A                                                                                  SOIC - 1.75 mm max height
+                                                                                           SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+                                8X (.061 )
+                                    [1.55]
+                                                               SYMM                        SEE
+                                                                                           DETAILS
+                                             1
+                                                                                       8
+
+                             8X (.024)
+                                 [0.6]                                                      SYMM
+
+
+
+                                                                                             (R.002 ) TYP
+                                                                                               [0.05]
+                                                                                       5
+                                             4
+                         6X (.050 )
+                             [1.27]
+                                                               (.213)
+                                                                [5.4]
+
+                                                   LAND PATTERN EXAMPLE
+                                                     EXPOSED METAL SHOWN
+                                                           SCALE:8X
+
+
+
+
+                                                 SOLDER MASK            SOLDER MASK
+                     METAL                                                                                  METAL UNDER
+                                                 OPENING                    OPENING                         SOLDER MASK
+
+
+           EXPOSED
+             METAL                                                      EXPOSED
+                                                                          METAL
+                                      .0028 MAX                                              .0028 MIN
+                                      [0.07]                                                 [0.07]
+                                      ALL AROUND                                             ALL AROUND
+
+                           NON SOLDER MASK                                                 SOLDER MASK
+                               DEFINED                                                       DEFINED
+
+
+                                                      SOLDER MASK DETAILS
+
+
+
+
+                                                                                                               4214825/C 02/2019
+
+NOTES: (continued)
+
+6. Publication IPC-7351 may have alternate designs.
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+
+
+
+
+                                                                www.ti.com
+                                                                              EXAMPLE STENCIL DESIGN
+D0008A                                                                                   SOIC - 1.75 mm max height
+                                                                                            SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+                                   8X (.061 )
+                                       [1.55]                       SYMM
+
+                                                 1
+                                                                                             8
+
+                                 8X (.024)
+                                     [0.6]                                                       SYMM
+
+
+
+
+                                                                                                   (R.002 ) TYP
+                                                                                             5       [0.05]
+                                                 4
+                             6X (.050 )
+                                 [1.27]
+                                                                    (.213)
+                                                                     [5.4]
+
+
+                                                       SOLDER PASTE EXAMPLE
+                                                BASED ON .005 INCH [0.125 MM] THICK STENCIL
+                                                                 SCALE:8X
+
+
+
+
+                                                                                                                  4214825/C 02/2019
+
+NOTES: (continued)
+
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+   design recommendations.
+9. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+                                                                 www.ti.com
+                                         IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+
+                                                Copyright © 2026, Texas Instruments Incorporated
+                                                                Last updated 10/2025
+

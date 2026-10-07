@@ -1,0 +1,984 @@
+                                                                                                            Data Sheet
+
+
+HFBR-0500ETZ Series
+Versatile Link Fiber-Optic Connection
+
+
+
+
+Description                                                      Features
+The Versatile Link series is a complete family of fiber-optic       Extended temperature range: –40 to +85°C
+link components for applications that require a low-cost            RoHS compliant
+solution. The HFBR-0500ETZ series includes transmitters,            Low-cost fiber-optic components
+receivers, connectors, and cables that are specified for easy       Enhanced digital links: DC to 5 Mbaud
+design. This series of components is ideal for solving              Link distance up to 43m at 1 Mbaud and 20m at
+problems with voltage isolation/insulation, EMI/RFI                  5 Mbaud
+immunity, or data security. The optical link design is              Low-current link: 6-mA peak supply current
+simplified by the logic-compatible receivers and complete
+                                                                    Horizontal and vertical mounting
+specifications for each component. The key optical and
+                                                                    Interlocking feature
+electrical parameters of links configured with the HFBR-
+                                                                    High noise immunity
+0500ETZ family are fully guaranteed from –40°C to 85°C.
+                                                                    Easy connectoring: simplex, duplex, and latching
+A wide variety of package configurations and connectors              connectors
+provide the designer with numerous mechanical solutions to          Flame retardant
+meet application requirements. The transmitter and receiver         Transmitters with a 660-nm red LED for easy visibility
+components have been designed for use in high-volume/               Compatible with standard TTL circuitry
+low-cost assembly processes such as auto-insertion and
+wave soldering.                                                  Applications
+Transmitters incorporate a 660-nm LED. Receivers include            Industrial drives/frequency inverters
+a monolithic DC-coupled, digital IC with an open collector          Renewable Energy (wind turbines, solar PV farms)
+Schottky output transistor. An internal pull-up resistor is          power electronics
+available for use in the HFBR-25X1ETZ and HFBR-                     Reduction of lightning/voltage transient susceptibility
+25X2ETZ receivers. A shield has been integrated into the            Motor controller triggering
+receiver IC to provide additional, localized noise immunity.
+                                                                    Data communications and local area networks
+Internal optics have been optimized for use with 1-mm               Electromagnetic compatibility (EMC) for regulated
+diameter polymer optical fibers. Versatile Link specifications       systems such as FCC, VDE, and CSA.
+incorporate all connector interface losses. Therefore, optical      Tempest-secure data processing equipment
+calculations for common link applications are simplified.           Isolation in test and measurement instruments
+                                                                    Error-free signaling for industrial and manufacturing
+                                                                     equipment
+                                                                    Automotive communications and control networks
+                                                                    Noise- immune communication in audio and video
+                                                                     equipment
+
+
+Broadcom                                                                                                             AV02-3283EN
+                                                                                                                     May 31, 2023
+HFBR-0500ETZ Series Data Sheet                                                                   Versatile Link Fiber-Optic Connection
+
+
+HFBR-0500ETZ Series Part Number Guide
+                                         HFBR-X5XXETZ
+
+ 1 = Transmitter
+ 2 = Receiver                                              ET = extended temperature range
+                                                           Z = RoHS compliant
+
+ 5 = 660 nm Transmitter and
+    Receiver Products
+                                                           1 = 5 MBd High Performance Link
+                                                           2 = 1 MBd High Performance Link
+ 2 = Horizontal Package                                    6 = 155 MBd Receiver
+ 3 = Vertical Package                                      7 = 155 MBd Transmitter
+ 4 = 30° Tilted Package
+
+
+Available Option                                     Part Number
+Horizontal Package               HFBR-x521ETZ             HFBR-x522ETZ
+Vertical Package                 HFBR-x531ETZ             HFBR-x532ETZ
+30° Tilted Package               HFBR-x541ETZ             HFBR-x542ETZ
+
+
+Link Selection Guide
+(Links are specified from –40°C to 85°C, for polymer optical fiber unless specified.)
+
+Signal Rate                      Distance (m) 25°C         Distance (m)           Transmitter       Receiver
+1 Mbaud                          67                        43                     HFBR-15x2ETZ      HFBR-25x2ETZ
+5 Mbaud                          38                        20                     HFBR-15x1ETZ      HFBR-25x1ETZ
+
+
+
+
+Broadcom                                                                                                               AV02-3283EN
+                                                                                                                                 2
+HFBR-0500ETZ Series Data Sheet                                                                     Versatile Link Fiber-Optic Connection
+
+
+Application Literature                                          Handling
+Versatile Link Family: Application Note 1035 (AV02-0730EN).     Versatile Link components are auto-insertable. When wave
+                                                                soldering is performed with Versatile Link components, the
+                                                                optical port plug should be left in to prevent contamination of
+Package and Handling Information                                the port. Do not use reflow solder processes (for example,
+                                                                infrared reflow or vapor-phase reflow). Nonhalogenated
+The compact Versatile Link package is made of a flame-
+                                                                water-soluble fluxes (for example, 0% chloride), not rosin-
+retardant VALOX UL 94 V-0 material (UL file # E121562)
+                                                                based fluxes, are recommended for use with Versatile Link
+and uses the same pad layout as a standard, 8-pin dual-
+                                                                components.
+inline package. Vertical and horizontal mountable parts are
+available. These low-profile Versatile Link packages are        Versatile Link components are moisture sensitive devices
+stackable and are enclosed to provide a dust-resistant seal.    and are shipped in a moisture sealed bag. If the
+Snap-action simplex, simplex latching, duplex, and duplex       components are exposed to air for an extended period of
+latching connectors are offered with simplex or duplex          time, they may require a baking step before the soldering
+cables.                                                         process. Refer to the special labeling on the shipping tube
+                                                                for details.
+Package Orientation
+Performance and pinouts for the vertical and horizontal
+                                                                Recommended Chemicals for
+packages are identical. To provide additional attachment        Cleaning and Degreasing
+support for the vertical Versatile Link housing, the designer      Alcohols: methyl, isopropyl, isobutyl
+has the option of using a self-tapping screw through a             Aliphatics: hexane, heptane
+printed circuit board into a mounting hole at the bottom of
+                                                                   Other: soap solution, naphtha
+the package. For most applications, this option is not
+necessary.                                                      Do not use partially halogenated hydrocarbons, such as
+                                                                1,1,1 trichloroethane, or ketones, such as MEK, acetone,
+                                                                chloroform, ethyl acetate, methylene dichloride, phenol,
+Package Housing Color                                           methylene chloride, or N-methylpyrolldone. Also, Broadcom
+                                                                does not recommend the use of cleaners that use
+Versatile Link components and simplex connectors are color
+                                                                halogenated hydrocarbons because of their potential
+coded to eliminate confusion when making connections.
+                                                                environmental harm.
+Receivers are blue, and transmitters are gray.
+
+
+
+
+Broadcom                                                                                                                 AV02-3283EN
+                                                                                                                                   3
+HFBR-0500ETZ Series Data Sheet                                                                                                                                                                                                                      Versatile Link Fiber-Optic Connection
+
+
+Mechanical Dimensions
+Horizontal Modules                                                                                                                                                  Vertical Modules
+                                                                                                                                                                                                                                                            3.6
+ [0.08]
+
+
+
+
+                                                                                                                                                                                                                                                          [0.14]
+                                                                                                                                                                                                                                         1
+    2
+
+
+
+
+                                                                                                                                                                                                                                      [0.04]
+
+
+
+
+                                                                                                                                                                                                                                      [0.20]
+                                                                                                                                                                                                                                        5.1
+ [0.40]
+
+
+
+
+                                                                      [0.26]
+
+
+
+
+                                                                                                                                                                                                                             [0.40]
+  10.2
+
+
+
+
+                                                                                                                                                                                                                              10.2
+                                                                        6.5
+
+
+
+
+                                                                                                                                                                                                                                                            18.1
+                                                                                                                                                                                                                                                           [0.71]
+                                        18.8
+                                       [0.74]
+                                                                                                                                                                                                          6.5                                                        7.6
+                                                                                                                                          5.1                                                            [0.26]                                                     [0.30]
+                                                                                                                                        [0.20]                              2
+                                                                                                                                                                         [0.08]
+
+
+
+
+                                                                                                                                                                                                                                                                                      1.7
+                                                                       [0.30]
+
+
+
+
+                                                                                                                                                                                                                                                                                     [0.07]
+                                                                        7.6
+ [0.03]
+   0.6
+
+
+
+
+                                                                                                                                                                                                                                  [0.75]
+                                                                                                                                            [0.17]
+
+
+
+
+                                                                                                                                                                                                                                   18.9
+                                                                                                                                             4.2
+
+
+                                                                                                                                                                                                                                                                                       0.6
+                                                                                                                                                                                                                                                                                     [0.02]
+                                                                                                                                           1.3
+                                                                                           3.8[0.15]MAX.
+
+
+
+
+                                                                                                                                         [0.05]
+                                                                                                     3.6[0.14]MIN.
+
+
+
+
+                 7.7
+               [0.30]
+                                                                                                                       0.5               2.54                                                                        1.3
+                                                                                                                                       [0.100]                                                                      [0.05]                        7.62
+                                                                                                                                                                    3.3 [0.13] MAX
+                                                                                                                      [0.02]
+                                                                                                                                                                               2.8 [0.11] MIN
+                                                                                                                                                                                                                                                [0.300]
+                                                               .6
+                                                             0 3]                                                                                                                               0.5                2.54
+                                                               0.0                                                                                                                              [0.02]            [0.100]
+                                                            [                                                                                                                                                                                                                   0.6 3]
+                                                                                                                                                                                                                                                                                    0
+                                                                                                                                                                                                                                                                                   0.
+                                                                                                                                                                                                                                                                             [
+
+
+                                                                                              NOTES:
+
+
+
+
+                                                                                                                                                                                                                                                                                  [0.15]
+                                                                                                                                                                                                                                                                                    3.8
+                                                                                              1) Dimensions: mm [in]                                                NOTES:
+                                                                                                                                                                    1) Dimensions: mm [in]                                                 2)
+                                                          1.7                                                                                                       2) Optional mounting hole for #2 self-tapping-screw
+      2.8
+     [0.11]                                              [0.07]                                                                                                           (metric equivalent M2.2 x 0.45)
+
+
+                                                                                                                                                                                                                                                            3.8
+                                                                                                                                                                                                                                                           [0.15]
+
+
+
+
+30° Tilted Modules
+                                                   [0.08]
+                                                      2
+
+
+
+
+           A
+                                                   [0.40]
+
+
+
+
+                                                                                                                         [0.26]
+                                                    10.2
+
+
+
+
+                                                                                                                           6.5
+
+
+
+
+                        30°
+
+                           0.4
+                         [0.02]
+
+
+
+
+                                                                            .7
+                                                                         18 4]
+                                                                             7
+                                                                          [0.
+                                                                                                                        [0.60]
+                                                                                                                         15.2
+                                                [0.26]
+
+
+
+
+                                                                                 [0.03]
+                                                  6.6
+
+
+
+
+                                                                                   0.6
+
+
+
+
+                                                                                                                                                            0.7
+                                                                                                                        [0.18]
+                                                                                 [0.18]
+
+
+
+
+                                                                                                                         4.6
+                                                                                   4.6
+
+
+
+
+                                                                  A                                                                                        [0.03]
+
+                                                                    1.3                                                1.1
+   2.54                         0.5                               [0.05]                                             [0.05]                    7.62
+ [0.100]                      [0.02]                                                                                                         [0.300]
+
+                                                                                   8.7                                 2.2
+                                                                                  [0.34]                             [0.09]
+
+
+                                                                                      10.1
+                                                                                     [0.40]
+                                                                                                                                  NOTES:
+                                                                                                                                  1) Dimensions: mm [in]
+                                                                                  19.3
+                                                                                 [0.76]
+
+
+
+
+Broadcom                                                                                                                                                                                                                                                                                      AV02-3283EN
+                                                                                                                                                                                                                                                                                                        4
+HFBR-0500ETZ Series Data Sheet                                                                                                                 Versatile Link Fiber-Optic Connection
+
+
+Versatile Link Printed Board Layout Dimensions
+Horizontal Module                                                                       Vertical Modules
+                                  7.62                                                                                  7.62
+                                 [0.300]                                                                              [0.300]
+
+                2.54                                                                                  2.54
+              [0.100]                                                                                [0.100]
+                                                                    1 ]
+                                                                           4
+                                                                      0.0
+                                                                   [
+                                                                                               1
+                                                                                         [
+                                                                                              0.0
+                        4         3       2       1                                                 4]
+                                                                                                                                                      2.25 [0.09] clearance hole
+                                                                                                                                                      for optional vertical mount
+                                                          [0.30]
+                                                            7.7
+
+
+
+
+                                                                                                                                                      self-tapping-screw #2
+                                                                                          3.8
+                                                                                         [0.15]                   4   3    2    1
+
+
+
+
+                                                                                                                                     [0.300]
+                                                                                                                                      7.62
+                        5                         8
+                                                                       PCB EDGE
+                                                                                                                  5             8
+                                                           1.9 MIN.
+                                                          [0.07]                                                                                 PCB EDGE
+                                                                                                           3.8
+                                                                                                         [0.15]
+                                                                                                                                     1.7
+                                                                                                                                    [0.07] MIN.            NOTES:
+                                                               NOTES:
+                                                               1) Dimensions: mm [in]                                                                      1) Dimensions: mm [in]
+
+                                                                                                                  Footprint - TOP VIEW
+               Footprint - TOP VIEW
+
+
+30° Tilted Modules
+                             7.62
+                            [0.300]
+
+                                 2.54
+                                [0.100]
+
+
+
+    1
+ [0
+       .04]
+
+
+                   4        3         2       1
+                                                      [0.34]
+                                                        8.7
+
+
+
+
+                   5                          8
+
+
+                                                               PCB EDGE
+                                                        2.2 MIN.
+                                                      [0.09]
+
+
+
+                                                        NOTES:
+                                                        1) Dimensions: mm [in]
+
+       Footprint - TOP VIEW
+
+
+
+Broadcom                                                                                                                                                             AV02-3283EN
+                                                                                                                                                                               5
+HFBR-0500ETZ Series Data Sheet                                                                   Versatile Link Fiber-Optic Connection
+
+
+Interlocked (Stacked) Assemblies
+Horizontal packages may be stacked by placing units with pins facing upward. Initially engage the interlocking mechanism
+by sliding the L bracket body from above into the L slot body of the lower package. Use a straight edge, such as a ruler, to
+bring all stacked units into uniform alignment. This technique prevents potential harm that could occur to fingers and hands
+of assemblers from the package pins. Stacked horizontal packages can be disengaged if necessary. Repeated stacking and
+unstacking causes no damage to individual units.
+
+To stack vertical packages, hold one unit in each hand, with the pins facing away and the optical ports on the bottom. Slide
+the L bracket unit into the L slot unit. The straight edge used for horizontal package alignment is not needed.
+
+It is recommended to interlock (stack) no more than four compatible housings together.
+
+Figure 1: Interlocked (Stacked) Horizontal, Vertical, or 30° Tilted Packages
+
+Stacking Horizontal Modules                                       Stacking Vertical Modules
+
+
+
+
+Stacking 30° Tilted Modules
+
+
+
+
+Broadcom                                                                                                               AV02-3283EN
+                                                                                                                                 6
+HFBR-0500ETZ Series Data Sheet                                                                                  Versatile Link Fiber-Optic Connection
+
+
+5-Mbaud Link (HFBR-15X1ETZ/25X1ETZ)
+System performance: –40°C to 85°C, unless otherwise specified.
+
+                      Parameter                  Symbol       Min.       Typ.   Max.   Units              Conditions                     Ref.
+High-Performance Data Rate                          —          dc        —        5    Mbaud       BER ≤ 10–9, PRBS: 27–1                 —
+5 Mbaud
+                 Link Distance                       d         17        —        —      m               IFdc = 60 mA                 Note a, b
+                 (Standard Cable)                              33                        m            IFdc = 60 mA, 25°C
+                      Link Distance                  d         20        —        —      m               IFdc = 60 mA                 Note a, b
+                      (Improved Cable)                         38        —        —      m            IFdc = 60 mA, 25°C
+                      Propagation Delay            tPLH         —        90      140     ns         RL = 560Ω, CL = 30 pF           Figures 3, 6
+                                                   tPHL         —        50      140     ns          Fiber length = 0.5m             Note b, c, d
+                                                                                                    –21.6 ≤ PR ≤ –9.5 dBm
+                      Pulse Width Distortion        tD          —        40       —      ns              PR = –15 dBm               Figures 3, 5
+                      tPLH-tPHL                                                                     RL = 560Ω, CL = 30 pF               Note b
+    a. The estimated typical link life expectancy at 40°C exceeds 10 years at 60 mA.
+    b. Optical link performance is guaranteed only with the HFBR-15x1ETZ transmitter and the HFBR-25x1ETZ receiver.
+    c. The propagation delay for one meter of cable is typically 5 ns.
+    d. Typical propagation delay is measured at PR = –15 dBm.
+
+
+Figure 2: Typical 5-Mbaud Interface Circuit
+
+
+
+
+Figure 3: 5-Mbaud Propagation Delay Test Circuit
+
+
+
+
+Broadcom                                                                                                                              AV02-3283EN
+                                                                                                                                                7
+HFBR-0500ETZ Series Data Sheet                                                                                                                                        Versatile Link Fiber-Optic Connection
+
+
+Figure 4: Propagation Delay Test Waveforms
+
+
+
+
+Figure 5: Typical Link Pulse Width Distortion vs. Optical Power                                         Figure 6: Typical Link Propagation Delay vs. Optical Power
+
+                                    70                                                                                        100
+ tD - PULSE WIDTH DISTORTION - ns
+
+
+
+
+                                    60
+                                                                                                         tP - PROPAGATION DELAY - ns
+                                                                                                                                       80
+                                    50
+
+                                    40                                                                                                 60
+
+                                    30                                                                                                 40
+                                    20
+                                                                                  X5X1ETZ -40° C
+                                                                                  X5X1ETZ 25° C                                        20                                          tPLH X5X1ETZ
+                                    10
+                                                                                  X5X1ETZ 85° C                                                                                    tPHL X5X1ETZ
+                                     0                                                                                                  0
+                                         -27   -24    -21      -18      -15     -12     -9         -6                                    -27   -24   -21       -18     -15      -12      -9       -6
+                                                     PR - INPUT OPTICAL POWER - dBm                                                                  PR - INPUT OPTICAL POWER - dBm
+
+
+
+
+Broadcom                                                                                                                                                                                      AV02-3283EN
+                                                                                                                                                                                                        8
+HFBR-0500ETZ Series Data Sheet                                                                                     Versatile Link Fiber-Optic Connection
+
+
+HFBR-15X1ETZ Transmitter
+                                      8 GROUND
+                                                                             Pin No.                           Function
+            1
+   ANODE
+                                                                             1                                 Anode
+            2
+CATHODE                                                                      2                                 Cathode
+ GROUND     3                                                                3                                 Ground
+            4                                                                4                                 Ground
+ GROUND
+                                                                             5                                 Ground
+                                      5 GROUND                               8                                 Ground
+
+
+                                                                             NOTE:     Pins 5 and 8 are for mounting and retaining
+                                                                                       purposes only. Do not electrically connect these
+                                                                                       pins.
+
+
+Absolute Maximum Ratings
+
+Parameter                                                            Symbol            Min.          Max.          Units            Reference
+Storage Temperature                                                     TS              –40           +85            °C                   —
+Operating Temperature                                                   TA              –40           +85            °C                   —
+Lead Soldering Cycle                              Temperature           —                —            260            °C               Note a, b
+                                                  Time                  —                —            10            sec
+Forward Input Current                                                  IFPK              —           1000           mA                Note c, d
+                                                                       IFdc              —            80                                  —
+Reverse Input Voltage                                                  VBR               —             5             V                    —
+    a. 1.6 mm below the seating plane. To guard against solder process fluctuations, the recommended nominal soldering time is 5 seconds.
+    b. The moisture sensitivity level is MSL-3.
+    c. The recommended operating range is between 10 mA and 750 mA.
+    d. 1-μs pulse, 20-μs period.
+
+
+NOTE:      All HFBR-15XXETZ LED transmitters are classified as IEC 825-1 Accessible Emission Limit (AEL) Class 1 based
+           upon the proposed draft that went into effect on January 1, 1997. AEL Class 1 LED devices are considered eye
+           safe. Contact your local Broadcom sales representative for more information.
+
+
+
+
+Broadcom                                                                                                                                 AV02-3283EN
+                                                                                                                                                   9
+HFBR-0500ETZ Series Data Sheet                                                                                                                                                        Versatile Link Fiber-Optic Connection
+
+
+Transmitter Electrical/Optical Characteristics
+–40°C to 85°C unless otherwise specified.
+
+Parameter                                                                          Symbol         Min.      Typ.                                         Max.      Units           Conditions                    Ref.
+Transmitter Output Optical Power                                                     PT           –16.8                   —                              –7.1      dBm            IFdc = 60 mA              Notes a, b
+                                                                                                  –14.3                   —                              –8.0      dBm         IFdc = 60 mA, 25°C                 —
+Output Optical Power Temperature Coefficient                                       PT/T          —       –0.85                                          —        %/°C                 —                         —
+Peak Emission Wavelength                                                             PK           —            660                                       —         nm                  —                         —
+Forward Voltage                                                                      VF           1.43      1.67                                         2.05        V            IFdc = 60 mA                    —
+Forward Voltage Temperature Coefficient                                            VF/T          —       –1.37                                          —       mV/°C                 —                    Figure 7
+Effective Diameter                                                                    D            —                             1                        —         mm                  —                         —
+Reverse Input Breakdown Voltage                                                     VBR            5.0       11.0                                         —          V            IFdc = 10 μA,                   —
+                                                                                                                                                                                    TA = 25°C
+Diode Capacitance                                                                    CO            —                     86                               —         pF         VF = 0V, f = 1 MHz                 —
+Rise Time                                                                             tr           —                     20                               —         ns            10% to 90%,                    Note c
+Fall Time                                                                             tf           —                     20                               —         ns             IF = 60 mA
+                            a. Optical power is measured at the end of 0.5m of 1-mm diameter POF (NA = 0.5) with a large area detector.
+                            b. Optical power, P (dBm) = 10 Log [P(μW)/1000 μW].
+                            c. Rise and fall times are measured with a voltage pulse driving the transmitter driver IC (75451). A wide-bandwidth optical-to-electrical
+                               waveform analyzer, terminated to a 50Ω input of a wide-bandwidth oscilloscope, is used for this response time measurement.
+
+
+
+
+Figure 7: Typical Forward Voltage vs. Drive Current                                                       Figure 8: Normalized Typical Output Power vs. Drive Current
+
+                             1.8                                                                                                                5
+                                                                                                           PT - NORMALIZED OUTPUT POWER - dB
+
+
+
+
+                            1.75
+                                                                                                                                                0
+ VF - VORWARD VOLTAGE - V
+
+
+
+
+                             1.7
+                            1.65                                                                                                                -5
+                             1.6
+                            1.55                                                                                                               -10
+
+                             1.5                                                   -40° C                                                                                                               -40° C
+                                                                                    25° C                                                      -15                                                       25° C
+                            1.45
+                                                                                    85° C                                                                                                                85° C
+                             1.4                                                                                                               -20
+                                   1                         10                             100                                                      1                            10                             100
+                                           IFdc - TRANSMITTER DRIVE CURRENT (mA)                                                                                IFdc - TRANSMITTER DRIVE CURRENT (mA)
+
+
+
+
+Broadcom                                                                                                                                                                                                     AV02-3283EN
+                                                                                                                                                                                                                      10
+HFBR-0500ETZ Series Data Sheet                                                                                             Versatile Link Fiber-Optic Connection
+
+
+HFBR-25X1ETZ Receiver
+ DO NOT CONNECT             5
+                                                                                Pin No.                               Function
+                                        1000 Ω             RL
+                                                      4                         1                                     VO
+                                                           VCC
+                                                      3                         2                                     Ground
+                                                      2
+                                                           GROUND               3                                     VCC
+                                                           VO                   4                                     RL
+                                                      1
+ DO NOT CONNECT             8                                                   5                                     Ground
+                                                                                8                                     Ground
+
+
+                                                                               NOTE:        Pins 5 and 8 are for mounting and retaining
+                                                                                            purposes only. Do not electrically connect these
+                                                                                            pins.
+
+Absolute Maximum Ratings
+
+Parameter                                                                  Symbol             Min.           Max.           Units            Reference
+Storage Temperature                                                            TS              –40           +85              °C                  —
+Operating Temperature                                                          TA              –40           +85              °C                  —
+Lead Soldering Cycle                                Temperature                —               —             260              °C              Note a, b
+                                                    Time                       —               —              10             sec
+Supply Voltage                                                                VCC             –0.5             7               V                Note c
+Output Collector Current                                                      IOAV             —              25             mA                   —
+Output Collector Power Dissipation                                            POD              —              40             mW                   —
+Output Voltage                                                                VO              –0.5            18               V                  —
+Pull-Up Voltage                                                                VP              –5            VCC               V                  —
+Fan-Out (TTL)                                                                  N               —               5              —                   —
+    a. 1.6 mm below the seating plane. To guard against solder process fluctuations, the recommended nominal soldering time is 5 seconds.
+    b. Moisture sensitivity level is MSL-3.
+    c. It is essential that a 0.1-μF bypass capacitor be connected from pin 2 to pin 3 of the receiver. The total lead length between both ends of the
+       capacitor and the pins should not exceed 20 mm.
+
+
+
+
+Broadcom                                                                                                                                         AV02-3283EN
+                                                                                                                                                           11
+HFBR-0500ETZ Series Data Sheet                                                                                        Versatile Link Fiber-Optic Connection
+
+
+Receiver Electrical/Optical Characteristics
+–40°C to 85°C, 4.75V ≤ VCC ≤ 5.25V, unless otherwise specified.
+
+Parameter                                         Symbol        Min.        Typ.        Max.      Units           Conditions                  Ref.
+Input Optical Power                                 PR(L)       –21.6        —          –9.5       dBm            VOL = 0.5V            Notes a, b, c, d
+Level for Logic “0”                                                                                               IOL = 8 mA
+                                                                –21.6        —          –8.7                      VOL = 0.5V
+                                                                                                               IOL = 8 mA, 25°C
+Input Optical Power                                PR(H)         —           —          –43        dBm           VOL = 5.25V               Notes a, d
+Level for Logic “1”                                                                                              IOH ≤ 250 µA
+High Level Output Current                           IOH          —            5         250         μA         VO = 18V, PR = 0            Notes d, e
+Low Level Output Voltage                            VOL          —           0.4         0.5         V            IOL = 8 mA,              Notes d, e
+                                                                                                                 PR = PR(L)MIN
+High Level Supply Current                           ICCH         —           3.5         6.3        mA           VCC = 5.25V,              Notes d, e
+                                                                                                                     PR = 0
+Low Level Supply Current                            ICCL         —           6.2         10         mA           VCC = 5.25V,              Notes d, e
+                                                                                                               PR = –12.5 dBm
+Effective Diameter                                   D           —            1          —         mm                  —                       —
+Internal Pull-Up Resistor                            RL          680        1000        1700        Ω                  —                       —
+    a. Optical flux, P (dBm) = 10 Log [P(μW)/1000 μW].
+    b. Optical power is measured at the end of 1-mm diameter POF (NA = 0.5) with a large area detector.
+    c. Pulsed LED operation at IF > 80 mA will cause increased link tPLH propagation delay time. This extended tPLH time contributes to increased
+       pulse width distortion of the receiver output signal.
+    d. Guaranteed only if the optical input signal to the receiver is generated by HFBR-15x1ETZ, with ideal alignment to the photodiode using 1-mm
+       POF (NA = 0.5).
+    e. RL is open.
+
+
+
+
+Broadcom                                                                                                                                    AV02-3283EN
+                                                                                                                                                     12
+HFBR-0500ETZ Series Data Sheet                                                                                             Versatile Link Fiber-Optic Connection
+
+
+1-Mbaud Link (High-Performance HFBR-15X2ETZ/25X2ETZ)
+System performance under the recommended operating conditions, unless otherwise specified.
+
+                        Parameter                  Symbol       Min.     Typ. Max.       Units                 Conditions                          Ref.
+High Performance                 Data Rate             —         dc       —       1     Mbaud          BER ≤ 10–9, PRBS: 27–1                       —
+1 Mbaud                     Link Distance              d         37       —       —        m                  IFdc = 60 mA                  Notes a, b, c, d
+                          (Standard Cable)                       58       —       —        m               IFdc = 60 mA, 25°C
+                            Link Distance              d         43       —       —        m                  IFdc = 60 mA                   Notes a, b, c, d
+                          (Improved Cable)                       67       —       —        m               IFdc = 60 mA, 25°C
+                          Propagation Delay           tPLH       —       100     250       ns            RL = 560Ω, CL = 30 pF              Figures 10, 12
+                                                      tPHL               80      140       ns                 I = 0.5 meter                   Notes c, d, e
+                                                                                                             PR = –24 dBm
+                        Pulse Width Distortion         tD        —       20       —        ns                PR = –24 dBm                   Figures 10, 11
+                              tPLH-tPHL                                                                 RL = 560Ω, CL = 30 pF                  Notes c, d
+    a. For IFPK > 80 mA, the duty factor must be such as to keep IFdc ≤ 80 mA. In addition, for IFPK > 80 mA, the following rules for pulse width apply:
+       IFPK ≤ 160 mA: Pulse width ≤ 1 ms
+       IFPK > 160 mA: Pulse width ≤ 1 μs, period ≥ 20 μs
+    b. The estimated typical link life expectancy at 40°C exceeds 10 years at 60 mA.
+    c. Pulsed LED operation at IFPK > 80 mA will cause increased link tPLH propagation delay time. This extended tPLH time contributes to increased
+       pulse width distortion of the receiver output signal.
+    d. Optical link performance is guaranteed only with the HFBR-15x2ETZ transmitter and the HFBR-25x2ETZ receiver.
+    e. The propagation delay for one meter of cable is typically 5 ns.
+
+
+Figure 9: Required 1-Mbaud Interface Circuit
+
+
+
+
+NOTE:      The HFBR-25X2ETZ receiver cannot be overdriven when using the required interface circuit shown in Figure 9.
+
+
+
+
+Broadcom                                                                                                                                         AV02-3283EN
+                                                                                                                                                          13
+HFBR-0500ETZ Series Data Sheet                                                                                                                                      Versatile Link Fiber-Optic Connection
+
+
+Figure 10: 1-Mbaud Propagation Delay Test Circuit
+
+
+
+
+Figure 11: Typical Link Pulse Width Distortion vs. Optical Power                                     Figure 12: Typical Link Propagation Delay vs. Optical Power
+
+                                    90                                                                                              120
+                                    80
+ tD - PULSE WIDTH DISTORTION - ns
+
+
+
+
+                                                                                                                                    100
+
+                                                                                                      tP - PROPAGATION DELAY - ns
+                                    70
+                                    60                                                                                               80
+                                    50
+                                                                                                                                     60
+                                    40
+                                    30                                                                                               40
+                                    20                                         X5X2ETZ -40° C
+                                                                               X5X2ETZ 25° C                                         20                                           tPLH X5X2ETZ
+                                    10                                         X5X2ETZ 85° C                                                                                      tPHL X5X2ETZ
+                                     0                                                                                                0
+                                      -27   -24   -21       -18     -15      -12     -9         -6                                     -27   -24    -21      -18     -15      -12      -9        -6
+                                                  PR - INPUT OPTICAL POWER - dBm                                                                   PR - INPUT OPTICAL POWER - dBm
+
+
+Figure 13: Propagation Delay Test Waveforms
+
+
+
+
+Broadcom                                                                                                                                                                                    AV02-3283EN
+                                                                                                                                                                                                     14
+HFBR-0500ETZ Series Data Sheet                                                                                     Versatile Link Fiber-Optic Connection
+
+
+HFBR-15X2ETZ Transmitters
+                                      8 GROUND
+                                                                              Pin No.                          Function
+            1
+  ANODE
+                                                                              1                                Anode
+            2
+CATHODE                                                                       2                                Cathode
+ GROUND     3                                                                 3                                Ground
+            4                                                                 4                                Ground
+ GROUND
+                                                                              5                                Ground
+                                      5 GROUND                                8                                Ground
+
+
+                                                                             NOTE:      Pins 5 and 8 are for mounting and retaining
+                                                                                        purposes only. Do not electrically connect these
+                                                                                        pins.
+
+Absolute Maximum Ratings
+
+Parameter                                                            Symbol             Min.         Max.         Units             Reference
+Storage Temperature                                                     TS              –40          +85            °C                    —
+Operating Temperature                                                   TA              –40          +85            °C                    —
+Lead Soldering Cycle                             Temperature            —                —           260            °C                Note a, b
+                                                 Time                   —                —            10            sec
+Forward Input Current                                                  IFPK              —           1000           mA                Note c, d
+                                                                       IFdc              —            80            —                     —
+Reverse Input Voltage                                                  VBR               —             5             V                    —
+    a. 1.6 mm below the seating plane. To guard against solder process fluctuations, the recommended nominal soldering time is 5 seconds.
+    b. Moisture sensitivity level is MSL-3.
+    c. Recommended operating range between 10 mA and 750 mA.
+    d. 1-μs pulse, 20-μs period.
+
+
+NOTE:      All HFBR15XXETZ LED transmitters are classified as IEC 825-1 Accessible Emission Limit (AEL) Class 1 based
+           upon the proposed draft that went into effect on January 1, 1997. AEL Class 1 LED devices are considered eye
+           safe. Contact your Broadcom sales representative for more information.
+
+
+
+
+Broadcom                                                                                                                                 AV02-3283EN
+                                                                                                                                                  15
+HFBR-0500ETZ Series Data Sheet                                                                                           Versatile Link Fiber-Optic Connection
+
+
+Transmitter Electrical/Optical Characteristics
+–40°C to 85°C unless otherwise specified.
+
+For forward voltage and output power vs. drive current graphs.
+
+Parameter                                              Symbol         Min.       Typ.      Max.      Units           Conditions                   Ref.
+Transmitter Output Optical Power                          PT         –13.9        —         –4.0      dBm           IFdc = 60 mA                 Note a
+                                                                     –11.2        —         –5.1                 IFdc = 60 mA, 25°C
+Output Optical Power Temperature Coefficient            PT/T         —        –0.85        —        %/°C                —                        —
+Peak Emission Wavelength                                  PK          —         660         —         nm                 —                        —
+Forward Voltage                                           VF          1.43       1.67       2.05        V           IFdc = 60 mA                   —
+Forward Voltage Temperature Coefficient                 VF/T         —        –1.37        —       mV/°C                —                    Figure 9
+Effective Diameter                                        DT           —          1          —        mm                  —                        —
+Reverse Input Breakdown Voltage                          VBR          5.0        11.0        —          V            IFdc = 10 µA,                 —
+                                                                                                                      TA = 25°C
+Diode Capacitance                                         CO           —          86         —         pF        VF = 0V, f = 1 MHz                —
+Rise Time                                                  tr          —          20         —         ns           10% to 90%,                  Note b
+Fall Time                                                  tf          —          20         —         ns            IF = 60 mA
+    a. Optical power is measured at the end of 0.5m of 1-mm diameter POF (NA = 0.5) with a large area detector.
+    b. Rise and fall times are measured with a voltage pulse driving the transmitter driver IC (75451). A wide-bandwidth optical-to-electrical
+       waveform analyzer, terminated to a 50Ω input of a wide-bandwidth oscilloscope, is used for this response time measurement.
+
+
+
+
+Broadcom                                                                                                                                       AV02-3283EN
+                                                                                                                                                        16
+HFBR-0500ETZ Series Data Sheet                                                                                             Versatile Link Fiber-Optic Connection
+
+
+HFBR-25X2ETZ Receivers
+ DO NOT CONNECT             5
+                                                                                Pin No.                               Function
+                                        1000 Ω             RL
+                                                      4                         1                                     VO
+                                                           VCC
+                                                      3                         2                                     Ground
+                                                      2
+                                                           GROUND               3                                     VCC
+                                                           VO                   4                                     RL
+                                                      1
+ DO NOT CONNECT             8                                                   5                                     Ground
+                                                                                8                                     Ground
+
+
+                                                                               NOTE:        Pins 5 and 8 are for mounting and retaining
+                                                                                            purposes only. Do not electrically connect these
+                                                                                            pins.
+
+Absolute Maximum Ratings
+
+Parameter                                                                  Symbol             Min.            Max.              Units          Reference
+Storage Temperature                                                           TS              –40              +85                °C                 —
+Operating Temperature                                                         TA              –40              +85                °C                 —
+Lead Soldering Cycle                                Temperature               —                —               260                °C             Note a, b
+                                                    Time                      —                —                10               sec
+Supply Voltage                                                               VCC              –0.5              7                  V              Note c
+Output Collector Current                                                     IOAV              —                25               mA                  —
+Output Collector Power Dissipation                                           POD               —                40               mW                  —
+Output Voltage                                                                VO              –0.5              18                 V                 —
+Pull-Up Voltage                                                               VP               –5              VCC                 V                 —
+Fan-Out (TTL)                                                                 N                —                5                 —                  —
+    a. 1.6 mm below the seating plane. To guard against solder process fluctuations, the recommended nominal soldering time is 5 seconds.
+    b. Moisture sensitivity level is MSL-3.
+    c. It is essential that a 0.1-μF bypass capacitor be connected from pin 2 to pin 3 of the receiver. The total lead length between both ends of the
+       capacitor and the pins should not exceed 20 mm.
+
+
+
+
+Broadcom                                                                                                                                         AV02-3283EN
+                                                                                                                                                          17
+HFBR-0500ETZ Series Data Sheet                                                                                        Versatile Link Fiber-Optic Connection
+
+
+Receiver Electrical/Optical Characteristics
+–40°C to 85°C, 4.75V ≤ VCC ≤ 5.25V, unless otherwise specified.
+
+Parameter                                         Symbol        Min.        Typ.        Max.      Units           Conditions                  Ref.
+Receiver Optical Input Power                        PR(L)        –24          —         –9.5       dBm            VOL = 0.5V            Notes a, b, c, d
+Level Logic 0                                                                                                     IOL = 8 mA
+Optical Input Power                                PR(H)         —            —         –43        dBm           VOH = 5.25V               Notes d, e
+Level Logic 1                                                                                                    IOH ≤ 250 µA
+High Level Output Current                           IOH          —            5         250         μA         VO = 18V, PR = 0            Notes d, f
+Low Level Output Voltage                            VOL          —           0.4         0.5         V            IOL = 8 mA               Notes d, f
+                                                                                                                 PR = PR(L)MIN
+High Level Supply Current                           ICCH         —           3.5         6.3        mA           VCC = 5.25V,              Notes d, f
+                                                                                                                     PR = 0
+Low Level Supply Current                            ICCL         —           6.2         10         mA           VCC = 5.25V,              Notes d, f
+                                                                                                               PR = –12.5 dBm
+Effective Diameter                                   D           —            1          —          mm                 —                       —
+Internal Pull-Up Resistor                            RL          680        1000        1700        Ω                  —                       —
+    a. Optical power is measured at the end of 1-mm diameter POF (NA = 0.5) with a large area detector.
+    b. Pulsed LED operation at IF > 80 mA will cause increased link tPLH propagation delay time. This extended tPLH time contributes to increased
+       pulse width distortion of the receiver output signal.
+    c. The LED drive circuit of Figure 11 is required for 1-Mbaud operation of the HFBR-25X2ETZl.
+    d. Guaranteed only if the optical input signal to the receiver is generated by HFBR-15x2ETZ, with ideal alignment to the photodiode using 1-mm
+       POF (NA = 0.5).
+    e. Optical flux, P (dBm) = 10 Log [P(μW)/1000 μW].
+    f. RL is open.
+
+
+
+
+Broadcom                                                                                                                                    AV02-3283EN
+                                                                                                                                                     18
+Copyright © 2005-2023 Broadcom. All Rights Reserved. The term “Broadcom” refers to Broadcom Inc. and/or its
+subsidiaries. For more information, go to www.broadcom.com. All trademarks, trade names, service marks, and logos
+referenced herein belong to their respective companies.
+
+Broadcom reserves the right to make changes without further notice to any products or data herein to improve reliability,
+function, or design. Information furnished by Broadcom is believed to be accurate and reliable. However, Broadcom does
+not assume any liability arising out of the application or use of this information, nor the application or use of any product or
+circuit described herein, neither does it convey any license under its patent rights nor the rights of others.
+

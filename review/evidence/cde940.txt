@@ -1,0 +1,289 @@
+Type 940, Polypropylene Capacitors, for Pulse, Snubber
+High dV/dt for Snubber Applications
+
+
+                                                           Type 940 round, axial leaded film capacitors have polypropylene
+                                                           film and dual metallized electrodes for both self healing
+                                                           properties and high peak current carrying capability (dV/dt). This
+                                                           series features low ESR characteristics, excellent high frequency
+                                                           and high voltage capabilities.
+
+
+
+                                                            Highlights
+                                                            - High dV/dt
+                                                            - High pulse current
+                                                            - Low inductance
+                                                            - Self healing
+
+ Specifications
+ Capacitance Range                                          0.01 to 4.7 µF
+ Capacitance Tolerance                                      ±10 % (K) Standard; ±5% (J) Optional
+ Rated Voltage                                              600 to 3000 Vdc (275 to 500 Vac, 60 Hz)
+ Operating Temperature Range                                –55 ºC to 105 ºC*
+                                                            *Full rated voltage at 85 ºC - derated linearly to 50% rated at 105 ºC
+ Maximum rms Current                                        Check tables for values
+ Insulation Resistance                                      > 100,000 MΩ x µF
+ Test Voltage between Terminals @ 25 ºC                     160% rated DC voltage for 60 s
+ Test Voltage between Terminals & Case @ 25 ºC              3 kVac @ 50/60 Hz for 60 s
+ Life Test                                                  2,000 h @ 85 ºC, 125% rated DC voltage
+ Life Expectancy                                            60,000 h @ rated Vdc, 70 ºC
+                                                            30,000 h @ rated Vac, 70 ºC
+                                                   Regulatory Information
+
+ Dimensions                                Construction Diagram
+                                                                                   Construction Details
+                                                                                   Case Material         UL510 Polyester Tape Wrap
+                                                                                   Resin Material        UL94V-0 Epoxy Fill
+                                                                                   Terminal Material     Tin Plated Copper
+
+
+
+
+                                                                      d
+
+
+
+
+                                   41 mm           L            41 mm                      D
+                                     Min          Max             Min                     Max
+
+
+
+
+ CDE Cornell Dubilier • 1605 E. Rodney French Blvd. • New Bedford, MA 02744 • Phone: (508)996-8561 • Fax: (508)996-3830
+  Type 940, Polypropylene Capacitors, for Pulse, Snubber
+  High dV/dt for Snubber Applications
+  Part Numbering System
+      940                     C                                   6                        P                           22                  K       –F
+
+                                                                                                                   Capacitance                   RoHS
+                                                                                                                                               Compliant
+                        Termination                                                     Capacitance                                Tolerance
+                                                                                                                   Significant                 Indicator
+     Series                 Code                           Voltage Code                 Decimal Point             figures in µF       Code
+      940        C =Tinned Copper Wire              6 = 600 Vdc       16 = 1600 Vdc     S = 0.0                                     K = ±10%
+                    F = Insulated Stranded          8 = 800 Vdc       20 = 2000 Vdc     P = 0.                                       J = ±5%
+                              Wire                10 = 1000 Vdc       30 = 3000 Vdc     W = No decimal
+                       H = Tinned Lugs            12 = 1200 Vdc                             point
+
+                             NOTE: Other ratings, sizes and performance specifications are available. Contact us.
+Ratings                                                                                                                             IRMS
+                             Catalog                                            Typical           Typical                          70 ºC
+              Cap.        Part Number         D              L         d         ESR               ESL      dV/dt      I peak     100 kHz
+              (µF)                           mm            mm         mm         (mΩ)              (nH)     V/µs        (A)         (A)
+                                                                  600 Vdc (275 Vac)
+              .10      940C6P1K-F            9.0           34.0        0.8        28                19      196         20          2.5
+              .15      940C6P15K-F           10.5          34.0        0.8        13                20      196         29          4.0
+              .22      940C6P22K-F           11.5          34.0        0.8        12                20      196         43          4.4
+              .33      940C6P33K-F           13.5          34.0        0.8         9                21      196         65          5.6
+              .47      940C6P47K-F           15.5          34.0        1.0         7                22      196         92          6.9
+              .68      940C6P68K-F           18.0          34.0        1.0         6                23      196         134         8.1
+              1.00     940C6W1K-F            21.0          34.0        1.0         6                24      196         196         8.9
+              1.50     940C6W1P5K-F          25.0          34.0        1.2         5                26      196         295        10.9
+              2.00     940C6W2K-F            23.5          46.0        1.2         5                31      128         255        11.8
+              3.30     940C6W3P3K-F          27.0          54.0        1.2         4                36      105         346        15.3
+              4.70     940C6W4P7K-F          31.5          54.0        1.2         4                38      105         492        16.8
+                                                                  850 Vdc (450 Vac)
+              .15      940C8P15K-F           13.0          34.0        0.8         8                21      713         107         5.8
+              .22      940C8P22K-F           15.5          34.0        1.0         8                22      713         157         6.4
+              .33      940C8P33K-F           18.0          34.0        1.0         7                23      713         235         7.5
+              .47      940C8P47K-F           21.0          34.0        1.0         5                24      713         335         9.8
+              .68      940C8P68K-F           24.5          34.0        1.2         4                26      713         485        12.0
+              1.00     940C8W1K-F            22.5          46.0        1.2         5                30      400         400        11.5
+              1.50     940C8W1P5K-F          27.0          46.0        1.2         4                32      400         600        14.3
+              2.00     940C8W2K-F            30.5          46.0        1.2         3                34      400         800        17.9
+              2.20     940C8W2P2K-F          32.0          46.0        1.2         3                34      400         880        18.4
+              2.50     940C8W2P5K-F          34.0          46.0        1.2         3                35      400        1000        19.1
+                                                                  1000 Vdc (500 Vac)
+              .15      940C10P15K-F          15.0          34.0        1.0         7                22      856         128         6.7
+              .22      940C10P22K-F          17.5          34.0        1.0         7                23      856         188         7.4
+              .33      940C10P33K-F          20.5          34.0        1.0         6                24      856         283         8.8
+              .47      940C10P47K-F          24.0          34.0        1.2         5                26      856         402        10.6
+              .68      940C10P68K-F          28.0          34.0        1.2         5                27      856         582        11.7
+              1.00     940C10W1K-F           26.0          46.0        1.2         5                32      480         480        12.5
+              1.50     940C10W1P5K-F         31.0          46.0        1.2         4                34      480         720        15.6
+              2.00     940C10W2K-F           35.5          46.0        1.2         3                36      480         960        19.6
+
+    CDE Cornell Dubilier • 1605 E. Rodney French Blvd. • New Bedford, MA 02744 • Phone: (508)996-8561 • Fax: (508)996-3830
+Type 940, Polypropylene Capacitors, for Pulse, Snubber
+High dV/dt for Snubber Applications
+
+                                                                                                           IRMS
+                                                                    Typical   Typical                     70 ºC
+             Cap.       Catalog       D         L          d         ESR       ESL      dV/dt   I peak   100 kHz
+             (µF)     Part Number    mm        mm         mm         (mΩ)      (nH)     V/µs     (A)       (A)
+                                                      1200 Vdc (500 Vac)
+             .10    940C12P1K-F      15.5      34.0        1.0         9        22      1142     114       6.1
+             .15    940C12P15K-F     18.5      34.0        1.0         7        23      1142     171       7.6
+             .22    940C12P22K-F     21.5      34.0        1.0         7        24      1142     251       8.4
+             .33    940C12P33K-F     20.0      46.0        1.0         7        29      640      211       9.0
+             .47    940C12P47K-F     23.0      46.0        1.2         7        30      640      301       9.8
+             .68    940C12P68K-F     27.0      46.0        1.2         6        32      640      435      11.7
+             1.00   940C12W1K-F      33.0      46.0        1.2         5        35      640      640      14.5
+             1.50   940C12W1P5K-F    35.0      54.0        1.2         4        39      502      754      17.9
+                                                      1600 Vdc (500 Vac)
+             .10    940C16P1K-F      18.0      34.0        1.0         7        23      1427     143       7.5
+             .15    940C16P15K-F     21.5      34.0        1.0         5        24      1427     214       9.9
+             .22    940C16P22K-F     25.5      34.0        1.2         7        26      1427     314       9.3
+             .33    940C16P33K-F     23.5      46.0        1.2         7        31      800      264      10.0
+             .47    940C16P47K-F     27.5      46.0        1.2         6        32      800      376      11.8
+             .68    940C16P68K-F     32.5      46.0        1.2         6        35      800      544      13.1
+             1.00   940C16W1K-F      39.0      46.0        1.2         5        37      800      800      16.2
+             1.50   940C16W1P5K-F    42.0      54.0        1.2         4        42      628      942      20.1
+                                                      2000 Vdc (500 Vac)
+             .022   940C20S22K-F     11.5      34.0        0.8        35        6       1712     38        2.6
+             .033   940C20S33K-F     13.5      34.0        0.8        20        21      1712     57        3.8
+             .047   940C20S47K-F     15.0      34.0        1.0        12        22      1712     80        5.2
+             .068   940C20S68K-F     17.5      34.0        1.0         8        23      1712     116       6.9
+             .100   940C20P1K-F      21.0      34.0        1.0         7        24      1712     171       8.3
+             .150   940C20P15K-F     19.5      46.0        1.0         7        29      960      144       8.9
+             .220   940C20P22K-F     22.0      46.0        1.0         8        30      960      211       9.0
+             .330   940C20P33K-F     27.0      46.0        1.2         8        32      960      317      10.1
+             .470   940C20P47K-F     32.0      46.0        1.2         6        34      960      451      13.0
+             .560   940C20P56K-F     31.0      54.0        1.2         7        37      754      422      12.6
+             .680   940C20P68K-F     34.0      54.0        1.2         6        39      754      513      14.3
+             1.00   940C20W1K-F      41.0      54.0        1.2         5        42      754      754      17.7
+                                                      3000 Vdc (500 Vac)
+             .010   940C30S1K-F      11.5      34.0        0.8        60        20      2568     26        2.0
+             .015   940C30S15K-F     13.5      34.0        0.8        40        21      2568     39        2.7
+             .022   940C30S22K-F     15.5      34.0        1.0        25        22      2568     57        3.6
+             .033   940C30S33K-F     18.0      34.0        1.0        14        23      2568     85        5.3
+             .047   940C30S47K-F     16.5      46.0        1.0        14        28      1440     68        5.7
+             .068   940C30S68K-F     19.0      46.0        1.0        12        29      1440     98        6.7
+             .100   940C30P1K-F      22.5      46.0        1.2        10        30      1440     144       8.1
+             .150   940C30P15K-F     27.0      46.0        1.2         8        32      1440     216      10.1
+
+
+
+
+ CDE Cornell Dubilier • 1605 E. Rodney French Blvd. • New Bedford, MA 02744 • Phone: (508)996-8561 • Fax: (508)996-3830
+Type 940, Polypropylene Capacitors, for Pulse, Snubber
+High dV/dt for Snubber Applications
+
+                                          RMS Voltage vs Frequency @ 25 ºC
+
+
+                        940C/ 941C - 600 Vdc                                                   940C/ 941C - 850 Vdc
+       300                                                              500
+
+
+       250
+                                                                        400
+
+       200
+                                                                        300
+
+
+
+
+                                                                 Vrms
+Vrms
+
+
+
+
+       150                0.1 µF
+                         0.47 µF                                                               0.15 µF
+                            1 µF                                        200                    0.68 µF
+       100                                                                                      2.2 µF
+
+                                                                        100
+        50
+
+
+         0                                                                 0
+             10   100              1000         10000   100000                 10       100              1000          10000    100000
+                             Frequency (Hz)                                                        Frequency (Hz)
+
+
+
+
+                        940C/ 941C - 1000 Vdc                                                  940C/ 941C - 1200 Vdc
+       600                                                                600
+
+
+       500                                                                500
+
+
+       400                                                                400
+                                                                 Vrms
+Vrms
+
+
+
+
+       300                                                                300
+                        0.15 µF                                                                 0.1 µF
+                        0.47 µF                                                                0.47 µF
+       200                 2 µF                                           200                     1 µF
+
+       100                                                                100
+
+
+         0                                                                 0
+             10   100              1000         10000   100000                  10      100                1000        10000    100000
+                             Frequency (Hz)                                                         Frequency (Hz)
+
+
+
+
+                        940C/ 941C - 1600 Vdc                                                  940C/ 941C - 2000 Vdc
+       600                                                                600
+
+
+       500                                                                500
+
+
+       400                                                                400
+Vrms
+
+
+
+
+                                                                   Vrms
+
+
+
+
+       300                                                                300
+                         0.1 µF                                                                 0.022 µF
+                        0.47 µF                                                                  0.22 µF
+       200               1.5 µF                                           200                       1 µF
+
+
+       100                                                                100
+
+
+         0                                                                     0
+             10   100              1000         10000   100000                     10    100               1000         10000    100000
+                             Frequency (Hz)                                                          Frequency (Hz)
+
+
+
+  CDE Cornell Dubilier • 1605 E. Rodney French Blvd. • New Bedford, MA 02744 • Phone: (508)996-8561 • Fax: (508)996-3830
+Notice and Disclaimer: All product drawings, descriptions, specifications, statements, information and
+data (collectively, the “Information”) in this datasheet or other publication are subject to change. The
+customer is responsible for checking, confirming and verifying the extent to which the Information con-
+tained in this datasheet or other publication is applicable to an order at the time the order is placed. All
+Information given herein is believed to be accurate and reliable, but it is presented without any guaran-
+tee, warranty, representation or responsibility of any kind, expressed or implied. Statements of suitability
+for certain applications are based on the knowledge that the Cornell Dubilier company providing such
+statements (“Cornell Dubilier”) has of operating conditions that such Cornell Dubilier company regards
+as typical for such applications, but are not intended to constitute any guarantee, warranty or representa-
+tion regarding any such matter – and Cornell Dubilier specifically and expressly disclaims any guarantee,
+warranty or representation concerning the suitability for a specific customer application, use, storage,
+transportation, or operating environment. The Information is intended for use only by customers who
+have the requisite experience and capability to determine the correct products for their application. Any
+technical advice inferred from this Information or otherwise provided by Cornell Dubilier with reference
+to the use of any Cornell Dubilier products is given gratis (unless otherwise specified by Cornell Dubilier),
+and Cornell Dubilier assumes no obligation or liability for the advice given or results obtained. Although
+Cornell Dubilier strives to apply the most stringent quality and safety standards regarding the design
+and manufacturing of its products, in light of the current state of the art, isolated component failures may
+still occur. Accordingly, customer applications which require a high degree of reliability or safety should
+employ suitable designs or other safeguards (such as installation of protective circuitry or redundancies
+or other appropriate protective measures) in order to ensure that the failure of an electrical component
+does not result in a risk of personal injury or property damage. Although all product-related warnings,
+cautions and notes must be observed, the customer should not assume that all safety measures are indi-
+cated in such warnings, cautions and notes, or that other safety measures may not be required.
+
