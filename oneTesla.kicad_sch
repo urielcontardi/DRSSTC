@@ -8476,7 +8476,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:CP_Radial_D8.0mm_P3.50mm"
+    (property "Footprint" "oneTesla:CP_D8_P2.54_ReviewPending"
       (at 168.91 168.91 0)
       (hide yes)
       (show_name no)
@@ -8723,7 +8723,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+    (property "Footprint" "oneTesla:R_L9_P10.16_ReviewPending"
       (at 384.81 74.93 0)
       (hide yes)
       (show_name no)
@@ -9632,7 +9632,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:CP_Radial_D8.0mm_P3.50mm"
+    (property "Footprint" "oneTesla:CP_D8_P2.54_ReviewPending"
       (at 201.93 222.25 0)
       (hide yes)
       (show_name no)
@@ -10088,7 +10088,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:CP_Radial_D8.0mm_P3.50mm"
+    (property "Footprint" "oneTesla:CP_D8_P2.54_ReviewPending"
       (at 133.35 168.91 0)
       (hide yes)
       (show_name no)
@@ -10293,7 +10293,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:CP_Radial_D30.0mm_P10.00mm_SnapIn"
+    (property "Footprint" "oneTesla:CP_D30_P10.16_ReviewPending"
       (at 355.6 74.93 0)
       (hide yes)
       (show_name no)
@@ -11036,7 +11036,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+    (property "Footprint" "oneTesla:R_L9_P10.16_ReviewPending"
       (at 384.81 120.65 0)
       (hide yes)
       (show_name no)
@@ -12079,7 +12079,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:D_DO-201AD_P15.24mm_Horizontal"
+    (property "Footprint" "oneTesla:D_DO201AD_P14.732_ReviewPending"
       (at 322.58 74.93 90)
       (hide yes)
       (show_name no)
@@ -12991,7 +12991,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:CP_Radial_D12.5mm_P5.00mm"
+    (property "Footprint" "oneTesla:CP_D12.5_P3.556_ReviewPending"
       (at 144.78 219.71 0)
       (hide yes)
       (show_name no)
@@ -13438,7 +13438,7 @@
         )
       )
     )
-    (property "Footprint" "oneTesla:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm"
+    (property "Footprint" "oneTesla:R_L25_P22.86_INCOMPATIBLE"
       (at 46.99 73.66 90)
       (hide yes)
       (show_name no)
@@ -14128,7 +14128,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:D_DO-201AD_P15.24mm_Horizontal"
+    (property "Footprint" "oneTesla:D_DO201AD_P14.732_ReviewPending"
       (at 322.58 120.65 90)
       (hide yes)
       (show_name no)
@@ -14641,7 +14641,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:CP_Radial_D30.0mm_P10.00mm_SnapIn"
+    (property "Footprint" "oneTesla:CP_D30_P10.16_ReviewPending"
       (at 355.6 120.65 0)
       (hide yes)
       (show_name no)

@@ -1,0 +1,131 @@
+(footprint "R_L9_P10.16_ReviewPending"
+  (version 20260206)
+  (generator "kicad-footprint-generator")
+  (layer "F.Cu")
+  (descr "Custom review geometry; original body retained/recentered; actual pitch in name; exact MPN NOT qualified.")
+  (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
+  (property "Reference" "REF**"
+    (at 0.0 -2.72 0)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Value" "R_L9_P10.16_ReviewPending"
+    (at 0.0 2.72 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "KiLib_Generator" "resistor/THT"
+    (at -6.35 0 0)
+    (layer "F.SilkS")
+    (hide yes)
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (attr through_hole)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_line
+    (start -5.31 0)
+    (end -4.62 0)
+    (stroke
+      (width 0.12)
+      (type solid)
+    )
+    (layer "F.SilkS")
+  )
+  (fp_line
+    (start 5.31 0)
+    (end 4.62 0)
+    (stroke
+      (width 0.12)
+      (type solid)
+    )
+    (layer "F.SilkS")
+  )
+  (fp_rect
+    (start -4.62 -1.72)
+    (end 4.62 1.72)
+    (stroke
+      (width 0.12)
+      (type solid)
+    )
+    (fill no)
+    (layer "F.SilkS")
+  )
+  (fp_rect
+    (start -7.4 -1.85)
+    (end 7.4 1.85)
+    (stroke
+      (width 0.05)
+      (type solid)
+    )
+    (fill no)
+    (layer "F.CrtYd")
+  )
+  (fp_line
+    (start -6.35 0)
+    (end -4.5 0)
+    (stroke
+      (width 0.1)
+      (type solid)
+    )
+    (layer "F.Fab")
+  )
+  (fp_line
+    (start 6.35 0)
+    (end 4.5 0)
+    (stroke
+      (width 0.1)
+      (type solid)
+    )
+    (layer "F.Fab")
+  )
+  (fp_rect
+    (start -4.5 -1.6)
+    (end 4.5 1.6)
+    (stroke
+      (width 0.1)
+      (type solid)
+    )
+    (fill no)
+    (layer "F.Fab")
+  )
+  (fp_text user "${REFERENCE}"
+    (at 0.0 0 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (embedded_fonts no)
+  (pad "1" thru_hole circle
+    (at -5.08 0)
+    (size 1.6 1.6)
+    (drill 0.8128)
+    (layers "*.Cu" "*.Mask")
+    (remove_unused_layers no)
+  )
+  (pad "2" thru_hole circle
+    (at 5.08 0)
+    (size 1.6 1.6)
+    (drill 0.8128)
+    (layers "*.Cu" "*.Mask")
+    (remove_unused_layers no)
+  )
+)

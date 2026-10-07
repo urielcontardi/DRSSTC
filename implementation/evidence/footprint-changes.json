@@ -1,0 +1,26 @@
+{
+  "CP_Radial_D8.0mm_P3.50mm": [
+    1.75,
+    "CP_D8_P2.54_ReviewPending"
+  ],
+  "CP_Radial_D12.5mm_P5.00mm": [
+    2.5,
+    "CP_D12.5_P3.556_ReviewPending"
+  ],
+  "CP_Radial_D30.0mm_P10.00mm_SnapIn": [
+    5,
+    "CP_D30_P10.16_ReviewPending"
+  ],
+  "R_Axial_Power_L25.0mm_W6.4mm_P30.48mm": [
+    15.24,
+    "R_L25_P22.86_INCOMPATIBLE"
+  ],
+  "R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal": [
+    6.35,
+    "R_L9_P10.16_ReviewPending"
+  ],
+  "D_DO-201AD_P15.24mm_Horizontal": [
+    7.62,
+    "D_DO201AD_P14.732_ReviewPending"
+  ]
+}
