@@ -35,6 +35,8 @@ Checkpoint `87aa19d` inspecionado sem editar o PCB ou esquema. O arquivo `drc-cu
 
 **Resultado desta retomada:** nenhuma alteração CAD verificavelmente segura identificada; contagens e bloqueios do checkpoint permanecem. Antes de uma nova iteração de placement, confirmar componentes e envelopes físicos listados abaixo.
 
+Uma [triagem reproduzível](TRIAGEM.md) agrupa as 84 ocorrências em quatro conjuntos de interferência, gerada por `python implementation/cleanup/triage_drc.py`. O script confere os hashes do PCB/esquema contra `native-proof.json` e exige que os relatórios atuais coincidam com os finais (exceto o horário de exportação). Essa análise não é nova execução de KiCad nem mudança no CAD.
+
 ## Bloqueios reais
 
 1. Colisões físicas envolvem P1/P2, CPR1, Q1/Q2, Z1/Z2, T3, PS1/J1 e H2-H4. Mover essas peças agora exigiria rever trilhas e confirmar dimensões/envelope do conjunto. Não se deve apagar courtyards/corpos ou silk de posição para ocultá-las.
