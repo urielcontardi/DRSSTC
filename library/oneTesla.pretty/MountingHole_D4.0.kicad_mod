@@ -1,0 +1,53 @@
+(footprint "MountingHole_D4.0"
+  (version 20241229)
+  (generator pcbnew)
+  (layer "F.Cu")
+  (property "Reference" "REF**"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+  (property "Value" "MountingHole_D4.0"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+  (property "Description" ""
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+  (duplicate_pad_numbers_are_jumpers no)
+  (pad "" np_thru_hole circle
+    (at 0 0)
+    (size 4 4)
+    (drill 4)
+    (layers "*.Cu" "*.Mask")
+  )
+  (embedded_fonts no)
+  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (descr "Preserved existing imported geometry; no manufacturer fit certification. Mounting interface unchanged.")
+)

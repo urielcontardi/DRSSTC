@@ -1,0 +1,1 @@
+PASS: schematic pin-net connectivity unchanged; all 48 identities retained; all F.Fab physical shapes and all courtyards unchanged; no body shrunk. See native-proof.json for physical pad equivalence. Rules/exclusions unchanged.

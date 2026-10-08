@@ -1,0 +1,2001 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-08T16:56:16",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint JPRT1",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 94.615
+                    },
+                    "uuid": "4fafd1a0-5b66-474b-b284-286cf4f79105"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint JPRT2",
+                    "pos": {
+                        "x": 88.9,
+                        "y": 102.235
+                    },
+                    "uuid": "6892e981-bd57-4f2f-9ff6-2c0d3f36bb41"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "oneTesla.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 67.31
+                    },
+                    "uuid": "043be2ab-2909-4184-858f-b2e62dd66361"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 45.985
+                    },
+                    "uuid": "732d8c26-f467-439a-8fa4-e4be84794145"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/SW_NODE] of Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 59.944
+                    },
+                    "uuid": "17510a4e-3985-4d34-9554-e077900d00fb"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 45.985
+                    },
+                    "uuid": "732d8c26-f467-439a-8fa4-e4be84794145"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 67.31
+                    },
+                    "uuid": "043be2ab-2909-4184-858f-b2e62dd66361"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 68.58,
+                        "y": 86.36
+                    },
+                    "uuid": "74d67175-ebb6-4a21-bfc7-1e11c2960983"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 67.31
+                    },
+                    "uuid": "043be2ab-2909-4184-858f-b2e62dd66361"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 63.765
+                    },
+                    "uuid": "f4611130-8dad-4440-abb7-6f721649d1a2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/DC_MINUS] of Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 74.676
+                    },
+                    "uuid": "21e941fa-58fc-40f4-b534-f5d2101e4010"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 63.765
+                    },
+                    "uuid": "f4611130-8dad-4440-abb7-6f721649d1a2"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 67.31
+                    },
+                    "uuid": "043be2ab-2909-4184-858f-b2e62dd66361"
+                },
+                {
+                    "description": "Footprint Z1",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 48.895
+                    },
+                    "uuid": "f8de40fa-b032-4279-8663-0ebc81eb5e73"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 41.275,
+                        "y": 91.44
+                    },
+                    "uuid": "088ec556-0787-483d-9168-49628798b9c6"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 68.58,
+                        "y": 86.36
+                    },
+                    "uuid": "74d67175-ebb6-4a21-bfc7-1e11c2960983"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/SW_NODE] of CPR1",
+                    "pos": {
+                        "x": 39.37,
+                        "y": 86.36
+                    },
+                    "uuid": "4359e222-e9c5-4549-9e5c-2ab755c934b9"
+                },
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 41.275,
+                        "y": 91.44
+                    },
+                    "uuid": "088ec556-0787-483d-9168-49628798b9c6"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(CPR1-Pad2)] of P1",
+                    "pos": {
+                        "x": 41.275,
+                        "y": 91.44
+                    },
+                    "uuid": "f8c32078-9252-4e3b-956f-75c417e673a4"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 68.58,
+                        "y": 86.36
+                    },
+                    "uuid": "74d67175-ebb6-4a21-bfc7-1e11c2960983"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 41.275,
+                        "y": 91.44
+                    },
+                    "uuid": "088ec556-0787-483d-9168-49628798b9c6"
+                },
+                {
+                    "description": "Footprint T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 91.44
+                    },
+                    "uuid": "7881a436-aec0-4c8a-ba7e-8c210efbcf84"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(T3-S1)] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 97.79
+                    },
+                    "uuid": "1aec82b8-3292-40a5-ab24-daa6efc95967"
+                },
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 41.275,
+                        "y": 91.44
+                    },
+                    "uuid": "088ec556-0787-483d-9168-49628798b9c6"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 85.09
+                    },
+                    "uuid": "5592d302-39e9-4dd5-a431-ea407d4e1afc"
+                },
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 41.275,
+                        "y": 91.44
+                    },
+                    "uuid": "088ec556-0787-483d-9168-49628798b9c6"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 41.275,
+                        "y": 91.44
+                    },
+                    "uuid": "088ec556-0787-483d-9168-49628798b9c6"
+                },
+                {
+                    "description": "Footprint P2",
+                    "pos": {
+                        "x": 19.685,
+                        "y": 91.44
+                    },
+                    "uuid": "87a76f20-6542-4130-90df-4685584d6a87"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 41.315,
+                        "y": 62.23
+                    },
+                    "uuid": "2624217d-13ca-4389-a30e-a437cd1843dc"
+                },
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "e1eb67f7-0769-4c57-a480-830a7907fe19"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J110",
+                    "pos": {
+                        "x": 73.025,
+                        "y": 10.795
+                    },
+                    "uuid": "391c27e2-a5cc-4206-b90d-2c4995710cdf"
+                },
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 73.025,
+                        "y": 15.875
+                    },
+                    "uuid": "6432ffb1-1e02-4073-98f0-793960e7a768"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_MID] of JPRT1",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 94.615
+                    },
+                    "uuid": "fa55bc04-8e20-4792-b5c4-6294f2ced3c9"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 68.58,
+                        "y": 86.36
+                    },
+                    "uuid": "74d67175-ebb6-4a21-bfc7-1e11c2960983"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint IC3",
+                    "pos": {
+                        "x": 40.005,
+                        "y": 45.72
+                    },
+                    "uuid": "50b3e22e-5f3f-40e0-918c-eafb32bf85fa"
+                },
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint IC3",
+                    "pos": {
+                        "x": 40.005,
+                        "y": 45.72
+                    },
+                    "uuid": "50b3e22e-5f3f-40e0-918c-eafb32bf85fa"
+                },
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "e1eb67f7-0769-4c57-a480-830a7907fe19"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 38.1
+                    },
+                    "uuid": "5d8b6c4d-ef0a-4df6-ad72-8b44f069fe83"
+                },
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 41.315,
+                        "y": 42.545
+                    },
+                    "uuid": "e1bf0896-2690-47cc-b34a-a6374d477679"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 91.186,
+                        "y": 69.215
+                    },
+                    "uuid": "df3ce91e-7621-4ffd-b792-292277a23c83"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 63.765
+                    },
+                    "uuid": "f4611130-8dad-4440-abb7-6f721649d1a2"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 3.8735,
+                        "y": 2.3495
+                    },
+                    "uuid": "d8a31e56-2f0e-48de-87dc-f31d29fe6b36"
+                },
+                {
+                    "description": "Footprint PS1",
+                    "pos": {
+                        "x": 44.25,
+                        "y": 22.0
+                    },
+                    "uuid": "70cde1ed-72eb-4f96-a84d-a008b95741df"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint PS1",
+                    "pos": {
+                        "x": 44.25,
+                        "y": 22.0
+                    },
+                    "uuid": "70cde1ed-72eb-4f96-a84d-a008b95741df"
+                },
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 52.705,
+                        "y": -3.429
+                    },
+                    "uuid": "e653be71-d40e-44ac-b3d0-19b2175e10f4"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of J1",
+                    "pos": {
+                        "x": 46.205,
+                        "y": 6.071
+                    },
+                    "uuid": "a532656c-1928-420e-b4af-4f36561f0b4d"
+                },
+                {
+                    "description": "Footprint PS1",
+                    "pos": {
+                        "x": 44.25,
+                        "y": 22.0
+                    },
+                    "uuid": "70cde1ed-72eb-4f96-a84d-a008b95741df"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/AC_L] of J1",
+                    "pos": {
+                        "x": 45.705,
+                        "y": 11.071
+                    },
+                    "uuid": "e4fa159d-7a20-4943-bb5a-47349368959c"
+                },
+                {
+                    "description": "Footprint PS1",
+                    "pos": {
+                        "x": 44.25,
+                        "y": 22.0
+                    },
+                    "uuid": "70cde1ed-72eb-4f96-a84d-a008b95741df"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 45.985
+                    },
+                    "uuid": "732d8c26-f467-439a-8fa4-e4be84794145"
+                },
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 51.435
+                    },
+                    "uuid": "efd864a2-accb-452d-a33b-72dfdf7ccf2e"
+                },
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/SW_NODE] of Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 56.885
+                    },
+                    "uuid": "00511d2b-1f01-49ce-b216-158b873eb76b"
+                },
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 91.186,
+                        "y": 51.435
+                    },
+                    "uuid": "fe9e82d5-a33d-4104-9254-ed28a4a077de"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 45.985
+                    },
+                    "uuid": "732d8c26-f467-439a-8fa4-e4be84794145"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 45.985
+                    },
+                    "uuid": "732d8c26-f467-439a-8fa4-e4be84794145"
+                },
+                {
+                    "description": "Footprint Z1",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 48.895
+                    },
+                    "uuid": "f8de40fa-b032-4279-8663-0ebc81eb5e73"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Z1",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 56.261
+                    },
+                    "uuid": "1620ba84-0b04-4ffd-a1e3-a4eba6f969a0"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 45.985
+                    },
+                    "uuid": "732d8c26-f467-439a-8fa4-e4be84794145"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 68.58,
+                        "y": 86.36
+                    },
+                    "uuid": "74d67175-ebb6-4a21-bfc7-1e11c2960983"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 63.765
+                    },
+                    "uuid": "f4611130-8dad-4440-abb7-6f721649d1a2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 91.44
+                    },
+                    "uuid": "7881a436-aec0-4c8a-ba7e-8c210efbcf84"
+                },
+                {
+                    "description": "Footprint P2",
+                    "pos": {
+                        "x": 19.685,
+                        "y": 91.44
+                    },
+                    "uuid": "87a76f20-6542-4130-90df-4685584d6a87"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(T3-S1)] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 97.79
+                    },
+                    "uuid": "1aec82b8-3292-40a5-ab24-daa6efc95967"
+                },
+                {
+                    "description": "Footprint P2",
+                    "pos": {
+                        "x": 19.685,
+                        "y": 91.44
+                    },
+                    "uuid": "87a76f20-6542-4130-90df-4685584d6a87"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 85.09
+                    },
+                    "uuid": "5592d302-39e9-4dd5-a431-ea407d4e1afc"
+                },
+                {
+                    "description": "Footprint P2",
+                    "pos": {
+                        "x": 19.685,
+                        "y": 91.44
+                    },
+                    "uuid": "87a76f20-6542-4130-90df-4685584d6a87"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                },
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 52.705,
+                        "y": 53.975
+                    },
+                    "uuid": "8a4b53cb-a92a-4e07-a9cd-5611e8dba268"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(IC3-OUT-Pad6)] of R4",
+                    "pos": {
+                        "x": 52.705,
+                        "y": 53.975
+                    },
+                    "uuid": "01cd543f-3227-470f-ae7a-ee17bcd0cadb"
+                },
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(T1-AA)] of R4",
+                    "pos": {
+                        "x": 52.705,
+                        "y": 61.595
+                    },
+                    "uuid": "a1210f3f-82bd-405e-bb86-1497d77b816e"
+                },
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                },
+                {
+                    "description": "Footprint IC4",
+                    "pos": {
+                        "x": 40.005,
+                        "y": 65.405
+                    },
+                    "uuid": "e326c1c3-e31c-4f7c-989c-d81b384540bc"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 63.765
+                    },
+                    "uuid": "f4611130-8dad-4440-abb7-6f721649d1a2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 63.765
+                    },
+                    "uuid": "aaf0bb43-5fb9-46e3-9a19-f846cfd20c2e"
+                },
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 60.325,
+                        "y": 58.42
+                    },
+                    "uuid": "81406b84-f587-4328-8377-b597fae42b21"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint P2",
+                    "pos": {
+                        "x": 19.685,
+                        "y": 91.44
+                    },
+                    "uuid": "87a76f20-6542-4130-90df-4685584d6a87"
+                },
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 11.43,
+                        "y": 86.36
+                    },
+                    "uuid": "f0ce8a38-c9cb-496c-a9db-58279ac7b519"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint F1",
+                    "pos": {
+                        "x": 85.09,
+                        "y": 3.81
+                    },
+                    "uuid": "8e5309a4-330d-4eca-841c-ff8e10370ccf"
+                },
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 52.705,
+                        "y": -3.429
+                    },
+                    "uuid": "e653be71-d40e-44ac-b3d0-19b2175e10f4"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of P1 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.275,
+                        "y": 97.94
+                    },
+                    "uuid": "079e38c9-9fe0-4ddf-ba66-608095e4d9b1"
+                },
+                {
+                    "description": "Rectangle of CPR1 on F.Silkscreen",
+                    "pos": {
+                        "x": 45.58,
+                        "y": 76.86
+                    },
+                    "uuid": "cb95cdfd-b06c-4bad-9627-9c0e3b94a79f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.8355,
+                        "y": 77.075
+                    },
+                    "uuid": "5cfd16a0-fb93-4d80-b9fe-212d0d933099"
+                },
+                {
+                    "description": "Rectangle of CPR1 on F.Silkscreen",
+                    "pos": {
+                        "x": 45.58,
+                        "y": 76.86
+                    },
+                    "uuid": "cb95cdfd-b06c-4bad-9627-9c0e3b94a79f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.8355,
+                        "y": 61.355
+                    },
+                    "uuid": "0db82ee2-e169-4e7e-968a-168dd5d7387e"
+                },
+                {
+                    "description": "Rectangle of CPR1 on F.Silkscreen",
+                    "pos": {
+                        "x": 45.58,
+                        "y": 76.86
+                    },
+                    "uuid": "cb95cdfd-b06c-4bad-9627-9c0e3b94a79f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of P1 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.275,
+                        "y": 97.94
+                    },
+                    "uuid": "079e38c9-9fe0-4ddf-ba66-608095e4d9b1"
+                },
+                {
+                    "description": "Rectangle of T3 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.48,
+                        "y": 101.44
+                    },
+                    "uuid": "dd9f4b0b-511e-4d9b-92fe-6a912e23340a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of P1 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.275,
+                        "y": 97.94
+                    },
+                    "uuid": "079e38c9-9fe0-4ddf-ba66-608095e4d9b1"
+                },
+                {
+                    "description": "Rectangle of P2 on F.Silkscreen",
+                    "pos": {
+                        "x": 8.685,
+                        "y": 97.94
+                    },
+                    "uuid": "53e25587-3aa0-4204-b0cf-64c79ce0e91a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Circle on F.Silkscreen",
+                    "pos": {
+                        "x": 3.8735,
+                        "y": 2.3495
+                    },
+                    "uuid": "3912ded4-e9b1-4cdd-9a63-a3d6255d2c40"
+                },
+                {
+                    "description": "Rectangle of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 46.95,
+                        "y": 32.55
+                    },
+                    "uuid": "7b275afb-dfee-47c3-ac70-a42d104d1790"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 39.205,
+                        "y": 5.571
+                    },
+                    "uuid": "255708f9-71c4-4d9a-bfbc-83b043a6d0b1"
+                },
+                {
+                    "description": "Rectangle of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 46.95,
+                        "y": 32.55
+                    },
+                    "uuid": "7b275afb-dfee-47c3-ac70-a42d104d1790"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Circle of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 38.1
+                    },
+                    "uuid": "52a97460-7219-4b84-ba0d-fa5d930053fc"
+                },
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 39.945,
+                        "y": 41.175
+                    },
+                    "uuid": "df028e89-7a4e-4bdb-bc8b-9dfbf7648bfc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 39.945,
+                        "y": 60.86
+                    },
+                    "uuid": "05aea312-434f-4b23-8c2d-8d9687d96141"
+                },
+                {
+                    "description": "Circle of C13 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "87fc85c7-fd77-4d41-97d5-007a66fa621a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of IC3 on F.Silkscreen",
+                    "pos": {
+                        "x": 46.065,
+                        "y": 54.67
+                    },
+                    "uuid": "8423be7e-4d8f-4d23-95e6-2b69655dfeef"
+                },
+                {
+                    "description": "Circle of C13 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "87fc85c7-fd77-4d41-97d5-007a66fa621a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of IC3 on F.Silkscreen",
+                    "pos": {
+                        "x": 38.565,
+                        "y": 44.33
+                    },
+                    "uuid": "0913ef7a-1dd3-4fff-b412-32872a8587e2"
+                },
+                {
+                    "description": "Circle of C13 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "87fc85c7-fd77-4d41-97d5-007a66fa621a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of IC3 on F.Silkscreen",
+                    "pos": {
+                        "x": 41.565,
+                        "y": 44.39
+                    },
+                    "uuid": "43e2410d-4ebc-48bf-9b9f-0c3f477ec675"
+                },
+                {
+                    "description": "Circle of C13 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "87fc85c7-fd77-4d41-97d5-007a66fa621a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of P2 on F.Silkscreen",
+                    "pos": {
+                        "x": 8.685,
+                        "y": 97.94
+                    },
+                    "uuid": "53e25587-3aa0-4204-b0cf-64c79ce0e91a"
+                },
+                {
+                    "description": "Rectangle of T3 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.48,
+                        "y": 101.44
+                    },
+                    "uuid": "dd9f4b0b-511e-4d9b-92fe-6a912e23340a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of R1 on F.Silkscreen",
+                    "pos": {
+                        "x": 8.11,
+                        "y": 98.98
+                    },
+                    "uuid": "035a82ee-05f2-4f5c-b8cb-1e291e29fc55"
+                },
+                {
+                    "description": "Rectangle of P2 on F.Silkscreen",
+                    "pos": {
+                        "x": 8.685,
+                        "y": 97.94
+                    },
+                    "uuid": "53e25587-3aa0-4204-b0cf-64c79ce0e91a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J110 on F.Silkscreen",
+                    "pos": {
+                        "x": 80.025,
+                        "y": 13.795
+                    },
+                    "uuid": "426e910f-032a-467b-b9f5-d6b279c8d099"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 73.625,
+                        "y": 14.175
+                    },
+                    "uuid": "f9b26d28-92e5-47a8-ae70-dbdf380fc478"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.205,
+                        "y": 5.571
+                    },
+                    "uuid": "1cdd0f8e-e40a-46d3-9e56-09e4505db824"
+                },
+                {
+                    "description": "Segment of F1 on F.Silkscreen",
+                    "pos": {
+                        "x": 64.59,
+                        "y": 4.91
+                    },
+                    "uuid": "b3ce8228-87c8-4440-83f2-979e3c40e34e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.205,
+                        "y": -12.429
+                    },
+                    "uuid": "3001cfdb-f5c9-45a3-9c5b-7876ad0eac25"
+                },
+                {
+                    "description": "Segment of F1 on F.Silkscreen",
+                    "pos": {
+                        "x": 70.59,
+                        "y": 1.16
+                    },
+                    "uuid": "64cb841f-6b6f-4e35-bfcc-d25db6530aac"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 92.325,
+                        "y": 13.775
+                    },
+                    "uuid": "511c761d-0bcf-49a7-bca2-63a8fd9df46e"
+                },
+                {
+                    "description": "Segment of J110 on F.Silkscreen",
+                    "pos": {
+                        "x": 80.025,
+                        "y": 13.095
+                    },
+                    "uuid": "568180a8-0603-4975-a67b-9fe01dd6f1cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 68.725,
+                        "y": 14.875
+                    },
+                    "uuid": "38f87b78-004a-4596-99da-41747bdb31e2"
+                },
+                {
+                    "description": "Segment of J110 on F.Silkscreen",
+                    "pos": {
+                        "x": 80.025,
+                        "y": 13.795
+                    },
+                    "uuid": "426e910f-032a-467b-b9f5-d6b279c8d099"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J110 on F.Silkscreen",
+                    "pos": {
+                        "x": 80.025,
+                        "y": 13.795
+                    },
+                    "uuid": "426e910f-032a-467b-b9f5-d6b279c8d099"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 68.925,
+                        "y": 13.775
+                    },
+                    "uuid": "fd551340-fd52-4566-b18e-cab0f50a4409"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J110 on F.Silkscreen",
+                    "pos": {
+                        "x": 80.025,
+                        "y": 13.795
+                    },
+                    "uuid": "426e910f-032a-467b-b9f5-d6b279c8d099"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 92.325,
+                        "y": 13.775
+                    },
+                    "uuid": "511c761d-0bcf-49a7-bca2-63a8fd9df46e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.8355,
+                        "y": 43.575
+                    },
+                    "uuid": "93a17562-83d4-4f19-acb5-2114329fcb83"
+                },
+                {
+                    "description": "Segment of Z1 on F.Silkscreen",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 43.115
+                    },
+                    "uuid": "b39a7e72-b065-43ac-b4cb-d1e212d9a180"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of P1 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.275,
+                        "y": 97.94
+                    },
+                    "uuid": "079e38c9-9fe0-4ddf-ba66-608095e4d9b1"
+                },
+                {
+                    "description": "PTH pad 1 [Net-(T3-S1)] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 97.79
+                    },
+                    "uuid": "1aec82b8-3292-40a5-ab24-daa6efc95967"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of P1 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.275,
+                        "y": 97.94
+                    },
+                    "uuid": "079e38c9-9fe0-4ddf-ba66-608095e4d9b1"
+                },
+                {
+                    "description": "PTH pad 1 [/SW_NODE] of CPR1",
+                    "pos": {
+                        "x": 39.37,
+                        "y": 86.36
+                    },
+                    "uuid": "4359e222-e9c5-4549-9e5c-2ab755c934b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of P1 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.275,
+                        "y": 97.94
+                    },
+                    "uuid": "079e38c9-9fe0-4ddf-ba66-608095e4d9b1"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 85.09
+                    },
+                    "uuid": "5592d302-39e9-4dd5-a431-ea407d4e1afc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 46.95,
+                        "y": 32.55
+                    },
+                    "uuid": "7b275afb-dfee-47c3-ac70-a42d104d1790"
+                },
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 3.8735,
+                        "y": 2.3495
+                    },
+                    "uuid": "d8a31e56-2f0e-48de-87dc-f31d29fe6b36"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 46.95,
+                        "y": 32.55
+                    },
+                    "uuid": "7b275afb-dfee-47c3-ac70-a42d104d1790"
+                },
+                {
+                    "description": "NPTH pad of J1",
+                    "pos": {
+                        "x": 46.205,
+                        "y": 6.071
+                    },
+                    "uuid": "a532656c-1928-420e-b4af-4f36561f0b4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 46.95,
+                        "y": 32.55
+                    },
+                    "uuid": "7b275afb-dfee-47c3-ac70-a42d104d1790"
+                },
+                {
+                    "description": "PTH pad 1 [/AC_L] of J1",
+                    "pos": {
+                        "x": 45.705,
+                        "y": 11.071
+                    },
+                    "uuid": "e4fa159d-7a20-4943-bb5a-47349368959c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 38.1
+                    },
+                    "uuid": "52a97460-7219-4b84-ba0d-fa5d930053fc"
+                },
+                {
+                    "description": "PTH pad 1 [+15V] of C5",
+                    "pos": {
+                        "x": 41.315,
+                        "y": 42.545
+                    },
+                    "uuid": "eb51c167-138c-4007-a42e-2947b7e26e0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 38.1
+                    },
+                    "uuid": "52a97460-7219-4b84-ba0d-fa5d930053fc"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of C5",
+                    "pos": {
+                        "x": 46.315,
+                        "y": 42.545
+                    },
+                    "uuid": "b296e74b-46d9-4948-a3d4-4d4c30c280dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of T1 on F.Silkscreen",
+                    "pos": {
+                        "x": 49.325,
+                        "y": 64.92
+                    },
+                    "uuid": "5a656ce2-b883-4556-9620-13b01d4cab35"
+                },
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 51.435
+                    },
+                    "uuid": "efd864a2-accb-452d-a33b-72dfdf7ccf2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of C13 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "87fc85c7-fd77-4d41-97d5-007a66fa621a"
+                },
+                {
+                    "description": "PTH pad 1 [+15V] of C6",
+                    "pos": {
+                        "x": 41.315,
+                        "y": 62.23
+                    },
+                    "uuid": "81e7cf11-f1eb-4e56-8148-45f8d8176a88"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of C13 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815,
+                        "y": 57.785
+                    },
+                    "uuid": "87fc85c7-fd77-4d41-97d5-007a66fa621a"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of C6",
+                    "pos": {
+                        "x": 46.315,
+                        "y": 62.23
+                    },
+                    "uuid": "2727b484-753a-4c4c-8848-0b199e98e540"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of T1 on F.Silkscreen",
+                    "pos": {
+                        "x": 49.325,
+                        "y": 64.92
+                    },
+                    "uuid": "5a656ce2-b883-4556-9620-13b01d4cab35"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 63.765
+                    },
+                    "uuid": "aaf0bb43-5fb9-46e3-9a19-f846cfd20c2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of P2 on F.Silkscreen",
+                    "pos": {
+                        "x": 8.685,
+                        "y": 97.94
+                    },
+                    "uuid": "53e25587-3aa0-4204-b0cf-64c79ce0e91a"
+                },
+                {
+                    "description": "PTH pad 1 [Net-(T3-S1)] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 97.79
+                    },
+                    "uuid": "1aec82b8-3292-40a5-ab24-daa6efc95967"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of P2 on F.Silkscreen",
+                    "pos": {
+                        "x": 8.685,
+                        "y": 97.94
+                    },
+                    "uuid": "53e25587-3aa0-4204-b0cf-64c79ce0e91a"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of T3",
+                    "pos": {
+                        "x": 30.48,
+                        "y": 85.09
+                    },
+                    "uuid": "5592d302-39e9-4dd5-a431-ea407d4e1afc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of T1 on F.Silkscreen",
+                    "pos": {
+                        "x": 49.325,
+                        "y": 64.92
+                    },
+                    "uuid": "5a656ce2-b883-4556-9620-13b01d4cab35"
+                },
+                {
+                    "description": "PTH pad 3 [/SW_NODE] of Q1",
+                    "pos": {
+                        "x": 71.9455,
+                        "y": 56.885
+                    },
+                    "uuid": "00511d2b-1f01-49ce-b216-158b873eb76b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.8355,
+                        "y": 59.295
+                    },
+                    "uuid": "417e8f07-b3c7-42b3-b223-e48f1d2e2bbf"
+                },
+                {
+                    "description": "PTH pad 1 [/SW_NODE] of Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 59.944
+                    },
+                    "uuid": "17510a4e-3985-4d34-9554-e077900d00fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.8355,
+                        "y": 61.355
+                    },
+                    "uuid": "6983411f-afe7-4edc-b4ec-14e8b3b12c96"
+                },
+                {
+                    "description": "PTH pad 1 [/SW_NODE] of Z2",
+                    "pos": {
+                        "x": 78.105,
+                        "y": 59.944
+                    },
+                    "uuid": "17510a4e-3985-4d34-9554-e077900d00fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 106.045
+                    },
+                    "uuid": "15eb3eba-2e44-4f31-ab40-435b28f36c26"
+                },
+                {
+                    "description": "Rectangle of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 46.95,
+                        "y": 32.55
+                    },
+                    "uuid": "7b275afb-dfee-47c3-ac70-a42d104d1790"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": -2.0
+                    },
+                    "uuid": "55b2debf-6760-48e2-8c35-81f9644e9628"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 39.205,
+                        "y": 5.571
+                    },
+                    "uuid": "255708f9-71c4-4d9a-bfbc-83b043a6d0b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": -2.0
+                    },
+                    "uuid": "55b2debf-6760-48e2-8c35-81f9644e9628"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.205,
+                        "y": -12.429
+                    },
+                    "uuid": "3001cfdb-f5c9-45a3-9c5b-7876ad0eac25"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}
