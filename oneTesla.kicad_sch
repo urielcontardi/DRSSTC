@@ -10325,7 +10325,7 @@
         )
       )
     )
-    (property "Footprint_Status" "REVIEW: REPROVADO envelope D30: centros distam 26.035 mm, sobreposição 3.965 mm; F03. Pitch 10.16, MPN desconhecido"
+    (property "Footprint_Status" "D30/P10.16 envelope retained; centers35mm, body gap5mm, board edge min5mm after enlargement. Exact MPN/ripple/tolerance NOT verified."
       (at 355.6 74.93 0)
       (hide yes)
       (show_name no)
@@ -13438,7 +13438,7 @@
         )
       )
     )
-    (property "Footprint" "oneTesla:R_L25_P22.86_INCOMPATIBLE"
+    (property "Footprint" "oneTesla:R_L25_P30.48_Provisional"
       (at 46.99 73.66 90)
       (hide yes)
       (show_name no)
@@ -13470,7 +13470,7 @@
         )
       )
     )
-    (property "Footprint_Status" "REVIEW: REPROVADO envelope: corpo declarado 25 mm, furos distam 22.86 mm; silk/fab deslocados 15.24 mm; F02"
+    (property "Footprint_Status" "PROVISIONAL body25mm; lead spacing30.48mm (2.74mm each side). Confirm exact MPN, lead forming and thermal clearance."
       (at 46.99 73.66 90)
       (hide yes)
       (show_name no)
@@ -14673,7 +14673,7 @@
         )
       )
     )
-    (property "Footprint_Status" "REVIEW: REPROVADO envelope D30: centros distam 26.035 mm, sobreposição 3.965 mm; F03. Pitch 10.16, MPN desconhecido"
+    (property "Footprint_Status" "D30/P10.16 envelope retained; centers35mm, body gap5mm, board edge min5mm after enlargement. Exact MPN/ripple/tolerance NOT verified."
       (at 355.6 120.65 0)
       (hide yes)
       (show_name no)

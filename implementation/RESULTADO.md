@@ -1,5 +1,7 @@
 # Implementação da revisão DRSSTC — parcial, não fabricar
 
+> Histórico anterior à ampliação autorizada. Estado atual: [expansion/RESULTADO.md](expansion/RESULTADO.md). Os bloqueios de tamanho, colisão C11/C12 e passo de R1 abaixo foram tratados na nova etapa.
+
 Branch local: **fix/cad-review-20261007**. Base preservada: **60c237c** (projeto original f4da80c + auditoria). Sem push. A interrupção do provedor deixou uma etapa de roteamento não validada; ela foi recuperada, corrigida e verificada. O checkpoint interrompido fica em checkpoint/interrupted.kicad_pcb, exclusivamente histórico: NÃO usar para fabricação.
 
 ## Alterações efetivamente aplicadas
