@@ -1,0 +1,56 @@
+{
+  "baseline": "7ac4dfd",
+  "native_pad_geometry_nets_drills_preserved": true,
+  "moved_only": [
+    "C10",
+    "R2",
+    "C9"
+  ],
+  "mounting_preserved": [
+    [
+      "H1",
+      3.9243,
+      102.1588
+    ],
+    [
+      "H2",
+      91.186,
+      69.215
+    ],
+    [
+      "H3",
+      3.8735,
+      2.3495
+    ],
+    [
+      "H4",
+      91.186,
+      51.435
+    ],
+    [
+      "H5",
+      102.3239,
+      101.6762
+    ],
+    [
+      "J1",
+      46.205,
+      6.071
+    ],
+    [
+      "J1",
+      59.205,
+      6.071
+    ]
+  ],
+  "outline_preserved": true,
+  "vias_preserved": true,
+  "drc_count": 84,
+  "parity": 2,
+  "sha256": {
+    "oneTesla.kicad_pcb": "8ff8c5422deda4dcbb3d27a87794e56d2c98ae27242994c74c9faf3cc9ce025f",
+    "oneTesla.kicad_sch": "0dc7cabce7e2e8f9330d684b045ba703142f0b7d446493864eeca3ab7b3cbb3b",
+    "implementation/cleanup/drc-final.json": "edca46b374bc46a2ba727f7017540f78bb58dadb41854b599b624e684ec0ed25",
+    "implementation/cleanup/final.net": "54d19c24887590aa925622a905af74c2250c9de83de3d42e64d81f50ce58975e"
+  }
+}

@@ -8970,7 +8970,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:TO-3P-3_Horizontal_TabDown"
+    (property "Footprint" "oneTesla:Q_TO3P_ImportedPads_ReviewPending"
       (at 294.64 74.93 0)
       (hide yes)
       (show_name no)
@@ -13083,7 +13083,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "oneTesla:TO-3P-3_Horizontal_TabDown"
+    (property "Footprint" "oneTesla:Q_TO3P_ImportedPads_ReviewPending"
       (at 294.64 120.65 0)
       (hide yes)
       (show_name no)

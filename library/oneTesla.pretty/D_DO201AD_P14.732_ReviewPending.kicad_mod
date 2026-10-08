@@ -158,7 +158,7 @@
     (layer "F.Fab")
   )
   (fp_text user "K"
-    (at -7.62 -2.6 0)
+    (at -6.5 5 0)
     (layer "F.SilkS")
     (effects
       (font
@@ -168,7 +168,7 @@
     )
   )
   (fp_text user "K"
-    (at -7.62 -2.6 0)
+    (at -6.5 5 0)
     (layer "F.Fab")
     (effects
       (font
