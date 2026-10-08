@@ -25,6 +25,16 @@ KiCad CLI 10.0.6, contêiner `kicad-web:local`, entrada montada read-only, saíd
 
 `net-current.net` difere de `final.net` somente no carimbo `date` do exportador; o diff textual não mostra outras alterações. Relatórios atuais: `erc-current.json`, `drc-current.json`, `net-current.net`. Plots pós-ajuste: `top.png`, `bottom.png`, `assembly.png`, `before-after.png`. A contagem DRC é ocorrência reportada, não índice de segurança. Regras e exclusões não foram relaxadas.
 
+## Retomada e triagem — 2026-10-08
+
+Checkpoint `87aa19d` inspecionado sem editar o PCB ou esquema. O arquivo `drc-current.json` contém 84 violações: 22 courtyards sobrepostos, 16 PTH e 4 NPTH dentro de courtyard vizinho, 22 overlaps de silk, 17 silk sobre abertura de máscara e 3 silk-borda. A paridade registra JPRT1/JPRT2 como footprints extras; não há itens desconectados. Os arquivos de prova nativa e estrutural continuam vinculados aos hashes do checkpoint (ver `native-proof.json`). Esta retomada é uma triagem dos relatórios existentes, **não** uma nova execução de KiCad nem uma nova prova elétrica.
+
+- C5/C8, C6/C13, IC3/C13 e J110/D4 são colisões localizadas, porém envolvem courtyards/corpos e, em dois pares, silk sobre pads. Mover footprints requer avaliação de espaço, trilhas e zonas; apagar somente círculos/segmentos de silk esconderia a posição física.
+- P1/P2/T3/CPR1, Q1/Q2/Z1/Z2/T1, PS1/J1/F1/H3 e furos H2/H4 envolvem envelopes ou fixações interdependentes. Não há correção geométrica independente demonstrada que preserve dimensões, placement elétrico e roteamento.
+- As 3 ocorrências silk-borda são contornos de PS1/J1; não justificam alterar borda da placa nem apagar contorno sem confirmar encaixe mecânico.
+
+**Resultado desta retomada:** nenhuma alteração CAD verificavelmente segura identificada; contagens e bloqueios do checkpoint permanecem. Antes de uma nova iteração de placement, confirmar componentes e envelopes físicos listados abaixo.
+
 ## Bloqueios reais
 
 1. Colisões físicas envolvem P1/P2, CPR1, Q1/Q2, Z1/Z2, T3, PS1/J1 e H2-H4. Mover essas peças agora exigiria rever trilhas e confirmar dimensões/envelope do conjunto. Não se deve apagar courtyards/corpos ou silk de posição para ocultá-las.
