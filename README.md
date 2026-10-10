@@ -87,7 +87,7 @@ python3 scripts/validate_schematic.py
 kicad-cli sch export pdf oneTesla.kicad_sch -o output/oneTesla-schematic.pdf
 ```
 
-`python3 scripts/build_schematic.py` recria o esquema inicial desta entrega e as bibliotecas locais, **sobrescrevendo edições posteriores nesses arquivos**; não o execute para apenas validar. `misc/oneTesla.before-replication.kicad_sch` preserva o esquema que existia antes desta reconstrução.
+`python3 scripts/build_schematic.py` recria o esquema inicial desta entrega e as bibliotecas locais, **sobrescrevendo edições posteriores nesses arquivos**; não o execute para apenas validar. O esquema anterior a esta reconstrução permanece no histórico do git.
 
 ## PCB
 
