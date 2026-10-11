@@ -3364,7 +3364,7 @@
         )
       )
     )
-    (property "Footprint" "oneTesla:Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal"
+    (property "Footprint" "oneTesla:Fuseholder_Idall_AS-06_5x20mm_P20.20mm_Horizontal"
       (at -1.778 0 90)
       (show_name no)
       (do_not_autoplace no)
@@ -3375,7 +3375,7 @@
         )
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://idall.com.br/fusivel-porta-fusivel/0179-porta-fusivel-as-06-5x20"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -3386,7 +3386,7 @@
         )
       )
     )
-    (property "Description" "Fuse"
+    (property "Description" "Porta-fusivel Idall AS-06 5x20mm, 2 terminais, passo20.2mm, corpo26x9.6mm; desenho Idall0179."
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -3484,6 +3484,28 @@
       )
     )
     (embedded_fonts no)
+    (property "Footprint_Status" "AS-06 Idall0179: P20.2±0.3mm, corpo26x9.6mm; furo1.8/pad3.2 selecionados para terminal1.3±0.1x0.4mm. STEP fornecido P22.5mm: referencia visual aproximada."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Assembly_Notes" "Porta-fusivel AS-06 5x20mm, 2 terminais; 1 AC_L, 2 AC_L_FUSED. Fusivel4A/250VAC mantido. STEP fornecido tem passo22.5mm versus20.2mm do AS-06; nao usar STEP para furação."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
   )
   (symbol "Jumper"
     (pin_numbers
@@ -4941,7 +4963,7 @@
         )
       )
     )
-    (property "Footprint" "oneTesla:Primary_Terminal_M6_CONFIRMAR"
+    (property "Footprint" "oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm"
       (at 5.08 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -6491,6 +6513,286 @@
         )
       )
       (hide yes)
+    )
+  )
+  (symbol "AC_Input_2EDGRC_2P"
+  (pin_names)
+  (exclude_from_sim no)
+  (in_bom yes)
+  (on_board yes)
+  (property "Reference" "J"
+    (at 0 12.7 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+  (property "Value" "2EDGRC-5.08-02P"
+    (at 0 15.24 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+  (property "Footprint" "oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    (hide yes)
+  )
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    (hide yes)
+  )
+  (property "Description" "Entrada AC L/N: borne plugavel 2EDGRC-5.08-02P, 2 pinos, 90 graus; PE externo em J2."
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+    (hide yes)
+  )
+  (symbol "AC_Input_2EDGRC_2P_0_1"
+    (rectangle
+      (start -7.62 7.62)
+      (end 7.62 -2.54)
+      (stroke
+        (width 0.254)
+        (type default)
+      )
+      (fill
+        (type background)
+      )
+    )
+  )
+  (symbol "AC_Input_2EDGRC_2P_1_1"
+    (pin passive line
+      (at 10.16 5.08 180)
+      (length 2.54)
+      (name "L"
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (number "1"
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+    )
+    (pin passive line
+      (at 10.16 0 180)
+      (length 2.54)
+      (name "N"
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (number "2"
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+    )
+  )
+)
+  (symbol "L7805"
+    (pin_names
+      (offset 0.254)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "U"
+      (at -3.81 3.175 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "L7805CV"
+      (at 0 3.175 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "oneTesla:TO-220-3_Vertical"
+      (at 0.635 -3.81 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+          (italic yes)
+        )
+        (justify left)
+      )
+    )
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/l78.pdf"
+      (at 0 -1.27 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Description" "L7805CV ST, regulador linear de 5V, TO-220 vertical; 1 IN, 2 GND, 3 OUT; aba GND."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "ki_keywords" "Voltage Regulator 1.5A Positive"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "ki_fp_filters" "TO-220-3_Vertical"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (symbol "L7805_0_1"
+      (rectangle
+        (start -5.08 1.905)
+        (end 5.08 -5.08)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "L7805_1_1"
+      (pin power_in line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "IN"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin power_in line
+        (at 0 -7.62 90)
+        (length 2.54)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin power_out line
+        (at 7.62 0 180)
+        (length 2.54)
+        (name "OUT"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+    )
+    (embedded_fonts no)
+    (property "Footprint_Status" "TO-220-3 vertical: passo2.54mm, furos1.1mm, pinagem L7805 1 IN/2 GND/3 OUT."
+      (at 0 -1.27 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Assembly_Notes" "L7805CV TO-220: 1 +15V, 2 GND, 3 +5V; aba metalica ligada ao GND. Substitui 78L05 TO-92 com remapeamento dos pinos1/3."
+      (at 0 -1.27 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
     )
   )
 )

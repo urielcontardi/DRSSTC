@@ -63,7 +63,7 @@ PATCH = {
     ('3', 0.0, 14.5, 1.5, 3.0, 3.0, 'circle', False),
     ('', -6.5, 9.5, 3.0, 3.0, 3.0, 'circle', True), ('', 6.5, 9.5, 3.0, 3.0, 3.0, 'circle', True)],
  # Primary terminal: original 12AWG single octagon pad
- 'Primary_Terminal_M6_CONFIRMAR': [
+ 'Primary_WirePad_D4.0mm_Drill2.2mm': [
     ('1', 0.0, 0.0, 2.2, 4.0, 4.0, 'circle', False)],
  'J110_WireLink_P10.16mm': [
     ('1', -5.08, 0.0, 2.2, 4.0, 4.0, 'circle', False), ('2', 5.08, 0.0, 2.2, 4.0, 4.0, 'circle', False)],

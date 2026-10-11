@@ -1,0 +1,12 @@
+{
+  "IC6_pin_nets": {
+    "1": "+15V",
+    "2": "GND",
+    "3": "+5V"
+  },
+  "only_netlist_change_swapped_IC6_1_3": true,
+  "other_PCB_footprints_unchanged": true,
+  "footprint": "oneTesla:TO-220-3_Vertical",
+  "part": "L7805CV",
+  "model": "${KIPRJMOD}/library/3dmodels/TO-220-3_Vertical.step"
+}

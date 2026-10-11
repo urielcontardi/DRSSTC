@@ -151,7 +151,8 @@ HF='oneTesla:HFBR-2521ETZ';statuses[HF]='HFBR-2521ETZ pad 1 OUT,2 GND,3 VCC,4 RL
 box('HFBR-2521ETZ','FB','HFBR-2521ETZ',[(1,'OUT',12.7,2.54,180,'open_collector'),(2,'GND',0,-12.7,90,'power_in'),(3,'VCC',0,12.7,270,'power_in'),(4,'RL',-12.7,2.54,0,'passive'),(5,'NC',-12.7,-5.08,0,'no_connect'),(8,'NC',12.7,-5.08,180,'no_connect')],HF,'Receptor optico com pull-up interno de 1k entre RL e OUT; RL ligado a +5V','https://docs.broadcom.com/doc/AV02-3283EN',w=10.16,h=10.16)
 IECF=customfp('IEC_C6_CONFIRMAR',[(1,-7.62,0,1.6,4),(2,7.62,0,1.6,4),(3,0,0,1.6,4)],27,18,'PROVISORIO: entrada IEC C6; geometria e numeracao propostas, confirmar fabricante, L/N/PE e fixacao')
 box('IEC_C6','J','IEC C6',[(1,'L',10.16,5.08,180,'passive'),(2,'N',10.16,0,180,'passive'),(3,'PE',10.16,-5.08,180,'passive')],IECF,w=7.62,h=10.16)
-TERMF=customfp('Primary_Terminal_M6_CONFIRMAR',[(1,0,0,6.5,10),(1,0,-7.62,2.5,5)],13,22,'PROVISORIO: terminal M6 e pad de solda no mesmo net; confirmar terminal mecanico, furo e afastamento')
+TERMF='oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm'
+statuses[TERMF]='Solda direta do fio do primario; padD4mm, furoD2.2mm, sem corpo de conector.'
 std('Terminal','Connector','TestPoint',TERMF)
 customfp('Chassis_PE_M3',[(1,0,0,3.2,7)],9,9,'Ponto PE/chassis M3 proposto; conferir fixacao e continuidade do chassis')
 CPRF=customfp('CDE_940C30S68K_F_CONFIRMAR',[(1,-28.75,0,1.3,4),(2,28.75,0,1.3,4)],46,19,'PROVISORIO: CDE 940C30S68K-F 68nF/3000V, P57.5 selecionado pela familia/layout; confirmar desenho mecanico da peca')
@@ -159,7 +160,7 @@ std('ResonantCap','Device','C',CPRF)
 for name in ['GND','+5V','+15V','PWR_FLAG']:std(name,'power',name)
 # Preserve existing SOP and DIP custom assets; add consistent THT symbol defaults.
 # Retain the separately added power components when rebuilding the initial library.
-for name in ['HLK-15M15BL', 'MUR460C', 'SMBJ18A', '1N5819']:
+for name in ['HLK-15M15BL', 'MUR460C', 'SMBJ18A', '1N5819', 'AC_Input_2EDGRC_2P', 'L7805']:
  if name in orig:
   symbols[name] = deepcopy(orig[name])
 newlib=E('kicad_symbol_lib',N('version',20231120),E('generator','kicad_symbol_editor'),E('generator_version','10.0'),*symbols.values())

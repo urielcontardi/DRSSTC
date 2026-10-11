@@ -1,0 +1,23 @@
+{
+  "physical_references": 48,
+  "other_footprint_placement_and_pads_unchanged": true,
+  "netlist_change_only_removed_J1_pin3_from_PE": true,
+  "J1_pin_nets": {
+    "1": "/AC_L",
+    "2": "/AC_N"
+  },
+  "PE_external_at": "J2.1",
+  "old_PE_tracks_and_vias_removed": true,
+  "local_STEP_sha256": "f05a73f4a44ad18ba50fcc0afb7d4bbc2926d0c792b702d104d391dac97e9a5c",
+  "files_sha256": {
+    "oneTesla.kicad_pcb": "cc7cd90967de1fd7f242610d92fe575b4e509c574970c9044b204fa41661c816",
+    "oneTesla.kicad_sch": "6a2b0d5e8c96cb12ed9874ab197f6cd8de88d4bc1393264df3a03593a349ea4b",
+    "library/oneTesla.kicad_sym": "c9c8bebd1a2c7ccf8c10b74a868eec7a21942a38810d410d9476bcafb0a458b2"
+  },
+  "drc": {
+    "violations": 73,
+    "unconnected_items": 0,
+    "schematic_parity_existing_extra_footprints": 2
+  },
+  "erc_expected_notes": 3
+}

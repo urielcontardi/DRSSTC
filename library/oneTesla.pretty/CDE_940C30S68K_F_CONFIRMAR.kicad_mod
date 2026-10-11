@@ -2,7 +2,7 @@
   (version 20260206)
   (generator "pcbnew")
   (layer "F.Cu")
-  (descr "PROVISORIO: CDE 940C30S68K-F 68nF/3000V, P57.5 selecionado pela familia/layout; confirmar desenho mecanico da peca")
+  (descr "CDE 940C30S68K-F 68nF/3000V: corpo46xD19mm, terminalD1mm conforme catalogo; P58.42mm escolhido para dobra dos terminais axiais, furo1.4mm/pad4mm.")
   (attr through_hole)
   (property "Reference" "REF**"
     (at 0 -11.5 0)

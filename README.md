@@ -1,5 +1,9 @@
 # oneTeslaTS — esquemático da placa principal
 
+Entrada AC atual: **J1 = 2EDGRC-5.08-02P**, dois pinos (**1 L, 2 N**), com footprint local `oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal` e modelo `${KIPRJMOD}/library/3dmodels/2EDGRC-5.08-02P.stp`. PE chega externamente em **J2/CHASSIS**. A troca está aplicada no esquema e no footprint J1 do PCB atual. Ver [conferência atual](implementation/ac-input/current/RESULTADO.md); as seções abaixo descrevem etapas anteriores do layout.
+
+Atualizações dos componentes aplicadas no esquema e PCB: **R1 = Vishay AC05 1k/5W**, corpo 18 × Ø7,5mm, passo de montagem **23,4mm** para os terminais dobrados como no STEP fornecido; **IC6 = L7805CV TO-220 vertical**, pinos **1 +15V, 2 GND, 3 +5V**, com STEP local; **F1 = Idall AS-06 5×20**, passo 20,2mm. O STEP do porta-fusível tem passo 22,5mm e serve como aproximação visual. Ver [R1](implementation/ac05-r1/RESULTADO.md), [IC6](implementation/7805-to220/RESULTADO.md) e [F1](implementation/fuse-as06/RESULTADO.md). O modelo DIP16 não foi associado: IC1/IC2 são DIP14, IC3/IC4 são DIP8.
+
 Abra `oneTesla.kicad_pro` no KiCad 10 e depois o editor de esquemas, ou abra diretamente `oneTesla.kicad_sch`. A folha A3 contém a placa principal completa, organizada em cinco blocos compactos. Os capacitores de desacoplamento ficam junto aos respectivos CIs; referências e valores usam fonte de 1,27 mm, espaçamento de 2,54 mm e alinhamento consistente. Os valores visíveis foram abreviados (por exemplo, `3R3`, `1u` e `100u 25V`); encapsulamentos e observações de montagem permanecem nos campos dos componentes. O UCC37321P usa um bloco retangular com entradas à esquerda, saídas à direita e alimentação/terra acima e abaixo. Para visualizar sem o KiCad, use `output/oneTesla-schematic.pdf`.
 
 O esquema tem 41 referências físicas: IC1–IC4, IC6, FB1, T1, T3, R1–R6, C1–C6, C8–C13, CPR1, D1, D2, D4, Q1–Q2, Z1–Z2, F1, J110, J1, J2, P1, P2 e PS1. A fonte auxiliar original com transformador (T2 + D3 + IC5/78L15 + C7) foi substituída pelo módulo AC/DC **PS1 (HLK-15M15BL, 15V/1A)**, com C13 na saída de 15V; C10 passou a filtrar o rail de 15V e IC6 (78L05) é alimentado por +15V. Z1/Z2 são TVS opcionais, marcados como DNP. J1 corresponde ao J_AC do original; o nome foi adaptado para a anotação do KiCad. J2 representa explicitamente a ligação de proteção PE/chassis que aparece no layout. A placa do SD interrupter externo não faz parte desta etapa. O layout do PCB está documentado na seção **PCB** abaixo.
@@ -22,6 +26,8 @@ J110 liga AC_N a DC_MID: fechado para a configuração dobradora de 110V, aberto
 
 GND da fonte isolada, DC_MINUS do barramento de potência e PE são três redes distintas. P1/P2 recebem a bobina primária externa, em série com CPR1 de 68nF/3kV. O fio do primário atravessa o núcleo de T3; os dois pads de T3 são apenas o secundário do CT.
 
+P1/P2 usam `oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm`: pontos para soldar o fio diretamente, pad circular Ø4mm, furo metalizado Ø2,2mm e courtyard Ø5,2mm. O contorno antigo de terminal M6 (13×22mm) foi removido; posições e redes dos pads foram preservadas.
+
 T1 tem pontos de fase nos pinos **1, 3 e 6**: os dois secundários devem gerar tensões gate/emitter opostas. A numeração física e os pares de enrolamentos ainda devem ser confirmados no transformador real. O ERC não verifica polaridade magnética.
 
 ## Footprints e pendências
@@ -39,10 +45,10 @@ Cada componente tem os campos `Footprint_Status` e, quando necessário, `Assembl
 | R1–R6, C1–C10, Z1/Z2 | Footprints THT padronizados selecionados; conferir corpo, passo, tensão e potência das peças adquiridas. |
 | C11/C12 | 1000uF, tensão nominal selecionada de pelo menos 200V; snap-in D30/P10 proposto. Confirmar diâmetro, passo e altura. |
 | D3/D4 | DF005M DIP-4 / KBU6G linear selecionados por formato e especificações da lista; confirmar os códigos reais e a ordem dos terminais. |
-| F1 | Clipes 5x20mm selecionados; confirmar o modelo dos clipes e os passos de seus furos. |
+| F1 | Porta-fusível Idall AS-06 5x20mm: dois terminais, passo 20,2mm, furos selecionados de 1,8mm e pads de 3,2mm. STEP associado como referência visual, pois tem passo de 22,5mm. Ver `implementation/fuse-as06/RESULTADO.md`. |
 | T1/T2/T3 | Footprints personalizados **provisórios**, estimados do layout. Confirmar dimensões, pares de pinos, tensão e fase com as peças. |
-| J1/P1/P2/J110/J2 | IEC, terminais e ligação PE com geometria proposta; conferir modelos, fixações, furos e numeração. |
-| CPR1 | Footprint personalizado **provisório**, CDE 940C30S68K-F, passo selecionado 57,5mm. Confirmar desenho mecânico da peça. |
+| J1/P1/P2/J110/J2 | J1: borne 2EDGRC de dois pinos, passo 5,08mm, STEP associado; PE externo em J2. Conferir furação e demais terminais com as peças. |
+| CPR1 | CDE 940C30S68K-F: corpo 46×Ø19mm e terminal Ø1mm conferidos no [catálogo](https://www.cde.com/resources/catalogs/940C.pdf). Furos Ø1,4mm, pads Ø4mm, passo de montagem 58,42mm; dobrar terminais axiais para esse passo, escolhido pelo layout. |
 
 A existência de todos os footprints e a correspondência entre números dos pinos e dos pads foram verificadas. Isso **não confirma medidas físicas de peças não identificadas**. Os footprints marcados `CONFIRMAR` e os modelos selecionados da tabela precisam dessa conferência antes de usar o projeto para fabricar uma placa.
 

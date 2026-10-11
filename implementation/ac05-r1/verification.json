@@ -1,0 +1,49 @@
+{
+  "all_41_schematic_PCB_footprint_assignments_match": true,
+  "all_numbered_PCB_pads_match_schematic_nets": 130,
+  "requested_local_models_exist": true,
+  "preexisting_unresolved_model_paths": [
+    {
+      "reference": "FB1",
+      "path": "${KICAD10_3DMODEL_DIR}/OptoDevice.3dshapes/AGILENT_HFBR-252x.step"
+    }
+  ],
+  "only_connectivity_change_since_resistor_review": "J1 pin3 removed; PE external at J2",
+  "other_PCB_footprints_unchanged": true,
+  "R1": {
+    "part": "Vishay AC05 1k 5W",
+    "body_mm": [
+      18,
+      7.5
+    ],
+    "assembly_pitch_mm": 23.4,
+    "pitch_basis": "Provided STEP bent lead centers; manual forming required, not manufacturer EK pitch",
+    "drill_mm": 1.2,
+    "footprint": "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P23.40mm_Horizontal",
+    "model": "${KIPRJMOD}/library/3dmodels/vishay_AC05.step"
+  },
+  "IC6_pin_nets": {
+    "1": "+15V",
+    "2": "GND",
+    "3": "+5V"
+  },
+  "HLK_pin_positions_confirmed": {
+    "1": [
+      0.0,
+      0.0
+    ],
+    "2": [
+      0.0,
+      7.8
+    ],
+    "3": [
+      42.5,
+      -7.4
+    ],
+    "4": [
+      42.5,
+      15.2
+    ]
+  },
+  "DIP16": "Not assigned: IC1/IC2 DIP14, IC3/IC4 DIP8"
+}

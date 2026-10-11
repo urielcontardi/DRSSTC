@@ -1,0 +1,18 @@
+{
+  "connectivity_unchanged": true,
+  "other_PCB_items_unchanged": true,
+  "other_schematic_instances_unchanged": true,
+  "F1_pad_nets": {
+    "1": "/AC_L",
+    "2": "/AC_L_FUSED"
+  },
+  "footprint_pitch_mm": 20.2,
+  "drill_mm": 1.8,
+  "STEP_pitch_mm": 22.5,
+  "STEP_reference_only": true,
+  "STEP_sha256": "decf4eb4ca1afde13d34ac9ed6e544610021a4ad8c4aa54340bd8ad8133b11e9",
+  "ERC_types": [
+    "power_pin_not_driven",
+    "power_pin_not_driven"
+  ]
+}

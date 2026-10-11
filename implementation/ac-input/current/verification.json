@@ -1,0 +1,16 @@
+{
+  "netlist_change_only_removed_J1_3_from_PE": true,
+  "other_PCB_items_unchanged": true,
+  "J1_pin_nets": {
+    "1": "/AC_L",
+    "2": "/AC_N"
+  },
+  "footprint": "oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal",
+  "step_path": "${KIPRJMOD}/library/3dmodels/2EDGRC-5.08-02P.stp",
+  "step_sha256": "f05a73f4a44ad18ba50fcc0afb7d4bbc2926d0c792b702d104d391dac97e9a5c",
+  "ERC_types": [
+    "power_pin_not_driven",
+    "power_pin_not_driven",
+    "isolated_pin_label"
+  ]
+}
