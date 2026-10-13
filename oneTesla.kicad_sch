@@ -674,7 +674,7 @@
 					)
 				)
 			)
-			(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+			(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -696,7 +696,7 @@
 					)
 				)
 			)
-			(property "Description" "Hex inverter schmitt trigger, TTL input levels"
+			(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -728,7 +728,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP-14*"
+			(property "ki_fp_filters" "SOIC-14* SOP-14*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1277,7 +1277,7 @@
 					)
 				)
 			)
-			(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+			(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1299,7 +1299,7 @@
 					)
 				)
 			)
-			(property "Description" "Dual D Flip-flop, Set & Reset, TTL input levels"
+			(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1331,7 +1331,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP-14*"
+			(property "ki_fp_filters" "SOIC-14* SOP-14*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5049,6 +5049,18 @@
 		)
 		(uuid "83852dc6-fefe-4fd8-a7b5-563b2d9da885")
 	)
+	(text "AC/IN\n"
+		(exclude_from_sim no)
+		(at 23.114 220.726 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9d0ced38-ae25-413c-a7c4-a1d56ff318c7")
+	)
 	(text "Rectifier"
 		(exclude_from_sim no)
 		(at 27.686 249.428 0)
@@ -7804,7 +7816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 105.41 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7826,8 +7838,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 105.41 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7836,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 105.41 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8179,7 +8192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 25V"
+		(property "Value" "100u 35V"
 			(at 172.72 169.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D8_P2.54_ReviewPending"
+		(property "Footprint" "oneTesla:CP_Elec_8x10"
 			(at 168.91 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8222,7 +8235,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Pendente MPN: pitch real 2.54 versus nome 3.50; F02. C9 em +5 V; C8/C13 em +15 V"
+		(property "Footprint_Status" "GENERIC: standard SMD 8x10mm selected as requested; purchased part dimensions unverified; pad1 positive, pad2 negative."
 			(at 168.91 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8403,97 +8416,98 @@
 		)
 	)
 	(symbol
-		(lib_id "oneTesla:R")
-		(at 384.81 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3630d741-3e3a-4166-b721-387123f7aa41")
-		(property "Reference" "R5"
-			(at 387.35 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k 0.5W"
-			(at 387.35 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oneTesla:R_L9_P10.16_ReviewPending"
-			(at 384.81 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 384.81 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 384.81 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Status" "REVIEW: Pendente MPN 0.5 W: pitch real 10.16, nome 12.70; fab/silk não recentrados; F02"
-			(at 384.81 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4d80c40-a34f-4883-b865-c8cf1fbca77d")
-		)
-		(pin "2"
-			(uuid "7de23459-2ff0-4be7-acee-2925259b7d71")
-		)
-		(instances
-			(project "oneTesla"
-				(path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
+    (lib_id "oneTesla:R")
+    (at 384.81 74.93 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3630d741-3e3a-4166-b721-387123f7aa41")
+    (property "Reference" "R5"
+      (at 387.35 73.6599 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100k 0.5W"
+      (at 387.35 76.1999 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "oneTesla:R_Uniroyal_HV12_2512_P6.60mm"
+      (at 384.81 74.93 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Datasheet" ""
+      (at 384.81 74.93 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Description" "100k 0.5W resistor, SMD 2512, pad pitch 6.60mm"
+      (at 384.81 74.93 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint_Status" "SMD 2512 land pattern, 6.60mm pad pitch; value100k0.5W preserved; no MPN selected."
+      (at 384.81 74.93 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (pin "1"
+      (uuid "a4d80c40-a34f-4883-b865-c8cf1fbca77d")
+    )
+    (pin "2"
+      (uuid "7de23459-2ff0-4be7-acee-2925259b7d71")
+    )
+    (instances
+      (project "oneTesla"
+        (path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
+          (reference "R5")
+          (unit 1)
+        )
+      )
+    )
+  )
 	(symbol
 		(lib_id "oneTesla:+15V")
 		(at 196.85 35.56 0)
@@ -8830,7 +8844,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "430e8d48-ab98-4ba0-b556-d5f418c1510f")
 		(property "Reference" "IC1"
 			(at 83.82 64.77 0)
@@ -8852,7 +8865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8874,8 +8887,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 83.82 73.66 0)
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 86.106 85.852 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8884,7 +8898,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9332,7 +9346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 10V"
+		(property "Value" "100u 35V"
 			(at 205.74 222.6309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9343,7 +9357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D8_P2.54_ReviewPending"
+		(property "Footprint" "oneTesla:CP_Elec_8x10"
 			(at 201.93 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -9375,7 +9389,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Pendente MPN: pitch real 2.54 versus nome 3.50; F02. C9 em +5 V; C8/C13 em +15 V"
+		(property "Footprint_Status" "GENERIC: standard SMD 8x10mm selected as requested; purchased part dimensions unverified; pad1 positive, pad2 negative."
 			(at 201.93 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -9402,105 +9416,106 @@
 		)
 	)
 	(symbol
-    (lib_id "oneTesla:Terminal")
-    (at 328.93 96.52 0)
-    (unit 1)
-    (body_style 1)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (in_pos_files yes)
-    (dnp no)
-    (uuid "4e968627-c773-4521-ba55-5590b459d070")
-    (property "Reference" "P1"
-      (at 327.914 90.932 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-        (justify left)
-      )
-    )
-    (property "Value" "PRIMARIO A"
-      (at 331.47 94.4879 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-        (justify left)
-      )
-    )
-    (property "Footprint" "oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm"
-      (at 328.93 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (property "Datasheet" ""
-      (at 328.93 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (property "Description" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
-      (at 328.93 96.52 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (property "Footprint_Status" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
-      (at 328.93 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (pin "1"
-      (uuid "8bf25d0e-85f8-4a7a-a166-5f301a4ceba5")
-    )
-    (instances
-      (project "oneTesla"
-        (path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
-          (reference "P1")
-          (unit 1)
-        )
-      )
-    )
-    (property "Assembly_Notes" "Soldar fio do primario diretamente ao pad; furoD2.2mm/padD4mm. Sem corpo de conector; conferir diametro do condutor desencapado."
-      (at 328.93 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-  )
+		(lib_id "oneTesla:Terminal")
+		(at 328.93 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e968627-c773-4521-ba55-5590b459d070")
+		(property "Reference" "P1"
+			(at 327.914 90.932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PRIMARIO A"
+			(at 331.47 94.4879 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm"
+			(at 328.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
+			(at 330.2 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Status" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
+			(at 328.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly_Notes" "Soldar fio do primario diretamente ao pad; furoD2.2mm/padD4mm. Sem corpo de conector; conferir diametro do condutor desencapado."
+			(at 328.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bf25d0e-85f8-4a7a-a166-5f301a4ceba5")
+		)
+		(instances
+			(project "oneTesla"
+				(path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "oneTesla:R")
 		(at 227.33 55.88 90)
@@ -9557,6 +9572,7 @@
 		)
 		(property "Description" ""
 			(at 227.33 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9625,7 +9641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+		(property "Footprint" "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 344.17 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -9657,7 +9673,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Disco P5, furos/pads inventariados; dielétrico/tensão/ESL/MPN desconhecidos; C4 deve suportar corrente do GDT"
+		(property "Footprint_Status" "SMD 0805; pads for hand soldering."
 			(at 344.17 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -9807,7 +9823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 25V"
+		(property "Value" "100u 35V"
 			(at 137.16 169.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9818,7 +9834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D8_P2.54_ReviewPending"
+		(property "Footprint" "oneTesla:CP_Elec_8x10"
 			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9850,7 +9866,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Pendente MPN: pitch real 2.54 versus nome 3.50; F02. C9 em +5 V; C8/C13 em +15 V"
+		(property "Footprint_Status" "GENERIC: standard SMD 8x10mm selected as requested; purchased part dimensions unverified; pad1 positive, pad2 negative."
 			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10023,7 +10039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D30_P10.16_ReviewPending"
+		(property "Footprint" "oneTesla:CP_D25_H45_P10.16_ReviewPending"
 			(at 355.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10055,7 +10071,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "D30/P10.16 envelope retained; centers35mm, body gap5mm, board edge min5mm after enlargement. Exact MPN/ripple/tolerance NOT verified."
+		(property "Footprint_Status" "Ketuo 1000uF 200V, body D25 x H45mm from user image. Existing P10.16mm, drill2mm and pad4mm preserved provisionally; actual terminal pitch and section NOT confirmed."
 			(at 355.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10299,7 +10315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+		(property "Footprint" "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 387.35 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10331,7 +10347,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Disco P5, furos/pads inventariados; dielétrico/tensão/ESL/MPN desconhecidos; C4 deve suportar corrente do GDT"
+		(property "Footprint_Status" "SMD 0805; pads for hand soldering."
 			(at 387.35 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10391,7 +10407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+		(property "Footprint" "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 119.38 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10423,7 +10439,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Disco P5, furos/pads inventariados; dielétrico/tensão/ESL/MPN desconhecidos; C4 deve suportar corrente do GDT"
+		(property "Footprint_Status" "SMD 0805; pads for hand soldering."
 			(at 119.38 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10638,7 +10654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 269.24 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10660,8 +10676,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 269.24 226.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10670,7 +10687,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 269.24 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10733,97 +10750,97 @@
 		)
 	)
 	(symbol
-		(lib_id "oneTesla:R")
-		(at 384.81 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a4eac5a-a70e-40ac-8184-639d5f3b0bbf")
-		(property "Reference" "R6"
-			(at 387.35 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k 0.5W"
-			(at 387.35 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oneTesla:R_L9_P10.16_ReviewPending"
-			(at 384.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 384.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 384.81 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Status" "REVIEW: Pendente MPN 0.5 W: pitch real 10.16, nome 12.70; fab/silk não recentrados; F02"
-			(at 384.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdd3bf7a-c9b4-4c39-bd05-afb5e9d65edb")
-		)
-		(pin "2"
-			(uuid "ecd34473-b06a-4fce-9d7d-5aa733c2fa09")
-		)
-		(instances
-			(project "oneTesla"
-				(path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
+    (lib_id "oneTesla:R")
+    (at 384.81 120.65 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "8a4eac5a-a70e-40ac-8184-639d5f3b0bbf")
+    (property "Reference" "R6"
+      (at 387.35 119.3799 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100k 0.5W"
+      (at 387.35 121.9199 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "oneTesla:R_Uniroyal_HV12_2512_P6.60mm"
+      (at 384.81 120.65 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Datasheet" ""
+      (at 384.81 120.65 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Description" "100k 0.5W resistor, SMD 2512, pad pitch 6.60mm"
+      (at 360.68 160.528 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint_Status" "SMD 2512 land pattern, 6.60mm pad pitch; value100k0.5W preserved; no MPN selected."
+      (at 384.81 120.65 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (pin "1"
+      (uuid "bdd3bf7a-c9b4-4c39-bd05-afb5e9d65edb")
+    )
+    (pin "2"
+      (uuid "ecd34473-b06a-4fce-9d7d-5aa733c2fa09")
+    )
+    (instances
+      (project "oneTesla"
+        (path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
+          (reference "R6")
+          (unit 1)
+        )
+      )
+    )
+  )
 	(symbol
 		(lib_id "oneTesla:74HCT14")
 		(at 93.98 104.14 0)
@@ -10834,7 +10851,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d48d503-b107-4663-b782-44ff846411f0")
 		(property "Reference" "IC1"
 			(at 93.98 95.25 0)
@@ -10856,7 +10872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10878,8 +10894,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 104.14 0)
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 94.742 94.996 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10888,7 +10905,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11137,7 +11154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 299.72 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -11159,8 +11176,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 299.72 212.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11169,7 +11187,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 299.72 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -11679,7 +11697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 300.99 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -11701,8 +11719,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 300.99 227.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11711,7 +11730,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 300.99 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -11877,105 +11896,106 @@
 		)
 	)
 	(symbol
-    (lib_id "oneTesla:Terminal")
-    (at 340.36 96.52 0)
-    (unit 1)
-    (body_style 1)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (in_pos_files yes)
-    (dnp no)
-    (uuid "9f79e080-61db-4ff3-ab39-32a84088f638")
-    (property "Reference" "P2"
-      (at 339.09 91.186 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-        (justify left)
-      )
-    )
-    (property "Value" "PRIMARIO B"
-      (at 342.646 94.488 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-        (justify left)
-      )
-    )
-    (property "Footprint" "oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm"
-      (at 340.36 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (property "Datasheet" ""
-      (at 340.36 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (property "Description" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
-      (at 340.36 96.52 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (property "Footprint_Status" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
-      (at 340.36 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-    (pin "1"
-      (uuid "c7025bc7-a774-40d6-a242-f4fa7408be95")
-    )
-    (instances
-      (project "oneTesla"
-        (path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
-          (reference "P2")
-          (unit 1)
-        )
-      )
-    )
-    (property "Assembly_Notes" "Soldar fio do primario diretamente ao pad; furoD2.2mm/padD4mm. Sem corpo de conector; conferir diametro do condutor desencapado."
-      (at 340.36 96.52 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-      )
-    )
-  )
+		(lib_id "oneTesla:Terminal")
+		(at 340.36 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f79e080-61db-4ff3-ab39-32a84088f638")
+		(property "Reference" "P2"
+			(at 339.09 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PRIMARIO B"
+			(at 342.646 94.488 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm"
+			(at 340.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
+			(at 340.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Status" "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso."
+			(at 340.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly_Notes" "Soldar fio do primario diretamente ao pad; furoD2.2mm/padD4mm. Sem corpo de conector; conferir diametro do condutor desencapado."
+			(at 340.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7025bc7-a774-40d6-a242-f4fa7408be95")
+		)
+		(instances
+			(project "oneTesla"
+				(path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "oneTesla:UCC37321")
 		(at 196.85 58.42 0)
@@ -12269,7 +12289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "oneTesla:R_1206_3216Metric"
 			(at 73.66 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -12291,8 +12311,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:R_1206_3216Metric"
 			(at 73.66 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12301,7 +12322,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIN0207 P7.62 coerente genericamente; conferir potência/tolerância/corpo MPN; R4 amortecimento GDT depende de ensaio"
+		(property "Footprint_Status" "SMD footprint: oneTesla:R_1206_3216Metric"
 			(at 73.66 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -12718,7 +12739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680u 35V"
+		(property "Value" "100u 35V"
 			(at 148.59 220.0909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12729,7 +12750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D12.5_P3.556_ReviewPending"
+		(property "Footprint" "oneTesla:CP_Elec_8x10"
 			(at 144.78 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12751,8 +12772,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capxon100uF35V; generic SMD D8xH10 assumed"
 			(at 144.78 219.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12761,7 +12783,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Pendente MPN: pitch real 3.556 versus nome 5; corpo/silk deslocados 2.5 mm; F02"
+		(property "Footprint_Status" "Capxon 100uF/35V SMD; standard D8 x H10mm assumed, dimensions unverified. C10 reduced from680uF with HLK15M15BL supply; verify15V load transients on hardware."
 			(at 144.78 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12982,7 +13004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 67.31 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12993,7 +13015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "oneTesla:D_SOD-323_HandSoldering"
 			(at 64.77 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -13004,7 +13026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/86455/1n4148ws.pdf"
 			(at 64.77 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -13025,7 +13047,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DO35 P7.62 genérico; conferir MPN e faixa de cátodo na montagem"
+		(property "Footprint_Status" "1N4148WS in SOD-323; 1=cathode/2=anode; pads for hand soldering."
 			(at 64.77 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -13085,7 +13107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+		(property "Footprint" "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.42 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13117,7 +13139,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Disco P5, furos/pads inventariados; dielétrico/tensão/ESL/MPN desconhecidos; C4 deve suportar corrente do GDT"
+		(property "Footprint_Status" "SMD 0805; pads for hand soldering."
 			(at 58.42 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13174,7 +13196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P23.40mm_Horizontal"
+		(property "Footprint" "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical"
 			(at 46.99 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -13196,7 +13218,7 @@
 				)
 			)
 		)
-		(property "Description" "Vishay AC05, 1k 5W, axial cementado: corpo18xD7.5mm, fioD0.8mm; passo de montagem23.4mm conforme STEP fornecido."
+		(property "Description" "Vishay AC05 1k 5W vertical; body18xD7.5mm; formed pitch10.16mm; drill1.2mm/pad2.4mm."
 			(at 74.168 38.354 90)
 			(hide yes)
 			(show_name no)
@@ -13207,7 +13229,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "AC05 corpo18xD7.5mm conforme Vishay28730 p10; P23.4mm medido no STEP, dobrar terminais para este passo. Furo1.2mm/pad2.4mm selecionados."
+		(property "Footprint_Status" "Vertical manual forming P10.16mm; nominal body18xD7.5mm; verify purchased resistor and thermal clearance."
 			(at 46.99 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -13218,7 +13240,7 @@
 				)
 			)
 		)
-		(property "Assembly_Notes" "AC05 axial 1k/5W; formar terminais em23.4mm para casar com STEP. Modelo elevado3.75mm sobre PCB. Variantes EK de fabrica22.5/25.4mm usam outros passos."
+		(property "Assembly_Notes" "Vertical body above pad1; body clearance >=3mm in STEP; assembly height26.4mm; formed upper lead D0.8mm; no fixed factory mounting pitch."
 			(at 46.99 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -13276,7 +13298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13298,8 +13320,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13308,7 +13331,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13401,7 +13424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "oneTesla:R_1206_3216Metric"
 			(at 68.58 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -13423,8 +13446,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:R_1206_3216Metric"
 			(at 68.58 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13433,7 +13457,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIN0207 P7.62 coerente genericamente; conferir potência/tolerância/corpo MPN; R4 amortecimento GDT depende de ensaio"
+		(property "Footprint_Status" "SMD footprint: oneTesla:R_1206_3216Metric"
 			(at 68.58 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -13493,7 +13517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 372.11 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -13515,8 +13539,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 372.11 218.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13525,7 +13550,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 372.11 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14108,7 +14133,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd365dbf-54ec-4c51-bf45-0d4e71c0b12b")
 		(property "Reference" "IC2"
 			(at 143.1133 63.5 0)
@@ -14132,7 +14156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14154,8 +14178,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 73.66 0)
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 152.908 104.394 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14164,7 +14189,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14260,7 +14285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 331.47 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14282,8 +14307,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 331.47 218.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14292,7 +14318,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DIP14 P2.54 W7.62; furo0.8128 pad1.6; MPN/sufixo e soquete exatos desconhecidos; LongPads no nome não corresponde ao pad real"
+		(property "Footprint_Status" "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 331.47 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14388,7 +14414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D30_P10.16_ReviewPending"
+		(property "Footprint" "oneTesla:CP_D25_H45_P10.16_ReviewPending"
 			(at 355.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14420,7 +14446,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "D30/P10.16 envelope retained; centers35mm, body gap5mm, board edge min5mm after enlargement. Exact MPN/ripple/tolerance NOT verified."
+		(property "Footprint_Status" "Ketuo 1000uF 200V, body D25 x H45mm from user image. Existing P10.16mm, drill2mm and pad4mm preserved provisionally; actual terminal pitch and section NOT confirmed."
 			(at 355.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14468,7 +14494,7 @@
 				)
 			)
 		)
-		(property "Value" "L7805CV"
+		(property "Value" "MC7805BDTRKG"
 			(at 186.69 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14478,7 +14504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:TO-220-3_Vertical"
+		(property "Footprint" "oneTesla:TO-252-3_TabPin2"
 			(at 186.69 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14489,7 +14515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mc7800-d.pdf"
 			(at 186.69 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14500,7 +14526,7 @@
 				)
 			)
 		)
-		(property "Description" "L7805CV ST, regulador linear de 5V, TO-220 vertical; 1 IN, 2 GND, 3 OUT; aba GND."
+		(property "Description" "onsemi MC7805BDTRKG 5V regulator; DPAK/TO-252; pin1 input, pin2/tab ground, pin3 output."
 			(at 186.69 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14511,7 +14537,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "TO-220-3 vertical: passo2.54mm, furos1.1mm, pinagem L7805 1 IN/2 GND/3 OUT."
+		(property "Footprint_Status" "DPAK/TO-252 per onsemi MC7800 ordering table; MC7805BDTRKG is not TO-263/D2PAK."
 			(at 186.69 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14522,7 +14548,7 @@
 				)
 			)
 		)
-		(property "Assembly_Notes" "L7805CV TO-220: 1 +15V, 2 GND, 3 +5V; aba metalica ligada ao GND. Substitui 78L05 TO-92 com remapeamento dos pinos1/3."
+		(property "Assembly_Notes" "1=+15V, 2/tab=GND, 3=+5V. Provide appropriate ground copper for heat dissipation in final routing."
 			(at 186.69 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14574,7 +14600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 67.31 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14585,7 +14611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "oneTesla:D_SOD-323_HandSoldering"
 			(at 64.77 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -14596,7 +14622,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/86455/1n4148ws.pdf"
 			(at 64.77 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -14617,7 +14643,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: DO35 P7.62 genérico; conferir MPN e faixa de cátodo na montagem"
+		(property "Footprint_Status" "1N4148WS in SOD-323; 1=cathode/2=anode; pads for hand soldering."
 			(at 64.77 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -14677,7 +14703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+		(property "Footprint" "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 154.94 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14709,7 +14735,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Disco P5, furos/pads inventariados; dielétrico/tensão/ESL/MPN desconhecidos; C4 deve suportar corrente do GDT"
+		(property "Footprint_Status" "SMD 0805; pads for hand soldering."
 			(at 154.94 168.91 0)
 			(hide yes)
 			(show_name no)
