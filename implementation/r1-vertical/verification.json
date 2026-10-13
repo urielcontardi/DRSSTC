@@ -1,0 +1,25 @@
+{
+  "target_board": "oneTesla.kicad_pcb",
+  "r1_center_and_rotation_preserved": true,
+  "r1_nets_and_pad_uuids_preserved": true,
+  "other_components_geometry_unchanged": true,
+  "tracks_zones_outline_and_four_holes_unchanged": true,
+  "r1_preexisting_tracks": 0,
+  "pitch_before_mm": 23.4,
+  "pitch_after_mm": 10.16,
+  "autorouted_models_restored": true,
+  "autorouted_geometry_unchanged": true,
+  "schematic_only_r1_metadata_changed": true,
+  "sha256": {
+    "oneTesla.kicad_pcb": "0e5acd3d34364121863c63231653e0c21697b7461b88b48389a187036aacc1a0",
+    "oneTesla-autorouted.kicad_pcb": "597f6f899ea599c99a4fd7b1aaa03f7407cba4e57ef2453b4c3e946d4831a581",
+    "oneTesla.kicad_sch": "8ea60b70625640c3070022a11c144feb268a7c5e3f2d99c12aad6fb27cbd957f"
+  },
+  "drc": {
+    "before_violations": 20,
+    "after_violations": 20,
+    "before_unconnected": 92,
+    "after_unconnected": 92,
+    "new_violations": 0
+  }
+}

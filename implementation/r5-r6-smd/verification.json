@@ -1,0 +1,49 @@
+{
+  "R5": {
+    "footprint": "oneTesla:R_Uniroyal_HV12_2512_P6.60mm",
+    "value": "100k 0.5W",
+    "old_origin": [
+      "95.56",
+      "71.3"
+    ],
+    "new_center": [
+      "98.1",
+      "71.3"
+    ],
+    "pad_nets": {
+      "1": [
+        "/DC_PLUS"
+      ],
+      "2": [
+        "/DC_MID"
+      ]
+    }
+  },
+  "R6": {
+    "footprint": "oneTesla:R_Uniroyal_HV12_2512_P6.60mm",
+    "value": "100k 0.5W",
+    "old_origin": [
+      "82.7",
+      "72.34",
+      "90"
+    ],
+    "new_center": [
+      "82.7",
+      "69.8",
+      "90"
+    ],
+    "pad_nets": {
+      "1": [
+        "/DC_MID"
+      ],
+      "2": [
+        "/DC_MINUS"
+      ]
+    }
+  },
+  "all_other_pcb_objects_preserved": true,
+  "schematic_connectivity_preserved": true,
+  "pad_uuids_and_nets_preserved": true,
+  "hidden_values_preserved": true,
+  "former_pad_midpoints_preserved": true
+}

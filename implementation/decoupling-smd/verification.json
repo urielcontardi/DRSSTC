@@ -1,0 +1,49 @@
+{
+  "target": "oneTesla.kicad_pcb",
+  "references": [
+    "C1",
+    "C2",
+    "C3",
+    "C5",
+    "C6"
+  ],
+  "footprint": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+  "values_unchanged": true,
+  "pad_numbers_nets_functions_uuids_preserved": true,
+  "body_centers_and_rotations_preserved": {
+    "C3": [
+      "35.795",
+      "111.99",
+      "-90"
+    ],
+    "C2": [
+      "35.795",
+      "99.99",
+      "-90"
+    ],
+    "C6": [
+      "72.4",
+      "110.5",
+      "90"
+    ],
+    "C1": [
+      "46.5",
+      "123.4",
+      "-90"
+    ],
+    "C5": [
+      "73.7",
+      "86.4",
+      "90"
+    ]
+  },
+  "all_other_board_objects_unchanged": true,
+  "schematic_only_five_footprint_associations_and_status_updated": true,
+  "autorouted_unchanged": true,
+  "drc_before": 23,
+  "drc_after": 23,
+  "new_drc_issues": 0,
+  "unconnected_before": 92,
+  "unconnected_after": 92,
+  "netlist_identical": true
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "board": "oneTesla.kicad_pcb",
+    "added_models": [
+      "Q2",
+      "C11",
+      "C8",
+      "C13",
+      "C9",
+      "C12",
+      "C10",
+      "Q1",
+      "R5",
+      "Z1",
+      "PS1",
+      "CPR1",
+      "Z2",
+      "R6"
+    ],
+    "repaired_models": [
+      "FB1"
+    ],
+    "model_changes_only": true,
+    "initial_snapshot_matches": false,
+    "sha256": "fab8700713211725550692f7501c4ae5c5a8f4d4af562cf649ad669051a68ddf"
+  }
+]

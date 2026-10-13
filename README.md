@@ -1,14 +1,18 @@
 # oneTeslaTS — esquemático da placa principal
 
+Contorno atual da PCB principal: **100 × 100mm**, de (31,375;27,05) a (131,375;127,05)mm. Somente o contorno foi reduzido; componentes e furos ainda mantêm as posições anteriores, com parte do conjunto inferior fora da nova área. Ver [conferência](implementation/board-100x100/RESULTADO.md).
+
+R5/R6 foram convertidos para **SMD2512**, preservando100kΩ/0,5W e conexões. Ver [conferência atual](implementation/r5-r6-smd/RESULTADO.md). As17 trilhas anteriores foram removidas na etapa anterior.
+
 Entrada AC atual: **J1 = 2EDGRC-5.08-02P**, dois pinos (**1 L, 2 N**), com footprint local `oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal` e modelo `${KIPRJMOD}/library/3dmodels/2EDGRC-5.08-02P.stp`. PE chega externamente em **J2/CHASSIS**. A troca está aplicada no esquema e no footprint J1 do PCB atual. Ver [conferência atual](implementation/ac-input/current/RESULTADO.md); as seções abaixo descrevem etapas anteriores do layout.
 
-Atualizações dos componentes aplicadas no esquema e PCB: **R1 = Vishay AC05 1k/5W**, corpo 18 × Ø7,5mm, passo de montagem **23,4mm** para os terminais dobrados como no STEP fornecido; **IC6 = L7805CV TO-220 vertical**, pinos **1 +15V, 2 GND, 3 +5V**, com STEP local; **F1 = Idall AS-06 5×20**, passo 20,2mm. O STEP do porta-fusível tem passo 22,5mm e serve como aproximação visual. Ver [R1](implementation/ac05-r1/RESULTADO.md), [IC6](implementation/7805-to220/RESULTADO.md) e [F1](implementation/fuse-as06/RESULTADO.md). O modelo DIP16 não foi associado: IC1/IC2 são DIP14, IC3/IC4 são DIP8.
+Atualizações atuais no esquema e PCB: **R1 = THT 1kΩ/5W em montagem vertical**, **R4 = THT axial 3R3, DIN0207/P7,62mm**, restaurados aos footprints anteriores; **R2/R3 = SMD1206**, **R5/R6 = SMD2512, 100kΩ/0,5W, passo6,60mm**, **IC1/IC2 = SOP-14 estreito**, passo1,27mm. **C10 = 100µF/35V SMD**, usando o footprint genérico Ø8×10mm já selecionado para C8/C13. R1 mantém a posição da versão SMD para evitar conflitos com FB1 e o furo inferior. Ver [conferência atual](implementation/tht-r1-r4-c10-100uf/RESULTADO.md). **IC6 = MC7805BDTRKG em DPAK/TO-252**, pinos **1 +15V, 2/tab GND, 3 +5V**, com STEP local ([revisão](implementation/7805-dpak/RESULTADO.md)); **F1 = Idall AS-06 5×20**, passo20,2mm, com STEP aproximado de passo22,5mm. IC3/IC4 continuam DIP8. A cópia `oneTesla-autorouted.kicad_pcb` e seus arquivos de projeto foram apagados a pedido do usuário; o arquivo ativo é **oneTesla.kicad_pcb**.
 
 Abra `oneTesla.kicad_pro` no KiCad 10 e depois o editor de esquemas, ou abra diretamente `oneTesla.kicad_sch`. A folha A3 contém a placa principal completa, organizada em cinco blocos compactos. Os capacitores de desacoplamento ficam junto aos respectivos CIs; referências e valores usam fonte de 1,27 mm, espaçamento de 2,54 mm e alinhamento consistente. Os valores visíveis foram abreviados (por exemplo, `3R3`, `1u` e `100u 25V`); encapsulamentos e observações de montagem permanecem nos campos dos componentes. O UCC37321P usa um bloco retangular com entradas à esquerda, saídas à direita e alimentação/terra acima e abaixo. Para visualizar sem o KiCad, use `output/oneTesla-schematic.pdf`.
 
 O esquema tem 41 referências físicas: IC1–IC4, IC6, FB1, T1, T3, R1–R6, C1–C6, C8–C13, CPR1, D1, D2, D4, Q1–Q2, Z1–Z2, F1, J110, J1, J2, P1, P2 e PS1. A fonte auxiliar original com transformador (T2 + D3 + IC5/78L15 + C7) foi substituída pelo módulo AC/DC **PS1 (HLK-15M15BL, 15V/1A)**, com C13 na saída de 15V; C10 passou a filtrar o rail de 15V e IC6 (78L05) é alimentado por +15V. Z1/Z2 são TVS opcionais, marcados como DNP. J1 corresponde ao J_AC do original; o nome foi adaptado para a anotação do KiCad. J2 representa explicitamente a ligação de proteção PE/chassis que aparece no layout. A placa do SD interrupter externo não faz parte desta etapa. O layout do PCB está documentado na seção **PCB** abaixo.
 
-Todos os símbolos e footprints usados são locais, em `library/oneTesla.kicad_sym` e `library/oneTesla.pretty`. Não é preciso instalar bibliotecas adicionais. Os arquivos SOP existentes foram preservados; IC1 e IC2 foram associados a DIP-14 com soquete, e IC3/IC4 a DIP-8 com soquete, conforme o manual e o layout.
+Todos os símbolos e footprints usados são locais, em `library/oneTesla.kicad_sym` e `library/oneTesla.pretty`. Não é preciso instalar bibliotecas adicionais. IC1/IC2 usam agora SOP-14 estreito (3,9 × 8,7mm; passo 1,27mm). IC3/IC4 continuam em DIP-8 com soquete.
 
 ## Referências e decisões
 
@@ -36,14 +40,18 @@ Cada componente tem os campos `Footprint_Status` e, quando necessário, `Assembl
 
 | Componentes | Situação |
 | --- | --- |
-| IC1/IC2 | DIP-14, fileiras 7,62mm e passo 2,54mm; soquete conforme original. |
+| IC1/IC2 | SOP-14 estreito, corpo 3,9 × 8,7mm e passo 1,27mm. |
 | IC3/IC4 | UCC37321P em DIP-8, fileiras 7,62mm e passo 2,54mm; soquete conforme original. |
 | Q1/Q2 | TO-3P-3 horizontal, passo 5,45mm e pinagem do FGA60N65SMD; conferir altura das pernas dobradas em relação ao dissipador. |
-| D1/D2 | 1N4148 DO-35 THT; passo selecionado 7,62mm. |
-| IC5/IC6 | 78L15/78L05 TO-92, OUT1/GND2/IN3; conferir fabricante/sufixo antes de comprar. |
+| D1/D2 | 1N4148WS em SOD-323, pads para solda manual; pad 1 cátodo, pad 2 ânodo. |
+| IC6 | onsemi MC7805BDTRKG, DPAK/TO-252; 1 IN, 2/tab GND, 3 OUT. |
 | FB1 | HFBR-2521ETZ selecionado; conferir o receptor real. Outras variantes HFBR/AFBR podem diferir no pino 4 e nos pinos de retenção. |
-| R1–R6, C1–C10, Z1/Z2 | Footprints THT padronizados selecionados; conferir corpo, passo, tensão e potência das peças adquiridas. |
-| C11/C12 | 1000uF, tensão nominal selecionada de pelo menos 200V; snap-in D30/P10 proposto. Confirmar diâmetro, passo e altura. |
+| R1/R4 | THT: R1 vertical, corpo18×Ø7,5mm e passo formado10,16mm; R4 DIN0207, passo7,62mm. |
+| R2/R3 | SMD1206; valores preservados. |
+| R5/R6 | SMD2512, passo6,60mm; 100kΩ/0,5W preservados. |
+| C8/C10/C13 | 100µF/35V SMD; footprint padrão Ø8×10mm assumido, dimensões da peça Capxon ainda não confirmadas. |
+| C9 | 10µF/100V, cerâmico MLCC X7R, 1210; símbolo não polarizado e modelo3D genérico local. |
+| C11/C12 | Ketuo 1000µF/200V, corpo Ø25 × 45mm conforme imagem do usuário. Footprints e modelo 3D atualizados; furos existentes com passo 10,16mm mantidos provisoriamente, ainda a confirmar na peça. Ver [conferência](implementation/ketuo-1000uf-200v/RESULTADO.md). |
 | D3/D4 | DF005M DIP-4 / KBU6G linear selecionados por formato e especificações da lista; confirmar os códigos reais e a ordem dos terminais. |
 | F1 | Porta-fusível Idall AS-06 5x20mm: dois terminais, passo 20,2mm, furos selecionados de 1,8mm e pads de 3,2mm. STEP associado como referência visual, pois tem passo de 22,5mm. Ver `implementation/fuse-as06/RESULTADO.md`. |
 | T1/T2/T3 | Footprints personalizados **provisórios**, estimados do layout. Confirmar dimensões, pares de pinos, tensão e fase com as peças. |
@@ -123,3 +131,9 @@ python3 scripts/build_pcb.py              # gera o .kicad_pcb (placement verific
 /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3 scripts/pcb_refill.py oneTesla.kicad_pcb
 kicad-cli pcb drc oneTesla.kicad_pcb -o output/drc.json --format json
 ```
+
+Atualização dos footprints de desacoplamento: **C1/C2/C3/C5/C6 = SMD 0805**, com pads para solda manual e STEP local, mantendo 1 µF e as conexões. Ver [conferência](implementation/decoupling-smd/RESULTADO.md).
+
+D1/D2 atualizados para **1N4148WS em SOD-323**, com STEP local, preservando centros, polaridade e conexões. Ver [conferência](implementation/diodes-1n4148ws/RESULTADO.md).
+
+**C8/C10/C13 = Capxon 100 µF/35 V SMD**, footprint padrão local `CP_Elec_8x10`, sem confirmação dimensional da peça comprada. **C9 = 10 µF/100 V MLCC X7R em 1210**, com símbolo não polarizado, footprint e STEP locais. Ver [troca de C9](implementation/c9-ceramic-1210/RESULTADO.md).

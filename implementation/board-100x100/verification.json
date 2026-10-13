@@ -1,0 +1,181 @@
+{
+  "board_mm": [
+    100,
+    100
+  ],
+  "bounds_mm": [
+    31.375,
+    27.05,
+    131.375,
+    127.05
+  ],
+  "only_outline_changed": true,
+  "component_positions_preserved": true,
+  "mounting_holes_positions_preserved": true,
+  "schematic_unchanged_sha256": "e52994899415786442bbe25b26b9c853a42a1dd351c66d5e024ac56ed527373e",
+  "top_left_preserved": true,
+  "outside_footprints": [
+    {
+      "ref": "FB1",
+      "footprint": "HFBR-2521ETZ",
+      "position_mm": [
+        41.205,
+        128.21
+      ],
+      "bbox_mm": [
+        24.97,
+        119.075,
+        44.23,
+        131.725
+      ]
+    },
+    {
+      "ref": "T3",
+      "footprint": "CT_1_300_P12.70mm_CONFIRMAR",
+      "position_mm": [
+        58.6,
+        141.6
+      ],
+      "bbox_mm": [
+        53.075,
+        131.075,
+        64.125,
+        152.125
+      ]
+    },
+    {
+      "ref": "D1",
+      "footprint": "D_SOD-323_HandSoldering",
+      "position_mm": [
+        45.9,
+        135.1
+      ],
+      "bbox_mm": [
+        43.83,
+        134.125,
+        47.925,
+        136.075
+      ]
+    },
+    {
+      "ref": "P1",
+      "footprint": "Primary_WirePad_D4.0mm_Drill2.2mm",
+      "position_mm": [
+        126.7,
+        128.6
+      ],
+      "bbox_mm": [
+        124.075,
+        125.975,
+        129.325,
+        131.225
+      ]
+    },
+    {
+      "ref": "J1",
+      "footprint": "TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal",
+      "position_mm": [
+        106.46,
+        38.05
+      ],
+      "bbox_mm": [
+        102.775,
+        27.025,
+        115.225,
+        40.175
+      ]
+    },
+    {
+      "ref": "R1",
+      "footprint": "R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical",
+      "position_mm": [
+        44.5,
+        151.0
+      ],
+      "bbox_mm": [
+        39.975,
+        144.195,
+        49.025,
+        160.605
+      ]
+    },
+    {
+      "ref": "IC4",
+      "footprint": "DIP-8_W7.62mm_Socket_LongPads",
+      "position_mm": [
+        63.78,
+        118.0
+      ],
+      "bbox_mm": [
+        62.235,
+        116.395,
+        72.945,
+        127.225
+      ]
+    },
+    {
+      "ref": "CPR1",
+      "footprint": "CDE_940C30S68K_F_CONFIRMAR",
+      "position_mm": [
+        97.39,
+        136.4
+      ],
+      "bbox_mm": [
+        66.115,
+        126.375,
+        128.665,
+        146.425
+      ]
+    },
+    {
+      "ref": "D2",
+      "footprint": "D_SOD-323_HandSoldering",
+      "position_mm": [
+        46.0,
+        132.2
+      ],
+      "bbox_mm": [
+        43.975,
+        131.225,
+        48.07,
+        133.175
+      ]
+    },
+    {
+      "ref": "REF**",
+      "footprint": "MountingHole_3.2mm_M3",
+      "position_mm": [
+        125.5,
+        148.2
+      ],
+      "bbox_mm": [
+        122.025,
+        144.725,
+        128.975,
+        151.675
+      ]
+    },
+    {
+      "ref": "REF**",
+      "footprint": "MountingHole_3.2mm_M3",
+      "position_mm": [
+        36.5,
+        151.6
+      ],
+      "bbox_mm": [
+        33.025,
+        148.125,
+        39.975,
+        155.075
+      ]
+    }
+  ],
+  "native_rectangle_dimensions_confirmed": true,
+  "bounding_box_including_0_05mm_stroke_mm": [
+    100.05,
+    100.05
+  ],
+  "drc_violations_after": 28,
+  "unconnected_items_after": 93,
+  "layout_inside_new_outline_complete": false
+}

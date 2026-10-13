@@ -1,0 +1,41 @@
+{
+  "reference": "IC6",
+  "mpn": "MC7805BDTRKG",
+  "package": "DPAK/TO-252",
+  "footprint": "oneTesla:TO-252-3_TabPin2",
+  "pin_nets": {
+    "1": "+15V",
+    "2": "GND",
+    "3": "+5V"
+  },
+  "tab_number": "2",
+  "tab_net": "GND",
+  "original_pad_uuids_preserved": true,
+  "other_board_objects_unchanged": true,
+  "schematic_electrical_geometry_unchanged": true,
+  "autorouted_unchanged": true,
+  "position_after_mm": [
+    49.0,
+    87.1
+  ],
+  "rotation_after_deg": -90,
+  "source": "https://www.onsemi.com/download/data-sheet/pdf/mc7800-d.pdf",
+  "retailer_TO263_description_conflicts_with_exact_part_code": true,
+  "netlist_identical": true,
+  "nets": 34,
+  "connections": 130,
+  "combined_changed_references": [
+    "C13",
+    "C8",
+    "C9",
+    "IC6"
+  ],
+  "all_other_board_objects_unchanged": true,
+  "existing_tracks_preserved": 17,
+  "drc_before_combined": 23,
+  "drc_after_combined": 22,
+  "new_drc_issues": 0,
+  "unconnected_before_combined": 92,
+  "unconnected_after_combined": 93,
+  "extra_unconnected_reason": "TO-252 has two separate GND lands numbered2 (lead and tab); existing routing is incomplete."
+}

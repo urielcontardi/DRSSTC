@@ -1,0 +1,127 @@
+[
+  {
+    "file": "Visual_CP_D8_P2.54.step",
+    "references": [
+      "C8",
+      "C9",
+      "C13"
+    ],
+    "status": "visual_approximation",
+    "note": "Generic D8 body, H8.000 from KiCad; formed lead pitch 2.54. Actual capacitor MPN/height and snap-in details are unconfirmed.",
+    "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.step",
+    "bounds_mm": [
+      -4.0000001,
+      -4.0000001,
+      -3.0,
+      4.0000001,
+      4.0000001,
+      8.0
+    ]
+  },
+  {
+    "file": "Visual_CP_D12.5_P3.556.step",
+    "references": [
+      "C10"
+    ],
+    "status": "visual_approximation",
+    "note": "Generic D12.5 body, H12.500 from KiCad; formed lead pitch 3.556. Actual capacitor MPN/height and snap-in details are unconfirmed.",
+    "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.step",
+    "bounds_mm": [
+      -6.250000100000001,
+      -6.2500001,
+      -3.0,
+      6.250000100000001,
+      6.2500001,
+      12.5
+    ]
+  },
+  {
+    "file": "Visual_CP_D30_P10.16.step",
+    "references": [
+      "C11",
+      "C12"
+    ],
+    "status": "visual_approximation",
+    "note": "Generic D30 body, H30.000 from KiCad; formed lead pitch 10.16. Actual capacitor MPN/height and snap-in details are unconfirmed.",
+    "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/Capacitor_THT.3dshapes/CP_Radial_D30.0mm_P10.00mm_SnapIn.step",
+    "bounds_mm": [
+      -15.0000001,
+      -15.000000464368119,
+      -3.0,
+      15.000000100000001,
+      15.000000464372963,
+      30.0
+    ]
+  },
+  {
+    "file": "Visual_R_L9_P10.16.step",
+    "references": [
+      "R5",
+      "R6"
+    ],
+    "status": "visual_approximation",
+    "note": "Generic KiCad body with re-formed leads at the existing footprint pitch; not an exact manufacturer model. TVS polarity marking is not represented.",
+    "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.step",
+    "bounds_mm": [
+      -5.38,
+      -1.6,
+      -3.0,
+      5.38,
+      1.6,
+      3.2
+    ]
+  },
+  {
+    "file": "Visual_TVS_DO201AD_P14.732.step",
+    "references": [
+      "Z1",
+      "Z2"
+    ],
+    "status": "visual_approximation",
+    "note": "Generic KiCad body with re-formed leads at the existing footprint pitch; not an exact manufacturer model. TVS polarity marking is not represented.",
+    "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/Diode_THT.3dshapes/D_DO-201AD_P15.24mm_Horizontal.step",
+    "bounds_mm": [
+      -7.866,
+      -2.6099999999999985,
+      -3.0,
+      7.866,
+      2.610000000000001,
+      5.71
+    ]
+  },
+  {
+    "file": "Visual_FGA60N65SMD_Horizontal_P5.45.step",
+    "references": [
+      "Q1",
+      "Q2"
+    ],
+    "status": "visual_approximation",
+    "note": "Case from catalog FGA60N65SMD STEP. Horizontal lead bend and mounting height are provisional; not a manufacturer-qualified bent-lead/heatsink assembly.",
+    "source": "https://easyeda.com/api/products/C444004/components?version=6.4.19.5",
+    "bounds_mm": [
+      -2.6500000999999997,
+      -0.325,
+      -2.5,
+      13.5500001,
+      24.2,
+      5.000000000000196
+    ]
+  },
+  {
+    "file": "Visual_CDE_940C30S68K_F_P58.42.step",
+    "references": [
+      "CPR1"
+    ],
+    "status": "visual_approximation",
+    "note": "Generated visual envelope from manufacturer D19 x L46 drawing, wire D1; formed pitch 58.42 from existing PCB. Body lift and lead bends are provisional; not a downloaded manufacturer model.",
+    "source": "https://www.cde.com/resources/catalogs/940C.pdf",
+    "bounds_mm": [
+      -29.71,
+      -9.5,
+      -3.0,
+      29.71,
+      9.5,
+      19.25
+    ]
+  }
+]

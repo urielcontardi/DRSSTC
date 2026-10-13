@@ -1,0 +1,2294 @@
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+1/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+ 
+ 
+ 
+ 
+ 
+AiP74HC/HCT74 
+Dual D-type flip-flop with set and reset; 
+positive-edge trigger 
+ 
+ 
+ 
+ 
+ 
+Product   Specification 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Specification Revision History： 
+Version 
+Date 
+Description 
+2012-05-A1 
+2012-05 
+New 
+2021-11-A2 
+2021-11 
+Modify Ordering Information; Modify ambient temperature to -40℃
+~+105℃ and add electrical characteristics of -40℃~+105℃ 
+2021-12-A3 
+2021-12 
+Modify Ordering Information 
+ 
+ 
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+2/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+1、General Description 
+The AiP74HC/HCT74 are dual positive edge triggered D-type flip-flop. They have individual data (nD), 
+clock (nCP), set (nS
+—
+D) and reset (nR
+—
+D) inputs, and complementary nQ and nQ
+—
+ outputs. Data at the 
+nD-input, that meets the set-up and hold time requirements on the LOW-to-HIGH clock transition, is 
+stored in the flip-flop and appears at the nQ output. Schmitt-trigger action in the clock input, makes the 
+circuit highly tolerant to slower clock rise and fall times. Inputs include clamp diodes. This enables the use 
+of current limiting resistors to interface inputs to voltages in excess of VCC. 
+ 
+Features: 
+ 
+Input levels: 
+For AiP74HC74: CMOS level 
+For AiP74HCT74: TTL level 
+ 
+Symmetrical output impedance 
+ 
+Low power dissipation 
+ 
+Balanced propagation delays 
+ 
+Specified from -40℃ to +105℃ 
+ 
+Packaging information: DIP14/SOP14/TSSOP14 
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+3/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+Ordering Information:  
+Tube packing specifications:  
+Part number 
+Packaging 
+form 
+Marking 
+code 
+Tube 
+quantity 
+Boxed 
+tube 
+quantity 
+Boxed 
+quantity 
+Notes 
+AiP74HC74DA14.TB 
+DIP14 
+74HC74 
+25 
+PCS/tube 
+40 
+tube/box 
+1000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+19.0mm×6.4mm  
+Pin spacing: 
+2.54mm 
+AiP74HCT74DA14.TB 
+DIP14 
+74HCT74 
+25 
+PCS/tube 
+40 
+tube/box 
+1000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+19.0mm×6.4mm  
+Pin spacing: 
+2.54mm 
+AiP74HC74SA14.TB 
+SOP14 
+74HC74 
+50 
+PCS/tube 
+200 
+tube/box 
+10000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+8.7mm×3.9mm  
+Pin spacing: 
+1.27mm 
+AiP74HCT74SA14.TB 
+SOP14 
+74HCT74 
+50 
+PCS/tube 
+200 
+tube/box 
+10000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+8.7mm×3.9mm  
+Pin spacing: 
+1.27mm 
+AiP74HC74TA14.TB 
+TSSOP14 
+74HC74 
+94 
+PCS/tube 
+200 
+tube/box 
+18800 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+5.0mm×4.4mm  
+Pin spacing: 
+0.65mm 
+AiP74HCT74TA14.TB 
+TSSOP14 
+74HCT74 
+94 
+PCS/tube 
+200 
+tube/box 
+18800 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+5.0mm×4.4mm  
+Pin spacing: 
+0.65mm 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+4/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+Reel packing specifications:  
+Part number 
+Packaging 
+form 
+Marking 
+code 
+Reel 
+quantity 
+Boxed reel 
+quantity 
+Notes 
+AiP74HC74SA14.TR 
+SOP14 
+74HC74 
+4000 
+PCS/reel 
+8000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+8.7mm×3.9mm  
+Pin spacing: 
+1.27mm 
+AiP74HCT74SA14.TR 
+SOP14 
+74HCT74 
+4000 
+PCS/reel 
+8000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+8.7mm×3.9mm  
+Pin spacing: 
+1.27mm 
+AiP74HC74TA14.TR 
+TSSOP14 
+74HC74 
+5000 
+PCS/reel 
+10000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+5.0mm×4.4mm  
+Pin spacing: 
+0.65mm 
+AiP74HCT74TA14.TR 
+TSSOP14 
+74HCT74 
+5000 
+PCS/reel 
+10000 
+PCS/box 
+Dimensions of 
+plastic enclosure: 
+5.0mm×4.4mm  
+Pin spacing: 
+0.65mm 
+ 
+Note: If the physical information is inconsistent with the ordering information, please refer to the actual 
+product. 
+ 
+ 
+ 
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+5/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+2、Block Diagram And Pin Description 
+2.1、Block Diagram 
+1SD
+1D
+1CP
+1Q
+Q
+RD
+D
+CP
+SD
+FF
+Q
+2SD
+4
+10
+2D
+2Q
+1Q
+2Q
+2CP
+1RD
+2RD
+2
+12
+3
+11
+1
+13
+5
+9
+6
+8
+ 
+Figure 1. Logic symbol 
+ 
+S
+R
+1D
+C1
+4
+3
+2
+1
+5
+6
+S
+R
+1D
+C1
+10
+11
+12
+13
+9
+8
+ 
+Figure 2. IEC logic symbol 
+ 
+C
+C
+C
+C
+C
+C
+C
+C
+CP
+SD
+RD
+D
+Q
+Q
+C
+C
+ 
+Figure 3. Logic diagram for one flip-flop 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+6/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+ 
+1SD
+1D
+1CP
+1Q
+Q
+RD
+D
+CP
+SD
+FF
+1RD
+1Q
+Q
+5
+6
+1
+3
+2
+4
+2SD
+2D
+2CP
+2Q
+Q
+RD
+D
+CP
+SD
+FF
+2RD
+2Q
+Q
+9
+8
+13
+11
+12
+10
+ 
+Figure 4. Functional diagram 
+ 
+2.2、Pin Configurations 
+1CP
+1SD
+1RD
+1D
+1Q
+1Q
+VCC
+1
+2
+3
+4
+2D
+2Q
+GND
+5
+6
+7
+2SD
+2RD
+2Q
+8
+9
+10
+11
+12
+13
+14
+2CP
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+7/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+2.3、Pin Description 
+Pin No. 
+Pin Name 
+Description 
+1 
+1R
+—
+D 
+asynchronous reset-direct input (active LOW) 
+2 
+1D 
+data input 
+3 
+1CP 
+clock input (LOW-to-HIGH, edge-triggered) 
+4 
+1S
+—
+D 
+asynchronous set-direct input (active LOW) 
+5 
+1Q 
+output 
+6 
+1Q
+—
+ 
+complement output 
+7 
+GND 
+ground (0V) 
+8 
+2Q
+—
+ 
+complement output 
+9 
+2Q 
+output 
+10 
+2S
+—
+D 
+asynchronous set-direct input (active LOW) 
+11 
+2CP 
+clock input (LOW-to-HIGH, edge-triggered) 
+12 
+2D 
+data input 
+13 
+2R
+—
+D 
+asynchronous reset-direct input (active LOW) 
+14 
+VCC 
+supply voltage 
+ 
+2.4、Function Table 
+Input 
+Output 
+nS
+—
+D 
+nR
+—
+D 
+nCP 
+nD 
+nQ 
+nQ
+—
+ 
+L 
+H 
+X 
+X 
+H 
+L 
+H 
+L 
+X 
+X 
+L 
+H 
+L 
+L 
+X 
+X 
+H 
+H 
+ 
+Input 
+Output 
+nS
+—
+D 
+nR
+—
+D 
+nCP 
+nD 
+nQn+1 
+nQ
+—
+n+1 
+H 
+H 
+↑ 
+L 
+L 
+H 
+H 
+H 
+↑ 
+H 
+H 
+L 
+Note: H=HIGH voltage level; L=LOW voltage level; X=don’t care;  
+↑=LOW-to-HIGH transition; Qn+1=state after the next LOW-to-HIGH CP transition. 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+8/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+3、Electrical Parameter 
+3.1、Absolute Maximum Ratings  
+(Voltages are referenced to GND (ground=0V), unless otherwise specified.)  
+Parameter 
+Symbol 
+Conditions 
+Min. 
+Max. 
+Unit 
+supply voltage 
+VCC 
+- 
+-0.5 
++7 
+V 
+input clamping current 
+IIK 
+VI < -0.5V or VI > VCC+0.5V 
+- 
+±20 
+mA 
+output clamping current 
+IOK 
+VO < -0.5V or VO > VCC+0.5V 
+- 
+±20 
+mA 
+output current 
+IO 
+-0.5V < VO < VCC+0.5V 
+- 
+±25 
+mA 
+supply current 
+ICC 
+- 
+- 
+100 
+mA 
+ground current 
+IGND 
+- 
+-100 
+- 
+mA 
+total power dissipation 
+Ptot 
+- 
+- 
+500 
+mW 
+storage temperature 
+Tstg 
+- 
+-65 
++150 
+℃ 
+soldering temperature 
+TL 
+10s 
+DIP 
+245 
+℃ 
+SOP 
+250 
+Note:  
+[1] For DIP14 packages: above 70℃ the value of Ptot derates linearly with 12mW/K. 
+[2] For SOP14 packages: above 70℃ the value of Ptot derates linearly with 8mW/K. 
+[3] For (T)SSOP14 packages: above 60℃ the value of Ptot derates linearly with 5.5mW/K. 
+ 
+3.2、Recommended Operating Conditions 
+Parameter 
+Symbol  
+Conditions  
+Min. 
+Typ. 
+Max. 
+Unit  
+AiP74HC74 
+supply voltage 
+VCC 
+- 
+2.0 
+5.0 
+6.0 
+V 
+input voltage 
+VI 
+- 
+0 
+- 
+VCC 
+V 
+output voltage 
+VO 
+- 
+0 
+- 
+VCC 
+V 
+input transition rise and 
+fall rate 
+Δt/ΔV 
+VCC=2.0V 
+- 
+- 
+625 
+ns/V 
+VCC=4.5V 
+- 
+1.67 
+139 
+ns/V 
+VCC=6.0V 
+- 
+- 
+83 
+ns/V 
+ambient temperature 
+Tamb 
+- 
+-40 
+- 
++105 
+℃ 
+AiP74HCT74 
+supply voltage 
+VCC 
+- 
+4.5 
+5.0 
+5.5 
+V 
+input voltage 
+VI 
+- 
+0 
+- 
+VCC 
+V 
+output voltage 
+VO 
+- 
+0 
+- 
+VCC 
+V 
+input transition rise and 
+fall rate 
+Δt/ΔV 
+VCC=2.0V 
+- 
+- 
+- 
+ns/V 
+VCC=4.5V 
+- 
+1.67 
+139 
+ns/V 
+VCC=6.0V 
+- 
+- 
+- 
+ns/V 
+ambient temperature 
+Tamb 
+- 
+-40 
+- 
++105 
+℃ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+9/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+3.3、Electrical Characteristics 
+3.3.1、DC Characteristics 1 
+(Tamb=-40℃ to +85℃, voltages are referenced to GND (ground=0V), unless otherwise specified.) 
+Parameter 
+Symbol  
+Conditions  
+Min. 
+Typ. 
+Max. 
+Unit  
+AiP74HC74 
+HIGH-level 
+input voltage 
+VIH 
+VCC=2.0V 
+1.5 
+1.2 
+- 
+V 
+VCC=4.5V 
+3.15 
+2.4 
+- 
+V 
+VCC=6.0V 
+4.2 
+3.2 
+- 
+V 
+LOW-level 
+input voltage 
+VIL 
+VCC=2.0V 
+- 
+0.8 
+0.5 
+V 
+VCC=4.5V 
+- 
+2.1 
+1.35 
+V 
+VCC=6.0V 
+- 
+2.8 
+1.8 
+V 
+HIGH-level 
+output voltage 
+VOH 
+VI=VIH or VIL 
+IO=-4.0mA; VCC=4.5V 
+3.84 
+4.32 
+- 
+V 
+IO=-5.2mA; VCC=6.0V 
+5.34 
+5.81 
+- 
+V 
+LOW-level 
+output voltage 
+VOL 
+VI=VIH or VIL 
+IO=4.0mA; VCC=4.5V 
+- 
+0.15 
+0.33 
+V 
+IO=5.2mA; VCC=6.0V 
+- 
+0.16 
+0.33 
+V 
+input leakage 
+current 
+II 
+VI=VCC or GND; 
+VCC=6.0V 
+- 
+- 
+±1.0 
+uA 
+supply current 
+ICC 
+VI=VCC or GND; IO=0A; 
+VCC=6.0V 
+- 
+- 
+40 
+uA 
+input 
+capacitance 
+CI 
+- 
+- 
+3.5 
+- 
+pF 
+AiP74HCT74 
+HIGH-level 
+input voltage 
+VIH 
+VCC=4.5V to 5.5V 
+2.0 
+1.6 
+- 
+V 
+LOW-level 
+input voltage 
+VIL 
+VCC=4.5V to 5.5V 
+- 
+1.2 
+0.8 
+V 
+HIGH-level 
+output voltage 
+VOH 
+VI=VIH or VIL 
+IO=-4.0mA; VCC=4.5V 
+3.84 
+4.32 
+- 
+V 
+LOW-level 
+output voltage 
+VOL 
+VI=VIH or VIL 
+IO=5.2mA; VCC=4.5V 
+- 
+0.15 
+0.33 
+V 
+input leakage 
+current 
+II 
+VI=VCC or GND; 
+VCC=5.5V 
+- 
+- 
+±1.0 
+uA 
+supply current 
+ICC 
+VI=VCC or GND; IO=0A; 
+VCC=5.5V 
+- 
+- 
+40 
+uA 
+additional 
+supply current 
+ΔICC 
+per input pin; 
+VI=VCC-2.1V;  
+IO=0A; other inputs 
+at VCC or GND; 
+VCC=4.5V to 5.5V 
+per input pin; nD, 
+nRD inputs 
+- 
+70 
+315 
+uA 
+per input pin; nSD, 
+nCP input 
+- 
+80 
+360 
+uA 
+input 
+capacitance 
+CI 
+- 
+- 
+3.5 
+- 
+pF 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+10/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+3.3.2、DC Characteristics 2 
+(Tamb=-40℃ to +105℃, voltages are referenced to GND (ground=0V), unless otherwise specified.) 
+Parameter 
+Symbol  
+Conditions  
+Min. 
+Typ. 
+Max. 
+Unit  
+AiP74HC74 
+HIGH-level 
+input voltage 
+VIH 
+VCC=2.0V 
+1.5 
+- 
+- 
+V 
+VCC=4.5V 
+3.15 
+- 
+- 
+V 
+VCC=6.0V 
+4.2 
+- 
+- 
+V 
+LOW-level 
+input voltage 
+VIL 
+VCC=2.0V 
+- 
+- 
+0.5 
+V 
+VCC=4.5V 
+- 
+- 
+1.35 
+V 
+VCC=6.0V 
+- 
+- 
+1.8 
+V 
+HIGH-level 
+output voltage 
+VOH 
+VI=VIH or VIL 
+IO=-4.0mA; VCC=4.5V 
+3.7 
+- 
+- 
+V 
+IO=-5.2mA; VCC=6.0V 
+5.2 
+- 
+- 
+V 
+LOW-level 
+output voltage 
+VOL 
+VI=VIH or VIL 
+IO=4.0mA; VCC=4.5V 
+- 
+- 
+0.4 
+V 
+IO=5.2mA; VCC=6.0V 
+- 
+- 
+0.4 
+V 
+input leakage 
+current 
+II 
+VI=VCC or GND; 
+VCC=6.0V 
+- 
+- 
+±1.0 
+uA 
+supply current 
+ICC 
+VI=VCC or GND; IO=0A; 
+VCC=6.0V 
+- 
+- 
+80 
+uA 
+AiP74HCT74 
+HIGH-level 
+input voltage 
+VIH 
+VCC=4.5V to 5.5V 
+2.0 
+- 
+- 
+V 
+LOW-level 
+input voltage 
+VIL 
+VCC=4.5V to 5.5V 
+- 
+- 
+0.8 
+V 
+HIGH-level 
+output voltage 
+VOH 
+VI=VIH or VIL 
+IO=-4.0mA; VCC=4.5V 
+3.7 
+- 
+- 
+V 
+LOW-level 
+output voltage 
+VOL 
+VI=VIH or VIL 
+IO=5.2mA; VCC=4.5V 
+- 
+- 
+0.4 
+V 
+input leakage 
+current 
+II 
+VI=VCC or GND; 
+VCC=5.5V 
+- 
+- 
+±1.0 
+uA 
+supply current 
+ICC 
+VI=VCC or GND; IO=0A; 
+VCC=5.5V 
+- 
+- 
+80 
+uA 
+additional 
+supply current 
+ΔICC 
+per input pin; 
+VI=VCC-2.1V;  
+IO=0A; other inputs 
+at VCC or GND; 
+VCC=4.5V to 5.5V 
+per input pin; nD, 
+nRD inputs 
+- 
+- 
+343 
+uA 
+per input pin; nSD, 
+nCP input 
+- 
+- 
+392 
+uA 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+11/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+3.3.3、AC Characteristics 1 
+(Tamb=-40℃ to +85℃, voltages are referenced to GND (ground=0V), unless otherwise specified.) 
+Parameter 
+Symbol  
+Conditions  
+Min.  Typ. 
+Max.  Unit  
+AiP74HC74 
+nCP to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 6[1] 
+VCC=2.0V 
+- 
+47 
+220 
+ns 
+VCC=4.5V 
+- 
+17 
+44 
+ns 
+VCC=5.0V;CL=15pF 
+- 
+14 
+- 
+ns 
+VCC=6.0V 
+- 
+14 
+37 
+ns 
+nS
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=2.0V 
+- 
+50 
+250 
+ns 
+VCC=4.5V 
+- 
+18 
+50 
+ns 
+VCC=5.0V;CL=15pF 
+- 
+15 
+- 
+ns 
+VCC=6.0V 
+- 
+14 
+43 
+ns 
+nR
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=2.0V 
+- 
+52 
+250 
+ns 
+VCC=4.5V 
+- 
+19 
+50 
+ns 
+VCC=5.0V;CL=15pF 
+- 
+16 
+- 
+ns 
+VCC=6.0V 
+- 
+15 
+43 
+ns 
+nQ,nQ
+—
+ 
+transition time 
+tt 
+see Figure 6[2] 
+VCC=2.0V 
+- 
+19 
+95 
+ns 
+VCC=4.5V 
+- 
+7 
+19 
+ns 
+VCC=6.0V 
+- 
+6 
+16 
+ns 
+CP 
+pulse width 
+tW 
+see Figure 6 
+VCC=2.0V 
+100 
+19 
+- 
+ns 
+VCC=4.5V 
+20 
+7 
+- 
+ns 
+VCC=6.0V 
+17 
+6 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+pulse width 
+tW 
+see Figure 7 
+VCC=2.0V 
+100 
+19 
+- 
+ns 
+VCC=4.5V 
+20 
+7 
+- 
+ns 
+VCC=6.0V 
+17 
+6 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+recovery time 
+trec 
+see Figure 7 
+VCC=2.0V 
+40 
+3 
+- 
+ns 
+VCC=4.5V 
+8 
+1 
+- 
+ns 
+VCC=6.0V 
+7 
+1 
+- 
+ns 
+nD to nCP 
+set-up time 
+tsu 
+see Figure 6 
+VCC=2.0V 
+75 
+6 
+- 
+ns 
+VCC=4.5V 
+15 
+2 
+- 
+ns 
+VCC=6.0V 
+13 
+2 
+- 
+ns 
+nD to nCP 
+hold time 
+th 
+see Figure 6 
+VCC=2.0V 
+3 
+-6 
+- 
+ns 
+VCC=4.5V 
+3 
+-2 
+- 
+ns 
+VCC=6.0V 
+3 
+-2 
+- 
+ns 
+nCP 
+maximum  
+frequency 
+fmax 
+see Figure 6 
+VCC=2.0V 
+4.8 
+23 
+- 
+MHz 
+VCC=4.5V 
+24 
+69 
+- 
+MHz 
+VCC=5.0V;CL=15pF 
+- 
+76 
+- 
+MHz 
+VCC=6.0V 
+28 
+82 
+- 
+MHz 
+power 
+dissipation 
+capacitance 
+CPD 
+CL=50pF;f=1 MHz;  
+VI= GND to VCC
+[3] 
+- 
+24 
+- 
+pF 
+AiP74HCT74 
+nCP to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 6[1] 
+VCC=4.5V 
+- 
+18 
+44 
+ns 
+VCC=5.0V;CL=15pF 
+- 
+15 
+- 
+ns 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+12/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+nS
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=4.5V 
+- 
+23 
+50 
+ns 
+VCC=5.0V;CL=15pF 
+- 
+18 
+- 
+ns 
+nR
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=4.5V 
+- 
+24 
+50 
+ns 
+VCC=5.0V;CL=15pF 
+- 
+18 
+- 
+ns 
+nQ,nQ
+—
+ 
+transition time 
+tt 
+see Figure 6[2] 
+VCC=4.5V 
+- 
+7 
+19 
+ns 
+CP 
+pulse width 
+tW 
+see Figure 6 
+VCC=4.5V 
+23 
+9 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+pulse width 
+tW 
+see Figure 7 
+VCC=4.5V 
+20 
+9 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+recovery time 
+trec 
+see Figure 7 
+VCC=4.5V 
+8 
+1 
+- 
+ns 
+nD to nCP 
+set-up time 
+tsu 
+see Figure 6 
+VCC=4.5V 
+15 
+5 
+- 
+ns 
+nD to nCP 
+hold time 
+th 
+see Figure 6 
+VCC=4.5V 
+3 
+-3 
+- 
+ns 
+CP 
+maximum  
+frequency 
+fmax 
+see Figure 6 
+VCC=4.5V 
+22 
+54 
+- 
+MHz 
+VCC=5.0V;CL=15pF 
+- 
+59 
+- 
+MHz 
+power 
+dissipation 
+capacitance 
+CPD 
+CL=50pF;f=1 MHz;  
+VI= GND to VCC-1.5V[3] 
+- 
+29 
+- 
+pF 
+Note:  
+[1] tpd is the same as tPLH and tPHL. 
+[2] tt is the same as tTHL and tTLH. 
+[3] CPD is used to determine the dynamic power dissipation (PD in uW). 
+PD=(CPD×VCC
+2×fi×N)+∑(CL×VCC
+2×fo) where: 
+fi=input frequency in MHz; 
+fo=output frequency in MHz; 
+CL=output load capacitance in pF; 
+VCC=supply voltage in V; 
+N=number of inputs switching; 
+∑(CL×VCC
+2×fo)=sum of outputs. 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+13/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+3.3.4、AC Characteristics 2 
+(Tamb=-40℃ to +105℃, voltages are referenced to GND (ground=0V), unless otherwise specified.) 
+Parameter 
+Symbol  
+Conditions  
+Min.  Typ. 
+Max.  Unit  
+AiP74HC74 
+nCP to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 6[1] 
+VCC=2.0V 
+- 
+- 
+265 
+ns 
+VCC=4.5V 
+- 
+- 
+53 
+ns 
+VCC=6.0V 
+- 
+- 
+45 
+ns 
+nS
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=2.0V 
+- 
+- 
+300 
+ns 
+VCC=4.5V 
+- 
+- 
+60 
+ns 
+VCC=6.0V 
+- 
+- 
+51 
+ns 
+nR
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=2.0V 
+- 
+- 
+300 
+ns 
+VCC=4.5V 
+- 
+- 
+60 
+ns 
+VCC=6.0V 
+- 
+- 
+51 
+ns 
+nQ,nQ
+—
+ 
+transition time 
+tt 
+see Figure 6[2] 
+VCC=2.0V 
+- 
+- 
+110 
+ns 
+VCC=4.5V 
+- 
+- 
+22 
+ns 
+VCC=6.0V 
+- 
+- 
+19 
+ns 
+CP 
+pulse width 
+tW 
+see Figure 6 
+VCC=2.0V 
+120 
+- 
+- 
+ns 
+VCC=4.5V 
+24 
+- 
+- 
+ns 
+VCC=6.0V 
+20 
+- 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+pulse width 
+tW 
+see Figure 7 
+VCC=2.0V 
+120 
+- 
+- 
+ns 
+VCC=4.5V 
+24 
+- 
+- 
+ns 
+VCC=6.0V 
+20 
+- 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+recovery time 
+trec 
+see Figure 7 
+VCC=2.0V 
+45 
+- 
+- 
+ns 
+VCC=4.5V 
+9 
+- 
+- 
+ns 
+VCC=6.0V 
+8 
+- 
+- 
+ns 
+nD to nCP 
+set-up time 
+tsu 
+see Figure 6 
+VCC=2.0V 
+90 
+- 
+- 
+ns 
+VCC=4.5V 
+18 
+- 
+- 
+ns 
+VCC=6.0V 
+15 
+- 
+- 
+ns 
+nD to nCP 
+hold time 
+th 
+see Figure 6 
+VCC=2.0V 
+3 
+- 
+- 
+ns 
+VCC=4.5V 
+3 
+- 
+- 
+ns 
+VCC=6.0V 
+3 
+- 
+- 
+ns 
+nCP 
+maximum  
+frequency 
+fmax 
+see Figure 6 
+VCC=2.0V 
+4.0 
+- 
+- 
+MHz 
+VCC=4.5V 
+20 
+- 
+- 
+MHz 
+VCC=6.0V 
+24 
+- 
+- 
+MHz 
+AiP74HCT74 
+nCP to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 6[1] 
+VCC=4.5V 
+- 
+- 
+53 
+ns 
+nS
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=4.5V 
+- 
+- 
+60 
+ns 
+nR
+—
+D to nQ,nQ
+—
+ 
+propagation 
+delay 
+tpd 
+see Figure 7[1] 
+VCC=4.5V 
+- 
+- 
+60 
+ns 
+nQ,nQ
+—
+ 
+transition time 
+tt 
+see Figure 6[2] 
+VCC=4.5V 
+- 
+- 
+22 
+ns 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+14/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+CP 
+pulse width 
+tW 
+see Figure 6 
+VCC=4.5V 
+27 
+- 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+pulse width 
+tW 
+see Figure 7 
+VCC=4.5V 
+24 
+- 
+- 
+ns 
+nS
+—
+D, nR
+—
+D 
+recovery time 
+trec 
+see Figure 7 
+VCC=4.5V 
+9 
+- 
+- 
+ns 
+nD to nCP 
+set-up time 
+tsu 
+see Figure 6 
+VCC=4.5V 
+18 
+- 
+- 
+ns 
+nD to nCP 
+hold time 
+th 
+see Figure 6 
+VCC=4.5V 
+3 
+- 
+- 
+ns 
+CP 
+maximum  
+frequency 
+fmax 
+see Figure 6 
+VCC=4.5V 
+18 
+- 
+- 
+MHz 
+Note:  
+[1] tpd is the same as tPLH and tPHL. 
+[2] tt is the same as tTHL and tTLH. 
+ 
+4、Testing Circuit 
+4.1、AC Testing Circuit 
+G
+VI
+VI
+GND
+GND
+90%
+10%
+VM
+VM
+90%
+10%
+VM
+VM
+tr
+tr
+tf
+tf
+tW
+tW
+negative
+pulse
+positive
+pulse
+VI
+VO
+VCC
+CL
+RT
+DUT
+ 
+Figure 5. Test circuit for measuring switching times 
+Definitions for test circuit: 
+CL=load capacitance including jig and probe capacitance. 
+RT=termination resistance should be equal to the output impedance Zo of the pulse generator. 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+15/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+4.2、AC Testing Waveforms 
+VI
+VI
+VOH
+VOH
+VOL
+VOL
+GND
+GND
+VM
+VM
+VM
+VM
+tW
+th
+th
+tsu
+tsu
+1/fmax
+tPHL
+tPLH
+tTHL
+tTLH
+nCP input
+nD input
+nQ ouput
+nQ ouput
+tPLH
+tPHL
+90%
+90%
+10%
+10%
+ 
+Figure 6. Input to output propagation delays 
+ 
+VI
+VI
+VOH
+VOL
+GND
+GND
+tW
+nCP input
+nSD input
+nQ ouput
+nQ ouput
+GND
+VM
+tPLH
+tPHL
+trec
+nRD input
+VM
+VM
+VM
+VI
+VOH
+VOL
+tW
+tPLH
+tPHL
+VM
+ 
+Figure 7. Set and reset propogation delays, pulse widths and recovery time 
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+16/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+4.3、Measurement Points 
+Type 
+Input 
+Output 
+VM 
+VM 
+AiP74HC74 
+0.5×VCC 
+0.5×VCC 
+AiP74HCT74 
+1.3V 
+1.3V 
+ 
+4.4、Test Data 
+Type 
+Input 
+Load 
+Test 
+VI 
+tr , tf 
+CL 
+RL 
+AiP74HC74 
+VCC 
+6.0ns 
+15pF, 50pF 
+1kΩ 
+tPLH, tPHL 
+AiP74HCT74 
+3.0V 
+6.0ns 
+15pF, 50pF 
+1kΩ 
+tPLH, tPHL 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+17/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+5、Package Information 
+5.1、DIP14 
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+18/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+5.2、SOP14 
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+19/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+5.3、TSSOP14 
+ 
+ 
+i-core
+
+Wuxi I-CORE Electronics Co., Ltd. 
+ Tab: 835-12                    rev:B3                Number:AiP74HC/HCT74-AX-LJ-A009EN 
+Address：Building B4,NO.777,Jianzhu Road,Binhu District,Wuxi City,Jiangsu Province 
+20/ 20  
+http://www.i-core. cn 
+P.C.：214072 
+ 
+VER：2021-12-A3 
+                                                              
+ 
+6、Statements And Notes 
+6.1、The name and content of Hazardous substances or Elements in the product       
+Part name 
+Hazardous substances or Elements 
+Lead 
+and  
+lead 
+compou
+nds 
+Mercur
+y 
+and 
+mercur
+y 
+compo
+unds 
+Cadm
+ium 
+and 
+cadmi
+um 
+comp
+ounds 
+Hexaval
+ent 
+chromiu
+m 
+compoun
+ds 
+Polybro
+minated 
+biphenyl
+s 
+Polybro
+minate
+d 
+biphen
+yl 
+ethers 
+Dibutyl 
+phthala
+te 
+ 
+Butylbe
+nzyl 
+phthala
+te 
+ 
+Di-2-et
+hylhex
+yl 
+phthala
+te 
+Diisobu
+tyl 
+phthala
+te 
+Lead frame 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+Plastic resin 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+Chip  
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+The lead 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+Plastic sheet 
+installed 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+○ 
+explanation 
+○：Indicates that the content of hazardous substances or elements in the detection limit  
+of  the following the SJ/T11363-2006 standard. 
+×：Indicates that the content of hazardous substances or elements exceeding the SJ/T11363-2006 
+Standard limit requirements. 
+ 
+6.2、Notion 
+Recommended carefully reading this information before the use of this product； 
+The information in this document are subject to change without notice； 
+This information is using to the reference only, the company is not responsible for any loss； 
+The company is not responsible for the any infringement of the third party patents or other rights of  
+the responsibility. 
+i-core

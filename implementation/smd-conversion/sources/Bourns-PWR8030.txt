@@ -1,0 +1,500 @@
+PWR6927/8030/8937/A247/B053 Power Wirewound Resistors
+Features
+■ Superior pulse capability
+■ Very high power – up to 10 W
+■ Excellent surge capabilities
+■ Super low TCR
+■ Non-inductive versions available
+■ UL 94V0, RoHS* and SVHC compliant
+■ Halogen free model available
+Applications
+■ High power discharging applications
+■ Telecommunications
+■ Switching power supplies
+■ Motor controls
+■ High pulse withstanding applications
+Additional Information
+Click these links for more information:
+PRODUCT
+TECHNICAL
+LIBRARY
+INVENTORY
+SAMPLES
+CONTACT
+General Information
+The Model PWR6927/8030/8937/A247/B053 Series surface mount wirewound resistors 
+boast a high power density and excellent pulse power characteristics. These models 
+can be used in a wide range of applications where surge voltages or inrush currents 
+are present.
+Electrical Characteristics
+Parameter
+PWR6927
+PWR8030
+PWR8937
+PWRA247
+PWRB053
+Power
+3 W
+5 W
+5 W
+7 W
+10 W
+Resistance Range  
+ 1 % Based on E24+E96 Series 
+ 5 % Based on E24 Series
+0.05 Ω - 16K Ω
+0.1 Ω - 22K Ω
+0.1 Ω - 33K Ω
+0.1 Ω - 50K Ω
+0.1 Ω - 70K Ω
+Resistance Range   
+(Non-inductive Versions) 
+ Based on E24 Series
+0.05 Ω - 3.3K Ω
+0.05 Ω - 4K Ω
+0.05 Ω - 6K Ω
+0.05 Ω - 8K Ω
+0.05 Ω - 10K
+Tolerance
+0.5 % / 1 % / 5 %
+Temperature Coefficient 
+ <0.1 Ω  
+ 0.1 - 0.99 Ω 
+ 1.0 - 10 Ω 
+ >10 Ω
+ 
+±300 PPM/°C 
+  ±90 PPM/°C 
+  ±50 PPM/°C 
+  ±20 PPM/°C
+Operating Temperature
+-65 °C to +175 °C
+Maximum Voltage
+√P*R
+Performance
+Test
+Description
+Specification
+Load Life
+Chamber temp. 70 ±2 °C, voltage cycle: rated d.c. voltage 
+application 1hr. 30 min. and rest of 30 min. repeatedly for 1K hrs.
+ΔR ±1.0 %
+Short Time Overload
+0.25 W ~ 4 W: 5X rated power for 5 seconds  
+5 W ~ 10 W: 10X rated power for 5 seconds
+ΔR ±(0.5 % +0.05 Ω)
+Periodic Pulse Overload
+4X power, 1 s. ON, 25 s. OFF, 10000 +400/-0 cycles
+ΔR ±(0.5 % +0.05 Ω)
+Shock
+Impact acceleration 100 g, pulse duration 6 ms, 18 shocks
+ΔR ±(0.1 % +0.05 Ω)
+Vibration
+10 Hz to 2 KHz, 1 oct/min., 20 g, 3 axis, 7.5 hrs.
+ΔR ±(0.1 % +0.05 Ω)
+Thermal Shock
+-55 °C to +150 °C +3/-0 °C, 5 cycles, 15 min. in max.
+ΔR ±1 %
+Solderability
+Bath temperature 250 ±3 °C, immersion time 3 ±0.3 sec.
+>95 % of contact face covered new 
+solder
+Resistance to Solder Heat
+Immersion in solder 260 °C ±5 °C for 10 ±0.3 seconds
+ΔR ±(0.5 % +0.05 Ω)
+Insulation Resistance
+Apply max. overload voltage, duration 1 minute
+>1G Ω
+Dielectric Strength
+Test voltage 500 V ±10 %, duration 1 minute
+Pass
+* RoHS Directive 2015/863, Mar 31, 2015 and Annex.
+** Bourns considers a product to be “halogen free” if (a) the Bromine (Br) content is 900 ppm or less; (b) the Chlorine (Cl) 
+content is 900 ppm or less; and (c) the total Bromine (Br) and Chlorine (Cl) content is 1500 ppm or less.
+Specifications are subject to change without notice.
+Users should verify actual device performance in their specific applications. The products described herein and this docu-
+ment are subject to specific legal disclaimers as set forth on the last page of this document, and at  
+www.bourns.com/docs/legal/disclaimer.pdf.
+WARNING 
+Cancer and Reproductive Harm
+www.P65Warnings.ca.gov
+
+ 
+PWR6927/8030/8937/A247/B053 Power Wirewound Resistors
+Environmental Characteristics (Cont’d)
+Moisture Sensitivity Level ......................1
+ESD Classification (HBM)..................N/A
+Physical Characteristics
+Body Material........................Epoxy resin
+Lead Frame ..... 100 % Sn Plated Copper
+Flammability ........ Conforms to UL 94V-0
+Typical Part Marking
+MANUFACTURER'S
+TRADEMARK
+RESISTANCE
+CODE
+10R0
+YYWW
+DATE CODE
+Surge Performance (IEC 61000-4-5 1.2 μs / 50 μs)
+100,000
+10,000
+1,000
+100
+10
+1
+PEAK VOLTAGE (kV)
+0.1
+1.0
+10.0
+100.0
+1,000.0
+10,000.0
+RESISTANCE (Ω)
+PWR6927
+PWR8030
+PWR8937
+PWRA247
+PWRB053
+Product Dimensions
+Recommended Pad Layout
+A
+C
+F
+B
+D
+TOLERANCE:
+±0.05
+(±.002)
+DIMENSIONS:
+MM
+(INCHES)
+Model
+A
+F
+L
+C
+B
+D
+W
+H
+PWR6927
+17.50
+(0.689)
+2.50
+(0.098)
+18.5
+(0.728)
+6.80
+(0.267)
+6.92
+(0.272)
+4.80
+(0.189)
+3.50
+(0.138)
+6.00
+(0.236)
+PWR8030
+20.80
+(0.820)
+3.00
+(0.118)
+21.8
+(0.858)
+7.80
+(0.307)
+7.60
+(0.299)
+4.80
+(0.189)
+4.00
+(0.157)
+5.50
+(0.217)
+PWR8937
+22.50
+(0.886)
+3.00
+(0.118)
+23.9
+(0.941)
+10.30
+(0.406)
+9.20
+(0.362)
+9.20
+(0.362)
+4.30
+(0.169)
+10.0
+(0.394)
+PWRA247
+30.60
+(1.205)
+3.50
+(0.138)
+32.0
+(1.260)
+13.00
+(0.512)
+12.0
+(0.472)
+11.80
+(0.465)
+4.80
+(0.189)
+12.7
+(0.500)
+PWRB053
+51.60
+(2.030)
+2.00
+(0.079)
+53.0
+(2.087)
+15.00
+(0.591)
+13.6
+(0.535)
+13.6
+(0.535)
+3.40
+(0.134)
+14.3
+(0.563)
+L
+H
+W
+Specifications are subject to change without notice.
+Users should verify actual device performance in their 
+specific applications. 
+The products described herein and this document are 
+subject to specific legal disclaimers as set forth on the 
+last page of this document, and at www.bourns.com/
+docs/legal/disclaimer.pdf.
+Packaging Specifications
+Model
+Tape Width
+Reel Diameter
+Pieces per Reel
+PWR6927
+32.0
+(1.259)
+330
+(13.0)
+500
+PWR8030
+PWR8937
+44.0
+(1.732)
+300
+PWRA247
+200
+PWRB053
+72.0
+(2.835)
+100
+
+ 
+PWR6927/8030/8937/A247/B053 Power Wirewound Resistors
+Soldering Profile
+25
+75
+125
+175
+225
+275
+0
+50
+100
+150
+200
+250
+300
+Time (seconds)
+Temperature (°C)
+60 - 120 seconds
+60 - 90
+seconds
+250 °C peak
+190 °C
+150 °C
+220 °C
+Ramp Down
+6 °C/second
+      245 °C
+Maximum of 20 seconds between
+        +245 °C and +250 °C
+Ramp Up
+3 °C/second maximum
+10 seconds minimum
+<1>
+<1>
+Power Derating Curve
+Power (%)
+Ambient Temperature (°C)
+100
+120
+80
+60
+40
+20
+0
+0
+50
+125
+100
+75
+150
+175
+200
+Temperature Rise
+200
+175
+150
+125
+100
+75
+50
+25
+0
+TEMPERATURE RISE (°C)
+10
+7
+5
+3
+POWER (W)
+PWRB053
+PWRA247 PWR8030
+PWR8937
+PWR6927
+How to Order
+PWR6927  W  __  10R0  J  E
+Model 
+ 
+PWR6927 
+ 
+PWR8030 
+ 
+PWR8937 
+ 
+PWRA247 
+ 
+PWRB053
+Type 
+ 
+W = Wirewound 
+ 
+N = Non-inductive Option
+Special Version 
+ 
+Blank = Default 
+ 
+H = Halogen Free
+Resistance Value 
+ 
+<100 ohms ... “R” represents decimal 
+ 
+ 
+point (examples: 7R50 =  
+ 
+ 
+7.5 Ω; R050 = 0.050 Ω)
+ 
+≥100 ohms .... First three digits are
+ 
+ 
+significant, fourth digit  
+ 
+ 
+represents number of  
+ 
+ 
+zeros to follow (exam- 
+ 
+ 
+ples: 2000 = 200 ohms; 
+ 
+ 
+2002 = 20K ohms)
+Resistance Tolerance 
+ 
+J = 5 % 
+ 
+F = 1 % 
+ 
+D = 0.5 %
+Packaging 
+ 
+E = Tape & Reel
+REV. 05/24
+Specifications are subject to change without notice.
+Users should verify actual device performance in their specific applications. 
+The products described herein and this document are subject to specific legal disclaimers as set forth on the last page of this document, and at www.bourns.com/docs/legal/disclaimer.pdf.
+Americas: Tel: +1 951-781-5500 • Email: americus@bourns.com
+Mexico: Tel: +52-614-478-0400 • Email: mexicus@bourns.com
+Asia: Tel: +886-2-2562-4117 • Email:  asiacus@bourns.com
+EMEA: Tel: +36 88 885 877 • Email: eurocus@bourns.com
+www.bourns.com
+
+This legal disclaimer applies to purchasers and users of Bourns® products manufactured by or on behalf of Bourns, Inc. and its affiliates (collectively, 
+“Bourns”).
+Unless otherwise expressly indicated in writing, Bourns® products and data sheets relating thereto are subject to change without notice. Users should check 
+for and obtain the latest relevant information and verify that such information is current and complete before placing orders for Bourns® products.
+The characteristics and parameters of a Bourns® product set forth in its data sheet are based on laboratory conditions, and statements regarding the 
+suitability of products for certain “typical” applications are based on Bourns’ knowledge of typical requirements in generic applications. Bourns assumes 
+that “typical” applications include failsafe/backup features to address critical risks to users and are designed to allow rework of Bourns® product to 
+avoid scrap of a device solely due to malfunctioning Bourns® product. The characteristics and parameters of a Bourns® product in a user application 
+may vary from the data sheet characteristics and parameters due to (i) the combination of the Bourns® product with other components in the user’s 
+application, or (ii) the environment of the user application itself. The characteristics and parameters of a Bourns® product also can and do vary in 
+different applications and actual performance may vary over time. Thus, users should always verify the actual performance of the Bourns® product in 
+their specific devices and applications and make their own independent judgments regarding the suitability of Bourns® product and the amount of 
+additional test margin to design into their device or application to compensate for differences between laboratory and real-world conditions.
+Unless Bourns has explicitly designated an individual Bourns® product as meeting the requirements of a particular industry standard (e.g., IATF 
+16949) or a particular qualification (e.g., UL listed or recognized), Bourns is not responsible for any failure of an individual Bourns® product to meet 
+the requirements of such industry standard or particular qualification even if such industry standard or qualification is a “state of art”. Users of Bourns® 
+products are responsible for ensuring compliance with safety-related requirements and standards applicable to their devices or applications.
+Bourns® products are not recommended, authorized or intended for use in applications where failure or malfunction may result in personal injury, 
+death, or severe property or environmental damage, such as without limitation nuclear, life-critical medical and certain automotive and aviation 
+applications. Except as set forth in the bullet points below or unless expressly and specifically approved in writing on a case-by-case basis by an 
+authorized Bourns’ representative, use of any Bourns® products in such unauthorized high-risk applications is at the user’s sole risk.
+•	 Bourns considers implantable/invasive devices and devices/procedures designed as life-supporting or life-sustaining by the U.S. Food and Drug  
+	 Administration or equivalent organizations outside of the United States as “life-critical” medical applications. Bourns expressly identifies those  
+	 Bourns® standard products that are suitable for use in typical medical applications that are not life-critical in its publication entitled “Bourns  
+	 Medical Grade Component Guide.” 
+•	 Bourns expressly identifies those Bourns® standard products that are suitable for use in typical automotive applications associated with any  
+	 Automate Safety Integrity Level (ASIL) in its publication entitled “Bourns Automotive Grade Component Guide.” Bourns’ designation of Bourns®  
+	 product as compliant with the AEC-Q standard does not by itself mean that Bourns has approved such product for use in an automotive  
+	 application.
+•	 Bourns expressly identifies Bourns® standard products that are suitable for use in the typical aviation applications/systems requiring System  
+	 Design Assurance Level (RTCA DO-254 DAL) of C, D or E in its publication entitled “Bourns Civilian Aerospace/Aviation Grade Component Guide.”  
+	 Bourns does not test its products for compliance with United States Federal Aviation Administration standards or any other generally equivalent  
+	 governmental organization standard applicable to products designed or manufactured for use in aviation applications. Use of Bourns® standard  
+	 components in aviation applications associated with RTCA DO-254 DAL A or B without proper approval noted above shall be at the user’s sole  
+	 risk. 
+•	 Bourns will review and authorize on a case-by-case basis the use of Bourns® standard products which are at least AEC-Q compliant in space- 
+	 related civil applications (rockets, satellites) with a negotiated cross-waiver and indemnity agreement.
+The use and level of testing applicable to Bourns® custom products shall be negotiated on a case-by-case basis by Bourns and the user for which such 
+Bourns® custom products are specially designed. Absent a written agreement between Bourns and the user regarding the use and level of such testing, 
+the above provisions applicable to Bourns® standard products shall also apply to such Bourns® custom products.
+Use of Bourns® products or Bourns’ technology in military/defense applications must be reviewed with Bourns for compliance with applicable export 
+control laws and embargoes. Users shall not sell, transfer, export or re-export (which includes transfers within a country) any Bourns® products or 
+technology or technical data for use in activities which involve the design, development, production, use or stockpiling of nuclear, chemical or 
+biological weapons or missiles, nor shall they use Bourns® products or technology or technical data in any facility which engages in activities relating 
+to such devices. Further, Bourns® products and Bourns’ technology and technical data may not under any circumstance be exported or re-exported to 
+countries subject to international sanctions or embargoes. Bourns® products and technology may not, without prior authorization from Bourns and/or 
+the Government of a country where such product/technology is designed and/or manufactured, be resold, transferred, or re-exported (including within 
+the same country) to any party not eligible to receive commodities, software, and technical data originating in such country.
+To the maximum extent permitted by applicable law, Bourns disclaims (i) any and all liability for special, punitive, consequential, incidental or indirect 
+damages or lost revenues or lost profits, and (ii) any and all implied warranties (those not based on parameters specified in Bourns’ data sheets and/or 
+specifications), including implied warranties of fitness for particular purpose, non-infringement and merchantability.
+For your convenience, copies of this Legal Disclaimer Notice with German, Spanish, Japanese, Traditional Chinese and Simplified Chinese bilingual versions are 
+available at:
+	
+Web Page:	 https://www.bourns.com/legal/disclaimers-terms-and-policies
+	
+PDF:	 https://www.bourns.com/docs/Legal/disclaimer.pdf
+	
+Legal Disclaimer Notice
+K2540 05/26R

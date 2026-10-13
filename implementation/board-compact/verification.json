@@ -1,0 +1,56 @@
+{
+  "board_size_mm": [
+    110,
+    120
+  ],
+  "previous_board_size_mm": [
+    110,
+    160
+  ],
+  "area_reduction_percent": 25,
+  "native_outline_valid": true,
+  "physical_components": 41,
+  "component_envelope_overlaps": [],
+  "all_component_geometry_inside_outline": true,
+  "all_original_pin_numbers_nets_local_pad_geometry_UUIDs_and_models_preserved": true,
+  "mounting_holes": [
+    {
+      "reference": "H1",
+      "center_mm": [
+        5.0,
+        5.0
+      ],
+      "minimum_courtyard_to_component_envelope_gap_mm": 1.022,
+      "nearest_component": "PS1"
+    },
+    {
+      "reference": "H2",
+      "center_mm": [
+        105.0,
+        5.0
+      ],
+      "minimum_courtyard_to_component_envelope_gap_mm": 5.05,
+      "nearest_component": "J110"
+    },
+    {
+      "reference": "H3",
+      "center_mm": [
+        5.0,
+        115.0
+      ],
+      "minimum_courtyard_to_component_envelope_gap_mm": 1.85,
+      "nearest_component": "D2"
+    },
+    {
+      "reference": "H4",
+      "center_mm": [
+        105.0,
+        115.0
+      ],
+      "minimum_courtyard_to_component_envelope_gap_mm": 2.0,
+      "nearest_component": "CPR1"
+    }
+  ],
+  "routing_segments": 0,
+  "drc_limit": "Full DRC previously crashed in this KiCad installation; geometric checks do not replace electrical clearance verification and routing."
+}

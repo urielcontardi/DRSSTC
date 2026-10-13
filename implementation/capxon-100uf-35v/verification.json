@@ -1,0 +1,63 @@
+{
+  "target": "oneTesla.kicad_pcb",
+  "references": [
+    "C13",
+    "C8",
+    "C9"
+  ],
+  "footprint": "oneTesla:CP_Elec_8x10",
+  "capacitance_preserved_uF": 100,
+  "voltage_rating_V": 35,
+  "manufacturer_selected": "Capxon",
+  "package_assumed_mm": [
+    8,
+    10
+  ],
+  "pad_numbers_nets_functions_uuids_preserved": true,
+  "positions_and_rotations_after": {
+    "C8": [
+      "66.7",
+      "85.5",
+      "90"
+    ],
+    "C13": [
+      "66.15",
+      "109.8",
+      "90"
+    ],
+    "C9": [
+      "57.375",
+      "85.8",
+      "90"
+    ]
+  },
+  "placement_adjustment_mm": {
+    "C8": [
+      -0.5,
+      -0.9
+    ],
+    "C13": [
+      0,
+      -0.7
+    ]
+  },
+  "all_other_board_objects_unchanged": true,
+  "schematic_only_three_capacitor_footprints_ratings_and_status_updated": true,
+  "autorouted_unchanged": true,
+  "netlist_identical": true,
+  "nets": 34,
+  "connections": 130,
+  "combined_changed_references": [
+    "C13",
+    "C8",
+    "C9",
+    "IC6"
+  ],
+  "existing_tracks_preserved": 17,
+  "drc_before_combined": 23,
+  "drc_after_combined": 22,
+  "new_drc_issues": 0,
+  "unconnected_before_combined": 92,
+  "unconnected_after_combined": 93,
+  "extra_unconnected_reason": "TO-252 has two separate GND lands numbered2 (lead and tab); existing routing is incomplete."
+}

@@ -1,0 +1,747 @@
+ 
+ 
+ 
+                               
+Apr.29, 2020  V.4                                                         www. uni-royal.cn 
+Page 1 / 6
+High Voltage Thick Film Chip Resistors
+ 
+ 
+ 
+DATA SHEET 
+ 
+ 
+ 
+ 
+ 
+Product Name High Voltage Thick Film Chip Resistors 
+Part Name HV Series 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                                                                                                                                                                            
+ 
+Uniroyal Electronics Global Co., Ltd. 
+88#, Longteng Road, Economic & Technical Development Zone, Kunshan, Jiangsu, China 
+Tel 
++86 512 5763 1411 / 22 /33 
+Email 
+marketing@uni-royal.cn 
+Manufacture Plant 
+Uniroyal Electronics Industry Co., Ltd.  
+Aeon Technology Corporation 
+Royal Electronic Factory (Thailand) Co., Ltd. 
+Royal Technology (Thailand) Co., Ltd. 
+ 
+ 
+
+ 
+ 
+ 
+                               
+Apr.29, 2020  V.4                                                         www. uni-royal.cn 
+Page 2 / 6
+High Voltage Thick Film Chip Resistors
+1 Scope 
+1.1 This datasheet is the characteristics of High Voltage Thick Film Chip Resistors manufactured by UNI-ROYAL. 
+1.2 The performance in Max. Working Voltage is superior to the general thick film chip resistors. 
+1.3 Suitable for reflow & wave soldering 
+1.4 Applications: AV adapters, LCD backlight, Camera flash, etc. 
+ 
+2 Part No. System 
+Part No. includes 14 codes shown as below: 
+2.1 1st~4th codes: Part name. E.g.: HV03, HV05, HV06, HV07, HV10, HV12 
+2.2 5th~6th codes: Power rating. 
+E.g.: W=Normal Size 
+ 
+“1~G” = “1~16” 
+Wattage 
+1/32 
+3/4 
+1/2 
+1/3 
+1/4 
+1/8 
+1/10 
+1/16 
+1/20 
+1 
+Normal Size 
+WH 
+07 
+W2 
+W3 
+W4 
+W8 
+WA 
+WG 
+WM 
+1W 
+If power rating is equal or lower than 1 watt, 5th code would be “W” and 6th code would be a number or letter. 
+E.g.: WA=1/10W 
+ 
+W4=1/4W 
+2.3 7th code: Tolerance. E.g.: D=±0.5%   
+F=±1%  
+G=±2%  
+J=±5% 
+ 
+K= ±10% 
+2.4 8th~11th codes: Resistance value. 
+2.4.1 If value belongs to standard value of E-24 series, the 8th code is zero, 9th~10th codes are the significant figures of resistance value, and the 
+11th code is the power of ten.  
+2.4.2 If value belongs to standard value of E-96 series, the 8th~10th codes are the significant figures of resistance value, and the 11th code is the 
+power of ten.    
+2.4.3 11th codes listed as following: 
+                 0=100        1=101 
+2=102 
+3=103 
+4=104 
+5=105 
+6=106 
+J=10-1 
+K=10-2 
+L=10-3 
+M=10-4 
+2.5 12th~14th codes. 
+2.5.1 12th code: Packaging Type. E.g.:   B = Bulk / Box      T=Tape/Reel 
+2.5.2 13th code: Standard Packing Quantity. 
+                       4=4,000pcs 
+5=5,000pcs 
+C=10,000pcs 
+D=20,000pcs 
+E=15,000pcs 
+                      Chip Product:  BD=B/B-20000pcs           TC=T/R-10000pcs 
+2.5.3 14th code: Special features. 
+E = Environmental Protection, Lead Free, or Standard type. 
+ 
+3 Ordering Procedure 
+ (Example: HV06 1/4W ±1% 100KΩ T/R-5000) 
+ 
+H       V       0       6                             W      4                   F                     1         0       0      3                            T                        5                      E 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Resistance Value: 
+5% (E-24 series): 
+1st code is zero, 2nd~3rd codes are 
+the significant figures of 
+resistance value, and the rest 
+code is the power of ten. 
+1% (E-96 series): 
+1st~3rd codes are the significant 
+figures of resistance value and 
+the rest code is the power of ten.      
+J=10-1; K=10-2; L=10-3 
+Product Type: 
+Fill-in 4 digits with 
+the chip resistor type 
+as follows: 
+HV03 
+HV05 
+HV06 
+HV07 
+HV10 
+HV12 
+Wattage: 
+WA=1/10W 
+W8=1/8W 
+W4=1/4W 
+W2=1/2W 
+1W=1W 
+07=3/4W 
+Tolerance:
+F=±1% 
+J=±5%  
+Packing Type: 
+T=Tape/Reel 
+Packing 
+quantity: 
+1=1 Kpcs. 
+2=2 Kpcs. 
+3=3 Kpcs. 
+4=4 Kpcs. 
+5=5 Kpcs. 
+C=10 Kpcs. 
+D=20 Kpcs. 
+Special Feature: 
+E= Lead-Free 
+
+ 
+ 
+ 
+                               
+Apr.29, 2020  V.4                                                         www. uni-royal.cn 
+Page 3 / 6
+High Voltage Thick Film Chip Resistors
+4 Marking 
+4.1 ±5% tolerance products (E-24 series):  
+3 codes.  
+1st~2nd codes are the significant figures of resistance value,  
+and the rest code is the power of ten.                                                                                       104  100K 
+ 
+4.2 ±1% tolerance products  (E-96 series): 
+4 codes.  
+1st~3rd codes are the significant figures of resistance value,  
+and the rest code is the power of ten.  
+Letter "R" in mark means decimal point.                                                                                 1003  100K                                                                   
+5 Dimension 
+                                      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+Ratings 
+Type 
+Power 
+ Rating 
+at 70℃ 
+Max. 
+Working 
+ Voltage 
+Max.
+Overload  
+Voltage 
+Dielectric 
+withstanding  
+Voltage 
+Resistance 
+Range 
+Operating 
+Temperature 
+HV03 
+1/10W 
+200V 
+400V 
+300V 
+36KΩ~10MΩ 
+-55℃~155℃ 
+HV05 
+1/8W 
+400V 
+800V 
+500V 
+100KΩ~10MΩ 
+-55℃~155℃ 
+HV06 
+1/4W 
+500V 
+1000V 
+500V 
+100KΩ~10MΩ 
+-55℃~155℃ 
+HV07 
+1/2W 
+800V 
+1500V 
+500V 
+50KΩ~10MΩ 
+-55℃~155℃ 
+HV10 
+3/4W 
+2000V 
+3000V 
+500V 
+50KΩ~10MΩ 
+-55℃~155℃ 
+HV12 
+1W 
+3000V 
+4000V 
+500V 
+39KΩ~10MΩ 
+-55℃~155℃ 
+7 
+Soldering pad size recommended  
+                                                                                              
+ 
+ 
+ 
+ 
+ 
+ 
+8  Derating Curve 
+Power rating will change based on continuous load at ambient temperature from -55 to 155℃.  
+It is constant between -55 to 70℃, and derate to zero when temperature rise from 70 to 155℃. 
+Voltage rating: 
+Resistors shall have a rated direct-current (DC) continuous working voltage or an approximate sine-wave 
+root-mean-square (RMS) alternating-current (AC) continuous working voltage at commercial-line  
+frequency and waveform corresponding to the power rating, as determined from the following formula: 
+RCWV ൌ√ܲ
+ൈR 
+Remark: RCWV: Rating Continuous Working Voltage (Volt.)      P: power rating (Watt)      R: nominal resistance (Ω) 
+In no case, the rated DC or RMS AC continuous working voltage must be greater than the applicable maximum value. 
+The overload voltage is 2.5 times RCWV or Max. Overload voltage whichever is lower. 
+ 
+Type 
+Dimension(mm) 
+L 
+W 
+H 
+A 
+B 
+HV03(0603) 
+1.60±0.10 
+0.80±0.10 
+0.45±0.10 
+0.30±0.20 
+0.30±0.20 
+HV05(0805) 
+2.00±0.15 
+1.25
++0.15 
+-0.10 
+0.55±0.10 
+0.40±0.20 
+0.40±0.20 
+HV06(1206) 
+3.10±0.15 
+1.55
++0.15 
+-0.10 
+0.55±0.10 
+0.45±0.20 
+0.45±0.20 
+HV07(1210) 
+3.10±0.10 
+2.60±0.20 
+0.55±0.10 
+0.50±0.25 
+0.50±0.20 
+HV10(2010) 
+5.00±0.10 
+2.50±0.20 
+0.55±0.10 
+0.60±0.25 
+0.50±0.20 
+HV12(2512) 
+6.35±0.10 
+3.20±0.20 
+0.55±0.10 
+0.60±0.25 
+0.50±0.20 
+Type 
+Dimension(mm) 
+A 
+B 
+C 
+D 
+HV03 
+0.8±0.05 
+0.65±0.05 
+0.8±0.05 
+2.1±0.05 
+HV05 
+1.0±0.1 
+1.0±0.1 
+1.3±0.1 
+3.0±0.1 
+HV06 
+2.2±0.1 
+1.1±0.1 
+1.6±0.1 
+4.4±0.1 
+HV07 
+2.1±0.1 
+1.1±0.1 
+2.6±0.1 
+4.4±0.1 
+HV10 
+3.6±0.1 
+1.3±0.1 
+2.6±0.1 
+6.2±0.1 
+HV12 
+5.0±0.1 
+1.6±0.1 
+3.3±0.1 
+8.2±0.1 
+
+ 
+ 
+ 
+                               
+Apr.29, 2020  V.4                                                         www. uni-royal.cn 
+Page 4 / 6
+High Voltage Thick Film Chip Resistors
+9 
+Structure 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10 Performance Specification 
+ 
+Characteristic 
+Limits 
+Test Methods 
+(GB/T5729&JIS-C-5201&IEC60115-1) 
+Temperature 
+Coefficient 
+100PPM/℃ 
+4.8 Natural resistance changes per temp. Degree centigrade ୖ
+ଶିୖ
+ଵ
+ோଵሺ௧ଶି௧ଵሻ  ×106 (PPM/℃) 
+R1: Resistance Value at room temperature t1 
+R2: Resistance at test temperature  
+(Upper limit temperature or Lower limit temperature) 
+t1: Room temperature +25°C or specified  
+t2:  Upper limit or Lower limit temperature 
+Short-time 
+overload 
+±(2.0%+0.1Ω) 
+4.13 Permanent resistance change after the application of 2.5 
+times RCWV for 5 seconds. 
+Terminal 
+bending 
+±(1.0%+0.05Ω)  
+4.33 Twist of test board:  
+Y/X = 3/90 mm for 60 Seconds 
+Dielectric 
+withstanding 
+voltage 
+No evidence of flashover mechanical 
+damage, arcing or insulation breaks down.
+4.7 Resistors shall be clamped in the trough of a 90℃metallic v-
+block and shall be tested at ac potential respectively specified in 
+the given list of each product type for 60-70 seconds. 
+Soldering heat 
+±(1.0%+0.05Ω)  
+4.18 Dip the resistor into a solder bath having a temperature of 
+260℃5℃ and hold it for 10±1 seconds. 
+Insulation 
+resistance 
+≧1000MΩ 
+4.6 The measuring voltage shall be ,measured with a direct 
+voltage of (100±15)V or a voltage equal to the dielectric 
+withstanding voltage., and apply for 1min. 
+Solderability 
+Coverage must be over 95%. 
+4.17 The area covered with a new, smooth, clean, shiny and 
+continuous surface free from concentrated pinholes. Temperature 
+of solder:245±3°C; Dwell time in solder: 2~3 seconds. 
+Rapid change of 
+temperature 
+±5%：±(1.0%+0.05)  
+4.19 30 min at lower limit temperature and 30 min at upper limit 
+temperature 100 cycles. 
+±1%：±(0.5%+0.05) 
+Humidity 
+( steady state ) 
+±(3.0%+0.1)  
+4.24Temporary resistance change after 240 hours exposure in a 
+humidity test chamber controlled at 40±2℃ and 90-95% relative 
+humidity 
+Load life 
+in humidity 
+±(3.0%+0.1)  
+7.9 Resistance change after 1,000 hours (1.5 hours “ON”,0.5 
+hour “OFF”) at RCWV in a humidity  chamber controlled at 40
+℃±2℃ and 90 to 95% relative humidity.  
+Load life 
+±(3.0%+0.1)  
+4.25.1 Permanent resistance change after 1,000 hours operating 
+at RCWV with duty cycle 1.5 hours “ON”, 0.5 hour “OFF” at 70
+℃±2℃ ambient. 
+Low Temperature 
+Storage 
+±(3.0%+0.1)  
+4.23.4    Lower limit temperature，for 2H. 
+High Temperature  
+Exposure 
+±(3.0%+0.1)  
+4.23.2    Upper limit temperature ，for 1000H. 
+Leaching  No visible damage  
+J-STD-002 Test D 
+Samples completely immersed for 30 sec in solder bath at 260℃
+ 
+11. Soldering Condition  
+(This is for recommendation, please customer perform adjustment according to actual application) 
+
+ 
+ 
+ 
+                               
+Apr.29, 2020  V.4                                                         www. uni-royal.cn 
+Page 5 / 6
+High Voltage Thick Film Chip Resistors
+11.1 Recommend Reflow Soldering Profile：(solder : Sn96.5 / Ag3 / Cu0.5) 
+ 
+Profile Feature 
+Lead (Pb)-Free solder 
+Preheat： 
+Temperature Min (Tsmin) 
+Temperature Max (Tsmax) 
+Time (Tsmin to Tsmax ) (ts) 
+ 
+150℃ 
+200℃ 
+60 -120 seconds 
+Average ramp-up rate： 
+(Ts max to Tp) 
+ 
+3℃ / second max. 
+Time maintained above : 
+Temperature (TL) 
+Time (tL) 
+ 
+217℃ 
+60-150 seconds 
+Peak Temperature (Tp) 
+260℃ 
+Time within ൅0
+െ5℃ of actual peak Temperature (tp)2 
+10 seconds 
+Ramp-own Rate 
+6℃/second max. 
+Time 25℃ to Peak Temperature 
+8mimutes max. 
+Allowed Re-flow times : 2 times 
+Remark : To avoid discoloration phenomena of chip on terminal electrodes, please use N2 Re-flow furnace . 
+11.2 Recommend Wave Soldering Profile：(Apply to 0603 and above size)  
+ 
+ 
+11. Packing   
+11.1Dimension of Paper Taping: (Unit: mm)                                              
+
+ 
+ 
+ 
+                               
+Apr.29, 2020  V.4                                                         www. uni-royal.cn 
+Page 6 / 6
+High Voltage Thick Film Chip Resistors
+Type 
+A ±0.2 
+B  ±0.2 
+C ±0.05 
+ΦD  ି଴
+  ା଴.ଵ 
+E ±0.1
+F ±0.05
+G ±0.1
+W ±0.2
+T ±0.1
+HV03 
+1.10 
+1.90 
+2.00 
+1.50 
+1.75 
+3.50 
+4.00 
+8.00 
+0.67 
+HV05 
+1.65 
+2.40 
+2.00 
+1.50 
+1.75 
+3.50 
+4.00 
+8.00 
+0.81 
+HV06 
+2.00 
+3.60 
+2.00 
+1.50 
+1.75 
+3.50 
+4.00 
+8.00 
+0.81 
+HV07 
+2.80 
+3.50 
+2.00 
+1.50 
+1.75 
+3.50 
+4.00 
+8.00 
+0.75 
+11.2 Dimension of plastic taping (Unit: mm)   
+Type 
+A 0.2 B0.2 C 0.05 ΦD  ି଴
+  ା଴.ଵ ΦD1  ି଴
+  ା଴.ଶହ E0.1
+F 0.05 G 0.1
+W 0.2
+T ±0.1
+HV10 
+2.90 
+5.60 
+2.00 
+1.50 
+1.50 
+1.75
+5.50 
+4.00
+12.00
+1.00
+HV12 
+3.50 
+6.70 
+2.00 
+1.50 
+1.50 
+1.75
+5.50 
+4.00
+12.00
+1.00
+11.3 Dimension of Reel：(Unit: mm) 
+Type 
+Taping 
+Qty./Reel
+A 0.5 
+B 0.5
+C 0.5
+D 1
+M 2
+W 1
+HV03 
+Paper 
+5,000pcs
+2.0 
+13.0 
+21.0 
+60.0 
+178.0
+10.0 
+HV05 
+Paper 
+5,000pcs
+2.0 
+13.0 
+21.0 
+60.0 
+178.0
+10.0 
+HV06 
+Paper 
+5,000pcs
+2.0 
+13.0 
+21.0 
+60.0 
+178.0
+10.0 
+HV07 
+Paper 
+5,000pcs
+2.0 
+13.0 
+21.0 
+60.0 
+178.0
+10.0 
+HV10 
+Embossed 
+4,000pcs
+2.0 
+13.0 
+21.0 
+60.0 
+178.0
+13.8 
+HV12 
+Embossed 
+4,000pcs
+2.0 
+13.0 
+21.0 
+60.0 
+178.0
+13.8 
+12 Note 
+12.2 UNI-ROYAL recommend products store in warehouse with temperature between 15 to 35℃ under humidity between 25 to 75%RH. 
+Even under storage conditions recommended above, solder ability of products will be degraded stored over 1 year old. 
+12.3 Cartons must be placed in correct direction which indicated on carton, otherwise the reel or wire will be deformed. 
+12.4 Storage conditions as below are inappropriate: 
+a. Stored in high electrostatic environment 
+b. Stored in direct sunshine, rain, snow or condensation. 
+c. Exposed to sea wind or corrosive gases, such as Cl2, H2S, NH3, SO2, NO2, etc. 
+ 
+13 Record 
+Version 
+Description  
+Page 
+Date 
+Amended by 
+Checked by 
+1 
+First version 
+1~6 
+Mar.20, 2018 
+Haiyan Chen 
+Nana Chen 
+2 
+Modify characteristic 
+4~5 
+Feb.12, 2019 
+Haiyan Chen 
+Yuhua Xu 
+3 
+Modify the High Temperature  Exposure 
+conditions 
+7 
+July.29, 2019 
+Haiyan Chen 
+Yuhua Xu 
+4 
+Modify the reflow curve and add the wave 
+soldering curve 
+5 
+Apr.29, 2020 
+Haiyan Chen 
+Yuhua Xu 
+© Uniroyal Electronics Global Co., Ltd. All rights reserved. Specification herein will be changed at any time without prior notice. 
+  
+ 

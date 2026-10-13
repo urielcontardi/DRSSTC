@@ -1,0 +1,24 @@
+{
+  "scope": "Footprints only, nominal values unchanged",
+  "main_board_only": true,
+  "changed_footprints": [
+    "IC1",
+    "IC2",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+  ],
+  "all_other_board_objects_unchanged": true,
+  "pad_net_uuid_pin_function_unchanged": true,
+  "netlist_identical": true,
+  "nets": 34,
+  "connections": 130,
+  "autorouted_unchanged": true,
+  "tracks_preserved": 17,
+  "drc_before": 29,
+  "drc_after": 23,
+  "unconnected_before_and_after": 92
+}

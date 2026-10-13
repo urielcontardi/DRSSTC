@@ -1,0 +1,662 @@
+[
+  {
+    "reference": "Q2",
+    "uuid": "039e6fa1-1edf-4e2c-b882-4f54b54fc96e",
+    "footprint": "Q_TO3P_ImportedPads_ReviewPending",
+    "xy_mm": [
+      106.075,
+      72.384
+    ],
+    "bbox_mm": [
+      103.55,
+      69.809,
+      129.35,
+      85.859
+    ]
+  },
+  {
+    "reference": "F1",
+    "uuid": "1076e4d3-f846-4754-8c20-bbf3af14e3e2",
+    "footprint": "Fuseholder_Idall_AS-06_5x20mm_P20.20mm_Horizontal",
+    "xy_mm": [
+      84.9,
+      35.1
+    ],
+    "bbox_mm": [
+      71.175,
+      29.575,
+      98.625,
+      40.625
+    ]
+  },
+  {
+    "reference": "C11",
+    "uuid": "10bec98a-7fcf-445d-828c-7448e7e0caee",
+    "footprint": "CP_D25_H45_P10.16_ReviewPending",
+    "xy_mm": [
+      118.2,
+      55.4
+    ],
+    "bbox_mm": [
+      105.425,
+      42.625,
+      130.975,
+      68.175
+    ]
+  },
+  {
+    "reference": "C8",
+    "uuid": "1269b8c2-e565-4d97-b1d5-a0bfad27fe67",
+    "footprint": "CP_Elec_8x10",
+    "xy_mm": [
+      67.1275,
+      83.59
+    ],
+    "bbox_mm": [
+      62.7025,
+      78.315,
+      71.5525,
+      89.15
+    ]
+  },
+  {
+    "reference": "J110",
+    "uuid": "2063a789-1fe2-471f-b1e9-aa764eed85b2",
+    "footprint": "J110_WireLink_P10.16mm",
+    "xy_mm": [
+      103.0,
+      35.3
+    ],
+    "bbox_mm": [
+      99.475,
+      27.695,
+      106.525,
+      42.905
+    ]
+  },
+  {
+    "reference": "C4",
+    "uuid": "2a513111-04ce-4b68-a105-3d147c33a5b1",
+    "footprint": "C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "xy_mm": [
+      75.59,
+      102.37
+    ],
+    "bbox_mm": [
+      74.065,
+      95.845,
+      77.115,
+      103.895
+    ]
+  },
+  {
+    "reference": "C13",
+    "uuid": "2b4aaf78-ca28-4d10-b4ca-f45b9dbc7107",
+    "footprint": "CP_Elec_8x10",
+    "xy_mm": [
+      57.7,
+      83.5
+    ],
+    "bbox_mm": [
+      53.275,
+      78.225,
+      62.125,
+      89.06
+    ]
+  },
+  {
+    "reference": "C9",
+    "uuid": "2cd8eb0c-0922-4a17-90fb-152d54866e37",
+    "footprint": "C_1210_3225Metric",
+    "xy_mm": [
+      41.525,
+      91.1
+    ],
+    "bbox_mm": [
+      39.2,
+      89.475,
+      43.85,
+      92.725
+    ]
+  },
+  {
+    "reference": "R4",
+    "uuid": "39a51dd6-7324-45af-bce2-44f084ca968b",
+    "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "xy_mm": [
+      75.5,
+      87.71
+    ],
+    "bbox_mm": [
+      73.975,
+      79.015,
+      77.025,
+      88.785
+    ]
+  },
+  {
+    "reference": "FB1",
+    "uuid": "3d46b6fe-749c-4529-a421-7634ca752885",
+    "footprint": "HFBR-2521ETZ",
+    "xy_mm": [
+      41.105,
+      102.51
+    ],
+    "bbox_mm": [
+      24.87,
+      93.375,
+      44.13,
+      106.025
+    ]
+  },
+  {
+    "reference": "REF**",
+    "uuid": "44c5b047-d27f-4782-a022-74204f0f78d0",
+    "footprint": "MountingHole_3.2mm_M3",
+    "xy_mm": [
+      125.375,
+      33.05
+    ],
+    "bbox_mm": [
+      121.9,
+      29.575,
+      128.85,
+      36.525
+    ]
+  },
+  {
+    "reference": "C12",
+    "uuid": "4e5e92e4-e1c2-4774-8a94-1d47992932c3",
+    "footprint": "CP_D25_H45_P10.16_ReviewPending",
+    "xy_mm": [
+      92.205,
+      55.55
+    ],
+    "bbox_mm": [
+      79.43,
+      42.775,
+      104.98,
+      68.325
+    ]
+  },
+  {
+    "reference": "T3",
+    "uuid": "5628397c-d3aa-4c83-b940-4bb2a27cf456",
+    "footprint": "CT_1_300_P12.70mm_CONFIRMAR",
+    "xy_mm": [
+      58.7,
+      115.85
+    ],
+    "bbox_mm": [
+      53.175,
+      105.325,
+      64.225,
+      126.375
+    ]
+  },
+  {
+    "reference": "D4",
+    "uuid": "66fa6653-2479-45f8-8507-36dd51ed74c4",
+    "footprint": "Diode_Bridge_Vishay_KBU",
+    "xy_mm": [
+      73.4,
+      62.38
+    ],
+    "bbox_mm": [
+      71.04,
+      42.905,
+      78.875,
+      66.74
+    ]
+  },
+  {
+    "reference": "IC3",
+    "uuid": "6bbde077-f894-4593-b267-3c0eb7a2f791",
+    "footprint": "DIP-8_W7.62mm_Socket_LongPads",
+    "xy_mm": [
+      50.58,
+      94.96
+    ],
+    "bbox_mm": [
+      49.035,
+      93.355,
+      59.745,
+      104.185
+    ]
+  },
+  {
+    "reference": "P2",
+    "uuid": "78abe97d-60e9-4d23-982d-b19543ca00f4",
+    "footprint": "Primary_WirePad_D4.0mm_Drill2.2mm",
+    "xy_mm": [
+      127.3,
+      40.8
+    ],
+    "bbox_mm": [
+      124.675,
+      38.175,
+      129.925,
+      43.425
+    ]
+  },
+  {
+    "reference": "D1",
+    "uuid": "84a3f687-2005-4bcb-8abd-bc057f0f3e59",
+    "footprint": "D_SOD-323_HandSoldering",
+    "xy_mm": [
+      47.0,
+      107.15
+    ],
+    "bbox_mm": [
+      46.025,
+      105.125,
+      47.975,
+      109.22
+    ]
+  },
+  {
+    "reference": "T1",
+    "uuid": "885b52c3-b011-4874-92ee-0b0f831cec58",
+    "footprint": "GDT_6Pin_CONFIRMAR",
+    "xy_mm": [
+      90.0,
+      86.4
+    ],
+    "bbox_mm": [
+      79.883,
+      74.875,
+      99.863,
+      97.925
+    ]
+  },
+  {
+    "reference": "REF**",
+    "uuid": "8abff536-902b-43c1-b9eb-c618545ad7bd",
+    "footprint": "MountingHole_3.2mm_M3",
+    "xy_mm": [
+      37.375,
+      33.05
+    ],
+    "bbox_mm": [
+      33.9,
+      29.575,
+      40.85,
+      36.525
+    ]
+  },
+  {
+    "reference": "C10",
+    "uuid": "8e2680d8-4fe9-418c-882f-43c6a32bc337",
+    "footprint": "CP_Elec_8x10",
+    "xy_mm": [
+      39.0525,
+      83.59
+    ],
+    "bbox_mm": [
+      34.6275,
+      78.315,
+      43.4775,
+      89.15
+    ]
+  },
+  {
+    "reference": "P1",
+    "uuid": "a47c9096-0ef0-44d2-9fad-49a2420f4635",
+    "footprint": "Primary_WirePad_D4.0mm_Drill2.2mm",
+    "xy_mm": [
+      125.7,
+      110.6
+    ],
+    "bbox_mm": [
+      123.075,
+      107.975,
+      128.325,
+      113.225
+    ]
+  },
+  {
+    "reference": "IC6",
+    "uuid": "ad48e401-29fa-4c65-8cc6-208672e5393c",
+    "footprint": "TO-252-3_TabPin2",
+    "xy_mm": [
+      48.4,
+      83.01
+    ],
+    "bbox_mm": [
+      44.73,
+      78.275,
+      51.925,
+      89.425
+    ]
+  },
+  {
+    "reference": "Q1",
+    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613",
+    "footprint": "Q_TO3P_ImportedPads_ReviewPending",
+    "xy_mm": [
+      106.075,
+      91.384
+    ],
+    "bbox_mm": [
+      103.55,
+      88.809,
+      129.35,
+      104.859
+    ]
+  },
+  {
+    "reference": "J1",
+    "uuid": "b382dcc3-4e15-40e4-960c-44fea5107627",
+    "footprint": "TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal",
+    "xy_mm": [
+      110.86,
+      38.05
+    ],
+    "bbox_mm": [
+      107.175,
+      27.025,
+      119.625,
+      40.175
+    ]
+  },
+  {
+    "reference": "R1",
+    "uuid": "b47e9eb8-e95a-4c58-b0c3-e9741b8b7f65",
+    "footprint": "R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical",
+    "xy_mm": [
+      45.8,
+      116.32
+    ],
+    "bbox_mm": [
+      41.275,
+      109.515,
+      50.325,
+      125.925
+    ]
+  },
+  {
+    "reference": "C6",
+    "uuid": "bf319d97-edad-4ca6-abc3-bf1dbae72962",
+    "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "xy_mm": [
+      63.19,
+      91.87
+    ],
+    "bbox_mm": [
+      61.285,
+      90.865,
+      65.095,
+      92.875
+    ]
+  },
+  {
+    "reference": "R5",
+    "uuid": "ca08df0d-5ccf-46de-a823-9a653618eda1",
+    "footprint": "R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical",
+    "xy_mm": [
+      95.56,
+      71.3
+    ],
+    "bbox_mm": [
+      93.685,
+      69.425,
+      101.715,
+      73.175
+    ]
+  },
+  {
+    "reference": "IC4",
+    "uuid": "ce22d417-cafe-4b4b-973e-1f5e5c0676f8",
+    "footprint": "DIP-8_W7.62mm_Socket_LongPads",
+    "xy_mm": [
+      62.89,
+      94.89
+    ],
+    "bbox_mm": [
+      61.345,
+      93.285,
+      72.055,
+      104.115
+    ]
+  },
+  {
+    "reference": "Z1",
+    "uuid": "d93da581-d836-4bde-bab2-2eeb6e8137c2",
+    "footprint": "D_DO201AD_P14.732_ReviewPending",
+    "xy_mm": [
+      114.2,
+      77.834
+    ],
+    "bbox_mm": [
+      111.325,
+      68.339,
+      117.075,
+      87.329
+    ]
+  },
+  {
+    "reference": "PS1",
+    "uuid": "e58d3b32-5763-4064-97a0-c299ab65f513",
+    "footprint": "HLK-15M15BL",
+    "xy_mm": [
+      58.7,
+      30.8675
+    ],
+    "bbox_mm": [
+      39.525,
+      26.3075,
+      70.075,
+      76.8925
+    ]
+  },
+  {
+    "reference": "CPR1",
+    "uuid": "e7223f0d-f610-456c-b062-3d86511395af",
+    "footprint": "CDE_940C30S68K_F_CONFIRMAR",
+    "xy_mm": [
+      98.9,
+      116.4
+    ],
+    "bbox_mm": [
+      67.625,
+      106.375,
+      130.175,
+      126.425
+    ]
+  },
+  {
+    "reference": "D2",
+    "uuid": "eb5a0740-7fe4-484f-b554-c002acb3cbdd",
+    "footprint": "D_SOD-323_HandSoldering",
+    "xy_mm": [
+      44.5,
+      107.15
+    ],
+    "bbox_mm": [
+      43.525,
+      105.08,
+      45.475,
+      109.175
+    ]
+  },
+  {
+    "reference": "REF**",
+    "uuid": "ee9cd60b-18d2-4105-88c7-9e52b8c76be3",
+    "footprint": "MountingHole_3.2mm_M3",
+    "xy_mm": [
+      126.9,
+      123.2
+    ],
+    "bbox_mm": [
+      123.425,
+      119.725,
+      130.375,
+      126.675
+    ]
+  },
+  {
+    "reference": "Z2",
+    "uuid": "ef455fa4-0ef3-4593-9f3b-fb643301045e",
+    "footprint": "D_DO201AD_P14.732_ReviewPending",
+    "xy_mm": [
+      114.2,
+      96.834
+    ],
+    "bbox_mm": [
+      111.325,
+      87.339,
+      117.075,
+      106.329
+    ]
+  },
+  {
+    "reference": "REF**",
+    "uuid": "f5624f8b-e2b3-4431-9e60-15dc9dc40cf2",
+    "footprint": "MountingHole_3.2mm_M3",
+    "xy_mm": [
+      35.6,
+      122.1
+    ],
+    "bbox_mm": [
+      32.125,
+      118.625,
+      39.075,
+      125.575
+    ]
+  },
+  {
+    "reference": "R6",
+    "uuid": "f5b74195-5a3c-4b26-93b0-3426ab13ea41",
+    "footprint": "R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical",
+    "xy_mm": [
+      105.1,
+      66.3
+    ],
+    "bbox_mm": [
+      103.225,
+      60.145,
+      106.975,
+      68.175
+    ]
+  },
+  {
+    "reference": "C5",
+    "uuid": "f6d52b85-f066-4c6a-b472-ada0eed20258",
+    "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "xy_mm": [
+      50.8275,
+      91.97
+    ],
+    "bbox_mm": [
+      48.9225,
+      90.965,
+      52.7325,
+      92.975
+    ]
+  },
+  {
+    "reference": "IC2",
+    "uuid": "1ae51de2-b1e1-4c5e-ae6b-1f86da930e71",
+    "footprint": "SOIC-14_3.9x8.7mm_P1.27mm",
+    "xy_mm": [
+      48.9725,
+      76.91
+    ],
+    "bbox_mm": [
+      44.3675,
+      73.185,
+      53.7325,
+      80.635
+    ]
+  },
+  {
+    "reference": "R2",
+    "uuid": "2c408a86-bad0-40ea-999f-b359f718120e",
+    "footprint": "R_1206_3216Metric",
+    "xy_mm": [
+      40.2725,
+      85.085
+    ],
+    "bbox_mm": [
+      37.9675,
+      83.93,
+      42.5775,
+      86.24
+    ]
+  },
+  {
+    "reference": "C3",
+    "uuid": "420b42e7-10a4-4af8-b62b-2ece24caba3d",
+    "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "xy_mm": [
+      56.2075,
+      86.37
+    ],
+    "bbox_mm": [
+      55.2025,
+      84.465,
+      57.2125,
+      88.275
+    ]
+  },
+  {
+    "reference": "C2",
+    "uuid": "695cdece-7584-40dc-a949-562f816b287a",
+    "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "xy_mm": [
+      56.3775,
+      76.8
+    ],
+    "bbox_mm": [
+      55.3725,
+      74.895,
+      57.3825,
+      78.705
+    ]
+  },
+  {
+    "reference": "IC1",
+    "uuid": "9141bb3c-6e4b-479c-9aff-5214bc846208",
+    "footprint": "SOIC-14_3.9x8.7mm_P1.27mm",
+    "xy_mm": [
+      49.0725,
+      86.26
+    ],
+    "bbox_mm": [
+      44.4675,
+      82.535,
+      53.8325,
+      89.985
+    ]
+  },
+  {
+    "reference": "R3",
+    "uuid": "a598d8af-5f45-4bc6-8255-6de2df2c9aca",
+    "footprint": "R_1206_3216Metric",
+    "xy_mm": [
+      40.3725,
+      79.185
+    ],
+    "bbox_mm": [
+      38.0675,
+      78.03,
+      42.6775,
+      80.34
+    ]
+  },
+  {
+    "reference": "C1",
+    "uuid": "c1898796-f058-464f-9e4b-119d7e243dd1",
+    "footprint": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "xy_mm": [
+      35.4725,
+      92.16
+    ],
+    "bbox_mm": [
+      34.4675,
+      90.255,
+      36.4775,
+      94.065
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "references_changed": [
+    "C10",
+    "R1",
+    "R4"
+  ],
+  "other_board_objects_unchanged": true,
+  "schematic_connectivity_unchanged": true,
+  "pad_nets_and_uuids_preserved": true,
+  "R1_original_vertical_footprint_restored": true,
+  "R4_original_THT_footprint_restored": true,
+  "C10": {
+    "uF_before": 680,
+    "uF_after": 100,
+    "voltage_V": 35,
+    "footprint": "oneTesla:CP_Elec_8x10"
+  },
+  "deleted": [
+    "oneTesla-autorouted.kicad_pcb",
+    "oneTesla-autorouted.kicad_pro",
+    "oneTesla-autorouted.kicad_prl"
+  ],
+  "R1_current_position_preserved": [
+    44.5,
+    151.0,
+    90
+  ],
+  "nets_unchanged": 34,
+  "pin_connections_unchanged": 130,
+  "tracks_unchanged": 17,
+  "drc_before": 22,
+  "drc_after": 22,
+  "new_drc_violations": 0,
+  "unconnected_before": 93,
+  "unconnected_after": 93
+}

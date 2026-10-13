@@ -1,0 +1,23 @@
+{
+  "manufacturer": "Capxon",
+  "capacitance_uF": 100,
+  "voltage_V": 35,
+  "mount": "SMD",
+  "references": [
+    "C8",
+    "C9",
+    "C13"
+  ],
+  "status": "Applied standard generic footprint as requested; exact purchased dimensions unverified",
+  "unaffected_capacitors": [
+    "C10",
+    "C11",
+    "C12"
+  ],
+  "source": "https://www.multcomercial.com.br/capacitor-eletrolitico-smd-100uf-35v-capxon.html",
+  "footprint": "oneTesla:CP_Elec_8x10",
+  "assumed_package_mm": [
+    8,
+    10
+  ]
+}

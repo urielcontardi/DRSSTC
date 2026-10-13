@@ -1,5 +1,7 @@
 # R1 — Vishay AC05 1k/5W
 
+Registro histórico da montagem horizontal. **O PCB principal agora usa R1 vertical**, passo10,16mm: [revisão atual](../r1-vertical/RESULTADO.md). A cópia autorroteada mantém a montagem horizontal abaixo.
+
 Aplicado no esquema e no PCB com o footprint local `oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P23.40mm_Horizontal` e o modelo `${KIPRJMOD}/library/3dmodels/vishay_AC05.step`.
 
 O footprint anterior era provisório, com corpo 25 × 6,4mm e passo 30,48mm. O [desenho Vishay 28730, página 10](https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf) especifica para AC05 corpo máximo 18 × Ø7,5mm e fio Ø0,8 ±0,03mm. O novo F.Fab representa esse corpo; a serigrafia também envolve as pequenas extensões de cimento presentes no STEP. Pads Ø2,4mm e furos Ø1,2mm são escolhas de layout.

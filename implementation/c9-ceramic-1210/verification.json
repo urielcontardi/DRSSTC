@@ -1,0 +1,22 @@
+{
+  "reference": "C9",
+  "value": "10u 100V",
+  "dielectric": "X7R",
+  "tolerance_percent": 10,
+  "footprint": "oneTesla:C_1210_3225Metric",
+  "symbol_nonpolar": true,
+  "symbol_pin_geometry_preserved": true,
+  "pad_numbers_nets_and_uuids_preserved": true,
+  "value_remains_hidden_in_pcb": true,
+  "position_rotation_and_reference_label_preserved": true,
+  "other_board_objects_unchanged": true,
+  "schematic_other_data_unchanged": true,
+  "model": "generic_KiCad_1210",
+  "nets_preserved": 34,
+  "pin_connections_preserved": 130,
+  "drc_before": 38,
+  "drc_after": 38,
+  "new_drc_occurrences": 0,
+  "unconnected_items_after": 97,
+  "board_still_unrouted": true
+}

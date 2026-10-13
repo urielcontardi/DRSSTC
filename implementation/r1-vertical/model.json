@@ -1,0 +1,17 @@
+{
+  "file": "Visual_Vishay_AC05_Vertical_P10.16.step",
+  "body_source": "library/3dmodels/vishay_AC05.step",
+  "lead_diameter_mm": 0.8,
+  "pitch_mm": 10.16,
+  "minimum_body_gap_mm": 3,
+  "height_mm": 26.4,
+  "bounds_mm": [
+    -8.83,
+    -3.7500001,
+    -3.0,
+    5.4800001,
+    3.7500001,
+    26.4
+  ],
+  "status": "Original body; generated formed leads. Assembly requires mechanical/thermal verification."
+}

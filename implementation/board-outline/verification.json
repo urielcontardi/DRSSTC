@@ -1,0 +1,86 @@
+{
+  "outline_valid_native_KiCad": true,
+  "outline_loops": 1,
+  "board_size_mm": [
+    110,
+    160
+  ],
+  "outline_corners_mm": [
+    [
+      -102,
+      13
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      8,
+      173
+    ],
+    [
+      -102,
+      173
+    ]
+  ],
+  "hole_center_inset_mm": 5,
+  "hole_grid_mm": [
+    100,
+    150
+  ],
+  "holes": [
+    {
+      "reference": "H1",
+      "center_mm": [
+        -97.0,
+        18.0
+      ],
+      "diameter_mm": 3.2,
+      "non_plated": true,
+      "locked": true,
+      "minimum_gap_to_component_bbox_from_hole_courtyard_mm": 1.223,
+      "nearest_component": "PS1"
+    },
+    {
+      "reference": "H2",
+      "center_mm": [
+        3.0,
+        18.0
+      ],
+      "diameter_mm": 3.2,
+      "non_plated": true,
+      "locked": true,
+      "minimum_gap_to_component_bbox_from_hole_courtyard_mm": 1.111,
+      "nearest_component": "J2"
+    },
+    {
+      "reference": "H3",
+      "center_mm": [
+        -97.0,
+        168.0
+      ],
+      "diameter_mm": 3.2,
+      "non_plated": true,
+      "locked": true,
+      "minimum_gap_to_component_bbox_from_hole_courtyard_mm": 1.925,
+      "nearest_component": "R1"
+    },
+    {
+      "reference": "H4",
+      "center_mm": [
+        3.0,
+        168.0
+      ],
+      "diameter_mm": 3.2,
+      "non_plated": true,
+      "locked": true,
+      "minimum_gap_to_component_bbox_from_hole_courtyard_mm": 9.721,
+      "nearest_component": "CPR1"
+    }
+  ],
+  "all_41_original_components_unchanged": true,
+  "all_original_board_nodes_unchanged": true,
+  "all_component_geometry_inside_outline": true,
+  "routing_segments": 0,
+  "drc_full": "KiCad CLI exited133 with SwiftNativeNSArray Array index out of range; same failure with pre-change baseline. Geometric checks and native outline extraction passed."
+}

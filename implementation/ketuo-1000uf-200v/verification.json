@@ -1,0 +1,37 @@
+{
+  "C11": {
+    "position": [
+      "113.17",
+      "67.25"
+    ],
+    "pads_unchanged": true,
+    "body_mm": [
+      25,
+      45
+    ],
+    "pitch_mm_provisional": 10.16
+  },
+  "C12": {
+    "position": [
+      "80.875",
+      "67.3"
+    ],
+    "pads_unchanged": true,
+    "body_mm": [
+      25,
+      45
+    ],
+    "pitch_mm_provisional": 10.16
+  },
+  "all_other_pcb_objects_unchanged": true,
+  "schematic_connectivity_unchanged": true,
+  "autorouted_unchanged": true,
+  "drc": {
+    "physical_before": 22,
+    "physical_after": 22,
+    "new_physical_violations": 0,
+    "unconnected_before": 93,
+    "unconnected_after": 93,
+    "baseline_library_context_warnings": 40
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "target": "oneTesla.kicad_pcb",
+  "references": [
+    "D1",
+    "D2"
+  ],
+  "footprint": "oneTesla:D_SOD-323_HandSoldering",
+  "values_updated": "1N4148WS",
+  "pad_numbers_nets_functions_uuids_preserved": true,
+  "body_centers_and_rotations_preserved": {
+    "D1": [
+      "45.9",
+      "135.1"
+    ],
+    "D2": [
+      "46.0",
+      "132.2",
+      "180"
+    ]
+  },
+  "all_other_board_objects_unchanged": true,
+  "schematic_only_two_diode_values_footprints_datasheets_and_status_updated": true,
+  "autorouted_unchanged": true,
+  "netlist_identical": true,
+  "drc_before": 23,
+  "drc_after": 23,
+  "new_drc_issues": 0,
+  "unconnected_before": 92,
+  "unconnected_after": 92
+}

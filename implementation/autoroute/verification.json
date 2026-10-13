@@ -1,0 +1,23 @@
+{
+  "routed_board": "oneTesla-autorouted.kicad_pcb",
+  "router": "Freerouting 2.5.0",
+  "original_board_unchanged": true,
+  "original_project_unchanged": true,
+  "all_non_routing_content_preserved": true,
+  "unconnected_before": 96,
+  "unconnected_after": 0,
+  "segments": 241,
+  "vias": 0,
+  "track_widths_mm": [
+    0.2
+  ],
+  "drc_violations_before": 15,
+  "drc_violations_after": 15,
+  "new_drc_violations": 0,
+  "existing_drc_occurrences_preserved_exactly": true,
+  "sha256": {
+    "oneTesla.kicad_pcb": "2bdbbf8d5d72b9fa1132a5868bd6b1b321419d6d0748227cccd4e6548efc7c75",
+    "oneTesla-autorouted.kicad_pcb": "0d7ce5a7cf09f1193fd1cca059bb697a8531a59e22997def199f77cbbe1ff13f"
+  },
+  "status": "Routing draft using generic project rules; power/current and insulation requirements not dimensioned."
+}

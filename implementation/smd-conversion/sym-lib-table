@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib
+		(name "oneTesla")
+		(type "KiCad")
+		(uri "/Users/ucontardi/Documents/Hardware/oneTesla/implementation/smd-conversion/before-oneTesla.kicad_sym")
+		(options "")
+		(descr "Componentes do projeto oneTesla")
+	)
+)

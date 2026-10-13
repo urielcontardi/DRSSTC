@@ -1,0 +1,64 @@
+{
+  "applied": true,
+  "only_four_hole_positions_changed": true,
+  "center_to_edges_mm": 6,
+  "drill_diameter_mm": 3.2,
+  "hole_to_edge_material_mm": 4.4,
+  "center_spacing_mm": [
+    88,
+    88
+  ],
+  "positions": [
+    {
+      "corner": "upper_right",
+      "uuid": "44c5b047-d27f-4782-a022-74204f0f78d0",
+      "before": [
+        "125.375",
+        "33.05"
+      ],
+      "after_mm": [
+        125.375,
+        33.05
+      ]
+    },
+    {
+      "corner": "upper_left",
+      "uuid": "8abff536-902b-43c1-b9eb-c618545ad7bd",
+      "before": [
+        "37.375",
+        "33.05"
+      ],
+      "after_mm": [
+        37.375,
+        33.05
+      ]
+    },
+    {
+      "corner": "lower_right",
+      "uuid": "ee9cd60b-18d2-4105-88c7-9e52b8c76be3",
+      "before": [
+        "126.9",
+        "123.2"
+      ],
+      "after_mm": [
+        125.375,
+        121.05
+      ]
+    },
+    {
+      "corner": "lower_left",
+      "uuid": "f5624f8b-e2b3-4431-9e60-15dc9dc40cf2",
+      "before": [
+        "35.6",
+        "122.1"
+      ],
+      "after_mm": [
+        37.375,
+        121.05
+      ]
+    }
+  ],
+  "other_components_and_outline_preserved": true,
+  "schematic_unchanged": true,
+  "collisions_accepted_by_user_for_later_adjustment": true
+}

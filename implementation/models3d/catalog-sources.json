@@ -1,0 +1,38 @@
+[
+  {
+    "part": "FGA60N65SMD",
+    "catalog_code": "C444004",
+    "file": "Catalog_FGA60N65SMD_Vertical.step",
+    "api_source": "https://easyeda.com/api/products/C444004/components?version=6.4.19.5",
+    "sha256": "377128f8fc944c9189f989a7afe4489c0000341aeca8ea55053c5a430ca49c2c",
+    "provider": "JLCEDA/EasyEDA Official Library",
+    "provider_urls": [
+      "https://easyeda.com",
+      "https://lceda.cn"
+    ]
+  },
+  {
+    "part": "HLK-15M cased family; PS1 BL variant unconfirmed",
+    "catalog_code": "C53122331",
+    "file": "Catalog_HLK15M_Cased.step",
+    "api_source": "https://easyeda.com/api/products/C53122331/components?version=6.4.19.5",
+    "sha256": "2548cb87134db8fb3e82b0ca55764f6bf3c4ce89b68d8ad217abe19fc79130e0",
+    "provider": "JLCEDA/EasyEDA Official Library",
+    "provider_urls": [
+      "https://easyeda.com",
+      "https://lceda.cn"
+    ]
+  },
+  {
+    "part": "HFBR-2521ETZ",
+    "catalog_code": "C39629",
+    "file": "Catalog_HFBR-2521ETZ.step",
+    "api_source": "https://easyeda.com/api/products/C39629/components?version=6.4.19.5",
+    "sha256": "59468296e9f04dad6226f8d515c226b778a494351c03d35ebef0a39ea67ba7c1",
+    "provider": "JLCEDA/EasyEDA Official Library",
+    "provider_urls": [
+      "https://easyeda.com",
+      "https://lceda.cn"
+    ]
+  }
+]

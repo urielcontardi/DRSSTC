@@ -1,0 +1,47 @@
+{
+  "references": [
+    "R5",
+    "R6"
+  ],
+  "footprint": "oneTesla:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical",
+  "values_preserved": "100k0.5W",
+  "package_nominal_mm": [
+    9,
+    3.2
+  ],
+  "pitch_mm": 5.08,
+  "drill_mm": 0.8,
+  "positions_after": {
+    "R5": [
+      "97.4",
+      "55.64",
+      "90"
+    ],
+    "R6": [
+      "67.875",
+      "46.18",
+      "-90"
+    ]
+  },
+  "pad_midpoints_preserved": true,
+  "pad_nets_numbers_and_uuids_preserved": true,
+  "routing_removed": {
+    "segment": 17,
+    "arc": 0,
+    "via": 0
+  },
+  "routing_remaining": {
+    "segment": 0,
+    "arc": 0,
+    "via": 0
+  },
+  "all_other_pcb_objects_preserved": true,
+  "schematic_connectivity_preserved": true,
+  "nets_preserved": 34,
+  "pin_connections_preserved": 130,
+  "drc_before": 28,
+  "drc_after": 26,
+  "new_drc_occurrences": 0,
+  "unconnected_items_after": 97,
+  "vertical_placement_without_new_conflicts": true
+}
