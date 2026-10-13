@@ -66,4 +66,9 @@
     (layers "*.Cu" "*.Mask")
     (remove_unused_layers no)
   )
+  (model "${KIPRJMOD}/library/3dmodels/Visual_CDE_940C30S68K_F_P58.42.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

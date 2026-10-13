@@ -202,4 +202,9 @@
     (layers "*.Cu" "*.Mask")
     (remove_unused_layers no)
   )
+  (model "${KIPRJMOD}/library/3dmodels/Visual_TVS_DO201AD_P14.732.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -138,4 +138,9 @@
     (layer "F.SilkS")
     (uuid "49b1eff2-0794-47b5-8990-b5965e248a34")
   )
+  (model "${KIPRJMOD}/library/3dmodels/Visual_CP_D12.5_P3.556.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

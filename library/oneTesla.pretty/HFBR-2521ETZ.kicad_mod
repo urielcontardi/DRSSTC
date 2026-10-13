@@ -860,15 +860,9 @@
     (uuid "b89c8998-26f4-4a33-8251-8da33147f357")
   )
   (embedded_fonts no)
-  (model "${KICAD10_3DMODEL_DIR}/OptoDevice.3dshapes/AGILENT_HFBR-252x.step"
-    (offset
-      (xyz 0 0 0)
-    )
-    (scale
-      (xyz 1 1 1)
-    )
-    (rotate
-      (xyz 0 0 0)
-    )
+  (model "${KIPRJMOD}/library/3dmodels/Catalog_HFBR-2521ETZ.step"
+    (offset (xyz 3.81 3.945263198426088 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
   )
 )
