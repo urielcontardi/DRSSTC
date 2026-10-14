@@ -3540,7 +3540,7 @@
         )
       )
     )
-    (property "Footprint" "oneTesla:J110_WireLink_P10.16mm"
+    (property "Footprint" "oneTesla:J110_WireLink_P15.24mm"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
