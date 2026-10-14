@@ -1,5 +1,7 @@
 # oneTeslaTS — esquemático da placa principal
 
+Atualização 2026-10-13: **J110 com passo de 15,24 mm**, regras de fabricação baseadas na JLCPCB e metas preliminares de espaçamento elétrico aplicadas. **PCB ainda não liberado para produção: 81 conexões sem roteamento e conflitos no DRC.** Ver [revisão atual](implementation/j110-jlcpcb/RESULTADO.md); relatórios antigos abaixo não representam a condição atual.
+
 Contorno atual da PCB principal: **100 × 100mm**, de (31,375;27,05) a (131,375;127,05)mm. Somente o contorno foi reduzido; componentes e furos ainda mantêm as posições anteriores, com parte do conjunto inferior fora da nova área. Ver [conferência](implementation/board-100x100/RESULTADO.md).
 
 R5/R6 foram convertidos para **SMD2512**, preservando100kΩ/0,5W e conexões. Ver [conferência atual](implementation/r5-r6-smd/RESULTADO.md). As17 trilhas anteriores foram removidas na etapa anterior.
