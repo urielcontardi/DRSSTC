@@ -1,0 +1,413 @@
+{
+  "source": "misc/driver.brd",
+  "eagle_version": "6.5.0",
+  "designrules": {
+    "layerSetup": "(1*2*16)",
+    "mtCopper": "0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm",
+    "mtIsolate": "1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm",
+    "mdWireWire": "8mil",
+    "mdWirePad": "8mil",
+    "mdWireVia": "8mil",
+    "mdPadPad": "8mil",
+    "mdPadVia": "8mil",
+    "mdViaVia": "8mil",
+    "mdSmdPad": "8mil",
+    "mdSmdVia": "8mil",
+    "mdSmdSmd": "8mil",
+    "mdViaViaSameLayer": "8mil",
+    "mnLayersViaInSmd": "2",
+    "mdCopperDimension": "40mil",
+    "mdDrill": "8mil",
+    "mdSmdStop": "0mil",
+    "msWidth": "10mil",
+    "msDrill": "24mil",
+    "msMicroVia": "9.99mm",
+    "msBlindViaRatio": "0.5",
+    "rvPadTop": "0.25",
+    "rvPadInner": "0.25",
+    "rvPadBottom": "0.25",
+    "rvViaOuter": "0.25",
+    "rvViaInner": "0.25",
+    "rvMicroViaOuter": "0.25",
+    "rvMicroViaInner": "0.25",
+    "rlMinPadTop": "10mil",
+    "rlMaxPadTop": "20mil",
+    "rlMinPadInner": "10mil",
+    "rlMaxPadInner": "20mil",
+    "rlMinPadBottom": "10mil",
+    "rlMaxPadBottom": "20mil",
+    "rlMinViaOuter": "8mil",
+    "rlMaxViaOuter": "20mil",
+    "rlMinViaInner": "8mil",
+    "rlMaxViaInner": "20mil",
+    "rlMinMicroViaOuter": "4mil",
+    "rlMaxMicroViaOuter": "20mil",
+    "rlMinMicroViaInner": "4mil",
+    "rlMaxMicroViaInner": "20mil",
+    "psTop": "-1",
+    "psBottom": "-1",
+    "psFirst": "-1",
+    "psElongationLong": "100",
+    "psElongationOffset": "100",
+    "mvStopFrame": "1",
+    "mvCreamFrame": "0",
+    "mlMinStopFrame": "4mil",
+    "mlMaxStopFrame": "4mil",
+    "mlMinCreamFrame": "0mil",
+    "mlMaxCreamFrame": "0mil",
+    "mlViaStopLimit": "0mil",
+    "srRoundness": "0",
+    "srMinRoundness": "0mil",
+    "srMaxRoundness": "0mil",
+    "slThermalIsolate": "10mil",
+    "slThermalsForVias": "0",
+    "dpMaxLengthDifference": "10mm",
+    "dpGapFactor": "2.5",
+    "checkGrid": "0",
+    "checkAngle": "0",
+    "checkFont": "1",
+    "checkRestrict": "1",
+    "useDiameter": "13",
+    "maxErrors": "50"
+  },
+  "zones": [
+    {
+      "signal": "+5V",
+      "attributes": {
+        "width": "0.4064",
+        "layer": "1"
+      },
+      "vertices": [
+        {
+          "x": "3.175",
+          "y": "54.61"
+        },
+        {
+          "x": "3.175",
+          "y": "39.37"
+        },
+        {
+          "x": "19.685",
+          "y": "39.37"
+        },
+        {
+          "x": "19.685",
+          "y": "72.39"
+        },
+        {
+          "x": "11.43",
+          "y": "72.39"
+        },
+        {
+          "x": "11.43",
+          "y": "57.15"
+        },
+        {
+          "x": "10.795",
+          "y": "56.515"
+        },
+        {
+          "x": "7.62",
+          "y": "56.515"
+        },
+        {
+          "x": "5.715",
+          "y": "54.61"
+        }
+      ]
+    },
+    {
+      "signal": "NEG",
+      "attributes": {
+        "width": "0.4064",
+        "layer": "1",
+        "isolate": "0.6096",
+        "thermals": "no",
+        "rank": "2"
+      },
+      "vertices": [
+        {
+          "x": "64.135",
+          "y": "92.075"
+        },
+        {
+          "x": "104.14",
+          "y": "92.075"
+        },
+        {
+          "x": "104.14",
+          "y": "29.21"
+        },
+        {
+          "x": "67.945",
+          "y": "29.21"
+        },
+        {
+          "x": "67.945",
+          "y": "56.515"
+        },
+        {
+          "x": "57.15",
+          "y": "67.31"
+        },
+        {
+          "x": "57.15",
+          "y": "85.09"
+        }
+      ]
+    },
+    {
+      "signal": "+15V",
+      "attributes": {
+        "width": "0.4064",
+        "layer": "1"
+      },
+      "vertices": [
+        {
+          "x": "39.37",
+          "y": "71.12"
+        },
+        {
+          "x": "50.8",
+          "y": "71.12"
+        },
+        {
+          "x": "50.8",
+          "y": "31.75"
+        },
+        {
+          "x": "38.1",
+          "y": "31.75"
+        },
+        {
+          "x": "38.1",
+          "y": "69.215"
+        }
+      ]
+    },
+    {
+      "signal": "POS",
+      "attributes": {
+        "width": "0.4064",
+        "layer": "16",
+        "isolate": "0.6096",
+        "thermals": "no",
+        "rank": "2"
+      },
+      "vertices": [
+        {
+          "x": "57.15",
+          "y": "85.09"
+        },
+        {
+          "x": "64.135",
+          "y": "92.075"
+        },
+        {
+          "x": "104.14",
+          "y": "92.075"
+        },
+        {
+          "x": "104.14",
+          "y": "29.21"
+        },
+        {
+          "x": "67.945",
+          "y": "29.21"
+        },
+        {
+          "x": "67.945",
+          "y": "56.515"
+        },
+        {
+          "x": "57.15",
+          "y": "67.31"
+        }
+      ]
+    },
+    {
+      "signal": "N$14",
+      "attributes": {
+        "width": "0.4064",
+        "layer": "16",
+        "isolate": "0.6096",
+        "thermals": "no"
+      },
+      "vertices": [
+        {
+          "x": "67.945",
+          "y": "51.435"
+        },
+        {
+          "x": "78.74",
+          "y": "51.435"
+        },
+        {
+          "x": "78.74",
+          "y": "37.465"
+        },
+        {
+          "x": "76.2",
+          "y": "34.925"
+        },
+        {
+          "x": "67.945",
+          "y": "34.925"
+        }
+      ]
+    },
+    {
+      "signal": "GND",
+      "attributes": {
+        "width": "0.4064",
+        "layer": "16"
+      },
+      "vertices": [
+        {
+          "x": "0.635",
+          "y": "75.565"
+        },
+        {
+          "x": "50.8",
+          "y": "75.565"
+        },
+        {
+          "x": "50.8",
+          "y": "31.75"
+        },
+        {
+          "x": "30.48",
+          "y": "31.75"
+        },
+        {
+          "x": "22.86",
+          "y": "39.37"
+        },
+        {
+          "x": "1.27",
+          "y": "39.37"
+        }
+      ]
+    }
+  ],
+  "power_contacts": {
+    "NEG": [
+      {
+        "element": "U$8",
+        "pad": "E"
+      },
+      {
+        "element": "C11",
+        "pad": "-"
+      },
+      {
+        "element": "R6",
+        "pad": "1"
+      },
+      {
+        "element": "T1",
+        "pad": "8"
+      },
+      {
+        "element": "B1",
+        "pad": "-"
+      },
+      {
+        "element": "Z2",
+        "pad": "A"
+      }
+    ],
+    "POS": [
+      {
+        "element": "U$7",
+        "pad": "C"
+      },
+      {
+        "element": "C12",
+        "pad": "+"
+      },
+      {
+        "element": "R5",
+        "pad": "2"
+      },
+      {
+        "element": "B1",
+        "pad": "+"
+      },
+      {
+        "element": "Z1",
+        "pad": "C"
+      }
+    ],
+    "N$14": [
+      {
+        "element": "U$8",
+        "pad": "C"
+      },
+      {
+        "element": "U$7",
+        "pad": "E"
+      },
+      {
+        "element": "P1",
+        "pad": "P$1"
+      },
+      {
+        "element": "P2",
+        "pad": "P$1"
+      },
+      {
+        "element": "CPRI",
+        "pad": "P$1"
+      },
+      {
+        "element": "T1",
+        "pad": "4"
+      },
+      {
+        "element": "Z2",
+        "pad": "C"
+      },
+      {
+        "element": "Z1",
+        "pad": "A"
+      }
+    ],
+    "N$22": [
+      {
+        "element": "CPRI",
+        "pad": "P$2"
+      },
+      {
+        "element": "U$5",
+        "pad": "P$2"
+      }
+    ],
+    "N": [
+      {
+        "element": "C11",
+        "pad": "+"
+      },
+      {
+        "element": "C12",
+        "pad": "-"
+      },
+      {
+        "element": "R5",
+        "pad": "1"
+      },
+      {
+        "element": "R6",
+        "pad": "2"
+      },
+      {
+        "element": "P3",
+        "pad": "P$1"
+      },
+      {
+        "element": "U$5",
+        "pad": "P$1"
+      }
+    ]
+  }
+}

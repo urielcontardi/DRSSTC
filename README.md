@@ -1,4 +1,10 @@
-# oneTeslaTS — esquemático da placa principal
+# ARCSTRIKE — DRSSTC baseada no oneTeslaTS
+
+Atualização 2026-10-17: identificação **ARCSTRIKE / REV 1.2** aplicada ao lado de PS1, com títulos do PCB e esquema sincronizados. F1 recebeu rasgos metalizados de 4,4 × 1,8 mm para acomodar variação dos terminais; ver [margem de montagem](implementation/fuse-slots/RESULTADO.md) e [serigrafia da placa](implementation/board-branding/RESULTADO.md). DRC permanece com 18 ocorrências de montagem e zero conexões faltando, sem novos problemas elétricos ou de serigrafia.
+
+Atualização T3 em 2026-10-17: inserido **JCT1**, jumper obrigatório de fio pelo núcleo de T3, entre SW_NODE e a nova rede SW_CT/CPR1. Foi removido o caminho direto de cobre que contornava o sensor. DRC: zero conexões faltando e 18 ocorrências de montagem; checagem adicional aponta 26 divergências anteriores de paridade. Ver [caminho de corrente e validação](implementation/t3-primary-jumper/RESULTADO.md). O relatório de 16 ocorrências abaixo antecede esta correção.
+
+Atualização 2026-10-17: zonas e regras revistas pela referência Eagle do oneTeslaTS: potência com afastamento local de 0,6096 mm, Default/GND de 0,20 mm e SW_NODE com prioridade 5; quinas arredondadas com raio de 1 mm. Removidas as regras genéricas de 3 mm/6,4 mm da revisão anterior. Pads de FB1 ampliados, serigrafia corrigida e sobras de trilha/via removidas. DRC atual: **16 ocorrências de montagem e zero conexões faltando**, sem erros de anel PTH, serigrafia ou clearance; ver [validação atual](implementation/fb1-silkscreen/RESULTADO.md) e [regras das zonas](implementation/onetesla-zone-rules/RESULTADO.md). Os relatórios anteriores abaixo são históricos.
 
 Atualização 2026-10-13: **J110 com passo de 15,24 mm**, regras de fabricação baseadas na JLCPCB e metas preliminares de espaçamento elétrico aplicadas. **PCB ainda não liberado para produção: 81 conexões sem roteamento e conflitos no DRC.** Ver [revisão atual](implementation/j110-jlcpcb/RESULTADO.md); relatórios antigos abaixo não representam a condição atual.
 

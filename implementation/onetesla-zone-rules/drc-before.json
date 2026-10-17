@@ -1,0 +1,1936 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-17T17:10:28",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "oneTesla.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Annular width (rule 'PTH annular ring JLCPCB recomendado 1oz' min annular width 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/OPTICAL_OUT] of FB1",
+                    "pos": {
+                        "x": 41.105,
+                        "y": 102.51
+                    },
+                    "uuid": "2dc00def-ed91-4ae4-845b-83012e991f21"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (rule 'PTH annular ring JLCPCB recomendado 1oz' min annular width 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of FB1",
+                    "pos": {
+                        "x": 41.105,
+                        "y": 99.97
+                    },
+                    "uuid": "17a9bbc6-fab5-4fa0-af58-f27035f6e8ae"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (rule 'PTH annular ring JLCPCB recomendado 1oz' min annular width 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [+5V] of FB1",
+                    "pos": {
+                        "x": 41.105,
+                        "y": 97.43
+                    },
+                    "uuid": "b8e49e9f-d2c4-4d79-a518-0e5dfdec2b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (rule 'PTH annular ring JLCPCB recomendado 1oz' min annular width 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [+5V] of FB1",
+                    "pos": {
+                        "x": 41.105,
+                        "y": 94.89
+                    },
+                    "uuid": "1c5ce2e7-9cde-40f2-822a-64878ace75c0"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "67995160-03a3-49ba-aa06-4d170da78d1c"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "e45ac0ae-8f4a-406b-9ff6-59755ecdfc15"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "Track [/SW_NODE] on B.Cu, length 7.5750 mm",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "60f064e9-09d7-494c-a94a-b3714846b854"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "e45ac0ae-8f4a-406b-9ff6-59755ecdfc15"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.3982 mm)",
+            "items": [
+                {
+                    "description": "Track [/DC_MINUS] on F.Cu, length 9.7500 mm",
+                    "pos": {
+                        "x": 94.75,
+                        "y": 88.0
+                    },
+                    "uuid": "d89e2c13-cecf-4ce4-8e00-bbd663456e7c"
+                },
+                {
+                    "description": "PTH pad 3 [/SW_NODE] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 84.7
+                    },
+                    "uuid": "699c737a-2d0f-425f-bbf7-e1768f43eedf"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/DC_MINUS] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 103.65
+                    },
+                    "uuid": "4f551460-9713-4dd6-ad36-5046836c2821"
+                },
+                {
+                    "description": "Track [/SW_NODE] on B.Cu, length 7.5750 mm",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "60f064e9-09d7-494c-a94a-b3714846b854"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 79.25
+                    },
+                    "uuid": "d735e1f4-3f16-4f3f-92bd-8e4419a99133"
+                },
+                {
+                    "description": "PTH pad 3 [/SW_NODE] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 84.7
+                    },
+                    "uuid": "699c737a-2d0f-425f-bbf7-e1768f43eedf"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.1800 mm)",
+            "items": [
+                {
+                    "description": "Track [/AC_L_FUSED] on F.Cu, length 5.5800 mm",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "ffb5bc4e-d581-4b81-b842-adf27bfc5e0c"
+                },
+                {
+                    "description": "PTH pad 4 [/DC_MINUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 47.14
+                    },
+                    "uuid": "077dddef-6dfd-405e-b437-d2b267941749"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "135338ee-29a0-42fd-968f-682438c86385"
+                },
+                {
+                    "description": "PTH pad 4 [/DC_MINUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 47.14
+                    },
+                    "uuid": "077dddef-6dfd-405e-b437-d2b267941749"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 1.3800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/AC_N] of J110",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 30.22
+                    },
+                    "uuid": "560cb74d-9bbf-409e-9f1d-aafafc284417"
+                },
+                {
+                    "description": "Track [/AC_L] on F.Cu, length 14.4700 mm",
+                    "pos": {
+                        "x": 109.47,
+                        "y": 35.1
+                    },
+                    "uuid": "fc0d6638-4910-425a-8ef6-395583735eab"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 1.7800 mm)",
+            "items": [
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 31.7200 mm",
+                    "pos": {
+                        "x": 71.28,
+                        "y": 30.22
+                    },
+                    "uuid": "3b816271-2466-44c0-afb0-9e14f806f1df"
+                },
+                {
+                    "description": "PTH pad 1 [/AC_L] of F1",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 35.1
+                    },
+                    "uuid": "63f60e67-2dc6-4cbf-9fd6-915a958d377e"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.1800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/AC_N] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "bead5327-edcd-4f37-885c-4fec3e8eae18"
+                },
+                {
+                    "description": "Track [/AC_L_FUSED] on F.Cu, length 5.5800 mm",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "ffb5bc4e-d581-4b81-b842-adf27bfc5e0c"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 1.7800 mm)",
+            "items": [
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 31.7200 mm",
+                    "pos": {
+                        "x": 71.28,
+                        "y": 30.22
+                    },
+                    "uuid": "3b816271-2466-44c0-afb0-9e14f806f1df"
+                },
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of F1",
+                    "pos": {
+                        "x": 74.8,
+                        "y": 35.1
+                    },
+                    "uuid": "81358e34-e1aa-4eb7-bc7d-c10106e7c95f"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 62.38
+                    },
+                    "uuid": "7c458d02-e9cb-4ec1-83fe-b847a8c1c991"
+                },
+                {
+                    "description": "PTH pad 3 [/AC_N] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "bead5327-edcd-4f37-885c-4fec3e8eae18"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 2.1800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 62.38
+                    },
+                    "uuid": "7c458d02-e9cb-4ec1-83fe-b847a8c1c991"
+                },
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 5.8000 mm",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "d0bd602c-e81e-44c0-bc7c-2696e6440ec2"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Creepage violation (rule 'Potencia entre redes - meta preliminar 400V' creepage 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GATE_H] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "d4b8f263-a613-4e2c-8ab4-6fd6b84022e8"
+                },
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 79.25
+                    },
+                    "uuid": "d735e1f4-3f16-4f3f-92bd-8e4419a99133"
+                }
+            ],
+            "severity": "error",
+            "type": "creepage"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "Track [/SW_NODE] on B.Cu, length 7.5750 mm",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "60f064e9-09d7-494c-a94a-b3714846b854"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "e45ac0ae-8f4a-406b-9ff6-59755ecdfc15"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/DC_MINUS] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 103.65
+                    },
+                    "uuid": "4f551460-9713-4dd6-ad36-5046836c2821"
+                },
+                {
+                    "description": "Track [/SW_NODE] on B.Cu, length 7.5750 mm",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "60f064e9-09d7-494c-a94a-b3714846b854"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.1800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "135338ee-29a0-42fd-968f-682438c86385"
+                },
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 5.8000 mm",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "d0bd602c-e81e-44c0-bc7c-2696e6440ec2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.1800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 62.38
+                    },
+                    "uuid": "7c458d02-e9cb-4ec1-83fe-b847a8c1c991"
+                },
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 5.8000 mm",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "d0bd602c-e81e-44c0-bc7c-2696e6440ec2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.8397 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of F1",
+                    "pos": {
+                        "x": 74.8,
+                        "y": 35.1
+                    },
+                    "uuid": "81358e34-e1aa-4eb7-bc7d-c10106e7c95f"
+                },
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 10.5783 mm",
+                    "pos": {
+                        "x": 63.8,
+                        "y": 37.7
+                    },
+                    "uuid": "89a0994c-6d39-4fb9-8c98-ae937ce5fe4b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.7800 mm)",
+            "items": [
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 31.7200 mm",
+                    "pos": {
+                        "x": 71.28,
+                        "y": 30.22
+                    },
+                    "uuid": "3b816271-2466-44c0-afb0-9e14f806f1df"
+                },
+                {
+                    "description": "PTH pad 1 [/AC_L] of F1",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 35.1
+                    },
+                    "uuid": "63f60e67-2dc6-4cbf-9fd6-915a958d377e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.7800 mm)",
+            "items": [
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 31.7200 mm",
+                    "pos": {
+                        "x": 71.28,
+                        "y": 30.22
+                    },
+                    "uuid": "3b816271-2466-44c0-afb0-9e14f806f1df"
+                },
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of F1",
+                    "pos": {
+                        "x": 74.8,
+                        "y": 35.1
+                    },
+                    "uuid": "81358e34-e1aa-4eb7-bc7d-c10106e7c95f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.9800 mm)",
+            "items": [
+                {
+                    "description": "Track [/AC_N] on B.Cu, length 4.7100 mm",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 33.34
+                    },
+                    "uuid": "0e7b08f0-b31c-4ad4-a794-aa78f150390e"
+                },
+                {
+                    "description": "PTH pad 1 [/AC_L] of J1",
+                    "pos": {
+                        "x": 112.42,
+                        "y": 38.05
+                    },
+                    "uuid": "bda80ccb-9f72-4285-992e-f66badca32c7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.1800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [/DC_MINUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 47.14
+                    },
+                    "uuid": "077dddef-6dfd-405e-b437-d2b267941749"
+                },
+                {
+                    "description": "Track [/AC_L_FUSED] on F.Cu, length 5.5800 mm",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "ffb5bc4e-d581-4b81-b842-adf27bfc5e0c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.1800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/AC_N] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "bead5327-edcd-4f37-885c-4fec3e8eae18"
+                },
+                {
+                    "description": "Track [/AC_L_FUSED] on F.Cu, length 5.5800 mm",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "ffb5bc4e-d581-4b81-b842-adf27bfc5e0c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.3800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/AC_N] of J110",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 30.22
+                    },
+                    "uuid": "560cb74d-9bbf-409e-9f1d-aafafc284417"
+                },
+                {
+                    "description": "Track [/AC_L] on F.Cu, length 14.4700 mm",
+                    "pos": {
+                        "x": 109.47,
+                        "y": 35.1
+                    },
+                    "uuid": "fc0d6638-4910-425a-8ef6-395583735eab"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.9800 mm)",
+            "items": [
+                {
+                    "description": "Track [/AC_L] on F.Cu, length 4.1719 mm",
+                    "pos": {
+                        "x": 112.42,
+                        "y": 38.05
+                    },
+                    "uuid": "9740e869-6774-4824-9bcb-33ec3927cded"
+                },
+                {
+                    "description": "PTH pad 2 [/AC_N] of J1",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 38.05
+                    },
+                    "uuid": "aae041dc-9bcb-4ea3-928a-ffe3807b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.3982 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/SW_NODE] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 84.7
+                    },
+                    "uuid": "699c737a-2d0f-425f-bbf7-e1768f43eedf"
+                },
+                {
+                    "description": "Track [/DC_MINUS] on F.Cu, length 9.7500 mm",
+                    "pos": {
+                        "x": 94.75,
+                        "y": 88.0
+                    },
+                    "uuid": "d89e2c13-cecf-4ce4-8e00-bbd663456e7c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "67995160-03a3-49ba-aa06-4d170da78d1c"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "e45ac0ae-8f4a-406b-9ff6-59755ecdfc15"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "67995160-03a3-49ba-aa06-4d170da78d1c"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "e45ac0ae-8f4a-406b-9ff6-59755ecdfc15"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/DC_MINUS] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 103.65
+                    },
+                    "uuid": "4f551460-9713-4dd6-ad36-5046836c2821"
+                },
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "67995160-03a3-49ba-aa06-4d170da78d1c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/DC_MINUS] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 103.65
+                    },
+                    "uuid": "4f551460-9713-4dd6-ad36-5046836c2821"
+                },
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 98.2
+                    },
+                    "uuid": "67995160-03a3-49ba-aa06-4d170da78d1c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 62.38
+                    },
+                    "uuid": "7c458d02-e9cb-4ec1-83fe-b847a8c1c991"
+                },
+                {
+                    "description": "PTH pad 3 [/AC_N] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "bead5327-edcd-4f37-885c-4fec3e8eae18"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 62.38
+                    },
+                    "uuid": "7c458d02-e9cb-4ec1-83fe-b847a8c1c991"
+                },
+                {
+                    "description": "PTH pad 3 [/AC_N] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "bead5327-edcd-4f37-885c-4fec3e8eae18"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "135338ee-29a0-42fd-968f-682438c86385"
+                },
+                {
+                    "description": "PTH pad 3 [/AC_N] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "bead5327-edcd-4f37-885c-4fec3e8eae18"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "135338ee-29a0-42fd-968f-682438c86385"
+                },
+                {
+                    "description": "PTH pad 3 [/AC_N] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 57.3
+                    },
+                    "uuid": "bead5327-edcd-4f37-885c-4fec3e8eae18"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [/DC_MINUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 47.14
+                    },
+                    "uuid": "077dddef-6dfd-405e-b437-d2b267941749"
+                },
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "135338ee-29a0-42fd-968f-682438c86385"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.2800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [/DC_MINUS] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 47.14
+                    },
+                    "uuid": "077dddef-6dfd-405e-b437-d2b267941749"
+                },
+                {
+                    "description": "PTH pad 2 [/AC_L_FUSED] of D4",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 52.22
+                    },
+                    "uuid": "135338ee-29a0-42fd-968f-682438c86385"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GATE_H] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "d4b8f263-a613-4e2c-8ab4-6fd6b84022e8"
+                },
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 79.25
+                    },
+                    "uuid": "d735e1f4-3f16-4f3f-92bd-8e4419a99133"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GATE_H] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "d4b8f263-a613-4e2c-8ab4-6fd6b84022e8"
+                },
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 79.25
+                    },
+                    "uuid": "d735e1f4-3f16-4f3f-92bd-8e4419a99133"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.8800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/AC_N] of J1",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 38.05
+                    },
+                    "uuid": "aae041dc-9bcb-4ea3-928a-ffe3807b1c41"
+                },
+                {
+                    "description": "PTH pad 1 [/AC_L] of J1",
+                    "pos": {
+                        "x": 112.42,
+                        "y": 38.05
+                    },
+                    "uuid": "bda80ccb-9f72-4285-992e-f66badca32c7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 1.8800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/AC_N] of J1",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 38.05
+                    },
+                    "uuid": "aae041dc-9bcb-4ea3-928a-ffe3807b1c41"
+                },
+                {
+                    "description": "PTH pad 1 [/AC_L] of J1",
+                    "pos": {
+                        "x": 112.42,
+                        "y": 38.05
+                    },
+                    "uuid": "bda80ccb-9f72-4285-992e-f66badca32c7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/SW_NODE] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 84.7
+                    },
+                    "uuid": "699c737a-2d0f-425f-bbf7-e1768f43eedf"
+                },
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 79.25
+                    },
+                    "uuid": "d735e1f4-3f16-4f3f-92bd-8e4419a99133"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (rule 'Potencia entre redes - meta preliminar 400V' clearance 3.0000 mm; actual 2.9500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/SW_NODE] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 84.7
+                    },
+                    "uuid": "699c737a-2d0f-425f-bbf7-e1768f43eedf"
+                },
+                {
+                    "description": "PTH pad 2 [/DC_PLUS] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 79.25
+                    },
+                    "uuid": "d735e1f4-3f16-4f3f-92bd-8e4419a99133"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "039e6fa1-1edf-4e2c-b882-4f54b54fc96e"
+                },
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 97.0
+                    },
+                    "uuid": "ef455fa4-0ef3-4593-9f3b-fb643301045e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/DC_MINUS] of Z2",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 104.366
+                    },
+                    "uuid": "4463ab01-0c6b-4703-a30a-cebca349a625"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "039e6fa1-1edf-4e2c-b882-4f54b54fc96e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 117.75,
+                        "y": 56.0
+                    },
+                    "uuid": "10bec98a-7fcf-445d-828c-7448e7e0caee"
+                },
+                {
+                    "description": "Footprint J110",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 37.84
+                    },
+                    "uuid": "2063a789-1fe2-471f-b1e9-aa764eed85b2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J110",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 37.84
+                    },
+                    "uuid": "2063a789-1fe2-471f-b1e9-aa764eed85b2"
+                },
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 91.755,
+                        "y": 56.0
+                    },
+                    "uuid": "4e5e92e4-e1c2-4774-8a94-1d47992932c3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 33.05
+                    },
+                    "uuid": "8abff536-902b-43c1-b9eb-c618545ad7bd"
+                },
+                {
+                    "description": "Footprint PS1",
+                    "pos": {
+                        "x": 58.7,
+                        "y": 30.8675
+                    },
+                    "uuid": "e58d3b32-5763-4064-97a0-c299ab65f513"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 110.6
+                    },
+                    "uuid": "a47c9096-0ef0-44d2-9fad-49a2420f4635"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(CPR1-Pad2)] of P1",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 110.6
+                    },
+                    "uuid": "31897def-4758-4270-8ef8-d4963d411fbd"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613"
+                },
+                {
+                    "description": "Footprint Z1",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 78.25
+                    },
+                    "uuid": "d93da581-d836-4bde-bab2-2eeb6e8137c2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of Z1",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 70.884
+                    },
+                    "uuid": "57861ae4-28c2-4500-abe8-8ffdfefdcf97"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Z1",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 85.616
+                    },
+                    "uuid": "3e40cf83-8b1d-4352-acbe-3ab2921d1bee"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 42.25,
+                        "y": 117.75
+                    },
+                    "uuid": "b47e9eb8-e95a-4c58-b0c3-e9741b8b7f65"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 121.05
+                    },
+                    "uuid": "f5624f8b-e2b3-4431-9e60-15dc9dc40cf2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of REF**",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 121.05
+                    },
+                    "uuid": "9cec9daa-0448-4de9-9eb1-d5a390b97fd5"
+                },
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 42.25,
+                        "y": 117.75
+                    },
+                    "uuid": "b47e9eb8-e95a-4c58-b0c3-e9741b8b7f65"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Z1",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 78.25
+                    },
+                    "uuid": "d93da581-d836-4bde-bab2-2eeb6e8137c2"
+                },
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 97.0
+                    },
+                    "uuid": "ef455fa4-0ef3-4593-9f3b-fb643301045e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 121.05
+                    },
+                    "uuid": "ee9cd60b-18d2-4105-88c7-9e52b8c76be3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 121.05
+                    },
+                    "uuid": "7939f136-9433-4734-b922-9b0bb4d502d2"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                },
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 97.0
+                    },
+                    "uuid": "ef455fa4-0ef3-4593-9f3b-fb643301045e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/DC_MINUS] on F.Cu, length 9.7500 mm",
+                    "pos": {
+                        "x": 94.75,
+                        "y": 88.0
+                    },
+                    "uuid": "d89e2c13-cecf-4ce4-8e00-bbd663456e7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 0.1750 mm",
+                    "pos": {
+                        "x": 64.25,
+                        "y": 82.75
+                    },
+                    "uuid": "bbc751e8-54b9-4c55-8d17-4a26d6531728"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(IC2A-C)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 62.5,
+                        "y": 83.25
+                    },
+                    "uuid": "5f1656f8-1238-4c43-ba35-bdfe04c83b6e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 93.6
+                    },
+                    "uuid": "ad3bf3a8-5fc2-4734-bf56-55e19bca88c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 94.7
+                    },
+                    "uuid": "72267281-2042-4619-b003-d74248826de8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 95.9
+                    },
+                    "uuid": "795a269a-29a3-40bb-93a6-9766a617ef69"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 97.1
+                    },
+                    "uuid": "8ba766cd-e2c2-4995-a7d5-9546e0beb622"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 98.3
+                    },
+                    "uuid": "8d7972e0-5603-4931-9179-718d8ffb8cc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 99.5
+                    },
+                    "uuid": "69eb06a5-ff6a-4722-a2fe-bf380cbfeae1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 100.7
+                    },
+                    "uuid": "5393c208-4823-42a2-954e-eea1a6d1ee89"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 101.9
+                    },
+                    "uuid": "2def4cea-5f55-421a-a2bb-6782897d2c22"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 31.405,
+                        "y": 103.1
+                    },
+                    "uuid": "1db1eb57-65c2-4efb-b4d7-48e71ee2b11d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.445,
+                        "y": 103.81
+                    },
+                    "uuid": "e9345ff5-b4fe-4245-89d4-e7ae3dd60805"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.565,
+                        "y": 93.54
+                    },
+                    "uuid": "45c800be-b1e9-4e82-9421-3e2a47da2c52"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Polygon of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.45,
+                        "y": 26.3675
+                    },
+                    "uuid": "736d1777-8350-43a9-b7e4-8aee2c17159d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of Z2 (K)",
+                    "pos": {
+                        "x": 107.75,
+                        "y": 90.5
+                    },
+                    "uuid": "d7673bd8-21d4-4d25-8699-e3d2fdbed586"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_L] of Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "e45ac0ae-8f4a-406b-9ff6-59755ecdfc15"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of Z1 (K)",
+                    "pos": {
+                        "x": 107.75,
+                        "y": 71.75
+                    },
+                    "uuid": "13b3fe01-3c55-4efe-99b1-75bbd7dbfb76"
+                },
+                {
+                    "description": "PTH pad 1 [/GATE_H] of Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "d4b8f263-a613-4e2c-8ab4-6fd6b84022e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.515,
+                        "y": 90.34
+                    },
+                    "uuid": "4473b270-2d62-464e-9b4a-f935e5feaf92"
+                },
+                {
+                    "description": "PTH pad 1 [/SW_NODE] of Z2",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 89.634
+                    },
+                    "uuid": "c1212c13-93f6-4754-85e5-aae484b83efe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.465,
+                        "y": 87.11
+                    },
+                    "uuid": "9d304d89-c89a-4d16-8f67-f279582cc4be"
+                },
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Z1",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 85.616
+                    },
+                    "uuid": "3e40cf83-8b1d-4352-acbe-3ab2921d1bee"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.465,
+                        "y": 71.39
+                    },
+                    "uuid": "48b96247-790d-4665-bb55-368ba2b08a31"
+                },
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of Z1",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 70.884
+                    },
+                    "uuid": "57861ae4-28c2-4500-abe8-8ffdfefdcf97"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of REF**",
+                    "pos": {
+                        "x": 126.765,
+                        "y": 114.4
+                    },
+                    "uuid": "4f1a55d8-f83b-4ae2-90bf-905370c7a136"
+                },
+                {
+                    "description": "PTH pad 2 [Net-(CPR1-Pad2)] of CPR1",
+                    "pos": {
+                        "x": 128.11,
+                        "y": 116.4
+                    },
+                    "uuid": "483df319-8b82-4e2f-801f-76d04d0d2967"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R6 on B.Silkscreen",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 62.75
+                    },
+                    "uuid": "31da5363-d95d-48dd-af00-709bd75c62b8"
+                },
+                {
+                    "description": "Reference field of R6",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 63.2
+                    },
+                    "uuid": "3dc5d6b1-811c-4a2b-b74a-ecaf43f4a832"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

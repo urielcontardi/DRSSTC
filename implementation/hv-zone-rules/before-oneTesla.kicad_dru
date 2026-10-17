@@ -1,0 +1,9 @@
+(version 1)
+# Fabricacao: FR4, 2 camadas, 1 oz. Metas de isolamento sujeitas a revisao.
+(rule "PTH annular ring JLCPCB recomendado 1oz"
+  (condition "A.Type == 'Pad' && A.isPlated()")
+  (constraint annular_width (min 0.25mm)))
+(rule "Separacao potencia controle - meta preliminar"
+  (condition "A.NetName != '' && B.NetName != '' && (((A.NetName == '/AC_L' || A.NetName == '/AC_L_FUSED' || A.NetName == '/AC_N' || A.NetName == '/DC_PLUS' || A.NetName == '/DC_MID' || A.NetName == '/DC_MINUS' || A.NetName == '/SW_NODE' || A.NetName == 'Net-(CPR1-Pad2)' || A.NetName == '/GATE_H' || A.NetName == '/GATE_L') && !(B.NetName == '/AC_L' || B.NetName == '/AC_L_FUSED' || B.NetName == '/AC_N' || B.NetName == '/DC_PLUS' || B.NetName == '/DC_MID' || B.NetName == '/DC_MINUS' || B.NetName == '/SW_NODE' || B.NetName == 'Net-(CPR1-Pad2)' || B.NetName == '/GATE_H' || B.NetName == '/GATE_L')) || ((B.NetName == '/AC_L' || B.NetName == '/AC_L_FUSED' || B.NetName == '/AC_N' || B.NetName == '/DC_PLUS' || B.NetName == '/DC_MID' || B.NetName == '/DC_MINUS' || B.NetName == '/SW_NODE' || B.NetName == 'Net-(CPR1-Pad2)' || B.NetName == '/GATE_H' || B.NetName == '/GATE_L') && !(A.NetName == '/AC_L' || A.NetName == '/AC_L_FUSED' || A.NetName == '/AC_N' || A.NetName == '/DC_PLUS' || A.NetName == '/DC_MID' || A.NetName == '/DC_MINUS' || A.NetName == '/SW_NODE' || A.NetName == 'Net-(CPR1-Pad2)' || A.NetName == '/GATE_H' || A.NetName == '/GATE_L')))")
+  (constraint clearance (min 6.4mm))
+  (constraint creepage (min 6.4mm)))

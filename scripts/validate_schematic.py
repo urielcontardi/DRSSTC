@@ -25,7 +25,8 @@ reference={
  'OPTICAL_OUT':'FB1:1 R2:1',
  'GATE_H':'Q1:1 T1:3',
  'GATE_L':'Q2:1 T1:5',
- 'SW_NODE':'CPR1:1 Q1:3 Q2:2 T1:4 Z1:2 Z2:1',
+ 'SW_NODE':'JCT1:1 Q1:3 Q2:2 T1:4 Z1:2 Z2:1',
+ 'SW_CT':'CPR1:1 JCT1:2',
  'DC_PLUS':'C12:1 D4:1 Q1:2 R5:1 Z1:1',
  'DC_MINUS':'C11:2 D4:4 Q2:3 R6:2 T1:6 Z2:2',
  'DC_MID':'C11:1 C12:2 J110:2 P2:1 R5:2 R6:1',
@@ -67,7 +68,7 @@ for ref,fp in fpmap.items():
  want=sympins[ref]
  # FB1 now includes manufacturer retaining pins 5/8 as isolated NC PTH pads.
  assert pads==want,(ref,fp,'pads',pads,'pins',want)
-assert len(fpmap)==41,len(fpmap)
+assert len(fpmap)==42,len(fpmap)
 assert sympins['IC1']=={str(n) for n in range(1,15)}
 assert sympins['IC2']=={str(n) for n in range(1,15)}
 assert sympins['IC3']=={str(n) for n in range(1,9)}

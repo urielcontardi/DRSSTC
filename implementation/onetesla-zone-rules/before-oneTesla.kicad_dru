@@ -1,0 +1,35 @@
+(version 1)
+# Metas preliminares: 127/220 Vac, envelope de barramento 400 Vdc,
+# sem revestimento qualificado, altitude <= 2000 m. Nao certificam isolamento.
+# Corrente e tensao ressonante ainda precisam ser especificadas.
+(rule "PTH annular ring JLCPCB recomendado 1oz"
+  (condition "A.Type == 'Pad' && A.isPlated()")
+  (constraint annular_width (min 0.25mm)))
+
+# Inclui gate-coletor e secundario H versus secundario L.
+(rule "Potencia entre redes - meta preliminar 400V"
+  (condition "(A.NetName != B.NetName) && (A.NetName == '/AC_L' || A.NetName == '/AC_L_FUSED' || A.NetName == '/AC_N' || A.NetName == '/DC_PLUS' || A.NetName == '/DC_MID' || A.NetName == '/DC_MINUS' || A.NetName == '/SW_NODE' || A.NetName == '/GATE_H' || A.NetName == '/GATE_L' || A.NetName == 'Net-(CPR1-Pad2)') && (B.NetName == '/AC_L' || B.NetName == '/AC_L_FUSED' || B.NetName == '/AC_N' || B.NetName == '/DC_PLUS' || B.NetName == '/DC_MID' || B.NetName == '/DC_MINUS' || B.NetName == '/SW_NODE' || B.NetName == '/GATE_H' || B.NetName == '/GATE_L' || B.NetName == 'Net-(CPR1-Pad2)')")
+  (constraint clearance (min 3mm))
+  (constraint creepage (min 3mm)))
+
+# Reserva geometrica ate definir tensao de pico/RMS do tanque; nao equivale a rating de 3kV.
+(rule "Tanque ressonante - reserva preliminar NAO dimensionada"
+  (condition "(A.NetName != B.NetName) && ((A.NetName == 'Net-(CPR1-Pad2)') || (B.NetName == 'Net-(CPR1-Pad2)'))")
+  (constraint clearance (min 6.4mm))
+  (constraint creepage (min 6.4mm)))
+
+# Inclui cobre sem net. GND isolado continua separado de DC_MINUS.
+(rule "Separacao potencia controle e cobre sem net - meta preliminar"
+  (condition "((A.NetName == '/AC_L' || A.NetName == '/AC_L_FUSED' || A.NetName == '/AC_N' || A.NetName == '/DC_PLUS' || A.NetName == '/DC_MID' || A.NetName == '/DC_MINUS' || A.NetName == '/SW_NODE' || A.NetName == '/GATE_H' || A.NetName == '/GATE_L' || A.NetName == 'Net-(CPR1-Pad2)') && !(B.NetName == '/AC_L' || B.NetName == '/AC_L_FUSED' || B.NetName == '/AC_N' || B.NetName == '/DC_PLUS' || B.NetName == '/DC_MID' || B.NetName == '/DC_MINUS' || B.NetName == '/SW_NODE' || B.NetName == '/GATE_H' || B.NetName == '/GATE_L' || B.NetName == 'Net-(CPR1-Pad2)')) || ((B.NetName == '/AC_L' || B.NetName == '/AC_L_FUSED' || B.NetName == '/AC_N' || B.NetName == '/DC_PLUS' || B.NetName == '/DC_MID' || B.NetName == '/DC_MINUS' || B.NetName == '/SW_NODE' || B.NetName == '/GATE_H' || B.NetName == '/GATE_L' || B.NetName == 'Net-(CPR1-Pad2)') && !(A.NetName == '/AC_L' || A.NetName == '/AC_L_FUSED' || A.NetName == '/AC_N' || A.NetName == '/DC_PLUS' || A.NetName == '/DC_MID' || A.NetName == '/DC_MINUS' || A.NetName == '/SW_NODE' || A.NetName == '/GATE_H' || A.NetName == '/GATE_L' || A.NetName == 'Net-(CPR1-Pad2)'))")
+  (constraint clearance (min 6.4mm))
+  (constraint creepage (min 6.4mm)))
+
+# Excecoes estritas por par. Nao reduzem gate-coletor nem potencia-controle.
+(rule "Gate high ao proprio emissor - funcional"
+  (condition "((A.NetName == '/GATE_H') && (B.NetName == '/SW_NODE')) || ((B.NetName == '/GATE_H') && (A.NetName == '/SW_NODE'))")
+  (constraint clearance (min 0.5mm))
+  (constraint creepage (min 0.5mm)))
+(rule "Gate low ao proprio emissor - funcional"
+  (condition "((A.NetName == '/GATE_L') && (B.NetName == '/DC_MINUS')) || ((B.NetName == '/GATE_L') && (A.NetName == '/DC_MINUS'))")
+  (constraint clearance (min 0.5mm))
+  (constraint creepage (min 0.5mm)))

@@ -5,9 +5,9 @@
 	(uuid "38e9e92e-0807-45b3-a56d-ef1f03ff1cd0")
 	(paper "A3")
 	(title_block
-		(title "oneTeslaTS - Placa principal / Main board")
-		(date "2026-10-04")
-		(rev "1.1")
+		(title "ARCSTRIKE - DRSSTC baseada no oneTeslaTS")
+		(date "2026-10-17")
+		(rev "1.2")
 		(company "Replica a partir das referencias em misc")
 		(comment 1 "THT / DIP | Logica, drivers, meia ponte e fonte")
 		(comment 2 "Footprints CONFIRMAR: validar medidas e pinagem antes do PCB")
@@ -2542,7 +2542,7 @@
 					)
 				)
 			)
-			(property "Footprint" "oneTesla:Fuseholder_Idall_AS-06_5x20mm_P20.20mm_Horizontal"
+			(property "Footprint" "oneTesla:Fuseholder_Idall_AS-06_5x20mm_Slotted_P22.35mm"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5679,15 +5679,16 @@
 		(uuid "3a7ecd40-3792-4385-9f4d-b3cc05b784fc")
 	)
 	(wire
-		(pts
-			(xy 297.18 97.79) (xy 308.61 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3abee602-7bbf-4220-8195-32823416e8e5")
-	)
+    (pts
+      (xy 297.18 97.79)
+      (xy 298.45 97.79)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3abee602-7bbf-4220-8195-32823416e8e5")
+  )
 	(wire
 		(pts
 			(xy 322.58 124.46) (xy 322.58 139.7)
@@ -7179,15 +7180,15 @@
 		(uuid "6d238942-7cec-47f4-8b4e-85e935da820f")
 	)
 	(label "SW_NODE"
-		(at 297.18 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ae68db2-39f3-418a-899c-8be5e408bab9")
-	)
+    (at 297.18 97.79 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right bottom)
+    )
+    (uuid "7ae68db2-39f3-418a-899c-8be5e408bab9")
+  )
 	(label "GND"
 		(at 288.29 227.33 180)
 		(effects
@@ -8961,106 +8962,106 @@
 		)
 	)
 	(symbol
-		(lib_id "oneTesla:Fuse")
-		(at 63.5 209.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44f675e5-efda-4183-901e-563f576c9686")
-		(property "Reference" "F1"
-			(at 63.5 203.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4A/250VAC"
-			(at 63.5 205.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oneTesla:Fuseholder_Idall_AS-06_5x20mm_P20.20mm_Horizontal"
-			(at 63.5 209.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://idall.com.br/fusivel-porta-fusivel/0179-porta-fusivel-as-06-5x20"
-			(at 63.5 209.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Porta-fusivel Idall AS-06 5x20mm, 2 terminais, passo20.2mm, corpo26x9.6mm; desenho Idall0179."
-			(at 64.77 235.458 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly_Notes" "Porta-fusivel AS-06 5x20mm, 2 terminais; 1 AC_L, 2 AC_L_FUSED. Fusivel4A/250VAC mantido. STEP fornecido tem passo22.5mm versus20.2mm do AS-06; nao usar STEP para furação."
-			(at 63.5 209.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Status" "AS-06 Idall0179: P20.2±0.3mm, corpo26x9.6mm; furo1.8/pad3.2 selecionados para terminal1.3±0.1x0.4mm. STEP fornecido P22.5mm: referencia visual aproximada."
-			(at 63.5 209.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dfd81987-1e0a-4f77-9350-0fe4f618bd25")
-		)
-		(pin "2"
-			(uuid "af1b769b-1c1c-425d-904f-c15500754704")
-		)
-		(instances
-			(project "oneTesla"
-				(path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
+    (lib_id "oneTesla:Fuse")
+    (at 63.5 209.55 90)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "44f675e5-efda-4183-901e-563f576c9686")
+    (property "Reference" "F1"
+      (at 63.5 203.2 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "4A/250VAC"
+      (at 63.5 205.74 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" "oneTesla:Fuseholder_Idall_AS-06_5x20mm_Slotted_P22.35mm"
+      (at 63.5 209.55 90)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Datasheet" "https://idall.com.br/fusivel-porta-fusivel/0179-porta-fusivel-as-06-5x20"
+      (at 63.5 209.55 90)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Description" "AS-06 5x20; corpo26x9.6; slots metalizados4.4x1.8 ao longo do passo; centros22.35; faixa de montagem20.2 a24.5 com folga. Faixa de adaptacao, nao especificacao do fabricante."
+      (at 64.77 235.458 90)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Assembly_Notes" "Montagem tolerante: terminais acomodados em slots metalizados4.4x1.8mm, centros22.35mm. Acomodar passo20.2 a24.5mm com folga. 1 AC_L, 2 AC_L_FUSED. Fusivel4A/250VAC mantido. STEP apenas referencia visual."
+      (at 63.5 209.55 90)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint_Status" "Adaptacao de montagem AS-06: pad6.0x3.2, slot4.4x1.8, anel minimo0.7mm; centros22.35mm. Faixa20.2-24.5 nao e cota confirmada da peca; montagem com terminais inclinados."
+      (at 63.5 209.55 90)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (pin "1"
+      (uuid "dfd81987-1e0a-4f77-9350-0fe4f618bd25")
+    )
+    (pin "2"
+      (uuid "af1b769b-1c1c-425d-904f-c15500754704")
+    )
+    (instances
+      (project "oneTesla"
+        (path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
+          (reference "F1")
+          (unit 1)
+        )
+      )
+    )
+  )
 	(symbol
 		(lib_id "oneTesla:GND")
 		(at 196.85 81.28 0)
@@ -14921,4 +14922,107 @@
 		)
 	)
 	(embedded_fonts no)
+
+(symbol
+    (lib_id "oneTesla:Jumper")
+    (at 303.53 97.79 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "88f9f21c-7c0c-4c57-907c-ca31ce0c0e81")
+    (property "Reference" "JCT1"
+      (at 303.53 91.44 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "FIO PELO T3"
+      (at 303.53 102.87 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" "oneTesla:CT_Primary_WireLink_P21.59mm"
+      (at 303.53 97.79 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Datasheet" ""
+      (at 303.53 97.79 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Description" ""
+      (at 303.53 97.79 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Assembly_Notes" "Obrigatorio: fio de potencia entre pads 1 e 2 atravessando uma vez o nucleo de T3. Sem trilha de cobre em paralelo. Sentido de fase a confirmar na montagem."
+      (at 303.53 97.79 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint_Status" "Pads D4/furo2.2, P21.59, posicionados dos dois lados de T3; conferir montagem fisica e bitola do fio."
+      (at 303.53 97.79 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (pin "1"
+      (uuid "2dd8f06e-1c08-4e1c-9151-5ffd696d557d")
+    )
+    (pin "2"
+      (uuid "50587b64-d7cd-4673-b26d-dfa895a287d5")
+    )
+    (instances
+      (project "oneTesla"
+        (path "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0"
+          (reference "JCT1")
+          (unit 1)
+        )
+      )
+    )
+  )
+(label "SW_CT" (at 308.61 97.79 90) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "a4e3c208-3011-4622-bb02-007584e49217"))
 )

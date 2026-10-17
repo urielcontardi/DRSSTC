@@ -1,0 +1,2093 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-17T17:22:22",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/38e9e92e-0807-45b3-a56d-ef1f03ff1cd0",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol PS1 Pin 1 [AC, Power input, Line]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 214.63
+                            },
+                            "uuid": "6871680f-afb3-467f-9308-a684043b6d2c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol PS1 Pin 2 [AC, Power input, Line]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 219.71
+                            },
+                            "uuid": "aa330a1f-cb4b-4fa3-8cdb-6a5887ec670a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR007 [+5V]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 123.19
+                            },
+                            "uuid": "8fe0003b-4b47-49e4-bcdf-b3b2f1136889"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol T3 [CT_1_300]",
+                            "pos": {
+                                "x": 27.94,
+                                "y": 78.74
+                            },
+                            "uuid": "08c1e3eb-8bb7-4102-b3c5-3bc21a398ef9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol T3 [CT_1_300]",
+                            "pos": {
+                                "x": 27.94,
+                                "y": 78.74
+                            },
+                            "uuid": "08c1e3eb-8bb7-4102-b3c5-3bc21a398ef9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [AC_Input_2EDGRC_2P]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 214.63
+                            },
+                            "uuid": "5aab9a74-6c05-49b3-8715-c3600a957cda"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [AC_Input_2EDGRC_2P]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 214.63
+                            },
+                            "uuid": "5aab9a74-6c05-49b3-8715-c3600a957cda"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR006 [+5V]",
+                            "pos": {
+                                "x": 39.37,
+                                "y": 118.11
+                            },
+                            "uuid": "88073a8a-4ea4-4972-bf4d-e17ecf54ee03"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR006 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 39.37,
+                                "y": 118.11
+                            },
+                            "uuid": "20c58857-428b-4ed5-b75e-c14585eeec12"
+                        },
+                        {
+                            "description": "Label '+5V'",
+                            "pos": {
+                                "x": 269.24,
+                                "y": 238.76
+                            },
+                            "uuid": "4820cd01-9216-4d20-9ab6-cff3280774bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol FB1 [HFBR-2521ETZ]",
+                            "pos": {
+                                "x": 39.37,
+                                "y": 135.89
+                            },
+                            "uuid": "15d4d1f3-be2d-470f-be86-7b9f128c20e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol FB1 [HFBR-2521ETZ]",
+                            "pos": {
+                                "x": 39.37,
+                                "y": 135.89
+                            },
+                            "uuid": "15d4d1f3-be2d-470f-be86-7b9f128c20e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR008 [GND]",
+                            "pos": {
+                                "x": 39.37,
+                                "y": 158.75
+                            },
+                            "uuid": "a40b76dd-444e-42df-b65b-70b02f02bc75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR001 [GND]",
+                            "pos": {
+                                "x": 44.45,
+                                "y": 87.63
+                            },
+                            "uuid": "ec909666-8ff3-4bbf-a851-3f3dd2dfd543"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R]",
+                            "pos": {
+                                "x": 46.99,
+                                "y": 73.66
+                            },
+                            "uuid": "ba0ead5a-b552-4fa6-828a-50c8262be353"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R]",
+                            "pos": {
+                                "x": 46.99,
+                                "y": 73.66
+                            },
+                            "uuid": "ba0ead5a-b552-4fa6-828a-50c8262be353"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol D4 [KBU6G]",
+                            "pos": {
+                                "x": 46.99,
+                                "y": 262.89
+                            },
+                            "uuid": "6ef9c44e-fa15-4714-a036-672ede64bdd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol D4 [KBU6G]",
+                            "pos": {
+                                "x": 46.99,
+                                "y": 262.89
+                            },
+                            "uuid": "6ef9c44e-fa15-4714-a036-672ede64bdd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR009 [+5V]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 146.05
+                            },
+                            "uuid": "f49e4f73-93d1-4779-a538-b6b1e8c74f1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 152.4
+                            },
+                            "uuid": "b92e7445-4881-4929-86e1-0d26f6738ce2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 152.4
+                            },
+                            "uuid": "b92e7445-4881-4929-86e1-0d26f6738ce2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR010 [GND]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 158.75
+                            },
+                            "uuid": "98f60597-38d5-4e4b-9b9a-d759f0061070"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Terminal]",
+                            "pos": {
+                                "x": 59.69,
+                                "y": 223.52
+                            },
+                            "uuid": "a4adef6e-a965-4d31-ba43-d754daa675c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Terminal]",
+                            "pos": {
+                                "x": 59.69,
+                                "y": 223.52
+                            },
+                            "uuid": "a4adef6e-a965-4d31-ba43-d754daa675c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'PE'",
+                            "pos": {
+                                "x": 59.69,
+                                "y": 228.6
+                            },
+                            "uuid": "6760f7a3-f379-41f2-8549-efdb71a43659"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol F1 [Fuse]",
+                            "pos": {
+                                "x": 63.5,
+                                "y": 209.55
+                            },
+                            "uuid": "44f675e5-efda-4183-901e-563f576c9686"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol F1 [Fuse]",
+                            "pos": {
+                                "x": 63.5,
+                                "y": 209.55
+                            },
+                            "uuid": "44f675e5-efda-4183-901e-563f576c9686"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR002 [+5V]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 60.96
+                            },
+                            "uuid": "001cbf57-b5d3-49a7-acea-06f715f88837"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [1N4148]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 66.04
+                            },
+                            "uuid": "b552ecff-97ec-4187-afa9-8a8af1fc4daa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [1N4148]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 66.04
+                            },
+                            "uuid": "b552ecff-97ec-4187-afa9-8a8af1fc4daa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [1N4148]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 81.28
+                            },
+                            "uuid": "e9628c0c-0d48-40b0-a0a4-fb430a37cf49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [1N4148]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 81.28
+                            },
+                            "uuid": "e9628c0c-0d48-40b0-a0a4-fb430a37cf49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR003 [GND]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 87.63
+                            },
+                            "uuid": "95b4204f-b2bc-40f5-a366-b190c033e8b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [R]",
+                            "pos": {
+                                "x": 68.58,
+                                "y": 104.14
+                            },
+                            "uuid": "bbc2d32e-31aa-47db-957e-3f3feebaf652"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [R]",
+                            "pos": {
+                                "x": 68.58,
+                                "y": 104.14
+                            },
+                            "uuid": "bbc2d32e-31aa-47db-957e-3f3feebaf652"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 133.35
+                            },
+                            "uuid": "a49b4613-622d-4ad4-ac86-875ed68376a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 133.35
+                            },
+                            "uuid": "a49b4613-622d-4ad4-ac86-875ed68376a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 73.66
+                            },
+                            "uuid": "430e8d48-ab98-4ba0-b556-d5f418c1510f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 73.66
+                            },
+                            "uuid": "430e8d48-ab98-4ba0-b556-d5f418c1510f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 93.98,
+                                "y": 104.14
+                            },
+                            "uuid": "8d48d503-b107-4663-b782-44ff846411f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 93.98,
+                                "y": 104.14
+                            },
+                            "uuid": "8d48d503-b107-4663-b782-44ff846411f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 73.66
+                            },
+                            "uuid": "113bcf2f-d52d-4a0c-9493-fc7e78ebce08"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 73.66
+                            },
+                            "uuid": "113bcf2f-d52d-4a0c-9493-fc7e78ebce08"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol J110 [Jumper]",
+                            "pos": {
+                                "x": 106.68,
+                                "y": 264.16
+                            },
+                            "uuid": "ae966de7-e7cf-46ff-a4d0-2734061792b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol J110 [Jumper]",
+                            "pos": {
+                                "x": 106.68,
+                                "y": 264.16
+                            },
+                            "uuid": "ae966de7-e7cf-46ff-a4d0-2734061792b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol PS1 [HLK-15M15BL]",
+                            "pos": {
+                                "x": 118.11,
+                                "y": 217.17
+                            },
+                            "uuid": "47ede9ff-3d96-40f4-94d0-53bf01584804"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol PS1 [HLK-15M15BL]",
+                            "pos": {
+                                "x": 118.11,
+                                "y": 217.17
+                            },
+                            "uuid": "47ede9ff-3d96-40f4-94d0-53bf01584804"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C5 [C]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 168.91
+                            },
+                            "uuid": "77dc9f0e-992c-4f92-8c36-dd3f09e23c74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C5 [C]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 168.91
+                            },
+                            "uuid": "77dc9f0e-992c-4f92-8c36-dd3f09e23c74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR023 [+15V]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 162.56
+                            },
+                            "uuid": "c590e49f-28ea-4b48-bc72-a45083645227"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR024 [GND]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 176.53
+                            },
+                            "uuid": "d9d1be5a-e48b-44fc-8ff9-bdd8fadc8674"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR028 [GND]",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 223.52
+                            },
+                            "uuid": "87f8de55-a72d-41e4-bdc7-fe6514f5b0ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [C_Polarized]",
+                            "pos": {
+                                "x": 133.35,
+                                "y": 168.91
+                            },
+                            "uuid": "60f8a831-3b30-4c8c-bfcc-9948a45b18dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [C_Polarized]",
+                            "pos": {
+                                "x": 133.35,
+                                "y": 168.91
+                            },
+                            "uuid": "60f8a831-3b30-4c8c-bfcc-9948a45b18dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR004 [+5V]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 60.96
+                            },
+                            "uuid": "178951cb-17b7-47ff-9dda-a25d8b68ef4d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC2 [74HCT74]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 73.66
+                            },
+                            "uuid": "dd365dbf-54ec-4c51-bf45-0d4e71c0b12b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC2 [74HCT74]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 73.66
+                            },
+                            "uuid": "dd365dbf-54ec-4c51-bf45-0d4e71c0b12b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR033 [+15V]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 212.09
+                            },
+                            "uuid": "0bc88bae-8e73-4e01-bc04-1c4437e77e38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [C_Polarized]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 219.71
+                            },
+                            "uuid": "aef805c1-3853-4696-ae2a-6b980e769b4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [C_Polarized]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 219.71
+                            },
+                            "uuid": "aef805c1-3853-4696-ae2a-6b980e769b4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR027 [GND]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 228.6
+                            },
+                            "uuid": "a337bffb-701e-40fa-a144-00b66b4af1a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [C]",
+                            "pos": {
+                                "x": 154.94,
+                                "y": 168.91
+                            },
+                            "uuid": "ea63674d-7bcc-4ee7-b69d-23961a345d34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [C]",
+                            "pos": {
+                                "x": 154.94,
+                                "y": 168.91
+                            },
+                            "uuid": "ea63674d-7bcc-4ee7-b69d-23961a345d34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 156.21,
+                                "y": 53.34
+                            },
+                            "uuid": "ba94c3c5-4514-4749-9599-660123b45cbb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 156.21,
+                                "y": 53.34
+                            },
+                            "uuid": "ba94c3c5-4514-4749-9599-660123b45cbb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR025 [+15V]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 162.56
+                            },
+                            "uuid": "1ee8e844-a336-4621-85a6-b782ba931f38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR026 [GND]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 176.53
+                            },
+                            "uuid": "93bfbbe8-ecd3-4194-8541-985c03a1035e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C13 [C_Polarized]",
+                            "pos": {
+                                "x": 168.91,
+                                "y": 168.91
+                            },
+                            "uuid": "1e6ba57f-c2c4-4221-9cf4-1e1456b1ae26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C13 [C_Polarized]",
+                            "pos": {
+                                "x": 168.91,
+                                "y": 168.91
+                            },
+                            "uuid": "1e6ba57f-c2c4-4221-9cf4-1e1456b1ae26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR034 [+15V]",
+                            "pos": {
+                                "x": 172.72,
+                                "y": 212.09
+                            },
+                            "uuid": "4b193349-9626-46fb-bb8b-fe7bd8accbfd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC6 [L7805]",
+                            "pos": {
+                                "x": 186.69,
+                                "y": 214.63
+                            },
+                            "uuid": "e5e28e49-ab8b-495f-8f55-977669b86cc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC6 [L7805]",
+                            "pos": {
+                                "x": 186.69,
+                                "y": 214.63
+                            },
+                            "uuid": "e5e28e49-ab8b-495f-8f55-977669b86cc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR029 [GND]",
+                            "pos": {
+                                "x": 186.69,
+                                "y": 228.6
+                            },
+                            "uuid": "a80b4673-ed1c-4360-9cf0-4b6f766e006a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR019 [+15V]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 35.56
+                            },
+                            "uuid": "3beffa85-7423-417d-84d2-f7f33d082518"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC3 [UCC37321]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 58.42
+                            },
+                            "uuid": "a1fd714b-fe43-47d2-a113-3061e6095031"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC3 [UCC37321]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 58.42
+                            },
+                            "uuid": "a1fd714b-fe43-47d2-a113-3061e6095031"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR020 [GND]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 81.28
+                            },
+                            "uuid": "4788c884-1770-46bc-96a9-935cd7fabd05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR021 [+15V]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 114.3
+                            },
+                            "uuid": "09071091-984a-4e69-a85c-ba0632a86c08"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC4 [UCC37321]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 137.16
+                            },
+                            "uuid": "92e6ad91-615c-4a9c-9962-0932cfb83f30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC4 [UCC37321]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 137.16
+                            },
+                            "uuid": "92e6ad91-615c-4a9c-9962-0932cfb83f30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR022 [GND]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 160.02
+                            },
+                            "uuid": "71496725-72e7-4977-8c4c-c9bf27d87035"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR030 [+5V]",
+                            "pos": {
+                                "x": 201.93,
+                                "y": 213.36
+                            },
+                            "uuid": "d62126e2-5fb2-4229-9493-b7c0940bd6e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [C_Polarized]",
+                            "pos": {
+                                "x": 201.93,
+                                "y": 222.25
+                            },
+                            "uuid": "4e09ad6f-49e4-4c8c-8947-53fe0c925288"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [C_Polarized]",
+                            "pos": {
+                                "x": 201.93,
+                                "y": 222.25
+                            },
+                            "uuid": "4e09ad6f-49e4-4c8c-8947-53fe0c925288"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR031 [GND]",
+                            "pos": {
+                                "x": 201.93,
+                                "y": 228.6
+                            },
+                            "uuid": "0285605c-06f1-4742-8e54-739b1ee02156"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [R]",
+                            "pos": {
+                                "x": 227.33,
+                                "y": 55.88
+                            },
+                            "uuid": "500d706a-befa-4251-bd65-ba6d91c52371"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [R]",
+                            "pos": {
+                                "x": 227.33,
+                                "y": 55.88
+                            },
+                            "uuid": "500d706a-befa-4251-bd65-ba6d91c52371"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [C]",
+                            "pos": {
+                                "x": 227.33,
+                                "y": 134.62
+                            },
+                            "uuid": "a7c468cb-ef89-409e-8779-0cf971de9169"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [C]",
+                            "pos": {
+                                "x": 227.33,
+                                "y": 134.62
+                            },
+                            "uuid": "a7c468cb-ef89-409e-8779-0cf971de9169"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol T1 [GDT]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 93.98
+                            },
+                            "uuid": "6356f6f8-c8fe-46a8-85c2-bd0d7d86e139"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol T1 [GDT]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 93.98
+                            },
+                            "uuid": "6356f6f8-c8fe-46a8-85c2-bd0d7d86e139"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR032 [+5V]",
+                            "pos": {
+                                "x": 269.24,
+                                "y": 205.74
+                            },
+                            "uuid": "9a7b4455-7f14-4d9e-b9ce-8cfe7252afc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC2 [74HCT74]",
+                            "pos": {
+                                "x": 269.24,
+                                "y": 226.06
+                            },
+                            "uuid": "892c1cf3-6f91-45f6-a709-9c68fc1db58b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC2 [74HCT74]",
+                            "pos": {
+                                "x": 269.24,
+                                "y": 226.06
+                            },
+                            "uuid": "892c1cf3-6f91-45f6-a709-9c68fc1db58b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [FGA60N65SMD]",
+                            "pos": {
+                                "x": 294.64,
+                                "y": 74.93
+                            },
+                            "uuid": "40a3c8cd-4036-4d0a-80ba-3a709f3206c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [FGA60N65SMD]",
+                            "pos": {
+                                "x": 294.64,
+                                "y": 74.93
+                            },
+                            "uuid": "40a3c8cd-4036-4d0a-80ba-3a709f3206c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [FGA60N65SMD]",
+                            "pos": {
+                                "x": 294.64,
+                                "y": 120.65
+                            },
+                            "uuid": "b12e99c1-5429-4b67-8b6c-dad1cd4837c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [FGA60N65SMD]",
+                            "pos": {
+                                "x": 294.64,
+                                "y": 120.65
+                            },
+                            "uuid": "b12e99c1-5429-4b67-8b6c-dad1cd4837c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 299.72,
+                                "y": 212.09
+                            },
+                            "uuid": "922a2c1c-bceb-438b-9996-12ba9b7e3b2c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 299.72,
+                                "y": 212.09
+                            },
+                            "uuid": "922a2c1c-bceb-438b-9996-12ba9b7e3b2c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 300.99,
+                                "y": 227.33
+                            },
+                            "uuid": "9bc3f9c0-e9c3-454b-a7c8-36ae75179e52"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 300.99,
+                                "y": 227.33
+                            },
+                            "uuid": "9bc3f9c0-e9c3-454b-a7c8-36ae75179e52"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol CPR1 [ResonantCap]",
+                            "pos": {
+                                "x": 312.42,
+                                "y": 97.79
+                            },
+                            "uuid": "c5859a5d-e3fe-4d94-b9d7-6dc06d98962b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol CPR1 [ResonantCap]",
+                            "pos": {
+                                "x": 312.42,
+                                "y": 97.79
+                            },
+                            "uuid": "c5859a5d-e3fe-4d94-b9d7-6dc06d98962b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Z1 [1.5KE510CA]",
+                            "pos": {
+                                "x": 322.58,
+                                "y": 74.93
+                            },
+                            "uuid": "9e894fed-4374-4a5a-a960-857bfd5dcd7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Z1 [1.5KE510CA]",
+                            "pos": {
+                                "x": 322.58,
+                                "y": 74.93
+                            },
+                            "uuid": "9e894fed-4374-4a5a-a960-857bfd5dcd7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Z2 [1.5KE510CA]",
+                            "pos": {
+                                "x": 322.58,
+                                "y": 120.65
+                            },
+                            "uuid": "c8d4e287-ec67-436f-b387-38b05ea56bbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol Z2 [1.5KE510CA]",
+                            "pos": {
+                                "x": 322.58,
+                                "y": 120.65
+                            },
+                            "uuid": "c8d4e287-ec67-436f-b387-38b05ea56bbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [Terminal]",
+                            "pos": {
+                                "x": 328.93,
+                                "y": 96.52
+                            },
+                            "uuid": "4e968627-c773-4521-ba55-5590b459d070"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [Terminal]",
+                            "pos": {
+                                "x": 328.93,
+                                "y": 96.52
+                            },
+                            "uuid": "4e968627-c773-4521-ba55-5590b459d070"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR011 [+5V]",
+                            "pos": {
+                                "x": 331.47,
+                                "y": 200.66
+                            },
+                            "uuid": "c3dce5a3-a29b-443f-bac7-c7fe74724575"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 331.47,
+                                "y": 218.44
+                            },
+                            "uuid": "e1db8057-bbae-431a-82ea-560446bfcbc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC1 [74HCT14]",
+                            "pos": {
+                                "x": 331.47,
+                                "y": 218.44
+                            },
+                            "uuid": "e1db8057-bbae-431a-82ea-560446bfcbc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR012 [GND]",
+                            "pos": {
+                                "x": 331.47,
+                                "y": 236.22
+                            },
+                            "uuid": "b4129a2c-411e-4abf-87ed-6e3af721474a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol P2 [Terminal]",
+                            "pos": {
+                                "x": 340.36,
+                                "y": 96.52
+                            },
+                            "uuid": "9f79e080-61db-4ff3-ab39-32a84088f638"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol P2 [Terminal]",
+                            "pos": {
+                                "x": 340.36,
+                                "y": 96.52
+                            },
+                            "uuid": "9f79e080-61db-4ff3-ab39-32a84088f638"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR013 [+5V]",
+                            "pos": {
+                                "x": 344.17,
+                                "y": 209.55
+                            },
+                            "uuid": "403a4498-c97e-41eb-8357-06eaf79e6381"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C]",
+                            "pos": {
+                                "x": 344.17,
+                                "y": 218.44
+                            },
+                            "uuid": "5074a114-4e88-4c40-a81d-2ca4236099e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C]",
+                            "pos": {
+                                "x": 344.17,
+                                "y": 218.44
+                            },
+                            "uuid": "5074a114-4e88-4c40-a81d-2ca4236099e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR014 [GND]",
+                            "pos": {
+                                "x": 344.17,
+                                "y": 227.33
+                            },
+                            "uuid": "04bccd55-5c7f-4b65-a853-1696fc24331e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C12 [C_Polarized]",
+                            "pos": {
+                                "x": 355.6,
+                                "y": 74.93
+                            },
+                            "uuid": "646f41f0-6d33-4379-b35c-97d338b387a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C12 [C_Polarized]",
+                            "pos": {
+                                "x": 355.6,
+                                "y": 74.93
+                            },
+                            "uuid": "646f41f0-6d33-4379-b35c-97d338b387a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [C_Polarized]",
+                            "pos": {
+                                "x": 355.6,
+                                "y": 120.65
+                            },
+                            "uuid": "e44f244a-30f3-4b71-9cc2-f1be4ab1d737"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [C_Polarized]",
+                            "pos": {
+                                "x": 355.6,
+                                "y": 120.65
+                            },
+                            "uuid": "e44f244a-30f3-4b71-9cc2-f1be4ab1d737"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR015 [+5V]",
+                            "pos": {
+                                "x": 372.11,
+                                "y": 203.2
+                            },
+                            "uuid": "13273aa9-a672-4c39-8cdd-7002016de108"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC2 [74HCT74]",
+                            "pos": {
+                                "x": 372.11,
+                                "y": 218.44
+                            },
+                            "uuid": "c1b2fa50-0063-4980-a29b-dd347c5e6b02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol IC2 [74HCT74]",
+                            "pos": {
+                                "x": 372.11,
+                                "y": 218.44
+                            },
+                            "uuid": "c1b2fa50-0063-4980-a29b-dd347c5e6b02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR016 [GND]",
+                            "pos": {
+                                "x": 372.11,
+                                "y": 233.68
+                            },
+                            "uuid": "424abc3c-006f-4889-b251-76f8869bd09b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR016 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 372.11,
+                                "y": 233.68
+                            },
+                            "uuid": "1996e899-5e80-4ce0-abec-bfea5d20bf0b"
+                        },
+                        {
+                            "description": "Label 'GND'",
+                            "pos": {
+                                "x": 288.29,
+                                "y": 227.33
+                            },
+                            "uuid": "8e4b4153-9f08-4e02-b57a-c27de1d3a4f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [R]",
+                            "pos": {
+                                "x": 384.81,
+                                "y": 74.93
+                            },
+                            "uuid": "3630d741-3e3a-4166-b721-387123f7aa41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [R]",
+                            "pos": {
+                                "x": 384.81,
+                                "y": 74.93
+                            },
+                            "uuid": "3630d741-3e3a-4166-b721-387123f7aa41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R6 [R]",
+                            "pos": {
+                                "x": 384.81,
+                                "y": 120.65
+                            },
+                            "uuid": "8a4eac5a-a70e-40ac-8184-639d5f3b0bbf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol R6 [R]",
+                            "pos": {
+                                "x": 384.81,
+                                "y": 120.65
+                            },
+                            "uuid": "8a4eac5a-a70e-40ac-8184-639d5f3b0bbf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR017 [+5V]",
+                            "pos": {
+                                "x": 387.35,
+                                "y": 209.55
+                            },
+                            "uuid": "2169dfbe-bf3f-4555-96f2-93ba951ed2e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [C]",
+                            "pos": {
+                                "x": 387.35,
+                                "y": 218.44
+                            },
+                            "uuid": "72e09829-037d-4ca5-a186-ba2bf33d6494"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [C]",
+                            "pos": {
+                                "x": 387.35,
+                                "y": 218.44
+                            },
+                            "uuid": "72e09829-037d-4ca5-a186-ba2bf33d6494"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'oneTesla'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR018 [GND]",
+                            "pos": {
+                                "x": 387.35,
+                                "y": 227.33
+                            },
+                            "uuid": "913e256d-3e7b-46a1-aa3e-8dfa8f504e5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "before-oneTesla.kicad_sch"
+}

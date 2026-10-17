@@ -3364,7 +3364,7 @@
         )
       )
     )
-    (property "Footprint" "oneTesla:Fuseholder_Idall_AS-06_5x20mm_P20.20mm_Horizontal"
+    (property "Footprint" "oneTesla:Fuseholder_Idall_AS-06_5x20mm_Slotted_P22.35mm"
       (at -1.778 0 90)
       (show_name no)
       (do_not_autoplace no)
