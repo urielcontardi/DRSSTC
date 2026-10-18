@@ -1,0 +1,7 @@
+#VRML V2.0 utf8
+# Generic D30.3 x H40.5, P10 envelope; coordinates in 0.1 inch (KiCad VRML).
+Transform { translation 0.000000000 0 7.972440945 rotation 1 0 0 1.570796326795 children [ Shape { appearance Appearance { material Material { diffuseColor .08 .08 .09 } } geometry Cylinder { radius 5.964566929 height 15.866141732 } } ] }
+Transform { translation 0.000000000 0 15.925196850 rotation 1 0 0 1.570796326795 children [ Shape { appearance Appearance { material Material { diffuseColor .7 .7 .72 } } geometry Cylinder { radius 5.826771654 height 0.039370079 } } ] }
+Transform { translation 0.000000000 0 0.019685039 rotation 1 0 0 1.570796326795 children [ Shape { appearance Appearance { material Material { diffuseColor .7 .7 .72 } } geometry Cylinder { radius 5.826771654 height 0.039370079 } } ] }
+Transform { translation -1.968503937 0 -0.590551181 rotation 1 0 0 1.570796326795 children [ Shape { appearance Appearance { material Material { diffuseColor .7 .7 .72 } } geometry Cylinder { radius 0.236220472 height 1.181102362 } } ] }
+Transform { translation 1.968503937 0 -0.590551181 rotation 1 0 0 1.570796326795 children [ Shape { appearance Appearance { material Material { diffuseColor .7 .7 .72 } } geometry Cylinder { radius 0.236220472 height 1.181102362 } } ] }

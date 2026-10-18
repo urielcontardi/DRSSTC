@@ -1,0 +1,15 @@
+{
+  "scope": "Only J2 and former lower-left NPTH replaced; 2 GND segments added; zones refilled",
+  "other_footprints_pads_tracks_vias_outline_preserved": true,
+  "position_mm": [
+    37.375,
+    121.05
+  ],
+  "finished_PTH_diameter_mm": 3.2,
+  "exposed_copper_diameter_mm": 7,
+  "net": "GND",
+  "unconnected_before": 1,
+  "unconnected_after": 0,
+  "DRC_before": 36,
+  "DRC_after": 34
+}

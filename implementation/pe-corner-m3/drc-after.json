@@ -1,0 +1,1152 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-18T19:37:21",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 33.05
+                    },
+                    "uuid": "8abff536-902b-43c1-b9eb-c618545ad7bd"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 33.05
+                    },
+                    "uuid": "44c5b047-d27f-4782-a022-74204f0f78d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 121.05
+                    },
+                    "uuid": "ee9cd60b-18d2-4105-88c7-9e52b8c76be3"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 33.05
+                    },
+                    "uuid": "44c5b047-d27f-4782-a022-74204f0f78d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD 0805, hand-solder pads; original 1u value and connections preserved.', Schematic: 'SMD 0805; pads for hand soldering.')",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 44.75,
+                        "y": 91.25
+                    },
+                    "uuid": "c1898796-f058-464f-9e4b-119d7e243dd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD 0805, hand-solder pads; original 1u value and connections preserved.', Schematic: 'SMD 0805; pads for hand soldering.')",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 66.4625,
+                        "y": 88.25
+                    },
+                    "uuid": "695cdece-7584-40dc-a949-562f816b287a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD 0805, hand-solder pads; original 1u value and connections preserved.', Schematic: 'SMD 0805; pads for hand soldering.')",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 54.0,
+                        "y": 89.245
+                    },
+                    "uuid": "420b42e7-10a4-4af8-b62b-2ece24caba3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD 0805, hand-solder pads; original 1u value and connections preserved.', Schematic: 'SMD 0805; pads for hand soldering.')",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 57.4625,
+                        "y": 90.0
+                    },
+                    "uuid": "f6d52b85-f066-4c6a-b472-ada0eed20258"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD 0805, hand-solder pads; original 1u value and connections preserved.', Schematic: 'SMD 0805; pads for hand soldering.')",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 69.4625,
+                        "y": 89.87
+                    },
+                    "uuid": "bf319d97-edad-4ca6-abc3-bf1dbae72962"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Capxon 100uF/35V SMD; standard 8x10mm package assumed.', Schematic: '')",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 67.1275,
+                        "y": 83.59
+                    },
+                    "uuid": "1269b8c2-e565-4d97-b1d5-a0bfad27fe67"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Snap-in: corpo D30.3 x H40.5mm e passo9mm informados pelo usuario; furos2mm/pads4mm mantidos, secao dos terminais a confirmar.', Schematic: '')",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 56.0
+                    },
+                    "uuid": "10bec98a-7fcf-445d-828c-7448e7e0caee"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Snap-in: corpo D30.3 x H40.5mm e passo9mm informados pelo usuario; furos2mm/pads4mm mantidos, secao dos terminais a confirmar.', Schematic: '')",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 84.505,
+                        "y": 56.0
+                    },
+                    "uuid": "4e5e92e4-e1c2-4774-8a94-1d47992932c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Capxon 100uF/35V SMD; standard 8x10mm package assumed.', Schematic: '')",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 57.7,
+                        "y": 83.5
+                    },
+                    "uuid": "2b4aaf78-ca28-4d10-b4ca-f45b9dbc7107"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: '1N4148WS, SOD-323; pad1=cathode, pad2=anode; hand-solder pads.', Schematic: '1N4148WS in SOD-323; 1=cathode/2=anode; pads for hand soldering.')",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 48.25,
+                        "y": 106.5
+                    },
+                    "uuid": "84a3f687-2005-4bcb-8abd-bc057f0f3e59"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: '1N4148WS, SOD-323; pad1=cathode, pad2=anode; hand-solder pads.', Schematic: '1N4148WS in SOD-323; 1=cathode/2=anode; pads for hand soldering.')",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 42.75,
+                        "y": 106.5
+                    },
+                    "uuid": "eb5a0740-7fe4-484f-b554-c002acb3cbdd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm; component value unchanged.', Schematic: 'SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm')",
+            "items": [
+                {
+                    "description": "Footprint IC1",
+                    "pos": {
+                        "x": 50.475,
+                        "y": 81.845
+                    },
+                    "uuid": "9141bb3c-6e4b-479c-9aff-5214bc846208"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm; component value unchanged.', Schematic: 'SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm')",
+            "items": [
+                {
+                    "description": "Footprint IC2",
+                    "pos": {
+                        "x": 63.37,
+                        "y": 81.885
+                    },
+                    "uuid": "1ae51de2-b1e1-4c5e-ae6b-1f86da930e71"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: '', Schematic: 'Entrada de terra de protecao ligada ao GND do controle, conforme topologia original oneTeslaTS.')",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 121.05
+                    },
+                    "uuid": "9da51251-3ae1-49b8-acab-3487aee0ee57"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD footprint: oneTesla:R_1206_3216Metric; component value unchanged.', Schematic: 'SMD footprint: oneTesla:R_1206_3216Metric')",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 79.5375
+                    },
+                    "uuid": "2c408a86-bad0-40ea-999f-b359f718120e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Footprint_Status' differs (PCB: 'SMD footprint: oneTesla:R_1206_3216Metric; component value unchanged.', Schematic: 'SMD footprint: oneTesla:R_1206_3216Metric')",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 84.9625
+                    },
+                    "uuid": "a598d8af-5f45-4bc6-8255-6de2df2c9aca"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 33.05
+                    },
+                    "uuid": "44c5b047-d27f-4782-a022-74204f0f78d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 33.05
+                    },
+                    "uuid": "8abff536-902b-43c1-b9eb-c618545ad7bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 121.05
+                    },
+                    "uuid": "ee9cd60b-18d2-4105-88c7-9e52b8c76be3"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "oneTesla.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "039e6fa1-1edf-4e2c-b882-4f54b54fc96e"
+                },
+                {
+                    "description": "Footprint Z2",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 92.5
+                    },
+                    "uuid": "ef455fa4-0ef3-4593-9f3b-fb643301045e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/SW_NODE] of Z2",
+                    "pos": {
+                        "x": 112.884,
+                        "y": 92.5
+                    },
+                    "uuid": "c1212c13-93f6-4754-85e5-aae484b83efe"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "039e6fa1-1edf-4e2c-b882-4f54b54fc96e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/DC_MINUS] of Z2",
+                    "pos": {
+                        "x": 127.616,
+                        "y": 92.5
+                    },
+                    "uuid": "4463ab01-0c6b-4703-a30a-cebca349a625"
+                },
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 106.625,
+                        "y": 92.75
+                    },
+                    "uuid": "039e6fa1-1edf-4e2c-b882-4f54b54fc96e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 56.0
+                    },
+                    "uuid": "10bec98a-7fcf-445d-828c-7448e7e0caee"
+                },
+                {
+                    "description": "Footprint J110",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 37.75
+                    },
+                    "uuid": "2063a789-1fe2-471f-b1e9-aa764eed85b2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 56.0
+                    },
+                    "uuid": "10bec98a-7fcf-445d-828c-7448e7e0caee"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J110",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 37.75
+                    },
+                    "uuid": "2063a789-1fe2-471f-b1e9-aa764eed85b2"
+                },
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 84.505,
+                        "y": 56.0
+                    },
+                    "uuid": "4e5e92e4-e1c2-4774-8a94-1d47992932c3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint JCT1",
+                    "pos": {
+                        "x": 58.75,
+                        "y": 113.1
+                    },
+                    "uuid": "3e2d796f-8a53-4672-b72a-5fd2f589d271"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SW_CT] of JCT1",
+                    "pos": {
+                        "x": 69.545,
+                        "y": 113.1
+                    },
+                    "uuid": "01daf1cc-4fa0-4e93-b327-b3d63d98ac93"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 33.05
+                    },
+                    "uuid": "8abff536-902b-43c1-b9eb-c618545ad7bd"
+                },
+                {
+                    "description": "Footprint PS1",
+                    "pos": {
+                        "x": 49.65,
+                        "y": 30.8675
+                    },
+                    "uuid": "e58d3b32-5763-4064-97a0-c299ab65f513"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of REF**",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 33.05
+                    },
+                    "uuid": "93ed3307-d7a4-47f2-94fd-4737ad047efa"
+                },
+                {
+                    "description": "Footprint PS1",
+                    "pos": {
+                        "x": 49.65,
+                        "y": 30.8675
+                    },
+                    "uuid": "e58d3b32-5763-4064-97a0-c299ab65f513"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 121.05
+                    },
+                    "uuid": "9da51251-3ae1-49b8-acab-3487aee0ee57"
+                },
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 42.25,
+                        "y": 117.75
+                    },
+                    "uuid": "b47e9eb8-e95a-4c58-b0c3-e9741b8b7f65"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [GND] of J2",
+                    "pos": {
+                        "x": 37.375,
+                        "y": 121.05
+                    },
+                    "uuid": "fd6dcb2a-ce93-4a5a-87d4-9f5e6347c49d"
+                },
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 42.25,
+                        "y": 117.75
+                    },
+                    "uuid": "b47e9eb8-e95a-4c58-b0c3-e9741b8b7f65"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 110.6
+                    },
+                    "uuid": "a47c9096-0ef0-44d2-9fad-49a2420f4635"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(CPR1-Pad2)] of P1",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 110.6
+                    },
+                    "uuid": "31897def-4758-4270-8ef8-d4963d411fbd"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613"
+                },
+                {
+                    "description": "Footprint Z1",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 85.25
+                    },
+                    "uuid": "d93da581-d836-4bde-bab2-2eeb6e8137c2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DC_PLUS] of Z1",
+                    "pos": {
+                        "x": 127.616,
+                        "y": 85.25
+                    },
+                    "uuid": "57861ae4-28c2-4500-abe8-8ffdfefdcf97"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SW_NODE] of Z1",
+                    "pos": {
+                        "x": 112.884,
+                        "y": 85.25
+                    },
+                    "uuid": "3e40cf83-8b1d-4352-acbe-3ab2921d1bee"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 106.575,
+                        "y": 73.8
+                    },
+                    "uuid": "b1122c0f-f1b3-485f-ba0e-3386a2050613"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 121.05
+                    },
+                    "uuid": "ee9cd60b-18d2-4105-88c7-9e52b8c76be3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of REF**",
+                    "pos": {
+                        "x": 125.375,
+                        "y": 121.05
+                    },
+                    "uuid": "7939f136-9433-4734-b922-9b0bb4d502d2"
+                },
+                {
+                    "description": "Footprint CPR1",
+                    "pos": {
+                        "x": 98.9,
+                        "y": 116.4
+                    },
+                    "uuid": "e7223f0d-f610-456c-b062-3d86511395af"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 31.375,
+                        "y": 27.05
+                    },
+                    "uuid": "f0112692-3cdc-4c3e-b354-8c929a78d661"
+                },
+                {
+                    "description": "Rectangle of PS1 on F.Silkscreen",
+                    "pos": {
+                        "x": 60.2,
+                        "y": 28.1675
+                    },
+                    "uuid": "dafcb06c-74d0-4f91-8ef8-f4791c1b3b08"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.575,
+                        "y": 87.11
+                    },
+                    "uuid": "1df6598e-8a54-4a48-a116-082e35f8cfae"
+                },
+                {
+                    "description": "Segment of Z1 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.455,
+                        "y": 87.97
+                    },
+                    "uuid": "cbc00299-fc4f-4df7-a15b-79ff39ae8041"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.575,
+                        "y": 87.11
+                    },
+                    "uuid": "1df6598e-8a54-4a48-a116-082e35f8cfae"
+                },
+                {
+                    "description": "Segment of Z1 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.575,
+                        "y": 87.97
+                    },
+                    "uuid": "3a67a3b5-446b-4965-a283-65e93cd62b9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.575,
+                        "y": 87.11
+                    },
+                    "uuid": "1df6598e-8a54-4a48-a116-082e35f8cfae"
+                },
+                {
+                    "description": "Segment of Z1 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.695,
+                        "y": 87.97
+                    },
+                    "uuid": "c4485db5-07a7-4773-b470-48dc5d4ab74f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of Z1 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.12,
+                        "y": 87.97
+                    },
+                    "uuid": "18e13501-eb7c-4c5b-b6ed-d694d934bf62"
+                },
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.575,
+                        "y": 87.11
+                    },
+                    "uuid": "1df6598e-8a54-4a48-a116-082e35f8cfae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 115.38,
+                        "y": 89.78
+                    },
+                    "uuid": "2c777cc4-cd57-4531-8ace-96996f81a9e0"
+                },
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.625,
+                        "y": 90.34
+                    },
+                    "uuid": "f2df9f93-b49a-4d1e-981a-bc052e2f288a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.805,
+                        "y": 89.78
+                    },
+                    "uuid": "460c9f94-086c-4520-acc7-162706e5ab61"
+                },
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.625,
+                        "y": 90.34
+                    },
+                    "uuid": "f2df9f93-b49a-4d1e-981a-bc052e2f288a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.925,
+                        "y": 89.78
+                    },
+                    "uuid": "88ebaa98-5120-4880-9b5d-b62b762cdaeb"
+                },
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.625,
+                        "y": 90.34
+                    },
+                    "uuid": "f2df9f93-b49a-4d1e-981a-bc052e2f288a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 117.045,
+                        "y": 89.78
+                    },
+                    "uuid": "104a940c-04a0-4306-ae01-a43b5e8eea35"
+                },
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.625,
+                        "y": 90.34
+                    },
+                    "uuid": "f2df9f93-b49a-4d1e-981a-bc052e2f288a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 115.38,
+                        "y": 89.78
+                    },
+                    "uuid": "2c777cc4-cd57-4531-8ace-96996f81a9e0"
+                },
+                {
+                    "description": "Reference field of Z2",
+                    "pos": {
+                        "x": 116.25,
+                        "y": 89.25
+                    },
+                    "uuid": "3bfe278b-9da7-42d0-bd4e-ef8ca3d00ee8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of Z2",
+                    "pos": {
+                        "x": 116.25,
+                        "y": 89.25
+                    },
+                    "uuid": "3bfe278b-9da7-42d0-bd4e-ef8ca3d00ee8"
+                },
+                {
+                    "description": "Segment of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.805,
+                        "y": 89.78
+                    },
+                    "uuid": "460c9f94-086c-4520-acc7-162706e5ab61"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of Z2",
+                    "pos": {
+                        "x": 116.25,
+                        "y": 89.25
+                    },
+                    "uuid": "3bfe278b-9da7-42d0-bd4e-ef8ca3d00ee8"
+                },
+                {
+                    "description": "Segment of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.925,
+                        "y": 89.78
+                    },
+                    "uuid": "88ebaa98-5120-4880-9b5d-b62b762cdaeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Z2 on F.Silkscreen",
+                    "pos": {
+                        "x": 117.045,
+                        "y": 89.78
+                    },
+                    "uuid": "104a940c-04a0-4306-ae01-a43b5e8eea35"
+                },
+                {
+                    "description": "Reference field of Z2",
+                    "pos": {
+                        "x": 116.25,
+                        "y": 89.25
+                    },
+                    "uuid": "3bfe278b-9da7-42d0-bd4e-ef8ca3d00ee8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J110 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.25,
+                        "y": 28.21
+                    },
+                    "uuid": "469cac07-1e7a-4591-9db3-cd36501f390c"
+                },
+                {
+                    "description": "Circle of C11 on F.Silkscreen",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 56.0
+                    },
+                    "uuid": "b50f604e-be3e-41b9-aede-b43eee5f5726"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J110 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.25,
+                        "y": 47.29
+                    },
+                    "uuid": "a69f196a-6d74-4e47-b652-f5eff739d03d"
+                },
+                {
+                    "description": "Circle of C11 on F.Silkscreen",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 56.0
+                    },
+                    "uuid": "b50f604e-be3e-41b9-aede-b43eee5f5726"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

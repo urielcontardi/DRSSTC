@@ -1,5 +1,9 @@
 # ARCSTRIKE — DRSSTC baseada no oneTeslaTS
 
+Atualização de J2 em 2026-10-18: **terra no próprio parafuso M3 da quina inferior esquerda**, em (37,375;121,05) mm. Furo PTH Ø3,2 mm com cobre exposto Ø7 mm, ligado ao **GND do controle**, marcado `PE/GND`. Usar terminal olhal/arruela de até Ø7 mm em contato metálico firme com o cobre; não ligar ao barramento de potência. Substitui o pad de fio separado descrito nas etapas anteriores. Ver [montagem e conferência](implementation/pe-corner-m3/RESULTADO.md).
+
+Atualização 2026-10-18: **J2 = entrada do fio terra (PE), ligada ao GND do controle**, junto à lateral esquerda, em (34,3;39,0) mm. Pad de solda Ø4 mm/furo Ø2,2 mm, marcado `PE / TERRA` na frente e `J2 PE - GND CONTROLE` no verso. Ligar o PE da tomada primeiro ao ponto dedicado do chassis metálico e derivar um fio para J2, com alívio de tração. **Nunca ligar PE a DC_MINUS, DC_MID ou SW_NODE.** J1 continua somente L/N. Essa ligação recupera a topologia PE–GND do original; não usar a trilha da PCB como única ligação de proteção do chassis. C9 sincronizado com a PCB: 10µF/100V cerâmico X7R 1210, não polarizado. Ver [montagem e validação](implementation/pe-control-ground/RESULTADO.md). As descrições históricas de PE separado abaixo foram substituídas por esta revisão.
+
 Atualização 2026-10-17: identificação **ARCSTRIKE / REV 1.2** aplicada ao lado de PS1, com títulos do PCB e esquema sincronizados. F1 recebeu rasgos metalizados de 4,4 × 1,8 mm para acomodar variação dos terminais; ver [margem de montagem](implementation/fuse-slots/RESULTADO.md) e [serigrafia da placa](implementation/board-branding/RESULTADO.md). DRC permanece com 18 ocorrências de montagem e zero conexões faltando, sem novos problemas elétricos ou de serigrafia.
 
 Atualização T3 em 2026-10-17: inserido **JCT1**, jumper obrigatório de fio pelo núcleo de T3, entre SW_NODE e a nova rede SW_CT/CPR1. Foi removido o caminho direto de cobre que contornava o sensor. DRC: zero conexões faltando e 18 ocorrências de montagem; checagem adicional aponta 26 divergências anteriores de paridade. Ver [caminho de corrente e validação](implementation/t3-primary-jumper/RESULTADO.md). O relatório de 16 ocorrências abaixo antecede esta correção.
@@ -36,7 +40,7 @@ A fonte auxiliar era, na placa original, T2 -> D3 -> C10 -> RAW_DC (+24V), com I
 
 J110 liga AC_N a DC_MID: fechado para a configuração dobradora de 110V, aberto para 220V. O módulo HLK aceita 85–265VAC, então a mesma placa atende ambas as tensões de rede. A derivação para PS1 fica depois do fusível (topologia /AC_L -> F1 -> /AC_L_FUSED), diferente da placa original, onde o fusível vinha depois da derivação para T2.
 
-GND da fonte isolada, DC_MINUS do barramento de potência e PE são três redes distintas. P1/P2 recebem a bobina primária externa, em série com CPR1 de 68nF/3kV. O fio do primário atravessa o núcleo de T3; os dois pads de T3 são apenas o secundário do CT.
+PE entra por J2 e está ligado ao GND do controle e ao -Vo de PS1. DC_MINUS e DC_MID continuam separados desse GND; nenhum deles é ponto para o fio terra. P1/P2 recebem a bobina primária externa, em série com CPR1 de 68nF/3kV. O fio de JCT1 atravessa uma vez o núcleo de T3; os dois pads de T3 são apenas o secundário do CT.
 
 P1/P2 usam `oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm`: pontos para soldar o fio diretamente, pad circular Ø4mm, furo metalizado Ø2,2mm e courtyard Ø5,2mm. O contorno antigo de terminal M6 (13×22mm) foi removido; posições e redes dos pads foram preservadas.
 

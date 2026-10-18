@@ -1,0 +1,17 @@
+{
+  "old_footprints_pads_tracks_vias_outline_preserved": true,
+  "zone_settings_preserved": true,
+  "schematic_only_connectivity_change": "J2.1 moved from /PE to GND",
+  "new_pad_mm": [
+    34.3,
+    39.0
+  ],
+  "pad_diameter_mm": 4,
+  "drill_mm": 2.2,
+  "new_tracks": 3,
+  "new_footprints": 1,
+  "sha256": {
+    "oneTesla.kicad_sch": "2ff4619b08e3dc94fec12a2dde243ab6d7b5d0f19cca1f07f0861c4d474695fe",
+    "oneTesla.kicad_pcb": "0aa97d39a77de2bd080a05170152ace1c4ee46efbba3c61d0faa5d0b98bf0d44"
+  }
+}

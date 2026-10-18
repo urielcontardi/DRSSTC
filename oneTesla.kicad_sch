@@ -7139,7 +7139,7 @@
 		)
 		(uuid "5495f7cd-444b-40a2-a6fc-607fdefcd3a2")
 	)
-	(label "PE"
+	(label "GND"
 		(at 59.69 228.6 0)
 		(effects
 			(font
@@ -9325,7 +9325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oneTesla:C_Polarized")
+		(lib_id "oneTesla:C")
 		(at 201.93 222.25 0)
 		(unit 1)
 		(body_style 1)
@@ -9347,7 +9347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 35V"
+		(property "Value" "10u 100V"
 			(at 205.74 222.6309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9358,7 +9358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_Elec_8x10"
+		(property "Footprint" "oneTesla:C_1210_3225Metric"
 			(at 201.93 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -9380,8 +9380,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC10uF100V10%X7R1210, nonpolar; generic standard footprint"
 			(at 201.93 222.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9390,7 +9391,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "GENERIC: standard SMD 8x10mm selected as requested; purchased part dimensions unverified; pad1 positive, pad2 negative."
+		(property "Footprint_Status" "10uF100V10%X7R1210 selected; standard3225 footprint; no manufacturer-specific3D model."
 			(at 201.93 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -9775,7 +9776,7 @@
 				)
 			)
 		)
-		(property "Assembly_Notes" "1 = L; 2 = N. PE externo em J2/CHASSIS, separado de GND e DC_MINUS."
+		(property "Assembly_Notes" "1 = L; 2 = N. PE externo ao chassis e J2/GND CONTROLE; nunca a DC_MINUS ou DC_MID."
 			(at 30.48 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D25_H45_P10.16_ReviewPending"
+		(property "Footprint" "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending"
 			(at 355.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10072,7 +10073,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "Ketuo 1000uF 200V, body D25 x H45mm from user image. Existing P10.16mm, drill2mm and pad4mm preserved provisionally; actual terminal pitch and section NOT confirmed."
+		(property "Footprint_Status" "Snap-in: corpo D30.3 x H40.5mm; passo10mm e furos2mm conforme padrao recorrente Nichicon EL, Rubycon SN e Vishay PSM-SI; pads4mm."
 			(at 355.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12372,7 +12373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PE/CHASSIS"
+		(property "Value" "PE / GND CONTROLE"
 			(at 62.23 221.4879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12383,7 +12384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:Chassis_PE_M3"
+		(property "Footprint" "oneTesla:PE_GND_Control_M3_D7.0mm"
 			(at 59.69 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -12405,17 +12406,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 59.69 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly_Notes" "Entrada PE externa direta ao chassis por J2; J1 possui somente L/N. Nao unir a GND ou DC_MINUS."
+		(property "Description" "Entrada de terra de protecao ligada ao GND do controle, conforme topologia original oneTeslaTS."
 			(at 59.69 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -12426,7 +12417,18 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "REVIEW: Furo3.2 M3 pad5.1; cobre só0.2059 da borda; resistência/torque/arruela/bonding não definidos; F05"
+		(property "Assembly_Notes" "PE da tomada ao ponto dedicado do chassis e ao terminal olhal no parafuso M3 de J2. J2 ligado ao GND do controle, nunca DC_MINUS/DC_MID. Contato metalico firme no cobre exposto; arruela/olhal ate D7mm, sem isolante entre contato e cobre; fixar cabo contra tracao."
+			(at 59.69 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Status" "Furo de fixacao da quina inferior esquerda reutilizado: (37.375,121.05)mm; PTH3.2mm, pad D7mm, olhal/arruela ate D7mm."
 			(at 59.69 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -14415,7 +14417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_D25_H45_P10.16_ReviewPending"
+		(property "Footprint" "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending"
 			(at 355.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14447,7 +14449,7 @@
 				)
 			)
 		)
-		(property "Footprint_Status" "Ketuo 1000uF 200V, body D25 x H45mm from user image. Existing P10.16mm, drill2mm and pad4mm preserved provisionally; actual terminal pitch and section NOT confirmed."
+		(property "Footprint_Status" "Snap-in: corpo D30.3 x H40.5mm; passo10mm e furos2mm conforme padrao recorrente Nichicon EL, Rubycon SN e Vishay PSM-SI; pads4mm."
 			(at 355.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15025,4 +15027,9 @@
     )
   )
 (label "SW_CT" (at 308.61 97.79 90) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "a4e3c208-3011-4622-bb02-007584e49217"))
+
+  (text "TERRA / PE: chassis metalico + J2 (GND CONTROLE).\nNunca ligar a DC_MINUS, DC_MID ou SW_NODE."
+    (at 18 235 0)
+    (effects (font (size 1.0 1.0)) (justify left top))
+    (uuid "ead0a0db-a9f5-470b-8da9-856894b60967"))
 )
