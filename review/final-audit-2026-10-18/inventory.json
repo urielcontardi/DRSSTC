@@ -1,0 +1,2782 @@
+[
+  {
+    "ref": "Q2",
+    "value": "FGA60N65SMD",
+    "layer": "F.Cu",
+    "fp": "Q_TO3P_ImportedPads_ReviewPending",
+    "at_mm": [
+      106.625,
+      92.75
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/GATE_L",
+        "at_mm": [
+          106.625,
+          92.75
+        ],
+        "size_mm": [
+          2.5,
+          4.5
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/SW_NODE",
+        "at_mm": [
+          106.625,
+          98.2
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      },
+      {
+        "number": "3",
+        "net": "/DC_MINUS",
+        "at_mm": [
+          106.625,
+          103.65
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "F1",
+    "value": "4A/250VAC",
+    "layer": "F.Cu",
+    "fp": "Fuseholder_Idall_AS-06_5x20mm_Slotted_P22.35mm",
+    "at_mm": [
+      77.0,
+      35.0
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/AC_L",
+        "at_mm": [
+          88.175,
+          35.0
+        ],
+        "size_mm": [
+          6.0,
+          3.2
+        ],
+        "drill_mm": [
+          4.4,
+          1.8
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/AC_L_FUSED",
+        "at_mm": [
+          65.825,
+          35.0
+        ],
+        "size_mm": [
+          6.0,
+          3.2
+        ],
+        "drill_mm": [
+          4.4,
+          1.8
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C11",
+    "value": "1000u 200V",
+    "layer": "F.Cu",
+    "fp": "CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending",
+    "at_mm": [
+      115.5,
+      56.0
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/DC_MID",
+        "at_mm": [
+          110.5,
+          56.0
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.0,
+          2.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/DC_MINUS",
+        "at_mm": [
+          120.5,
+          56.0
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.0,
+          2.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C8",
+    "value": "100u 35V",
+    "layer": "F.Cu",
+    "fp": "CP_Elec_8x10",
+    "at_mm": [
+      67.1275,
+      83.59
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          67.1275,
+          86.84
+        ],
+        "size_mm": [
+          3.5,
+          2.5
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          67.1275,
+          80.34
+        ],
+        "size_mm": [
+          3.5,
+          2.5
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "J110",
+    "value": "Jumper 110V",
+    "layer": "F.Cu",
+    "fp": "J110_WireLink_P15.24mm",
+    "at_mm": [
+      100.25,
+      37.75
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/AC_N",
+        "at_mm": [
+          100.25,
+          30.13
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.2,
+          2.2
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/DC_MID",
+        "at_mm": [
+          100.25,
+          45.37
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.2,
+          2.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C4",
+    "value": "1u",
+    "layer": "F.Cu",
+    "fp": "C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "at_mm": [
+      75.59,
+      98.5
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(C4-Pad1)",
+        "at_mm": [
+          75.59,
+          98.5
+        ],
+        "size_mm": [
+          2.0,
+          2.0
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(T1-AB)",
+        "at_mm": [
+          75.59,
+          93.5
+        ],
+        "size_mm": [
+          2.0,
+          2.0
+        ],
+        "drill_mm": [
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C13",
+    "value": "100u 35V",
+    "layer": "F.Cu",
+    "fp": "CP_Elec_8x10",
+    "at_mm": [
+      57.7,
+      83.5
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          57.7,
+          86.75
+        ],
+        "size_mm": [
+          3.5,
+          2.5
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          57.7,
+          80.25
+        ],
+        "size_mm": [
+          3.5,
+          2.5
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C9",
+    "value": "10u 100V",
+    "layer": "F.Cu",
+    "fp": "C_1210_3225Metric",
+    "at_mm": [
+      46.5,
+      95.5
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+5V",
+        "at_mm": [
+          46.5,
+          94.025
+        ],
+        "size_mm": [
+          1.15,
+          2.7
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          46.5,
+          96.975
+        ],
+        "size_mm": [
+          1.15,
+          2.7
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "R4",
+    "value": "3R3",
+    "layer": "F.Cu",
+    "fp": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "at_mm": [
+      75.5,
+      89.31
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(IC3-OUT-Pad6)",
+        "at_mm": [
+          75.5,
+          89.31
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8,
+          0.8
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(T1-AA)",
+        "at_mm": [
+          75.5,
+          81.69
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8,
+          0.8
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "FB1",
+    "value": "HFBR-2521ETZ",
+    "layer": "F.Cu",
+    "fp": "HFBR-2521ETZ",
+    "at_mm": [
+      41.105,
+      102.51
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/OPTICAL_OUT",
+        "at_mm": [
+          41.105,
+          102.51
+        ],
+        "size_mm": [
+          2.0,
+          2.6
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          41.105,
+          99.97
+        ],
+        "size_mm": [
+          2.0,
+          2.6
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "number": "3",
+        "net": "+5V",
+        "at_mm": [
+          41.105,
+          97.43
+        ],
+        "size_mm": [
+          2.0,
+          2.6
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "number": "4",
+        "net": "+5V",
+        "at_mm": [
+          41.105,
+          94.89
+        ],
+        "size_mm": [
+          2.0,
+          2.6
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "number": "5",
+        "net": "unconnected-(FB1-NC-Pad5)",
+        "at_mm": [
+          33.485,
+          94.89
+        ],
+        "size_mm": [
+          2.0,
+          2.6
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "number": "8",
+        "net": "unconnected-(FB1-NC-Pad8)",
+        "at_mm": [
+          33.485,
+          102.51
+        ],
+        "size_mm": [
+          2.0,
+          2.6
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "JCT1",
+    "value": "FIO PELO T3",
+    "layer": "F.Cu",
+    "fp": "CT_Primary_WireLink_P21.59mm",
+    "at_mm": [
+      58.75,
+      113.1
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/SW_NODE",
+        "at_mm": [
+          47.955,
+          113.1
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.2,
+          2.2
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/SW_CT",
+        "at_mm": [
+          69.545,
+          113.1
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.2,
+          2.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "REF**",
+    "value": "MountingHole_3.2mm_M3",
+    "layer": "F.Cu",
+    "fp": "MountingHole_3.2mm_M3",
+    "at_mm": [
+      125.375,
+      33.05
+    ],
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "at_mm": [
+          125.375,
+          33.05
+        ],
+        "size_mm": [
+          3.2,
+          3.2
+        ],
+        "drill_mm": [
+          3.2,
+          3.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C12",
+    "value": "1000u 200V",
+    "layer": "F.Cu",
+    "fp": "CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending",
+    "at_mm": [
+      84.505,
+      56.0
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/DC_PLUS",
+        "at_mm": [
+          79.505,
+          56.0
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.0,
+          2.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/DC_MID",
+        "at_mm": [
+          89.505,
+          56.0
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.0,
+          2.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "T3",
+    "value": "1:300",
+    "layer": "F.Cu",
+    "fp": "CT_1_300_P12.70mm_CONFIRMAR",
+    "at_mm": [
+      58.75,
+      113.1
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(T3-S1)",
+        "at_mm": [
+          58.75,
+          119.45
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.27,
+          1.27
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          58.75,
+          106.75
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.27,
+          1.27
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "D4",
+    "value": "KBU6G",
+    "layer": "F.Cu",
+    "fp": "Diode_Bridge_Vishay_KBU",
+    "at_mm": [
+      63.5,
+      62.0
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/DC_PLUS",
+        "at_mm": [
+          63.5,
+          62.0
+        ],
+        "size_mm": [
+          2.8,
+          2.8
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/AC_L_FUSED",
+        "at_mm": [
+          63.5,
+          51.84
+        ],
+        "size_mm": [
+          2.8,
+          2.8
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      },
+      {
+        "number": "3",
+        "net": "/AC_N",
+        "at_mm": [
+          63.5,
+          56.92
+        ],
+        "size_mm": [
+          2.8,
+          2.8
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      },
+      {
+        "number": "4",
+        "net": "/DC_MINUS",
+        "at_mm": [
+          63.5,
+          46.76
+        ],
+        "size_mm": [
+          2.8,
+          2.8
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "IC3",
+    "value": "UCC37321P",
+    "layer": "F.Cu",
+    "fp": "DIP-8_W7.62mm_Socket_LongPads",
+    "at_mm": [
+      50.44,
+      92.57
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          50.44,
+          92.57
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(IC3-IN)",
+        "at_mm": [
+          50.44,
+          95.11
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "3",
+        "net": "/DRIVE_ENABLE",
+        "at_mm": [
+          50.44,
+          97.65
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "at_mm": [
+          50.44,
+          100.19
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "5",
+        "net": "GND",
+        "at_mm": [
+          58.06,
+          100.19
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "6",
+        "net": "Net-(IC3-OUT-Pad6)",
+        "at_mm": [
+          58.06,
+          97.65
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "7",
+        "net": "Net-(IC3-OUT-Pad6)",
+        "at_mm": [
+          58.06,
+          95.11
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "8",
+        "net": "+15V",
+        "at_mm": [
+          58.06,
+          92.57
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "P2",
+    "value": "PRIMARIO B",
+    "layer": "F.Cu",
+    "fp": "Primary_WirePad_D4.0mm_Drill2.2mm",
+    "at_mm": [
+      127.3,
+      40.8
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/DC_MID",
+        "at_mm": [
+          127.3,
+          40.8
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.2,
+          2.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "D1",
+    "value": "1N4148WS",
+    "layer": "F.Cu",
+    "fp": "D_SOD-323_HandSoldering",
+    "at_mm": [
+      48.25,
+      106.5
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(D1-K)",
+        "at_mm": [
+          47.0,
+          106.5
+        ],
+        "size_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          49.5,
+          106.5
+        ],
+        "size_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "T1",
+    "value": "1:1:1",
+    "layer": "F.Cu",
+    "fp": "GDT_6Pin_CONFIRMAR",
+    "at_mm": [
+      90.0,
+      86.4
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(T1-AA)",
+        "at_mm": [
+          80.983,
+          81.828
+        ],
+        "size_mm": [
+          2.2,
+          2.2
+        ],
+        "drill_mm": [
+          1.016,
+          1.016
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(T1-AB)",
+        "at_mm": [
+          80.983,
+          90.845
+        ],
+        "size_mm": [
+          2.2,
+          2.2
+        ],
+        "drill_mm": [
+          1.016,
+          1.016
+        ]
+      },
+      {
+        "number": "3",
+        "net": "/GATE_H",
+        "at_mm": [
+          93.683,
+          81.955
+        ],
+        "size_mm": [
+          2.2,
+          2.2
+        ],
+        "drill_mm": [
+          1.016,
+          1.016
+        ]
+      },
+      {
+        "number": "4",
+        "net": "/SW_NODE",
+        "at_mm": [
+          98.763,
+          81.955
+        ],
+        "size_mm": [
+          2.2,
+          2.2
+        ],
+        "drill_mm": [
+          1.016,
+          1.016
+        ]
+      },
+      {
+        "number": "5",
+        "net": "/GATE_L",
+        "at_mm": [
+          98.763,
+          90.845
+        ],
+        "size_mm": [
+          2.2,
+          2.2
+        ],
+        "drill_mm": [
+          1.016,
+          1.016
+        ]
+      },
+      {
+        "number": "6",
+        "net": "/DC_MINUS",
+        "at_mm": [
+          93.683,
+          90.845
+        ],
+        "size_mm": [
+          2.2,
+          2.2
+        ],
+        "drill_mm": [
+          1.016,
+          1.016
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "REF**",
+    "value": "MountingHole_3.2mm_M3",
+    "layer": "F.Cu",
+    "fp": "MountingHole_3.2mm_M3",
+    "at_mm": [
+      37.375,
+      33.05
+    ],
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "at_mm": [
+          37.375,
+          33.05
+        ],
+        "size_mm": [
+          3.2,
+          3.2
+        ],
+        "drill_mm": [
+          3.2,
+          3.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C10",
+    "value": "100u 35V",
+    "layer": "F.Cu",
+    "fp": "CP_Elec_8x10",
+    "at_mm": [
+      39.0525,
+      83.59
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          39.0525,
+          86.84
+        ],
+        "size_mm": [
+          3.5,
+          2.5
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          39.0525,
+          80.34
+        ],
+        "size_mm": [
+          3.5,
+          2.5
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "J2",
+    "value": "PE / GND CONTROLE",
+    "layer": "F.Cu",
+    "fp": "PE_GND_Control_M3_D7.0mm",
+    "at_mm": [
+      37.375,
+      121.05
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "GND",
+        "at_mm": [
+          37.375,
+          121.05
+        ],
+        "size_mm": [
+          7.0,
+          7.0
+        ],
+        "drill_mm": [
+          3.2,
+          3.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "P1",
+    "value": "PRIMARIO A",
+    "layer": "F.Cu",
+    "fp": "Primary_WirePad_D4.0mm_Drill2.2mm",
+    "at_mm": [
+      125.5,
+      110.6
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(CPR1-Pad2)",
+        "at_mm": [
+          125.5,
+          110.6
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          2.2,
+          2.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "IC6",
+    "value": "MC7805BDTRKG",
+    "layer": "F.Cu",
+    "fp": "TO-252-3_TabPin2",
+    "at_mm": [
+      48.4,
+      83.01
+    ],
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "at_mm": [
+          46.875,
+          83.425
+        ],
+        "size_mm": [
+          3.05,
+          2.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "",
+        "net": "",
+        "at_mm": [
+          49.925,
+          83.425
+        ],
+        "size_mm": [
+          3.05,
+          2.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "",
+        "net": "",
+        "at_mm": [
+          46.875,
+          80.075
+        ],
+        "size_mm": [
+          3.05,
+          2.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "",
+        "net": "",
+        "at_mm": [
+          49.925,
+          80.075
+        ],
+        "size_mm": [
+          3.05,
+          2.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          46.12,
+          88.05
+        ],
+        "size_mm": [
+          2.2,
+          1.2
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          48.4,
+          88.05
+        ],
+        "size_mm": [
+          2.2,
+          1.2
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          48.4,
+          81.75
+        ],
+        "size_mm": [
+          6.4,
+          5.8
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "3",
+        "net": "+5V",
+        "at_mm": [
+          50.68,
+          88.05
+        ],
+        "size_mm": [
+          2.2,
+          1.2
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "Q1",
+    "value": "FGA60N65SMD",
+    "layer": "F.Cu",
+    "fp": "Q_TO3P_ImportedPads_ReviewPending",
+    "at_mm": [
+      106.575,
+      73.8
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/GATE_H",
+        "at_mm": [
+          106.575,
+          73.8
+        ],
+        "size_mm": [
+          2.5,
+          4.5
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/DC_PLUS",
+        "at_mm": [
+          106.575,
+          79.25
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      },
+      {
+        "number": "3",
+        "net": "/SW_NODE",
+        "at_mm": [
+          106.575,
+          84.7
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.4986,
+          1.4986
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "J1",
+    "value": "2EDGRC-5.08-02P",
+    "layer": "F.Cu",
+    "fp": "TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal",
+    "at_mm": [
+      112.42,
+      38.05
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/AC_L",
+        "at_mm": [
+          112.42,
+          38.05
+        ],
+        "size_mm": [
+          3.2,
+          3.2
+        ],
+        "drill_mm": [
+          1.6,
+          1.6
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/AC_N",
+        "at_mm": [
+          117.5,
+          38.05
+        ],
+        "size_mm": [
+          3.2,
+          3.2
+        ],
+        "drill_mm": [
+          1.6,
+          1.6
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "R1",
+    "value": "1k 5W",
+    "layer": "F.Cu",
+    "fp": "R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical",
+    "at_mm": [
+      42.25,
+      117.75
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(T3-S1)",
+        "at_mm": [
+          45.842102,
+          121.342102
+        ],
+        "size_mm": [
+          2.4,
+          2.4
+        ],
+        "drill_mm": [
+          1.2,
+          1.2
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(D1-K)",
+        "at_mm": [
+          38.657898,
+          114.157898
+        ],
+        "size_mm": [
+          2.4,
+          2.4
+        ],
+        "drill_mm": [
+          1.2,
+          1.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C6",
+    "value": "1u",
+    "layer": "F.Cu",
+    "fp": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "at_mm": [
+      69.4625,
+      89.87
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          70.5,
+          89.87
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          68.425,
+          89.87
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C1",
+    "value": "1u",
+    "layer": "F.Cu",
+    "fp": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "at_mm": [
+      44.75,
+      91.25
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+5V",
+        "at_mm": [
+          45.7875,
+          91.25
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          43.7125,
+          91.25
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "IC4",
+    "value": "UCC37321P",
+    "layer": "F.Cu",
+    "fp": "DIP-8_W7.62mm_Socket_LongPads",
+    "at_mm": [
+      62.75,
+      92.5
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          62.75,
+          92.5
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(IC2A-C)",
+        "at_mm": [
+          62.75,
+          95.04
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "3",
+        "net": "/DRIVE_ENABLE",
+        "at_mm": [
+          62.75,
+          97.58
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "at_mm": [
+          62.75,
+          100.12
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "5",
+        "net": "GND",
+        "at_mm": [
+          70.37,
+          100.12
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "6",
+        "net": "Net-(C4-Pad1)",
+        "at_mm": [
+          70.37,
+          97.58
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "7",
+        "net": "Net-(C4-Pad1)",
+        "at_mm": [
+          70.37,
+          95.04
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      },
+      {
+        "number": "8",
+        "net": "+15V",
+        "at_mm": [
+          70.37,
+          92.5
+        ],
+        "size_mm": [
+          1.6,
+          1.6
+        ],
+        "drill_mm": [
+          0.8128,
+          0.8128
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "Z1",
+    "value": "1.5KE510CA",
+    "layer": "F.Cu",
+    "fp": "D_DO201AD_P14.732_ReviewPending",
+    "at_mm": [
+      120.25,
+      85.25
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/DC_PLUS",
+        "at_mm": [
+          127.616,
+          85.25
+        ],
+        "size_mm": [
+          3.0,
+          3.0
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/SW_NODE",
+        "at_mm": [
+          112.884,
+          85.25
+        ],
+        "size_mm": [
+          3.0,
+          3.0
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "PS1",
+    "value": "HLK-15M15BL",
+    "layer": "F.Cu",
+    "fp": "HLK-15M15BL",
+    "at_mm": [
+      49.65,
+      30.8675
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/AC_L_FUSED",
+        "at_mm": [
+          49.65,
+          30.8675
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/AC_N",
+        "at_mm": [
+          41.85,
+          30.8675
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      },
+      {
+        "number": "3",
+        "net": "GND",
+        "at_mm": [
+          57.05,
+          73.3675
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      },
+      {
+        "number": "4",
+        "net": "+15V",
+        "at_mm": [
+          34.45,
+          73.3675
+        ],
+        "size_mm": [
+          2.5,
+          2.5
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "CPR1",
+    "value": "68n 3kV",
+    "layer": "F.Cu",
+    "fp": "CDE_940C30S68K_F_CONFIRMAR",
+    "at_mm": [
+      98.9,
+      116.4
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/SW_CT",
+        "at_mm": [
+          69.69,
+          116.4
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(CPR1-Pad2)",
+        "at_mm": [
+          128.11,
+          116.4
+        ],
+        "size_mm": [
+          4.0,
+          4.0
+        ],
+        "drill_mm": [
+          1.4,
+          1.4
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "D2",
+    "value": "1N4148WS",
+    "layer": "F.Cu",
+    "fp": "D_SOD-323_HandSoldering",
+    "at_mm": [
+      42.75,
+      106.5
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+5V",
+        "at_mm": [
+          41.5,
+          106.5
+        ],
+        "size_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(D1-K)",
+        "at_mm": [
+          44.0,
+          106.5
+        ],
+        "size_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "REF**",
+    "value": "MountingHole_3.2mm_M3",
+    "layer": "F.Cu",
+    "fp": "MountingHole_3.2mm_M3",
+    "at_mm": [
+      125.375,
+      121.05
+    ],
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "at_mm": [
+          125.375,
+          121.05
+        ],
+        "size_mm": [
+          3.2,
+          3.2
+        ],
+        "drill_mm": [
+          3.2,
+          3.2
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "Z2",
+    "value": "1.5KE510CA",
+    "layer": "F.Cu",
+    "fp": "D_DO201AD_P14.732_ReviewPending",
+    "at_mm": [
+      120.25,
+      92.5
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/SW_NODE",
+        "at_mm": [
+          112.884,
+          92.5
+        ],
+        "size_mm": [
+          3.0,
+          3.0
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/DC_MINUS",
+        "at_mm": [
+          127.616,
+          92.5
+        ],
+        "size_mm": [
+          3.0,
+          3.0
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C5",
+    "value": "1u",
+    "layer": "F.Cu",
+    "fp": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "at_mm": [
+      57.4625,
+      90.0
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+15V",
+        "at_mm": [
+          58.5,
+          90.0
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          56.425,
+          90.0
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "IC2",
+    "value": "74HCT74",
+    "layer": "B.Cu",
+    "fp": "SOIC-14_3.9x8.7mm_P1.27mm",
+    "at_mm": [
+      63.37,
+      81.885
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(IC2A-~{R})",
+        "at_mm": [
+          60.895,
+          85.695
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "+5V",
+        "at_mm": [
+          60.895,
+          84.425
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "3",
+        "net": "Net-(IC2A-C)",
+        "at_mm": [
+          60.895,
+          83.155
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "4",
+        "net": "+5V",
+        "at_mm": [
+          60.895,
+          81.885
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "5",
+        "net": "unconnected-(IC2A-Q-Pad5)",
+        "at_mm": [
+          60.895,
+          80.615
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "6",
+        "net": "/DRIVE_ENABLE",
+        "at_mm": [
+          60.895,
+          79.345
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "at_mm": [
+          60.895,
+          78.075
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "8",
+        "net": "unconnected-(IC2B-~{Q}-Pad8)",
+        "at_mm": [
+          65.845,
+          78.075
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "9",
+        "net": "unconnected-(IC2B-Q-Pad9)",
+        "at_mm": [
+          65.845,
+          79.345
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "10",
+        "net": "+5V",
+        "at_mm": [
+          65.845,
+          80.615
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "11",
+        "net": "GND",
+        "at_mm": [
+          65.845,
+          81.885
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "12",
+        "net": "GND",
+        "at_mm": [
+          65.845,
+          83.155
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "13",
+        "net": "+5V",
+        "at_mm": [
+          65.845,
+          84.425
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "14",
+        "net": "+5V",
+        "at_mm": [
+          65.845,
+          85.695
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "R2",
+    "value": "1k",
+    "layer": "B.Cu",
+    "fp": "R_1206_3216Metric",
+    "at_mm": [
+      41.0,
+      79.5375
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/OPTICAL_OUT",
+        "at_mm": [
+          41.0,
+          78.075
+        ],
+        "size_mm": [
+          1.125,
+          1.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(IC1-Pad13)",
+        "at_mm": [
+          41.0,
+          81.0
+        ],
+        "size_mm": [
+          1.125,
+          1.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C3",
+    "value": "1u",
+    "layer": "B.Cu",
+    "fp": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "at_mm": [
+      54.0,
+      89.245
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+5V",
+        "at_mm": [
+          52.9625,
+          89.245
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          55.0375,
+          89.245
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "C2",
+    "value": "1u",
+    "layer": "B.Cu",
+    "fp": "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "at_mm": [
+      66.4625,
+      88.25
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "+5V",
+        "at_mm": [
+          65.425,
+          88.25
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "at_mm": [
+          67.5,
+          88.25
+        ],
+        "size_mm": [
+          1.175,
+          1.45
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "IC1",
+    "value": "74HCT14",
+    "layer": "B.Cu",
+    "fp": "SOIC-14_3.9x8.7mm_P1.27mm",
+    "at_mm": [
+      50.475,
+      81.845
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(D1-K)",
+        "at_mm": [
+          48.0,
+          85.655
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(IC1-Pad2)",
+        "at_mm": [
+          48.0,
+          84.385
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "3",
+        "net": "Net-(IC1-Pad2)",
+        "at_mm": [
+          48.0,
+          83.115
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "4",
+        "net": "Net-(IC2A-C)",
+        "at_mm": [
+          48.0,
+          81.845
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "5",
+        "net": "Net-(IC2A-C)",
+        "at_mm": [
+          48.0,
+          80.575
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "6",
+        "net": "Net-(IC3-IN)",
+        "at_mm": [
+          48.0,
+          79.305
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "7",
+        "net": "GND",
+        "at_mm": [
+          48.0,
+          78.035
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "8",
+        "net": "unconnected-(IC1-Pad8)",
+        "at_mm": [
+          52.95,
+          78.035
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "9",
+        "net": "GND",
+        "at_mm": [
+          52.95,
+          79.305
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "10",
+        "net": "unconnected-(IC1-Pad10)",
+        "at_mm": [
+          52.95,
+          80.575
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "11",
+        "net": "GND",
+        "at_mm": [
+          52.95,
+          81.845
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "12",
+        "net": "Net-(IC2A-~{R})",
+        "at_mm": [
+          52.95,
+          83.115
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "13",
+        "net": "Net-(IC1-Pad13)",
+        "at_mm": [
+          52.95,
+          84.385
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "14",
+        "net": "+5V",
+        "at_mm": [
+          52.95,
+          85.655
+        ],
+        "size_mm": [
+          1.95,
+          0.6
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "R3",
+    "value": "10k",
+    "layer": "B.Cu",
+    "fp": "R_1206_3216Metric",
+    "at_mm": [
+      41.0,
+      84.9625
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net-(D1-K)",
+        "at_mm": [
+          41.0,
+          86.425
+        ],
+        "size_mm": [
+          1.125,
+          1.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "Net-(IC1-Pad13)",
+        "at_mm": [
+          41.0,
+          83.5
+        ],
+        "size_mm": [
+          1.125,
+          1.75
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "R5",
+    "value": "100k 0.5W",
+    "layer": "B.Cu",
+    "fp": "R_Uniroyal_HV12_2512_P6.60mm",
+    "at_mm": [
+      84.75,
+      50.75
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/DC_PLUS",
+        "at_mm": [
+          81.45,
+          50.75
+        ],
+        "size_mm": [
+          1.6,
+          3.3
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/DC_MID",
+        "at_mm": [
+          88.05,
+          50.75
+        ],
+        "size_mm": [
+          1.6,
+          3.3
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "ref": "R6",
+    "value": "100k 0.5W",
+    "layer": "B.Cu",
+    "fp": "R_Uniroyal_HV12_2512_P6.60mm",
+    "at_mm": [
+      115.5,
+      50.75
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "net": "/DC_MID",
+        "at_mm": [
+          112.2,
+          50.75
+        ],
+        "size_mm": [
+          1.6,
+          3.3
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "number": "2",
+        "net": "/DC_MINUS",
+        "at_mm": [
+          118.8,
+          50.75
+        ],
+        "size_mm": [
+          1.6,
+          3.3
+        ],
+        "drill_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+]

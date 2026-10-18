@@ -1,0 +1,695 @@
+FILE: misc/HLK-15W-BL_V1.0.pdf PAGES: 11
+
+=== PDF PAGE 1 ===
+￼
+￼
+
+=== PDF PAGE 2 ===
+￼
+................................................................................................................................................................. 2
+................................................................................................................................................................. 3
+................................................................................................................................................................. 4
+................................................................................................................................................................. 4
+.............................................................................................................................................................. 4
+................................................................................................................................. 5
+................................................................................................................................. 5
+............................................................................................................................... 6
+............................................................................................................................... 6
+................................................................................................................................. 7
+............................................................................................................................................. 8
+................................................................................................................................................................. 8
+............................................................................................................................................................................. 8
+......................................................................................................................................................... 8
+..................................................................................................................................................................... 9
+..................................................................................................................................................................... 9
+................................................................................................................................................................. 9
+...................................................................................................................................................................... 9
+................................................................................................................................................ 9
+................................................................................................................................ 10
+.................................................................................................................................................................. 10
+...................................................................................................................................................... 10
+...................................................................................................................................................... 10
+.................................................................................................................................................................. 10
+.................................................................................................................................................................. 10
+.................................................................................................................................................................. 10
+.................................................................................................................................................. 11
+
+=== PDF PAGE 3 ===
+
+
+=== PDF PAGE 4 ===
+
+
+=== PDF PAGE 5 ===
+
+
+=== PDF PAGE 6 ===
+
+
+=== PDF PAGE 7 ===
+
+
+=== PDF PAGE 8 ===
+￼
+￼
+￼
+
+=== PDF PAGE 9 ===
+
+
+
+￼
+￼
+
+=== PDF PAGE 10 ===
+
+
+
+
+
+
+
+
+=== PDF PAGE 11 ===
+￼
+bottom view
+FILE: review/evidence/fga60n65smd.pdf PAGES: 10
+
+=== PDF PAGE 1 ===
+DATA SHEET
+www.onsemi.com
+IGBT – Field Stop
+650 V, 60 A
+FGA60N65SMD
+General Description
+Using Novel Field Stop IGBT Technology, onsemi’s new series
+of Field Stop IGBTs offer the optimum performance for Solar
+Inverter, UPS, SMPS, Welder and PFC applications where low
+conduction and switching losses are essential.
+Features
+• Maximum Junction Temperature: TJ = 175 °C
+• Positive Temperature Co-efficient for Easy Parallel Operating
+• High Current Capability
+• Low Saturation Voltage: VCE(sat) = 1.9 V(Typ.) @ IC = 60 A
+• Fast Switching: EOFF = 7.5 mJ/A
+• Tighten Parameter Distribution
+• This Device is Pb-Free and is RoHS Compliant
+Applications
+• Solar Inverter, UPS, SMPS, Welder, PFC
+ABSOLUTE MAXIMUM RATINGS
+C
+G
+E
+G
+C
+E
+TO-3P-3LD / EIAJ SC-65, ISOLATED
+CASE 340BZ
+MARKING DIAGRAM
+FGA60N
+65SMD
+AYWWZZ
+Symbol Rating Value Unit
+VCES Collector to Emitter Voltage 650 V
+VGES Gate to Emitter Voltage ±20 V
+Transient Gate to Emitter Voltage ±30 V
+IC Collector Current TC = 25 °C 120 A
+FGA60N65SMD = Specific Device Code
+A = Assembly Location
+YWW = Date Code (Year & Work Week)
+ZZ = Lot Code
+TC = 100 °C 60 A
+ICM Pulsed Collector Current (Note 1) 180 A
+ORDERING INFORMATION
+IF TC = 25 °C Diode Forward Current TC = 100 °C 60 A
+30 A
+Device Package Shipping
+IFM Pulsed Diode Maximum Forward Current
+(Note 1)
+180 A
+FGA60N65SMD TO-3P-3L 450 / Box
+PD Maximum Power
+Dissipation
+TC = 25 °C 600 W
+TC = 100 °C 300 W
+TJ Operating Junction Temperature−55 to
++175
+°C
+Tstg Storage Temperature Range−55 to
++175
+°C
+TL Maximum Lead Temp. for Soldering
+Purposes, 1/8” from Case for 5 Seconds
+300 °C
+Stresses exceeding those listed in the Maximum Ratings table may damage the
+device. If any of these limits are exceeded, device functionality should not be
+assumed, damage may occur and reliability may be affected.
+1. Repetitive rating: Pulse width limited by max. junction temperature
+© Semiconductor Components Industries, LLC, 2011
+July, 2026 − Rev. 5
+1 Publication Order Number:
+FGA60N65SMD/D
+
+=== PDF PAGE 2 ===
+FGA60N65SMD
+THERMAL CHARACTERISTICS
+Symbol Characteristic Value Unit
+RqJC(IGBT) RqJC(Diode) Thermal Resistance, Junction to Case RqJA ELECTRICAL CHARACTERISTICS OF THE IGBT (TC = 25°C unless otherwise noted)
+OFF CHARACTERISTICS
+Thermal Resistance, Junction to Case BVCES 0.25 °C/W
+1.1 °C/W
+Parameter Thermal Resistance, Junction to Ambient Symbol Collector to Emitter Breakdown Voltage Temperature Coefficient of Breakdown
+Voltage
+40 °C/W
+Test Condition Min. Typ. Max. Unit
+VGE = 0 V, IC = 250 mA 650− − V
+DBVCES
+VGE = 0 V, IC = 250 mA− 0.6− V/°C
+DTJ
+ICES Collector Cut-Off Current VCE = VCES, VGE = 0 V− − 250 mA
+IGES G-E Leakage Current VGE = VGES, VCE = 0 V− − ±400 nA
+ON CHARACTERISTICS
+VGE(th) G-E Threshold Voltage IC = 250 mA, VCE = VGE 3.5 4.5 6.0 V
+VCE(sat) Collector to Emitter Saturation Voltage IC = 60 A, VGE = 15 V− 1.9 2.5 V
+IC = 60 A, VGE = 15 V, TC = 175 °C− 2.1− V
+DYNAMIC CHARACTERISTICS
+Cies Input Capacitance VCE = 30 V, VGE = 0 V, f = 1 MHz− 2915− pF
+Coes Output Capacitance− 270− pF
+Cres Reverse Transfer Capacitance− 85− pF
+SWITCHING CHARACTERISTICS
+td(on) Turn-On Delay Time tr td(off) tf Eon Eoff Ets VCC = 400 V, IC = 60 A, VGE = 15 V,
+RG = 3 W, Inductive Load, TC = 25 °C
+Rise Time− Turn-Off Delay Time− Fall Time− Turn-On Switching Loss− Turn-Off Switching Loss− Total Switching Loss− − 18− ns
+47− ns
+104− ns
+50− ns
+1.54− mJ
+0.45− mJ
+1.99− mJ
+td(on) Turn-On Delay Time tr td(off) tf Eon Eoff Ets VCC = 400 V, IC = 60 A, VGE = 15 V,
+RG = 3 W, Inductive Load, TC = 175 °C
+Rise Time− Turn-Off Delay Time− Fall Time− Turn-On Switching Loss− Turn-Off Switching Loss− Total Switching Loss− − 18− ns
+41− ns
+115− ns
+48− ns
+2.08− mJ
+0.78− mJ
+2.86− mJ
+Qg Total Gate Charge VCE = 400 V, IC = 60 A, VGE = 15 V− 189− nC
+Qge Gate to Emitter Charge− 20− nC
+Qgc Gate to Collector Charge− 91− nC
+Product parametric performance is indicated in the Electrical Characteristics for the listed test conditions, unless otherwise noted. Product
+performance may not be indicated by the Electrical Characteristics if operated under different conditions.
+www.onsemi.com
+2
+
+=== PDF PAGE 3 ===
+FGA60N65SMD
+ELECTRICAL CHARACTERISTICS OF THE DIODE (TC = 25°C unless otherwise noted)
+Symbol Parameter Test Condition Min. Typ. Max. Unit
+VFM Diode Forward Voltage IF = 30 A TC = 25 °C− 2.1 2.6 V
+TC = 175 °C− 1.7−
+Erec Reverse Recovery Energy IF = 30 A,
+dIF/dt = 200 A/ms
+TC = 175 °C− 127− mJ
+trr Diode Reverse Recovery Time TC = 25 °C− 47− ns
+TC = 175 °C− 212−
+Qrr Diode Reverse Recovery Charge TC = 25 °C− 87− nC
+TC = 175 °C− 933−
+Product parametric performance is indicated in the Electrical Characteristics for the listed test conditions, unless otherwise noted. Product
+performance may not be indicated by the Electrical Characteristics if operated under different conditions.
+www.onsemi.com
+3
+
+=== PDF PAGE 4 ===
+VCE, Collector-Emitter Voltage (V)
+IC, Collector Current (A)
+IC, Collector Current (A)
+180
+150
+120
+90
+60
+30
+0
+180
+150
+120
+90
+60
+30
+0
+20
+16
+12
+8
+4
+0
+20 V
+TC = 25 °C
+12 V
+TC = 175 °C 15 V
+20 V
+15 V
+12 V
+10 V
+10 V
+VGE = 8 V
+VGE = 8 V
+0
+2
+4
+VCE, Collector-Emitter Voltage (V)
+Figure 1. Typical Output Characteristics 6
+0 4
+2
+VCE, Collector-Emitter Voltage (V)
+Figure 2. Typical Output Characteristics
+6
+Common Emitter
+Common Emitter
+VGE = 15 V
+VGE = 15 V
+TC = 25 °C
+TC = 175 °C
+120 A
+FGA60N65SMD
+TYPICAL PERFORMANCE CHARACTERISTICS
+180
+IC, Collector Current (A)
+150
+120
+90
+60
+30
+0
+3.5
+VCE, Collector-Emitter Voltage (V)
+3.0
+2.5
+2.0
+1.5
+1.0
+0 1 3 4 5
+2 50 125
+25 75 175
+100 150
+VCE, Collector-Emitter Voltage (V)
+TC, Case Temperature (5C)
+Figure 3. Typical Saturation Voltage
+Characteristics
+Figure 4. Saturation Voltage vs. Case
+Temperature at Variant Current Level
+20
+VCE, Collector-Emitter Voltage (V)
+16
+12
+8
+4
+0
+60 A
+IC = 30 A
+Common Emitter
+Common Emitter
+TC = 25 °C
+TC = 175 °C
+120 A
+60 A
+120 A
+60 A
+IC = 30 A
+IC = 30 A
+8 16
+4 12 20
+VGE, Gate-Emitter Voltage (V)
+Figure 5. Saturation Voltage vs. VGE 4 12 208 16
+VGE, Gate-Emitter Voltage (V)
+Figure 6. Saturation Voltage vs. VGE
+www.onsemi.com
+4
+
+=== PDF PAGE 5 ===
+Capacitance (pF)
+Switching Loss (mJ)
+Switching Time (ns)
+7000
+6000
+5000
+4000
+3000
+2000
+1000
+0
+100
+80
+60
+40
+20
+10
+10
+1
+0.1
+Common Emitter
+VGE = 0 V, f = 1 MHz
+TC = 25 °C
+Common Emitter
+TC = 25 °C
+VCC = 200 V
+300 V
+Cies
+400 V
+Coes
+Cres
+0.1
+1
+10
+VCE, Collector-Emitter Voltage (V)
+Figure 7. Capacitance Characteristics 30
+0
+40 120
+80 160
+Qg, Gate Charge (nC)
+Figure 8. Gate Charge Characteristics
+tr
+Common Emitter
+VCC = 400 V, VGE = IC = 60 A
+TC = 25 °C
+15 V
+TC = 175 °C
+td(off)
+FGA60N65SMD
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+15
+VGE, Gate-Emitter Voltage (V)
+12
+9
+6
+3
+0
+6000
+Switching Time (ns)
+1000
+100
+10
+0 10 20 30
+20 30 40
+10 50
+0
+40
+RG, Gate Resistance ( )
+RG, Gate Resistance ( )
+Figure 9. Turn-on Characteristics vs. Gate
+Resistance
+Figure 10. Turn-off Characteristics vs. Gate
+Resistance
+1000
+Switching Time (ns)
+100
+Common Emitter
+VCC = 400 V, VGE = 15 V
+IC = 60 A
+TC = 25 °C
+TC = 175 °C
+10
+1
+0
+0 30
+20 30 40
+10 50
+60
+90 120
+RG, Gate Resistance ( )
+IC, Collector Current (A)
+Figure 11. Switching Loss vs. Gate Resistance
+Figure 12. Turn-on Characteristics vs. Collector
+Current
+200
+td(on)
+Common Emitter
+VCC = 400 V, VGE = 15 V
+IC = 60 A
+TC = 25 °C
+TC = 175 °C
+tf
+50
+Common Emitter
+VGE = 15 V, RG = 3 W
+TC = 25 °C
+Eon
+TC = 175 °C
+tr
+Eoff
+td(on)
+www.onsemi.com
+5
+
+=== PDF PAGE 6 ===
+IC, Collector Current (A)
+Switching Time (ns)
+IF, Forward Current (A)
+1000
+100
+10
+1
+120
+100
+80
+60
+40
+20
+0
+200
+100
+10
+1
+Eon
+td(off)
+Eoff
+tf
+Common Emitter
+Common Emitter
+VGE = 15 V, RG = TC = 25 °C
+TC = 175 °C
+3 W
+VGE = 15 V, RG = 3 W
+TC = 25 °C
+TC = 175 °C
+0
+30 60
+90
+120
+IC, Collector Current (A)
+Figure 13. Turn-off Characteristics vs. Collector
+Current
+0 30 60 12090
+IC, Collector Current (A)
+Figure 14. Switching Loss vs. Collector
+Current
+VCC = 400 V
+Load Current
+10 ms
+: peak of square wave
+Duty cycle: 50%
+TC = 100 °C
+Power Dissipation
+: 300 W
+100 ms
+1 ms
+10 ms
+DC
+IC, Collector Current (A)
+10k
+100k 1M
+1
+1k 10
+100
+f, Switching Frequency (Hz)
+VCE, Collector-Emitter Voltage (V)
+Figure 15. Load Current vs. Frequency
+Figure 16. SOA Characteristics
+Irr, Reverse Recovery Current (A)
+FGA60N65SMD
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+10
+Switching Loss (mJ)
+1
+0.1
+0.01
+300
+300
+100
+10
+1
+0.1
+0.01
+14
+12
+10
+8
+6
+4
+2
+0
+1
+0 10
+2 3 4
+0
+20
+30 40
+VF, Forward Voltage (V)
+IF, Forward Current (A)
+Figure 17. Forward Characteristics
+Figure 18. Reverse Recovery Current
+TC = 100 °C
+*Notes:
+1. TC = 25 °C
+2. TJ = 175 °C
+3. Single Pulse
+1000
+TC = 25 °C
+TC = 175 °C
+TC = 175 °C
+TC = 125 °C
+TC = 75 °C
+di/dt = 200 A/ms di/dt = 100 A/ms
+TC = 25 °C
+TC = 175 °C
+TC = 125 °C
+TC = 75 °C
+TC = 25 °C
+www.onsemi.com
+6
+
+=== PDF PAGE 7 ===
+trr, Reverse Recovery Time (ns)
+Thermal Response (Zthjc)
+Thermal Response (Zthjc)
+400
+300
+200
+50
+0
+0.5
+0.1
+0.01
+1E−3
+3
+1
+0.1
+0.01
+0.005
+TC = 25 °C
+TC = 175 °C
+TC = 25 °C
+TC = 175 °C
+di/dt = 200 A/ms
+0
+15 30
+IF, Forward Current (A)
+Figure 19. Reverse Recovery Time FGA60N65SMD
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+1400
+Qrr, Stored Recovery Charge (nC)
+1200
+1000
+800
+600
+400
+200
+0
+45 0 30 60
+60
+10 20 40 50
+IF, Forward Current (A)
+Figure 20. Stored Charge
+di/dt = 100 A/ms
+di/dt = 200 A/ms di/dt = 100 A/ms
+0.5
+0.2
+0.1
+0.05
+PDM
+0.02
+0.01
+t1
+Single Pulse
+t2
+Duty PEAK Factor: D = t1 / t2
+Tj = PDM × Zthjc + TC
+1E−5 1E−4 1E−3 0.01 0.1 1
+Rectangular Pulse Duration (s)
+Figure 21. Transient Thermal Impedance of IGBT
+0.5
+0.2
+0.1
+PDM
+0.05
+0.02
+0.01
+t1
+Single Pulse
+Duty Factor: D = t2
+t1 / t2
+PEAK Tj = PDM × Zthjc + TC
+1E−5 1E−4 1E−3 0.01 0.1 1
+Rectangular Pulse Duration (s)
+Figure 22. Transient Thermal Impedance of Diode
+www.onsemi.com
+7
+
+=== PDF PAGE 8 ===
+FGA60N65SMD
+REVISION HISTORY
+Revision Description of Changes Date
+3 Document converted to onsemi format. 10/5/2023
+4 Updated the Marking Diagram. 1/30/2024
+5 Removed Max values in Switching characteristics. 7/14/2026
+This document has undergone updates prior to the inclusion of this revision history table. The changes tracked here only reflect updates made
+on the noted approval dates.
+www.onsemi.com
+8
+
+=== PDF PAGE 9 ===
+MECHANICAL CASE OUTLINE
+PACKAGE DIMENSIONS
+TO−3P−3LD / EIAJ SC−65, ISOLATED
+CASE 340BZ
+ISSUE O
+DATE 31 OCT 2016
+DOCUMENT NUMBER:
+98AON13862G
+Electronic versions are uncontrolled except when accessed directly from the Document Repository.
+Printed versions are uncontrolled except when stamped “CONTROLLED COPY” in red.
+DESCRIPTION:
+TO−3P−3LD / EIAJ SC−65, ISOLATED
+PAGE 1 OF 1
+onsemi and are trademarks of Semiconductor Components Industries, LLC dba onsemi or its subsidiaries in the United States and/or other countries. onsemi reserves
+the right to make changes without further notice to any products herein. onsemi makes no warranty, representation or guarantee regarding the suitability of its products for any particular
+purpose, nor does onsemi assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation
+special, consequential or incidental damages. onsemi does not convey any license under its patent rights nor the rights of others.
+© Semiconductor Components Industries, LLC, 2016 www.onsemi.com
+
+=== PDF PAGE 10 ===
+onsemi, , and other names, marks, and brands are registered and/or common law trademarks of Semiconductor Components Industries, LLC dba “onsemi” or its affiliates
+and/or subsidiaries in the United States and/or other countries. onsemi owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property.
+A listing of onsemi’s product/patent coverage may be accessed at www.onsemi.com/site/pdf/Patent−Marking.pdf. onsemi reserves the right to make changes at any time to any
+products or information herein, without notice. The information herein is provided “as−is” and onsemi makes no warranty, representation or guarantee regarding the accuracy of the
+information, product features, availability, functionality, or suitability of its products for any particular purpose, nor does onsemi assume any liability arising out of the application or use
+of any product or circuit, and specifically disclaims any and all liability, including without limitation special, consequential or incidental damages. Buyer is responsible for its products
+and applications using onsemi products, including compliance with all laws, regulations and safety requirements or standards, regardless of any support or applications information
+provided by onsemi. “Typical” parameters which may be provided in onsemi data sheets and/or specifications can and do vary in different applications and actual performance may
+vary over time. All operating parameters, including “Typicals” must be validated for each customer application by customer’s technical experts. onsemi does not convey any license
+under any of its intellectual property rights nor the rights of others. onsemi products are not designed, intended, or authorized for use as a critical component in life support systems
+or any FDA Class 3 medical devices or medical devices with a same or similar classification in a foreign jurisdiction or any devices intended for implantation in the human body. Should
+Buyer purchase or use onsemi products for any such unintended or unauthorized application, Buyer shall indemnify and hold onsemi and its officers, employees, subsidiaries, affiliates,
+and distributors harmless against all claims, costs, damages, and expenses, and reasonable attorney fees arising out of, directly or indirectly, any claim of personal injury or death
+associated with such unintended or unauthorized use, even if such claim alleges that onsemi was negligent regarding the design or manufacture of the part. onsemi is an Equal
+Opportunity/Affirmative Action Employer. This literature is subject to all applicable copyright laws and is not for resale in any manner.
+ADDITIONAL INFORMATION
+TECHNICAL PUBLICATIONS:
+Technical Library: www.onsemi.com/design/resources/technical−documentation
+onsemi Website: www.onsemi.com
+ONLINE SUPPORT: www.onsemi.com/support
+For additional information, please contact your local Sales Representative at
+www.onsemi.com/support/sales
+

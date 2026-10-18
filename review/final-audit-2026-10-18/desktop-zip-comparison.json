@@ -1,0 +1,11 @@
+{
+  "oneTesla-F_Silkscreen.gto": "content differs",
+  "oneTesla-B_Silkscreen.gbo": "same apart from timestamp",
+  "oneTesla-B_Mask.gbs": "same apart from timestamp",
+  "oneTesla-Edge_Cuts.gm1": "same apart from timestamp",
+  "oneTesla-PTH.drl": "same apart from timestamp",
+  "oneTesla-B_Cu.gbl": "same apart from timestamp",
+  "oneTesla-F_Cu.gtl": "same apart from timestamp",
+  "oneTesla-NPTH.drl": "same apart from timestamp",
+  "oneTesla-F_Mask.gts": "same apart from timestamp"
+}

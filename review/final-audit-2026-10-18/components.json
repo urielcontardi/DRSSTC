@@ -1,0 +1,513 @@
+[
+  {
+    "ref": "T3",
+    "value": "1:300",
+    "footprint": "oneTesla:CT_1_300_P12.70mm_CONFIRMAR",
+    "dnp": "no",
+    "status": "REVIEW: P12.7 furo1.27; dimensões/core/relação real/fase/burden/isolação desconhecidos; corpo genérico conflita P1/P2",
+    "models": []
+  },
+  {
+    "ref": "IC1",
+    "value": "74HCT14",
+    "footprint": "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm",
+    "dnp": "no",
+    "status": "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/SOIC-14_3.9x8.7mm_P1.27mm.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "FB1",
+    "value": "HFBR-2521ETZ",
+    "footprint": "oneTesla:HFBR-2521ETZ",
+    "dnp": "no",
+    "status": "HFBR-2521ETZ: geometria Broadcom AV02-3283EN p4, pitch 2.54 mm; 1 OUT/2 GND/3 VCC/4 RL; retencoes 5/8 NC. Layout em revisao.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Catalog_HFBR-2521ETZ.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C13",
+    "value": "100u 35V",
+    "footprint": "oneTesla:CP_Elec_8x10",
+    "dnp": "no",
+    "status": "GENERIC: standard SMD 8x10mm selected as requested; purchased part dimensions unverified; pad1 positive, pad2 negative.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/CP_Elec_8x10.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "R5",
+    "value": "100k 0.5W",
+    "footprint": "oneTesla:R_Uniroyal_HV12_2512_P6.60mm",
+    "dnp": "no",
+    "status": "SMD 2512 land pattern, 6.60mm pad pitch; value100k0.5W preserved; no MPN selected.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/R_2512_6332Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "Q1",
+    "value": "FGA60N65SMD",
+    "footprint": "oneTesla:Q_TO3P_ImportedPads_ReviewPending",
+    "dnp": "no",
+    "status": "REVIEW: Pitch5.45 confere onsemi; furo1.4986 perto do envelope diagonal máx ~1.415 do terminal; dobra/dissipador/furo5.5 no PCB separados e pendentes; corpo fab15.5 não cobre máx16.2",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_FGA60N65SMD_Horizontal_P5.45.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "F1",
+    "value": "4A/250VAC",
+    "footprint": "oneTesla:Fuseholder_Idall_AS-06_5x20mm_Slotted_P22.35mm",
+    "dnp": "no",
+    "status": "Adaptacao de montagem AS-06: pad6.0x3.2, slot4.4x1.8, anel minimo0.7mm; centros22.35mm. Faixa20.2-24.5 nao e cota confirmada da peca; montagem com terminais inclinados.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Fuse Holder.stp",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "PS1",
+    "value": "HLK-15M15BL",
+    "footprint": "oneTesla:HLK-15M15BL",
+    "dnp": "no",
+    "status": "REVIEW: Pitch42.5/7.8/22.6 confere desenho de referência; furo1.1 versus terminal0.8±0.2 e pitch±1 exigem peça real; colisão IEC/fixação F07",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Catalog_HLK15M_Cased.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C9",
+    "value": "10u 100V",
+    "footprint": "oneTesla:C_1210_3225Metric",
+    "dnp": "no",
+    "status": "10uF100V10%X7R1210 selected; standard3225 footprint; no manufacturer-specific3D model.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/C_1210_3225Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "P1",
+    "value": "PRIMARIO A",
+    "footprint": "oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm",
+    "dnp": "no",
+    "status": "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso.",
+    "models": []
+  },
+  {
+    "ref": "R4",
+    "value": "3R3",
+    "footprint": "oneTesla:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+    "dnp": "no",
+    "status": "REVIEW: DIN0207 P7.62 coerente genericamente; conferir potência/tolerância/corpo MPN; R4 amortecimento GDT depende de ensaio",
+    "models": [
+      {
+        "path": "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C2",
+    "value": "1u",
+    "footprint": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "dnp": "no",
+    "status": "SMD 0805; pads for hand soldering.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/C_0805_2012Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "J1",
+    "value": "2EDGRC-5.08-02P",
+    "footprint": "oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal",
+    "dnp": "no",
+    "status": "Passo5.08; modelo STEP recebido; terminal quadrado1mm, furos1.6/pads3.2 selecionados; conferir furação na peça.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/2EDGRC-5.08-02P.stp",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C8",
+    "value": "100u 35V",
+    "footprint": "oneTesla:CP_Elec_8x10",
+    "dnp": "no",
+    "status": "GENERIC: standard SMD 8x10mm selected as requested; purchased part dimensions unverified; pad1 positive, pad2 negative.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/CP_Elec_8x10.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "T1",
+    "value": "1:1:1",
+    "footprint": "oneTesla:GDT_6Pin_CONFIRMAR",
+    "dnp": "no",
+    "status": "REVIEW: P0584 original renumerado; pads fora de courtyard genérico; bobinagem/fase/isolações/core/volt-segundo desconhecidos",
+    "models": []
+  },
+  {
+    "ref": "C12",
+    "value": "1000u 200V",
+    "footprint": "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending",
+    "dnp": "no",
+    "status": "Snap-in: corpo D30.3 x H40.5mm; passo10mm e furos2mm conforme padrao recorrente Nichicon EL, Rubycon SN e Vishay PSM-SI; pads4mm.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_CP_D30.3_H40.5_P10.00.wrl",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "D4",
+    "value": "KBU6G",
+    "footprint": "oneTesla:Diode_Bridge_Vishay_KBU",
+    "dnp": "no",
+    "status": "REVIEW: KBU6G fabricante indefinido; pads seguem GBU4S original P5.08, não confirma KBU escolhido; desenho Vishay não recuperado; F02",
+    "models": [
+      {
+        "path": "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBU.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C3",
+    "value": "1u",
+    "footprint": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "dnp": "no",
+    "status": "SMD 0805; pads for hand soldering.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/C_0805_2012Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C5",
+    "value": "1u",
+    "footprint": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "dnp": "no",
+    "status": "SMD 0805; pads for hand soldering.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/C_0805_2012Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "IC2",
+    "value": "74HCT74",
+    "footprint": "oneTesla:SOIC-14_3.9x8.7mm_P1.27mm",
+    "dnp": "no",
+    "status": "SMD footprint: oneTesla:SOIC-14_3.9x8.7mm_P1.27mm",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/SOIC-14_3.9x8.7mm_P1.27mm.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "R6",
+    "value": "100k 0.5W",
+    "footprint": "oneTesla:R_Uniroyal_HV12_2512_P6.60mm",
+    "dnp": "no",
+    "status": "SMD 2512 land pattern, 6.60mm pad pitch; value100k0.5W preserved; no MPN selected.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/R_2512_6332Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "IC4",
+    "value": "UCC37321P",
+    "footprint": "oneTesla:DIP-8_W7.62mm_Socket_LongPads",
+    "dnp": "no",
+    "status": "REVIEW: PDIP8 P2.54 W7.62 coerente; soquete exato pendente; TI recomenda desacoplamento em ambos pares VDD/GND, não comprovado nesta geometria",
+    "models": [
+      {
+        "path": "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "Z1",
+    "value": "1.5KE510CA",
+    "footprint": "oneTesla:D_DO201AD_P14.732_ReviewPending",
+    "dnp": "yes",
+    "status": "REVIEW: DNP no esquema mas não no PCB; F08. Pitch real14.732, nome15.24; TVS não substitui clamp gate-emitter",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_TVS_DO201AD_P14.732.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "P2",
+    "value": "PRIMARIO B",
+    "footprint": "oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm",
+    "dnp": "no",
+    "status": "Ponto de solda direta do fio do primario: um pad circularD4mm, furo metalizadoD2.2mm; sem borne ou parafuso.",
+    "models": []
+  },
+  {
+    "ref": "IC3",
+    "value": "UCC37321P",
+    "footprint": "oneTesla:DIP-8_W7.62mm_Socket_LongPads",
+    "dnp": "no",
+    "status": "REVIEW: PDIP8 P2.54 W7.62 coerente; soquete exato pendente; TI recomenda desacoplamento em ambos pares VDD/GND, não comprovado nesta geometria",
+    "models": [
+      {
+        "path": "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "R2",
+    "value": "1k",
+    "footprint": "oneTesla:R_1206_3216Metric",
+    "dnp": "no",
+    "status": "SMD footprint: oneTesla:R_1206_3216Metric",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/R_1206_3216Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "J2",
+    "value": "PE / GND CONTROLE",
+    "footprint": "oneTesla:PE_GND_Control_M3_D7.0mm",
+    "dnp": "no",
+    "status": "Furo de fixacao da quina inferior esquerda reutilizado: (37.375,121.05)mm; PTH3.2mm, pad D7mm, olhal/arruela ate D7mm.",
+    "models": []
+  },
+  {
+    "ref": "C4",
+    "value": "1u",
+    "footprint": "oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm",
+    "dnp": "no",
+    "status": "REVIEW: Disco P5, furos/pads inventariados; dielétrico/tensão/ESL/MPN desconhecidos; C4 deve suportar corrente do GDT",
+    "models": [
+      {
+        "path": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D7.5mm_W2.5mm_P5.00mm.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "J110",
+    "value": "Jumper 110V",
+    "footprint": "oneTesla:J110_WireLink_P15.24mm",
+    "dnp": "no",
+    "status": "REVIEW: P15.24 furo2.2; confirmar corrente/isolacao do fio; aberto em220V",
+    "models": []
+  },
+  {
+    "ref": "C10",
+    "value": "100u 35V",
+    "footprint": "oneTesla:CP_Elec_8x10",
+    "dnp": "no",
+    "status": "Capxon 100uF/35V SMD; standard D8 x H10mm assumed, dimensions unverified. C10 reduced from680uF with HLK15M15BL supply; verify15V load transients on hardware.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/CP_Elec_8x10.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "Q2",
+    "value": "FGA60N65SMD",
+    "footprint": "oneTesla:Q_TO3P_ImportedPads_ReviewPending",
+    "dnp": "no",
+    "status": "REVIEW: Pitch5.45 confere onsemi; furo1.4986 perto do envelope diagonal máx ~1.415 do terminal; dobra/dissipador/furo5.5 no PCB separados e pendentes; corpo fab15.5 não cobre máx16.2",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_FGA60N65SMD_Horizontal_P5.45.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "D2",
+    "value": "1N4148WS",
+    "footprint": "oneTesla:D_SOD-323_HandSoldering",
+    "dnp": "no",
+    "status": "1N4148WS in SOD-323; 1=cathode/2=anode; pads for hand soldering.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/D_SOD-323.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C1",
+    "value": "1u",
+    "footprint": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "dnp": "no",
+    "status": "SMD 0805; pads for hand soldering.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/C_0805_2012Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "R1",
+    "value": "1k 5W",
+    "footprint": "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical",
+    "dnp": "no",
+    "status": "Vertical manual forming P10.16mm; nominal body18xD7.5mm; verify purchased resistor and thermal clearance.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_Vishay_AC05_Vertical_P10.16.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "R3",
+    "value": "10k",
+    "footprint": "oneTesla:R_1206_3216Metric",
+    "dnp": "no",
+    "status": "SMD footprint: oneTesla:R_1206_3216Metric",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/R_1206_3216Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "CPR1",
+    "value": "68n 3kV",
+    "footprint": "oneTesla:CDE_940C30S68K_F_CONFIRMAR",
+    "dnp": "no",
+    "status": "REVIEW: CDE 940C30S68K-F: corpo 46x19 e fio 1 mm conferem catálogo; P58.42 é dobra escolhida, não pitch de fábrica; furo1.4; ensaio RMS/dVdt obrigatório",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_CDE_940C30S68K_F_P58.42.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "Z2",
+    "value": "1.5KE510CA",
+    "footprint": "oneTesla:D_DO201AD_P14.732_ReviewPending",
+    "dnp": "yes",
+    "status": "REVIEW: DNP no esquema mas não no PCB; F08. Pitch real14.732, nome15.24; TVS não substitui clamp gate-emitter",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_TVS_DO201AD_P14.732.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C11",
+    "value": "1000u 200V",
+    "footprint": "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending",
+    "dnp": "no",
+    "status": "Snap-in: corpo D30.3 x H40.5mm; passo10mm e furos2mm conforme padrao recorrente Nichicon EL, Rubycon SN e Vishay PSM-SI; pads4mm.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/Visual_CP_D30.3_H40.5_P10.00.wrl",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "IC6",
+    "value": "MC7805BDTRKG",
+    "footprint": "oneTesla:TO-252-3_TabPin2",
+    "dnp": "no",
+    "status": "DPAK/TO-252 per onsemi MC7800 ordering table; MC7805BDTRKG is not TO-263/D2PAK.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/TO-252-3_TabPin2.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "D1",
+    "value": "1N4148WS",
+    "footprint": "oneTesla:D_SOD-323_HandSoldering",
+    "dnp": "no",
+    "status": "1N4148WS in SOD-323; 1=cathode/2=anode; pads for hand soldering.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/D_SOD-323.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "C6",
+    "value": "1u",
+    "footprint": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "dnp": "no",
+    "status": "SMD 0805; pads for hand soldering.",
+    "models": [
+      {
+        "path": "${KIPRJMOD}/library/3dmodels/C_0805_2012Metric.step",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "ref": "JCT1",
+    "value": "FIO PELO T3",
+    "footprint": "oneTesla:CT_Primary_WireLink_P21.59mm",
+    "dnp": "no",
+    "status": "Pads D4/furo2.2, P21.59, posicionados dos dois lados de T3; conferir montagem fisica e bitola do fio.",
+    "models": []
+  }
+]

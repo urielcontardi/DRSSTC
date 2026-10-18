@@ -1,0 +1,16 @@
+{
+  "source": "oneTesla.kicad_pcb",
+  "sha256": "4129251f64510f00c5b9c0eb22e4f31bbca22ce5e475e7274e9ef4bad62ed1b5",
+  "files": {
+    "oneTesla-B_Cu.gbl": "8d6f964c9f118e857b714f6a39f37f4a6814884df7146ab4fb7e175c265bb924",
+    "oneTesla-B_Mask.gbs": "979d9f6b7180cef38e0287e107a393b2adaf31f102bf91942d6bebb16d8c6c9e",
+    "oneTesla-B_Silkscreen.gbo": "59e0a95f655f2bdb204c087b75107e1214c777933998e901062a87b1ceae6df4",
+    "oneTesla-Edge_Cuts.gm1": "c68356c28ba5870d29a171f5feb86885490c8ee11e89cfa50ac9b40bb4b50142",
+    "oneTesla-F_Cu.gtl": "3e0752ba6468a61b95de6e54ae08ab1c4e5077467ded678ceb80fcae4ca162d9",
+    "oneTesla-F_Mask.gts": "6824484440c7485c8dbcd86054601976c2447b6c15c21aba9b51ccfba06101d7",
+    "oneTesla-F_Silkscreen.gto": "67b82d09d0b80938ca9c5b944223a30c5f0e8f010cb7acff18134fbdf2c669bb",
+    "oneTesla-NPTH.drl": "8e0fdea519edd2d77f5f099bb162d86b63f4017c2a8eb554c19618742ece15b0",
+    "oneTesla-PTH.drl": "b5e7930a5f0edcbb2f1d9a8cdcf5622b7501dcee3955b36cfef10edc6f9f1d66",
+    "oneTesla-job.gbrjob": "525afb4e4be43db626d8717126fde219fb1cb1d32771e4541ae4b5bc2aa491eb"
+  }
+}

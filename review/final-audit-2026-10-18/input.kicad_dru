@@ -1,0 +1,12 @@
+(version 1)
+# Referencia: misc/driver.brd, oneTeslaTS original.
+# Original: clearance geral 8 mil = 0.2032 mm.
+# Adaptacao metrica: preservado Default 0.20 mm, tambem minimo global.
+# Zonas POS/NEG/SW_NODE: isolate 24 mil = 0.6096 mm, no .kicad_pcb.
+# DC_MID adicional usa o mesmo afastamento das zonas de potencia.
+# Estes valores reproduzem o layout de referencia; nao certificam isolamento.
+# Sem regras genericas de 3 mm ou 6.4 mm e sem excecoes arbitrarias de creepage.
+# Regra de fabricacao ja existente preservada:
+(rule "PTH annular ring JLCPCB recomendado 1oz"
+  (condition "A.Type == 'Pad' && A.isPlated()")
+  (constraint annular_width (min 0.25mm)))

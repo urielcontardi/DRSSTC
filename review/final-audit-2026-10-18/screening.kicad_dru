@@ -1,0 +1,14 @@
+(version 1)
+# Referencia: misc/driver.brd, oneTeslaTS original.
+# Original: clearance geral 8 mil = 0.2032 mm.
+# Adaptacao metrica: preservado Default 0.20 mm, tambem minimo global.
+# Zonas POS/NEG/SW_NODE: isolate 24 mil = 0.6096 mm, no .kicad_pcb.
+# DC_MID adicional usa o mesmo afastamento das zonas de potencia.
+# Estes valores reproduzem o layout de referencia; nao certificam isolamento.
+# Sem regras genericas de 3 mm ou 6.4 mm e sem excecoes arbitrarias de creepage.
+# Regra de fabricacao ja existente preservada:
+(rule "PTH annular ring JLCPCB recomendado 1oz"
+  (condition "A.Type == 'Pad' && A.isPlated()")
+  (constraint annular_width (min 0.25mm)))
+
+(rule "AUDIT_ONLY power-control search radius; not a safety requirement" (condition "(((A.NetName == '/AC_L' || A.NetName == '/AC_L_FUSED' || A.NetName == '/AC_N' || A.NetName == '/DC_PLUS' || A.NetName == '/DC_MINUS' || A.NetName == '/DC_MID' || A.NetName == '/SW_NODE' || A.NetName == '/SW_CT' || A.NetName == '/GATE_H' || A.NetName == '/GATE_L' || A.NetName == 'Net-(CPR1-Pad2)') && !(B.NetName == '/AC_L' || B.NetName == '/AC_L_FUSED' || B.NetName == '/AC_N' || B.NetName == '/DC_PLUS' || B.NetName == '/DC_MINUS' || B.NetName == '/DC_MID' || B.NetName == '/SW_NODE' || B.NetName == '/SW_CT' || B.NetName == '/GATE_H' || B.NetName == '/GATE_L' || B.NetName == 'Net-(CPR1-Pad2)') && B.NetName != '') || ((B.NetName == '/AC_L' || B.NetName == '/AC_L_FUSED' || B.NetName == '/AC_N' || B.NetName == '/DC_PLUS' || B.NetName == '/DC_MINUS' || B.NetName == '/DC_MID' || B.NetName == '/SW_NODE' || B.NetName == '/SW_CT' || B.NetName == '/GATE_H' || B.NetName == '/GATE_L' || B.NetName == 'Net-(CPR1-Pad2)') && !(A.NetName == '/AC_L' || A.NetName == '/AC_L_FUSED' || A.NetName == '/AC_N' || A.NetName == '/DC_PLUS' || A.NetName == '/DC_MINUS' || A.NetName == '/DC_MID' || A.NetName == '/SW_NODE' || A.NetName == '/SW_CT' || A.NetName == '/GATE_H' || A.NetName == '/GATE_L' || A.NetName == 'Net-(CPR1-Pad2)') && A.NetName != ''))") (constraint clearance (min 6.4mm)))

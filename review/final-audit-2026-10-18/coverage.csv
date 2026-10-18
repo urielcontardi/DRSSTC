@@ -1,0 +1,43 @@
+Referencia,ValorCAD,Footprint,DNP,Revisao
+C1,1u,oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C10,100u 35V,oneTesla:CP_Elec_8x10,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C11,1000u 200V,oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending,no,"D30.3/H40.5 P10 furos2 pads4; pad1 DC_MID positivo. CAD200V, compra250V. Encaixe aceito pelo usuario."
+C12,1000u 200V,oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending,no,"D30.3/H40.5 P10 furos2 pads4; pad1 DC_PLUS positivo. CAD200V, compra250V. Encaixe aceito pelo usuario."
+C13,100u 35V,oneTesla:CP_Elec_8x10,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C2,1u,oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C3,1u,oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C4,1u,oneTesla:C_Disc_D7.5mm_W2.5mm_P5.00mm,no,1u nao polarizado serie com GDT conforme original; selecionar dieletrico/tensao/correnteAC da peca.
+C5,1u,oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C6,1u,oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C8,100u 35V,oneTesla:CP_Elec_8x10,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+C9,10u 100V,oneTesla:C_1210_3225Metric,no,"10u100V MLCC1210 nao polarizado, esquema/PCB sincronizados."
+CPR1,68n 3kV,oneTesla:CDE_940C30S68K_F_CONFIRMAR,no,"68nF3kV CDE940C30S68K-F, P58.42 de montagem; pads e nets corretos; correnteRMS/dVdt dependem dos pulsos."
+D1,1N4148WS,oneTesla:D_SOD-323_HandSoldering,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+D2,1N4148WS,oneTesla:D_SOD-323_HandSoldering,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+D4,KBU6G,oneTesla:Diode_Bridge_Vishay_KBU,no,KBU6G +/AC/AC/- coerente. VRRM400V com pouca margem no dobrador127V; avaliar KBU6J/KBU6M da mesma familia.
+F1,4A/250VAC,oneTesla:Fuseholder_Idall_AS-06_5x20mm_Slotted_P22.35mm,no,4A250VAC; slotsPTH4.4x1.8 e pads preservados; tipo e capacidade de interrupcao da peca real exigem selecao.
+FB1,HFBR-2521ETZ,oneTesla:HFBR-2521ETZ,no,"HFBR-2521ETZ: OUT1,GND2,VCC3,RL4 corretos;5/8 NC; passo2.54 e fileiras7.62 conferem referencia."
+IC1,74HCT14,oneTesla:SOIC-14_3.9x8.7mm_P1.27mm,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+IC2,74HCT74,oneTesla:SOIC-14_3.9x8.7mm_P1.27mm,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+IC3,UCC37321P,oneTesla:DIP-8_W7.62mm_Socket_LongPads,no,UCC37321P DIP8 pinagem correta; revisar margem15V e desacoplamento; saidas6/7 ligadas.
+IC4,UCC37321P,oneTesla:DIP-8_W7.62mm_Socket_LongPads,no,UCC37321P DIP8 pinagem correta; revisar margem15V e desacoplamento; saidas6/7 ligadas.
+IC6,MC7805BDTRKG,oneTesla:TO-252-3_TabPin2,no,"MC7805BDTRKG: IN1,GND2/tab,OUT3 corretos; dissipacao depende da carga real."
+J1,2EDGRC-5.08-02P,oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+J110,Jumper 110V,oneTesla:J110_WireLink_P15.24mm,no,AC_N para DC_MID; jumper para modo dobrador127V; jamais fechado em220V. Encaixe aceito pelo usuario.
+J2,PE / GND CONTROLE,oneTesla:PE_GND_Control_M3_D7.0mm,no,M3/PTH3.2 cobreD7 conectadoGNDcontrole; olhal e contato metalico conforme montagem; DC_MINUS/DC_MID separados.
+JCT1,FIO PELO T3,oneTesla:CT_Primary_WireLink_P21.59mm,no,Fio obrigatorio pelo nucleoT3 entreSW_NODE eSW_CT; nenhuma ligacao direta de cobre paralela reportada.
+P1,PRIMARIO A,oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+P2,PRIMARIO B,oneTesla:Primary_WirePad_D4.0mm_Drill2.2mm,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+PS1,HLK-15M15BL,oneTesla:HLK-15M15BL,no,"Pinagem AC1/2,-Vo3,+Vo4 e passos conferem desenho local; envelope cobre furo superior esquerdo; tolerancias mecanicas exigem amostra; rail15V sem margem plena para UCC."
+Q1,FGA60N65SMD,oneTesla:Q_TO3P_ImportedPads_ReviewPending,no,G1/C2/E3 correto paraFGA60N65SMD; dobra/dissipador/isoladores sao parte da montagem; encaixe aceito pelo usuario.
+Q2,FGA60N65SMD,oneTesla:Q_TO3P_ImportedPads_ReviewPending,no,G1/C2/E3 correto paraFGA60N65SMD; dobra/dissipador/isoladores sao parte da montagem.
+R1,1k 5W,oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+R2,1k,oneTesla:R_1206_3216Metric,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+R3,10k,oneTesla:R_1206_3216Metric,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+R4,3R3,oneTesla:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,no,"Conectividade, polaridade quando aplicavel e numeros de pads conferidos; encapsulamento local existente. Nao substitui conferencia dimensional da peca comprada."
+R5,100k 0.5W,oneTesla:R_Uniroyal_HV12_2512_P6.60mm,no,100k0.5W SMD2512: redes corretas; MPN/working voltage e derating ainda nao definidos.
+R6,100k 0.5W,oneTesla:R_Uniroyal_HV12_2512_P6.60mm,no,100k0.5W SMD2512: redes corretas; MPN/working voltage e derating ainda nao definidos.
+T1,1:1:1,oneTesla:GDT_6Pin_CONFIRMAR,no,"Redes e pares conferem original com renumeracao; fase, isolamento e volt-segundo da peca real pendentes."
+T3,1:300,oneTesla:CT_1_300_P12.70mm_CONFIRMAR,no,Secundario1/2 e relacao1:300 conforme referencia; fase/isolaçao da peca nao provadas pelo CAD.
+Z1,1.5KE510CA,oneTesla:D_DO201AD_P14.732_ReviewPending,yes,TVS opcional DNP no esquema ePCB; nao contar suas sobreposicoes como colisao da variante semTVS.
+Z2,1.5KE510CA,oneTesla:D_DO201AD_P14.732_ReviewPending,yes,TVS opcional DNP no esquema ePCB; nao contar suas sobreposicoes como colisao da variante semTVS.

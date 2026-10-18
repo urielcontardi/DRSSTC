@@ -1,0 +1,199 @@
+{
+  "/GATE_L": {
+    "segment_count": 2,
+    "length_sum_mm": 8.651,
+    "widths_mm": [
+      0.5
+    ]
+  },
+  "/SW_NODE": {
+    "segment_count": 12,
+    "length_sum_mm": 95.708,
+    "widths_mm": [
+      0.5,
+      2.5
+    ]
+  },
+  "/DC_MINUS": {
+    "segment_count": 8,
+    "length_sum_mm": 19.426,
+    "widths_mm": [
+      0.5,
+      2.0,
+      3.0
+    ]
+  },
+  "/AC_L": {
+    "segment_count": 3,
+    "length_sum_mm": 25.508,
+    "widths_mm": [
+      3.0
+    ]
+  },
+  "/AC_L_FUSED": {
+    "segment_count": 5,
+    "length_sum_mm": 42.653,
+    "widths_mm": [
+      3.0
+    ]
+  },
+  "+15V": {
+    "segment_count": 25,
+    "length_sum_mm": 75.823,
+    "widths_mm": [
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "GND": {
+    "segment_count": 23,
+    "length_sum_mm": 35.641,
+    "widths_mm": [
+      0.2,
+      0.25,
+      0.3,
+      0.5
+    ]
+  },
+  "/AC_N": {
+    "segment_count": 12,
+    "length_sum_mm": 114.743,
+    "widths_mm": [
+      3.0
+    ]
+  },
+  "Net-(C4-Pad1)": {
+    "segment_count": 3,
+    "length_sum_mm": 8.141,
+    "widths_mm": [
+      0.5
+    ]
+  },
+  "Net-(T1-AB)": {
+    "segment_count": 2,
+    "length_sum_mm": 6.493,
+    "widths_mm": [
+      0.5
+    ]
+  },
+  "+5V": {
+    "segment_count": 49,
+    "length_sum_mm": 72.203,
+    "widths_mm": [
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "Net-(IC3-OUT-Pad6)": {
+    "segment_count": 9,
+    "length_sum_mm": 24.276,
+    "widths_mm": [
+      0.5,
+      1.0
+    ]
+  },
+  "Net-(T1-AA)": {
+    "segment_count": 3,
+    "length_sum_mm": 5.698,
+    "widths_mm": [
+      0.5,
+      1.0
+    ]
+  },
+  "/OPTICAL_OUT": {
+    "segment_count": 5,
+    "length_sum_mm": 31.356,
+    "widths_mm": [
+      0.5
+    ]
+  },
+  "/SW_CT": {
+    "segment_count": 2,
+    "length_sum_mm": 3.36,
+    "widths_mm": [
+      2.5
+    ]
+  },
+  "/DC_PLUS": {
+    "segment_count": 2,
+    "length_sum_mm": 5.302,
+    "widths_mm": [
+      3.0
+    ]
+  },
+  "Net-(T3-S1)": {
+    "segment_count": 3,
+    "length_sum_mm": 13.692,
+    "widths_mm": [
+      0.5
+    ]
+  },
+  "Net-(IC3-IN)": {
+    "segment_count": 7,
+    "length_sum_mm": 22.016,
+    "widths_mm": [
+      0.5
+    ]
+  },
+  "/DRIVE_ENABLE": {
+    "segment_count": 13,
+    "length_sum_mm": 36.794,
+    "widths_mm": [
+      0.25
+    ]
+  },
+  "Net-(D1-K)": {
+    "segment_count": 17,
+    "length_sum_mm": 43.547,
+    "widths_mm": [
+      0.25,
+      0.5
+    ]
+  },
+  "/GATE_H": {
+    "segment_count": 3,
+    "length_sum_mm": 18.255,
+    "widths_mm": [
+      0.5
+    ]
+  },
+  "Net-(CPR1-Pad2)": {
+    "segment_count": 2,
+    "length_sum_mm": 6.881,
+    "widths_mm": [
+      3.0
+    ]
+  },
+  "Net-(IC2A-C)": {
+    "segment_count": 20,
+    "length_sum_mm": 39.281,
+    "widths_mm": [
+      0.25,
+      1.0
+    ]
+  },
+  "Net-(IC2A-~{R})": {
+    "segment_count": 3,
+    "length_sum_mm": 9.014,
+    "widths_mm": [
+      0.25
+    ]
+  },
+  "Net-(IC1-Pad13)": {
+    "segment_count": 11,
+    "length_sum_mm": 27.866,
+    "widths_mm": [
+      0.25,
+      0.5
+    ]
+  },
+  "Net-(IC1-Pad2)": {
+    "segment_count": 1,
+    "length_sum_mm": 1.27,
+    "widths_mm": [
+      0.25
+    ]
+  }
+}
