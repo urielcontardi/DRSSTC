@@ -180,5 +180,5 @@
   )
   (embedded_fonts no)
 
-  (model "${KIPRJMOD}/library/3dmodels/Visual_CP_D30.3_H40.5_P9.00.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+  (model "${KIPRJMOD}/library/3dmodels/Visual_CP_D30.3_H40.5_P9.00.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 )

@@ -8023,7 +8023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:HFBR-2521ETZ"
+		(property "Footprint" "oneTesla:HFBR-2521ETZ_DFM_FB1"
 			(at 39.37 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8204,7 +8204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_Elec_8x10"
+		(property "Footprint" "oneTesla:CP_Elec_8x10_DFM_C13"
 			(at 168.91 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8697,7 +8697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:Q_TO3P_ImportedPads_ReviewPending"
+		(property "Footprint" "oneTesla:Q_TO3P_ImportedPads_ReviewPending_DFM_Q1"
 			(at 294.64 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9171,7 +9171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:HLK-15M15BL"
+		(property "Footprint" "oneTesla:HLK-15M15BL_DFM_PS1"
 			(at 118.11 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -9643,7 +9643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_DFM_C2"
 			(at 344.17 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -9732,7 +9732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal_DFM_J1"
 			(at 30.48 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -9836,7 +9836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_Elec_8x10"
+		(property "Footprint" "oneTesla:CP_Elec_8x10_DFM_C8"
 			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10041,7 +10041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending"
+		(property "Footprint" "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending_DFM_C12"
 			(at 355.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10131,7 +10131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:Diode_Bridge_Vishay_KBU"
+		(property "Footprint" "oneTesla:Diode_Bridge_Vishay_KBU_DFM_D4"
 			(at 46.99 262.89 90)
 			(hide yes)
 			(show_name no)
@@ -11283,7 +11283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:DIP-8_W7.62mm_Socket_LongPads_DFM_IC4"
 			(at 196.85 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11828,7 +11828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:D_DO201AD_P14.732_ReviewPending"
+		(property "Footprint" "oneTesla:D_DO201AD_P14.732_ReviewPending_DFM_Z1"
 			(at 322.58 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -12030,7 +12030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" "oneTesla:DIP-8_W7.62mm_Socket_LongPads_DFM_IC3"
 			(at 196.85 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12384,7 +12384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:PE_GND_Control_M3_D7.0mm"
+		(property "Footprint" "oneTesla:PE_GND_Control_M3_D7.0mm_DFM_J2"
 			(at 59.69 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -12650,7 +12650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:J110_WireLink_P15.24mm"
+		(property "Footprint" "oneTesla:J110_WireLink_P15.24mm_DFM_J110"
 			(at 106.68 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -12846,7 +12846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:Q_TO3P_ImportedPads_ReviewPending"
+		(property "Footprint" "oneTesla:Q_TO3P_ImportedPads_ReviewPending_DFM_Q2"
 			(at 294.64 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13199,7 +13199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical"
+		(property "Footprint" "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical_DFM_R1"
 			(at 46.99 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -13723,7 +13723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oneTesla:CDE_940C30S68K_F_CONFIRMAR"
+		(property "Footprint" "oneTesla:CDE_940C30S68K_F_CONFIRMAR_DFM_CPR1"
 			(at 312.42 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -13903,7 +13903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oneTesla:D_DO201AD_P14.732_ReviewPending"
+		(property "Footprint" "oneTesla:D_DO201AD_P14.732_ReviewPending_DFM_Z2"
 			(at 322.58 120.65 90)
 			(hide yes)
 			(show_name no)

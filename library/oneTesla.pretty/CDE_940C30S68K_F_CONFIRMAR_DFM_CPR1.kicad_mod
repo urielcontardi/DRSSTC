@@ -1,0 +1,152 @@
+(footprint "CDE_940C30S68K_F_CONFIRMAR_DFM_CPR1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PROVISORIO: CDE 940C30S68K-F 68nF/3000V, P57.5 selecionado pela familia/layout; confirmar desenho mecanico da peca")
+	(property "Reference" "CPR1"
+		(at 0 -11.5 0)
+		(layer "F.SilkS")
+		(uuid "3f188aaa-62fe-4d8b-8714-1b251f8da0a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "68n 3kV"
+		(at 0 11.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33d03958-6732-484a-a718-4d6c542614c8")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57d25222-b418-4f95-a4c5-d225d77308d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c90e0ff5-a0f5-438c-adb6-a35a21bfaf68")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Assembly_Notes" "CDE 940C30S68K-F, 0.068uF/3000V, conforme layout. Confirmar mecanica."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e9dd762-7b28-4796-b4b2-a0794d72a8d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint_Status" "REVIEW: CDE 940C30S68K-F: corpo 46x19 e fio 1 mm conferem catálogo; P58.42 é dobra escolhida, não pitch de fábrica; furo1.4; ensaio RMS/dVdt obrigatório"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da5fd376-f603-4950-97bd-88becaf88779")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "C_*")
+	(sheetname "/")
+	(sheetfile "oneTesla.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 23.042484 -9.563582) (xy 23.063582 -9.542484) (xy 23.075 -9.514918) (xy 23.075 7.54881) (xy 23.050003 7.55127)
+			(xy 23.049238 7.551422) (xy 23.015433 7.561673) (xy 22.987868 7.573091) (xy 22.956693 7.589762) (xy 22.956044 7.590196)
+			(xy 22.928824 7.612544) (xy 22.925 7.616368) (xy 22.925 -9.425) (xy -22.925 -9.425) (xy -22.925 9.425)
+			(xy 22.925 9.425) (xy 22.925 8.99327) (xy 22.928824 8.997094) (xy 22.956044 9.019442) (xy 22.956693 9.019876)
+			(xy 22.98787 9.036548) (xy 23.015436 9.047966) (xy 23.049239 9.058216) (xy 23.050004 9.058368) (xy 23.075 9.060827)
+			(xy 23.075 9.514918) (xy 23.063582 9.542484) (xy 23.042484 9.563582) (xy 23.014918 9.575) (xy 22.985082 9.575)
+			(xy -22.985082 9.575) (xy -23.014918 9.575) (xy -23.042484 9.563582) (xy -23.063582 9.542484) (xy -23.075 9.514918)
+			(xy -23.075 -9.514918) (xy -23.063582 -9.542484) (xy -23.042484 -9.563582) (xy -23.014918 -9.575)
+			(xy -22.985082 -9.575) (xy 23.014918 -9.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5d01a94b-b6b6-47e0-9178-dec28d3265de")
+	)
+	(fp_rect
+		(start -31.25 -10)
+		(end 31.25 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "00604c8f-80e0-42dd-b79f-2aac4fbbfff0")
+	)
+	(fp_rect
+		(start -23 -9.5)
+		(end 23 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b35102c9-c48b-4d0a-9db5-b888427b7c49")
+	)
+	(pad "1" thru_hole circle
+		(at -29.21 0)
+		(size 4 4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af6b9ba2-b4e5-4e5e-9771-a5c42753f13f")
+	)
+	(pad "2" thru_hole circle
+		(at 29.21 0)
+		(size 4 4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "483df319-8b82-4e2f-801f-76d04d0d2967")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/3dmodels/Visual_CDE_940C30S68K_F_P58.42.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

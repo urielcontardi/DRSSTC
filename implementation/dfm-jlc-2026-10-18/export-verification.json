@@ -1,0 +1,14 @@
+{
+  "oneTesla-F_Cu.gtl": {
+    "via_flashes_checked": 21,
+    "minimum_via_diameter_mm": 0.7
+  },
+  "oneTesla-B_Cu.gbl": {
+    "via_flashes_checked": 21,
+    "minimum_via_diameter_mm": 0.7
+  },
+  "drill": {
+    "via_drills_checked": 21,
+    "diameter_mm": 0.3
+  }
+}

@@ -1,0 +1,188 @@
+(footprint "TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal_DFM_J1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Borne plugavel macho 2EDGRC-5.08-02P, 90 graus; entrada AC L/N; PE externo em J2.")
+	(tags "2EDGRC 5.08 2P AC right-angle")
+	(property "Reference" "J1"
+		(at 2.54 -8 0)
+		(layer "F.SilkS")
+		(uuid "64d966e9-eb09-4ace-b827-e20fb3f2deb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2EDGRC-5.08-02P"
+		(at 2.54 4.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68443dba-a408-4c52-9ced-012f2fc58d74")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54ea02de-03f6-4bd7-abe0-5afcab4e1f89")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Entrada AC L/N: borne plugavel 2EDGRC-5.08-02P, 2 pinos, 90 graus; PE externo em J2."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b9e194-4e45-46e9-bc6f-11fea53bcc9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint_Status" "Passo5.08; modelo STEP recebido; terminal quadrado1mm, furos1.6/pads3.2 selecionados; conferir furação na peça."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1531c301-f57f-4d4d-a113-63d8c03b2ab7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Assembly_Notes" "1 = L; 2 = N. PE externo ao chassis e J2/GND CONTROLE; nunca a DC_MINUS ou DC_MID."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "394ee542-82c4-4118-a4da-b65010705f9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "oneTesla.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 8.432484 -10.713582) (xy 8.453582 -10.692484) (xy 8.465 -10.664918) (xy 8.465 1.764918) (xy 8.453582 1.792484)
+			(xy 8.432484 1.813582) (xy 8.404918 1.825) (xy 8.375082 1.825) (xy -3.295082 1.825) (xy -3.324918 1.825)
+			(xy -3.352484 1.813582) (xy -3.373582 1.792484) (xy -3.385 1.764918) (xy -3.385 1.675) (xy -3.235 1.675)
+			(xy -1.762223 1.675) (xy -1.74073 1.712228) (xy -1.701398 1.748723) (xy -1.653056 1.772003) (xy -1.6 1.78)
+			(xy 1.6 1.78) (xy 1.613451 1.779497) (xy 1.665761 1.767557) (xy 1.712228 1.74073) (xy 1.748723 1.701398)
+			(xy 1.761435 1.675) (xy 4.4726 1.675) (xy 4.488075 1.680537) (xy 4.638512 1.726171) (xy 4.655646 1.730463)
+			(xy 4.809831 1.761133) (xy 4.827306 1.763725) (xy 4.983755 1.779133) (xy 5.001397 1.78) (xy 5.158603 1.78)
+			(xy 5.176245 1.779133) (xy 5.332694 1.763725) (xy 5.350169 1.761133) (xy 5.504354 1.730463) (xy 5.521488 1.726171)
+			(xy 5.671925 1.680537) (xy 5.6874 1.675) (xy 8.315 1.675) (xy 8.315 -10.575) (xy -3.235 -10.575)
+			(xy -3.235 1.675) (xy -3.385 1.675) (xy -3.385 -10.664918) (xy -3.373582 -10.692484) (xy -3.352484 -10.713582)
+			(xy -3.324918 -10.725) (xy -3.295082 -10.725) (xy 8.404918 -10.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1c245786-48e7-4728-95fc-aef1d7416272")
+	)
+	(fp_rect
+		(start -3.66 -11)
+		(end 8.74 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c6a5a097-baf3-4ca4-8867-c5339375f2b7")
+	)
+	(fp_line
+		(start -3.16 -9)
+		(end 8.24 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "db4fb641-0a3b-4a2a-b5f6-152c635f1f43")
+	)
+	(fp_rect
+		(start -3.16 -10.5)
+		(end 8.24 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b1dbfdf4-f1ce-4f06-992e-4ee02f60bd10")
+	)
+	(fp_text user "L"
+		(at -4.17 0.95 0)
+		(layer "F.SilkS")
+		(uuid "7d7973a1-ecb6-450e-831c-7a088dd1fb3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "N"
+		(at 9.33 1.2 0)
+		(layer "F.SilkS")
+		(uuid "0b902317-a445-4fbd-aaac-f969e658c803")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bda80ccb-9f72-4285-992e-f66badca32c7")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 3.2 3.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aae041dc-9bcb-4ea3-928a-ffe3807b1c41")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/3dmodels/2EDGRC-5.08-02P.stp"
+		(offset
+			(xyz 2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

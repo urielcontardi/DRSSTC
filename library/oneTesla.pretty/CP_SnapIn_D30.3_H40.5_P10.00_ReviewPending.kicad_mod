@@ -179,7 +179,7 @@
     (remove_unused_layers no)
   )
   (embedded_fonts no)
-  (model "${KIPRJMOD}/library/3dmodels/Visual_CP_D30.3_H40.5_P10.00.wrl"
+  (model "${KIPRJMOD}/library/3dmodels/Visual_CP_D30.3_H40.5_P10.00.step"
     (offset
       (xyz 0 0 0)
     )

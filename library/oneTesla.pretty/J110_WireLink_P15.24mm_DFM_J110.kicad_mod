@@ -1,0 +1,187 @@
+(footprint "J110_WireLink_P15.24mm_DFM_J110"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Jumper de fio P15.24 mm; pads D4.0 mm, furos D2.2 mm")
+	(property "Reference" "J110"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(uuid "a6adb355-3bd1-45f2-bff2-843831c240ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper 110V"
+		(at 0.5 -2.25 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07d9ace3-0f6d-4fb1-bcf8-58b34936ff7e")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "506fe514-72c0-4ac6-b9a3-5c6e7eb82450")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79866ffd-16b0-4c85-9784-02f3fc31b53a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Assembly_Notes" "Liga AC_N ao ponto medio dos capacitores para dobrador em 110V. Manter aberto para 220V."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04d92d0a-b6d6-4a5b-a5b5-913eb098790e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint_Status" "REVIEW: P15.24 furo2.2; confirmar corrente/isolacao do fio; aberto em220V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96971c71-f946-4b8e-a433-03559e1a3ce5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+	(sheetname "/")
+	(sheetfile "oneTesla.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.54 -2.3)
+		(end -9.54 -3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81362df3-8f70-4833-9e26-5b5208144392")
+	)
+	(fp_line
+		(start -9.54 3)
+		(end -9.54 2.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59b56749-d9b1-4f90-a3d6-7fb2ce92e40b")
+	)
+	(fp_line
+		(start 9.54 2.3)
+		(end 9.54 3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76f61af9-09d9-4e05-8d4f-c909bee01c3b")
+	)
+	(fp_line
+		(start 9.54 3)
+		(end -9.54 3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3591f94-a1b0-4b1e-b496-2876eddb624c")
+	)
+	(fp_poly
+		(pts
+			(xy 9.554918 -3.075) (xy 9.582484 -3.063582) (xy 9.603582 -3.042484) (xy 9.615 -3.014918) (xy 9.615 -2.985082)
+			(xy 9.609068 -2.97076) (xy 9.465595 -3.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c7246f5b-53e4-470c-a587-c3d83239d78c")
+	)
+	(fp_poly
+		(pts
+			(xy 9.615 -2.347497) (xy 9.615 -2.285082) (xy 9.603582 -2.257516) (xy 9.582484 -2.236418) (xy 9.554918 -2.225)
+			(xy 9.525082 -2.225) (xy 9.497516 -2.236418) (xy 9.476418 -2.257516) (xy 9.465 -2.285082) (xy 9.465 -2.449437)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b771be6a-c238-4d1d-aed5-bda6f00dc345")
+	)
+	(fp_rect
+		(start -10.12 -3.5)
+		(end 10.12 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d303f52d-6b69-4e70-8fa6-b9babdc329a8")
+	)
+	(fp_rect
+		(start -9.54 -3)
+		(end 9.54 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8ed7ffa5-4765-43de-aaa2-f8e93f6662a5")
+	)
+	(pad "1" thru_hole circle
+		(at -7.62 0)
+		(size 4 4)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "560cb74d-9bbf-409e-9f1d-aafafc284417")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 4 4)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f2d1bf5-7d33-4a7b-86e5-5f30e1920aab")
+	)
+	(embedded_fonts no)
+)

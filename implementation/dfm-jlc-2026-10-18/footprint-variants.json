@@ -1,0 +1,74 @@
+{
+  "Q2": {
+    "old": "oneTesla:Q_TO3P_ImportedPads_ReviewPending",
+    "new": "oneTesla:Q_TO3P_ImportedPads_ReviewPending_DFM_Q2"
+  },
+  "J110": {
+    "old": "oneTesla:J110_WireLink_P15.24mm",
+    "new": "oneTesla:J110_WireLink_P15.24mm_DFM_J110"
+  },
+  "FB1": {
+    "old": "oneTesla:HFBR-2521ETZ",
+    "new": "oneTesla:HFBR-2521ETZ_DFM_FB1"
+  },
+  "C12": {
+    "old": "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending",
+    "new": "oneTesla:CP_SnapIn_D30.3_H40.5_P10.00_ReviewPending_DFM_C12"
+  },
+  "D4": {
+    "old": "oneTesla:Diode_Bridge_Vishay_KBU",
+    "new": "oneTesla:Diode_Bridge_Vishay_KBU_DFM_D4"
+  },
+  "J2": {
+    "old": "oneTesla:PE_GND_Control_M3_D7.0mm",
+    "new": "oneTesla:PE_GND_Control_M3_D7.0mm_DFM_J2"
+  },
+  "Q1": {
+    "old": "oneTesla:Q_TO3P_ImportedPads_ReviewPending",
+    "new": "oneTesla:Q_TO3P_ImportedPads_ReviewPending_DFM_Q1"
+  },
+  "J1": {
+    "old": "oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal",
+    "new": "oneTesla:TerminalBlock_2EDGRC-5.08_1x02_P5.08mm_Horizontal_DFM_J1"
+  },
+  "R1": {
+    "old": "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical",
+    "new": "oneTesla:R_Axial_Vishay_AC05_L18.0mm_D7.5mm_P10.16mm_Vertical_DFM_R1"
+  },
+  "Z1": {
+    "old": "oneTesla:D_DO201AD_P14.732_ReviewPending",
+    "new": "oneTesla:D_DO201AD_P14.732_ReviewPending_DFM_Z1"
+  },
+  "PS1": {
+    "old": "oneTesla:HLK-15M15BL",
+    "new": "oneTesla:HLK-15M15BL_DFM_PS1"
+  },
+  "CPR1": {
+    "old": "oneTesla:CDE_940C30S68K_F_CONFIRMAR",
+    "new": "oneTesla:CDE_940C30S68K_F_CONFIRMAR_DFM_CPR1"
+  },
+  "Z2": {
+    "old": "oneTesla:D_DO201AD_P14.732_ReviewPending",
+    "new": "oneTesla:D_DO201AD_P14.732_ReviewPending_DFM_Z2"
+  },
+  "C8": {
+    "old": "oneTesla:CP_Elec_8x10",
+    "new": "oneTesla:CP_Elec_8x10_DFM_C8"
+  },
+  "C13": {
+    "old": "oneTesla:CP_Elec_8x10",
+    "new": "oneTesla:CP_Elec_8x10_DFM_C13"
+  },
+  "IC3": {
+    "old": "oneTesla:DIP-8_W7.62mm_Socket_LongPads",
+    "new": "oneTesla:DIP-8_W7.62mm_Socket_LongPads_DFM_IC3"
+  },
+  "IC4": {
+    "old": "oneTesla:DIP-8_W7.62mm_Socket_LongPads",
+    "new": "oneTesla:DIP-8_W7.62mm_Socket_LongPads_DFM_IC4"
+  },
+  "C2": {
+    "old": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "new": "oneTesla:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_DFM_C2"
+  }
+}
