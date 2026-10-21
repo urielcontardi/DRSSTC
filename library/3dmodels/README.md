@@ -13,7 +13,7 @@ Foram associados modelos a C8–C13, R5/R6, Z1/Z2, Q1/Q2, CPR1 e PS1,
 e corrigido o vínculo de FB1. `Catalog_*.step` são originais de catálogo;
 `Visual_*.step` são aproximações geradas ou adaptadas. T1/T3 e o jumper
 de fio J110 continuam sem modelo. Fontes, limitações, conferência e prévias:
-[resultado](../../implementation/models3d/RESULTADO.md).
+[resultado](../../archive/implementation/models3d/RESULTADO.md).
 
 ## R1 e IC6
 
@@ -22,11 +22,11 @@ furos1,2mm e pads2,4mm. `Visual_Vishay_AC05_Vertical_P10.16.step` preserva o
 corpo do STEP fornecido `vishay_AC05.step`, reorientado, e acrescenta terminais
 formados para a montagem. Folga visual mínima3mm, altura26,4mm; conferir
 formação dos terminais e dissipação com a peça real.
-[Conferência atual](../../implementation/r1-vertical/RESULTADO.md).
+[Conferência atual](../../archive/implementation/r1-vertical/RESULTADO.md).
 O modelo horizontal original continua disponível para a cópia autorroteada
-e para o [registro anterior](../../implementation/ac05-r1/RESULTADO.md).
+e para o [registro anterior](../../archive/implementation/ac05-r1/RESULTADO.md).
 
-`TO-220-3_Vertical.step` é a cópia local do modelo padrão KiCad associada a IC6/L7805CV, com pinagem1IN/2GND/3OUT. [Conferência](../../implementation/7805-to220/RESULTADO.md).
+`TO-220-3_Vertical.step` é a cópia local do modelo padrão KiCad associada a IC6/L7805CV, com pinagem1IN/2GND/3OUT. [Conferência](../../archive/implementation/7805-to220/RESULTADO.md).
 
 ## Entrada AC — J1
 
@@ -63,7 +63,7 @@ Footprint `oneTesla:Fuseholder_Idall_AS-06_5x20mm_P20.20mm_Horizontal`:
 Idall AS-06 5x20mm, dois terminais, passo 20,2mm, envelope 26 × 9,6mm.
 Furos de 1,8mm e pads de 3,2mm são escolhas de layout para terminais de
 1,3 ±0,1 × 0,4mm. Fonte: desenho 0179 da Idall, copiado em
-`implementation/fuse-as06/idall-0179-drawing.jpg`.
+`archive/implementation/fuse-as06/idall-0179-drawing.jpg`.
 
 Modelo recebido `Fuse Holder.stp`, preservado intacto, associado por
 `${KIPRJMOD}/library/3dmodels/Fuse Holder.stp`, escala 1, rotação KiCad
@@ -74,10 +74,10 @@ O modelo usa unidades STEP em metros, convertidas automaticamente pelo KiCad.
 22,5mm, enquanto o desenho do AS-06 indica 20,2 ±0,3mm. A geometria não
 foi deformada para aparentar encaixe; não usar esse STEP para definir a
 furação. Pré-visualizações superior e inferior estão em
-`implementation/fuse-as06/`.
+`archive/implementation/fuse-as06/`.
 
 Atualização SMD: R1–R6 e IC1/IC2 na placa principal usam modelos dos respectivos footprints SMD. O modelo anterior de R1 vertical fica como histórico. `Visual_Bourns_PWR8030.step` é somente um envelope visual nominal de 20,8 × 7,6 × 7,8mm. Os resistores 1206/2512 e o SOP-14 usam cópias locais dos STEP padrão KiCad; os modelos não definem fabricante/MPN da BOM.
 # C11/C12 — atualização Ketuo
 
-`Visual_CP_D25_H45_P10.16.step`: envelope genérico Ø25 × 45mm conforme imagem do usuário; terminais provisórios no passo existente de 10,16mm. Substitui a associação anterior Ø30mm de C11/C12 na PCB principal. Não confirma o passo real nem representa detalhes dos terminais snap-in. Ver `implementation/ketuo-1000uf-200v/RESULTADO.md`.
+`Visual_CP_D25_H45_P10.16.step`: envelope genérico Ø25 × 45mm conforme imagem do usuário; terminais provisórios no passo existente de 10,16mm. Substitui a associação anterior Ø30mm de C11/C12 na PCB principal. Não confirma o passo real nem representa detalhes dos terminais snap-in. Ver `archive/implementation/ketuo-1000uf-200v/RESULTADO.md`.
 

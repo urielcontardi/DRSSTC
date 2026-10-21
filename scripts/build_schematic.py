@@ -167,7 +167,7 @@ newlib=E('kicad_symbol_lib',N('version',20231120),E('generator','kicad_symbol_ed
 LIB.write_text(dump(newlib)+'\n')
 # Compact A3 sheet. Coordinates are millimeters; electrical endpoints are on a 1.27mm grid.
 root_id='38e9e92e-0807-45b3-a56d-ef1f03ff1cd0'
-sch=E('kicad_sch',N('version',20260306),E('generator','eeschema'),E('generator_version','10.0'),E('uuid',root_id),E('paper','A3'),E('title_block',E('title','oneTeslaTS - Placa principal / Main board'),E('date','2026-10-04'),E('rev','1.1'),E('company','Replica a partir das referencias em misc'),E('comment',A('1'),'THT / DIP | Logica, drivers, meia ponte e fonte'),E('comment',A('2'),'Footprints CONFIRMAR: validar medidas e pinagem antes do PCB')))
+sch=E('kicad_sch',N('version',20260306),E('generator','eeschema'),E('generator_version','10.0'),E('uuid',root_id),E('paper','A3'),E('title_block',E('title','oneTeslaTS - Placa principal / Main board'),E('date','2026-10-04'),E('rev','1.1'),E('company','Replica a partir das referencias em docs/reference'),E('comment',A('1'),'THT / DIP | Logica, drivers, meia ponte e fonte'),E('comment',A('2'),'Footprints CONFIRMAR: validar medidas e pinagem antes do PCB')))
 libs=E('lib_symbols')
 for name,s in symbols.items():
  s=deepcopy(s);s[1]='oneTesla:'+name;libs.append(s)

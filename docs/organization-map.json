@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-20",
+  "moves": [
+    {
+      "old": "implementation/capacitor-d30.3-p9/build_step.py",
+      "new": "scripts/models3d/capacitor_snapin.py"
+    },
+    {
+      "old": "mechanical/ARCSTRIKE-case-v1-CONCEITO.zip",
+      "new": "production/case/v1/ARCSTRIKE-case-v1-CONCEITO.zip"
+    },
+    {
+      "old": "implementation/models3d/bridge_trimmed.py",
+      "new": "scripts/models3d/bridge_trimmed.py"
+    },
+    {
+      "old": "implementation/models3d/igbt_bottom.py",
+      "new": "scripts/models3d/igbt_bottom.py"
+    },
+    {
+      "old": "output/ARCSTRIKE-PCB-completa.step",
+      "new": "output/3d/ARCSTRIKE-PCB-completa.step"
+    },
+    {
+      "old": "oneTesla-autorouted.kicad_pro",
+      "new": "archive/legacy-projects/oneTesla-autorouted.kicad_pro"
+    },
+    {
+      "old": "production/2026-10-18-dfm",
+      "new": "production/pcb/2026-10-18-dfm"
+    },
+    {
+      "old": "production/2026-10-20-3d",
+      "new": "production/pcb/2026-10-20-3d"
+    },
+    {
+      "old": "production/2026-10-18",
+      "new": "production/pcb/2026-10-18"
+    },
+    {
+      "old": "oneTesla-backups",
+      "new": "archive/backups/kicad"
+    },
+    {
+      "old": "implementation",
+      "new": "archive/implementation"
+    },
+    {
+      "old": "README.md",
+      "new": "archive/PROJECT_HISTORY.md"
+    },
+    {
+      "old": "review",
+      "new": "archive/review"
+    },
+    {
+      "old": "misc",
+      "new": "docs/reference"
+    }
+  ],
+  "markdown_links_updated": 6
+}

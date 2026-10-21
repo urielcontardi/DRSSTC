@@ -1,0 +1,17 @@
+{
+  "wall_mm": 3.0,
+  "inside_margin_mm": 12.0,
+  "lid_bottom_z_mm": 49.0,
+  "lid_thickness_mm": 4.0,
+  "thermal_pad_nominal_mm": 0.3,
+  "bottom_z_mm": -40.0,
+  "fiber_window_y_mm": 28.35,
+  "fiber_window_width_mm": 16.0,
+  "fiber_window_bottom_z_mm": -0.5,
+  "fiber_window_height_mm": 14.0,
+  "secondary_tube_od_placeholder_mm": 32.0,
+  "secondary_tube_height_placeholder_mm": 180.0,
+  "primary_former_id_placeholder_mm": 54.0,
+  "primary_former_height_placeholder_mm": 24.0,
+  "status": "mechanical concept; connector and winding dimensions unconfirmed"
+}

@@ -247,7 +247,7 @@
     )
   )
   (embedded_fonts no)
-  (model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBU.step"
+  (model "${KIPRJMOD}/library/3dmodels/Visual_Diode_Bridge_Vishay_KBU_Trimmed.step"
     (offset
       (xyz 0 0 0)
     )

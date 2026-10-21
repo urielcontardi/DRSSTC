@@ -478,7 +478,7 @@
     (layers "*.Cu" "*.Mask")
     (remove_unused_layers no)
   )
-  (model "${KIPRJMOD}/library/3dmodels/Visual_FGA60N65SMD_Horizontal_P5.45.step"
+  (model "${KIPRJMOD}/library/3dmodels/Visual_FGA60N65SMD_Horizontal_Bottom_P5.45.step"
     (offset
       (xyz 0 0 0)
     )

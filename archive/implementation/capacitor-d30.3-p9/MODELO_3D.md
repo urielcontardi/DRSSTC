@@ -15,4 +15,4 @@ Validação: sólidos reimportados com CadQuery, geometria válida e dimensões
 conferidas; exportação STEP pelo KiCad de C11/C12 concluída. Comparação
 estrutural antes/depois confirmou alteração somente das referências 3D.
 
-Regerar: `uv run --with cadquery python implementation/capacitor-d30.3-p9/build_step.py`
+Regerar: `uv run --with cadquery python scripts/models3d/capacitor_snapin.py`

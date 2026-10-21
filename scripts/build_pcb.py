@@ -1,5 +1,5 @@
 """Generate oneTesla.kicad_pcb: faithful 2-layer replica of the original
-oneTeslaTS driver board (misc/driver.brd), adapted to the CURRENT schematic
+oneTeslaTS driver board (docs/reference/driver.brd), adapted to the CURRENT schematic
 (HLK-15M15BL aux supply instead of T2/D3/IC5, PE separated, P1/P2 primary pads).
 
 Pipeline:
@@ -535,7 +535,7 @@ for (x1, y1, x2, y2) in [(0, 0, 106.045, 0), (106.045, 0, 106.045, 106.045),
 
 # ---------- silkscreen: original texts + vector logos ----------
 import xml.etree.ElementTree as ET
-_brd = ET.parse(os.path.join(ROOT, 'misc', 'driver.brd')).getroot()
+_brd = ET.parse(os.path.join(ROOT, 'docs', 'reference', 'driver.brd')).getroot()
 
 def el_transform(e):
     theta = float(e['rot'][1:]) if e['rot'] != 'R0' else 0.0

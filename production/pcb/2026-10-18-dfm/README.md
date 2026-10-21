@@ -6,4 +6,4 @@ Correções: 21 vias de 0,70/0,30 mm; separação JCT1/CPR1; serigrafia com tra�
 
 DRC: 0 violações de cobre/serigrafia e 0 conexões pendentes. Permanecem 20 ocorrências mecânicas e 21 avisos de paridade. Auditoria suplementar: 0 ocorrências. Cobre e furação das 21 vias conferidos nos arquivos exportados.
 
-Este ZIP precisa ser reanalisado no JLCDFM; não há resultado novo do portal. Não é aprovação geral de fabricação. Detalhes e limites em `../../implementation/dfm-jlc-2026-10-18/RESULTADO.md`. O pacote anterior foi preservado.
+Este ZIP precisa ser reanalisado no JLCDFM; não há resultado novo do portal. Não é aprovação geral de fabricação. Detalhes e limites em `../../../archive/implementation/dfm-jlc-2026-10-18/RESULTADO.md`. O pacote anterior foi preservado.
