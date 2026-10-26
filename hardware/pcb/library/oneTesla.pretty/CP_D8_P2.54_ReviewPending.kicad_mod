@@ -1,0 +1,146 @@
+(footprint "CP_D8_P2.54_ReviewPending"
+  (version 20260206)
+  (generator "kicad-footprint-generator")
+  (layer "F.Cu")
+  (descr "Custom review geometry; original body retained/recentered; actual pitch in name; exact MPN NOT qualified.")
+  (tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
+  (property "Reference" "REF**"
+    (at 0.0 -5.25 0)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "Value" "CP_D8_P2.54_ReviewPending"
+    (at 0.0 5.25 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (property "KiLib_Generator" "capacitor/THT/other"
+    (at -1.75 0 0)
+    (layer "F.SilkS")
+    (hide yes)
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (attr through_hole)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_line
+    (start -2.4 -2.2)
+    (end -1.6 -2.2)
+    (stroke
+      (width 0.12)
+      (type solid)
+    )
+    (layer "F.SilkS")
+  )
+  (fp_line
+    (start -2.0 -2.6)
+    (end -2.0 -1.8)
+    (stroke
+      (width 0.12)
+      (type solid)
+    )
+    (layer "F.SilkS")
+  )
+  (fp_circle
+    (center 0.0 0)
+    (end 4.12 0)
+    (stroke
+      (width 0.12)
+      (type solid)
+    )
+    (fill no)
+    (layer "F.SilkS")
+  )
+  (fp_circle
+    (center 0.0 0)
+    (end 4.25 0)
+    (stroke
+      (width 0.05)
+      (type solid)
+    )
+    (fill no)
+    (layer "F.CrtYd")
+  )
+  (fp_line
+    (start -3.426759 -1.7475)
+    (end -2.626759 -1.7475)
+    (stroke
+      (width 0.1)
+      (type solid)
+    )
+    (layer "F.Fab")
+  )
+  (fp_line
+    (start -3.026759 -2.1475)
+    (end -3.026759 -1.3475)
+    (stroke
+      (width 0.1)
+      (type solid)
+    )
+    (layer "F.Fab")
+  )
+  (fp_circle
+    (center 0.0 0)
+    (end 4.0 0)
+    (stroke
+      (width 0.1)
+      (type solid)
+    )
+    (fill no)
+    (layer "F.Fab")
+  )
+  (fp_text user "${REFERENCE}"
+    (at 0.0 0 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (embedded_fonts no)
+  (pad "1" thru_hole rect
+    (at -1.27 0)
+    (size 1.6 1.6)
+    (drill 0.8128)
+    (layers "*.Cu" "*.Mask")
+    (remove_unused_layers no)
+  )
+  (pad "2" thru_hole circle
+    (at 1.27 0)
+    (size 1.6 1.6)
+    (drill 0.8128)
+    (layers "*.Cu" "*.Mask")
+    (remove_unused_layers no)
+  )
+  (fp_line
+    (start 1.5 -2.2)
+    (end 2.5 -2.2)
+    (stroke
+      (width 0.15)
+      (type solid)
+    )
+    (layer "F.SilkS")
+    (uuid "8aa78d04-af9e-4e62-8497-9aa26fdb8b41")
+  )
+  (model "${KIPRJMOD}/library/3dmodels/Visual_CP_D8_P2.54.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

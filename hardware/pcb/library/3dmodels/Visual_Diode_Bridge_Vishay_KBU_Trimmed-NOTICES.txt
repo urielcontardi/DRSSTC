@@ -1,0 +1,10 @@
+Derived from KiCad Diode_THT.3dshapes/Diode_Bridge_Vishay_KBU.step.
+Modification: leads trimmed to Z=-2.6 mm; appearance simplified.
+Original STEP header and license notices:
+
+FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
+FILE_NAME(
+'D:/KiCAD/packages3D-source/Diode_THT.3dshapes\\
+Diode_Bridge_Vishay_KBU.step','2018-01-05T14:03:49',('kicad StepUp'),(
+    'ksu MCAD'),'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));

@@ -1,0 +1,15 @@
+(version 1)
+# Reference layout: docs/reference/driver.brd (original oneTeslaTS).
+# Original general clearance: 8 mil = 0.2032 mm.
+# Metric adaptation: Default and global minimum clearance are 0.20 mm.
+# POS/NEG/SW_NODE and DC_MID zones use 0.6096 mm clearance in the PCB.
+# These values reproduce the reference layout; they do not certify insulation.
+# PTH manufacturing rule retained from the existing project:
+(rule "PTH annular ring JLCPCB recommended 1oz"
+  (condition "A.Type == 'Pad' && A.isPlated()")
+  (constraint annular_width (min 0.25mm)))
+
+# DFM: geometric pad gaps, including pads belonging to the same net.
+(rule "DFM physical pad separation"
+ (condition "A.Type == 'Pad' && B.Type == 'Pad'")
+ (constraint physical_clearance (min 0.20mm)))

@@ -1,0 +1,275 @@
+Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.step
+/* CP_Radial_D8.0mm_P2.50mm.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2017, kicad StepUp
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see http://www.gnu.org/licenses/.
+ * 
+ * As a special exception, if you create a design which uses this symbol,
+ * and embed this symbol or unaltered portions of this symbol into the design,
+ * this symbol does not by itself cause the resulting design to be covered by
+ * the GNU General Public License.
+ * This exception does not however invalidate any other reasons why the design
+ * itself might be covered by the GNU General Public License. 
+ * If you modify this symbol, you may extend this exception to your version of the symbol,
+ * but you are not obligated to do so.
+ * If you do not wish to do so, delete this exception statement from your version
+ * Risk disclaimer
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.step
+/* CP_Radial_D12.5mm_P5.00mm.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2017, kicad StepUp
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see http://www.gnu.org/licenses/.
+ * 
+ * As a special exception, if you create a design which uses this symbol,
+ * and embed this symbol or unaltered portions of this symbol into the design,
+ * this symbol does not by itself cause the resulting design to be covered by
+ * the GNU General Public License.
+ * This exception does not however invalidate any other reasons why the design
+ * itself might be covered by the GNU General Public License. 
+ * If you modify this symbol, you may extend this exception to your version of the symbol,
+ * but you are not obligated to do so.
+ * If you do not wish to do so, delete this exception statement from your version
+ * Risk disclaimer
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+Capacitor_THT.3dshapes/CP_Radial_D30.0mm_P10.00mm_SnapIn.step
+/* CP_Radial_D30.0mm_P10.00mm_SnapIn.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2017, kicad StepUp
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see http://www.gnu.org/licenses/.
+ * 
+ * As a special exception, if you create a design which uses this symbol,
+ * and embed this symbol or unaltered portions of this symbol into the design,
+ * this symbol does not by itself cause the resulting design to be covered by
+ * the GNU General Public License.
+ * This exception does not however invalidate any other reasons why the design
+ * itself might be covered by the GNU General Public License. 
+ * If you modify this symbol, you may extend this exception to your version of the symbol,
+ * but you are not obligated to do so.
+ * If you do not wish to do so, delete this exception statement from your version
+ * Risk disclaimer
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.step
+/* R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2017, kicad StepUp
+ * 
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+
+SOIC-14_3.9x8.7mm_P1.27mm.step (unmodified KiCad library copy)
+/* SOIC-14_3.9x8.7mm_P1.27mm.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2025, KiCAD
+ *
+ * This work is licensed under the
+ * [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode),
+ * with the following exception:
+ *
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be
+ * considered to be 'Adapted Material', then the copyright holder waives article 3 of the license
+ * with respect to these designs and any generated files which use data provided as part of the
+ * 'Licensed Material'.
+ *
+ * You are free to use the library data in your own projects without the obligation to share your
+ * project files under this or any other license agreement. However, if you wish to distribute
+ * these libraries, or parts thereof (including in modified form) as a collection then the exception
+ * above does not apply. Please refer to
+ * https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/LICENSE.md for further clarification
+ * of the exception.
+ *
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * USE 3D CAD DATA AT YOUR OWN RISK
+ * DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.
+ */
+
+
+R_1206_3216Metric.step (unmodified KiCad library copy)
+/* R_1206_3216Metric.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2018, kicad StepUp
+ * 
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+
+R_2512_6332Metric.step (unmodified KiCad library copy)
+/* R_2512_6332Metric.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2018, kicad StepUp
+ * 
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+
+C_0805_2012Metric.step (unmodified KiCad library copy)
+/* C_0805_2012Metric.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2017, kicad StepUp
+ * 
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+
+D_SOD-323.step (unmodified KiCad library copy)
+/* D_SOD-323.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2025, KiCAD
+ *
+ * This work is licensed under the
+ * [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode),
+ * with the following exception:
+ *
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be
+ * considered to be 'Adapted Material', then the copyright holder waives article 3 of the license
+ * with respect to these designs and any generated files which use data provided as part of the
+ * 'Licensed Material'.
+ *
+ * You are free to use the library data in your own projects without the obligation to share your
+ * project files under this or any other license agreement. However, if you wish to distribute
+ * these libraries, or parts thereof (including in modified form) as a collection then the exception
+ * above does not apply. Please refer to
+ * https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/LICENSE.md for further clarification
+ * of the exception.
+ *
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * USE 3D CAD DATA AT YOUR OWN RISK
+ * DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.
+ */
+
+
+CP_Elec_8x10.step (unmodified KiCad library copy)
+/* CP_Elec_8x10.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2018, kicad StepUp
+ * 
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+
+TO-252-3_TabPin2.step (unmodified KiCad library copy)
+/* TO-252-3_TabPin2.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2023, Ray Benitez
+ * 
+ * This work is licensed under the
+ * [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode),
+ * with the following exception:
+ * 
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be
+ * considered to be 'Adapted Material', then the copyright holder waives article 3 of the license
+ * with respect to these designs and any generated files which use data provided as part of the
+ * 'Licensed Material'.
+ * 
+ * You are free to use the library data in your own projects without the obligation to share your
+ * project files under this or any other license agreement. However, if you wish to distribute
+ * these libraries, or parts thereof (including in modified form) as a collection then the exception
+ * above does not apply. Please refer to
+ * https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/LICENSE.md for further clarification
+ * of the exception.
+ * 
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * USE 3D CAD DATA AT YOUR OWN RISK
+ * DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.
+ */

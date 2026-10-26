@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "pcb_step_sha256": "725c62e97034364dafaa1a57b544c9d1b4034589395ed5ed35f65addb002b071",
+  "calculation_inputs_sha256": "755ad52fc5ef34b6948c7f7e550ae1d22b107faed94748a643938655144eb426",
+  "triangle_count": 276490,
+  "footprints_with_3d": 35,
+  "mesh_geometry_unchanged": true,
+  "viewer": "Canvas 2D software depth buffer; static PNG fallback; no WebGL/CDN",
+  "files": {
+    "PROJECT-DRSSTC.html": "b71abd00158758903f11022283f0e9b99fdc526e30d2925993b30d265e4a1516",
+    "assets/COILS.md": "2b3af39843cc70e6150e5132e6c1f09586b0938cd4c3216aac1d91d74a0fed80",
+    "assets/results.json": "a18c1ba49f0107e94163971720d2daf694e87d903ce4f165c7cd5c3e824ed31d",
+    "assets/original-parts-list.pdf": "446399c7e6fc2d0ba1cc28fcd80df403d66efe3e55d50488fa5cd3adc1270059",
+    "assets/pcb-preview.png": "b5ef9de6df1699be279c70bce1e3c4654f278e2bba7695a7686f7f7e18164d22",
+    "assets/inputs.json": "755ad52fc5ef34b6948c7f7e550ae1d22b107faed94748a643938655144eb426",
+    "assets/oneTeslaTS-manual.pdf": "0983309d8728c40c150aa23896516d117b5cf80728f44e56d71270bb04b903a4",
+    "assets/PCB-complete.step": "725c62e97034364dafaa1a57b544c9d1b4034589395ed5ed35f65addb002b071"
+  }
+}
