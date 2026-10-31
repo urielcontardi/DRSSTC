@@ -6,13 +6,14 @@ KiCad electronics, resonator calculations, and a concept enclosure for a dual-re
 
 | Task | File |
 | --- | --- |
-| Print the latest enclosure — 14 unique STLs, quantities in filenames | [PARA-IMPRIMIR](PARA-IMPRIMIR/) |
+| Print only the merged lid/deck replacement; reuse the existing v5 prints | [Unified lid STL](PARA-IMPRIMIR/04_tampa_e_plataforma_unificadas__1x.stl) |
+| Print the latest enclosure — 13 unique STLs, quantities in filenames | [PARA-IMPRIMIR](PARA-IMPRIMIR/) |
 | Edit the schematic and PCB in KiCad | [oneTesla.kicad_pro](hardware/pcb/oneTesla.kicad_pro) |
 | Read the project notebook | [Project notebook](docs/project/PROJECT-DRSSTC.html) |
 | Review the coil calculations | [Coil design](docs/design/COILS.md) |
 | Import the assembled PCB into CAD | [Complete PCB — STEP](production/pcb/2026-10-20-3d/ARCSTRIKE-PCB-complete.step) |
 | Review integrated enclosure and coils | [Enclosure v5 source and instructions](mechanical/case-v5/README.md) |
-| Open enclosure in SolidCraft | [Assembly v5](mechanical/case-v5/ARCSTRIKE-assembly.sc) |
+| Open enclosure in SolidCraft | [Assembly with unified lid](mechanical/case-v5-unified/ARCSTRIKE-tampa-unificada.sc) |
 | Download enclosure STEP, STLs, viewer, and source files | [Enclosure v5 package](production/case/v5/ARCSTRIKE-case-v5-ASSEMBLY.zip) |
 | Download the offline notebook and references | [Documentation package](production/documentation/2026-10-22/ARCSTRIKE-documentation.zip) |
 

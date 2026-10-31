@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "units": "mm",
+  "vertex_weld_tolerance_mm": 1e-06,
+  "files": [
+    {
+      "file": "04_tampa_e_plataforma_unificadas__1x.stl",
+      "triangles": 25240,
+      "vertices": 12594,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 202827.1372757194,
+      "dimensions_mm": [
+        179.9214,
+        179.9214,
+        10.0
+      ],
+      "bed_z_mm": 9.999999406318238e-08,
+      "sha256": "dd19b7adf1ca986d95543c55eda83559382baa09707ead57662ce5b771c4110e"
+    }
+  ]
+}

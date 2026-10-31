@@ -25,3 +25,7 @@ Current source and limitations: [case v5](../mechanical/case-v5/README.md). Phys
 ## Documentation
 
 - [Offline notebook package](documentation/2026-10-22/ARCSTRIKE-documentation.zip): HTML, offline assets, calculation data, and references.
+
+## Compatible v5 replacement
+
+- [Unified lid + deck](case/v5-unified/TAMPA-UNIFICADA.zip): one new STL replaces v5 parts 04 and 05. All other printed parts are retained. The secondary base clamp uses four M3×16 bolts instead of M3×8; the four joining M4×10 bolts and nuts are retired. [Assembly guide](../mechanical/case-v5-unified/README.md).

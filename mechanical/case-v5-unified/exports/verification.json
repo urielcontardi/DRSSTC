@@ -1,0 +1,4886 @@
+{
+  "status": "PASS: replacement compatible with unchanged v5 parts in CAD",
+  "dimensions_mm": [
+    180,
+    180,
+    10
+  ],
+  "bottom_z_mm": 46,
+  "top_z_mm": 56,
+  "tube_seat_z_mm": 52,
+  "print_rotation_x_deg": 180,
+  "printed_parts_replaced": [
+    "04_tampa__1x.stl",
+    "05_plataforma__1x.stl"
+  ],
+  "other_printed_parts_modified": [],
+  "retired_hardware": {
+    "M4x10 DIN912": 4,
+    "M4 DIN934": 4
+  },
+  "clamp_hardware_change": "Replace 4 x M3x8 with 4 x M3x16; reuse the same 4 x M3 DIN934 nuts",
+  "nut_loading_well_depth_mm": 2.6,
+  "checks": [
+    {
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_bolt",
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_1_nut",
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_bolt",
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_2_nut",
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_bolt",
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_3_nut",
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_bolt",
+      "reference": "Lower_collar_flange_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "pcb_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "heatsink_104x100x25_drawing_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "C14_reference",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_4mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_1mm_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_4mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_1mm_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_4mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_1mm_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_4mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "12_shim_1mm_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "13_universal_heatsink_cradle",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "08_adjustable_heatsink_finger_1",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "08_adjustable_heatsink_finger_2",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "08_adjustable_heatsink_finger_3",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "08_adjustable_heatsink_finger_4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "secondary_tube_60x280",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "secondary_1500_turns_envelope",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "toroid_150x40_center_M4",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Cradle_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "PCB_94_94_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "PCB_94_94_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "PCB_94_6_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "PCB_94_6_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Foot_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Heatsink_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Sleeve_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_21_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_21_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_21_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_21_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_71_7_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_71_7_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_71_35_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Adapter_71_35_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "C14_25_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "C14_25_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "C14_67_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "C14_67_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lid_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Upper_collar_pinch_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Upper_collar_pinch_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_4_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Top_cap_4_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Toroid_washer_lower",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Toroid_washer_upper",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Toroid_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Toroid_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_flange_1_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_flange_1_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_flange_2_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_flange_2_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_flange_3_bolt",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_flange_3_nut",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "Lower_collar_flange_4_nut",
+      "reference": "Lower_collar_flange_4_bolt",
+      "overlap_mm3": 0
+    }
+  ],
+  "added_volume_mm3": 1299.950994838112,
+  "removed_volume_mm3": 390.1445302476043,
+  "allowed_change_regions": "only former lid/deck M4 joint and relocation of M3 clamp nuts to the underside",
+  "unchanged_print_file_sha256": {
+    "09_arruela_PCB__2x.stl": "91c115e9759de3eb1df7e03d39c114465e9b400777b72d6693c7a9c902fe5c18",
+    "12_calco_4mm__4x.stl": "13a8028ff77032f948576656496aee83af23eca5a87fa8b99beb66811a3d42a4",
+    "01_bandeja_inferior__1x.stl": "74e0edd0f94e208d45f1b81e48a81ae4a71fa159c7579e80ed7636900b91326c",
+    "03_placa_tomada_C14__1x.stl": "1f7653132a015a2b3b9a61f2b777de5cb887f04c8d7239d274e4a147cffd26e6",
+    "07_abracadeira_base_secundario__1x.stl": "e68b0474a85d4940453d4dab9da21a31821526f83f70ab96cb1132190c3b18d3",
+    "02_laterais__1x.stl": "859880b7f1d9dffb108bbec453ad1846e07c26db81b8afb77e47c94f87d5f1cd",
+    "10_abracadeira_topo_secundario__1x.stl": "bbc7e4dc15762b0fd76d2e16db44ffa863a6d11ddfc077e63970380e02b83dd6",
+    "08_presilha_dissipador__4x.stl": "19beea03b006486cc9d2bbd23dd16f37a48fb0bcf2ed9da42bd7b77f6be8404a",
+    "14_berco_dissipador__1x.stl": "7f3986888f41279aca95dbaf55b1b65862aaca84bc8eb352e1a1a792256c6b13",
+    "06_pe__4x.stl": "2abf21d186a260523b5fdad1c8d9f02bd95ccc5c49df83e3edaab4041ce31ee4",
+    "13_calco_1mm__4x.stl": "0708f768b0a26efd2f9a915fe615a575141293c99e3273daef58dc283804d7d2",
+    "11_suporte_toroide__1x.stl": "905659f360b3f7c9448a255f19acdd3c757705ac287096b38eb7976018ac32cd"
+  }
+}
