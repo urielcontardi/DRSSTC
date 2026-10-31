@@ -1,0 +1,247 @@
+{
+  "commands": [
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "case_width",
+        "expression": "130 mm"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "lid_thickness",
+        "expression": "4 mm"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "lid_z",
+        "expression": "46 mm"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "corner_radius",
+        "expression": "8 mm"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": "case_width",
+        "width": "case_width",
+        "height": "lid_thickness",
+        "center": [
+          50,
+          50,
+          "lid_z+lid_thickness/2"
+        ],
+        "operation": "new",
+        "body_name": "Structural_lid",
+        "name": "Lid_blank"
+      }
+    },
+    {
+      "command": "solid.fillet",
+      "params": {
+        "edges": [
+          [
+            -15,
+            -15,
+            48
+          ],
+          [
+            -15,
+            115,
+            48
+          ],
+          [
+            115,
+            -15,
+            48
+          ],
+          [
+            115,
+            115,
+            48
+          ]
+        ],
+        "radius": "corner_radius",
+        "name": "Rounded_corners"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 1.7,
+        "height": "lid_thickness+2",
+        "base": [
+          "50-case_width/2+6",
+          "50-case_width/2+6",
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_1"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 1.7,
+        "height": "lid_thickness+2",
+        "base": [
+          "50-case_width/2+6",
+          "50+case_width/2-6",
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_2"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 1.7,
+        "height": "lid_thickness+2",
+        "base": [
+          "50+case_width/2-6",
+          "50-case_width/2+6",
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_3"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 1.7,
+        "height": "lid_thickness+2",
+        "base": [
+          "50+case_width/2-6",
+          "50+case_width/2-6",
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_4"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 2.2,
+        "height": "lid_thickness+2",
+        "base": [
+          10,
+          10,
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_5"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 2.2,
+        "height": "lid_thickness+2",
+        "base": [
+          10,
+          90,
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_6"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 2.2,
+        "height": "lid_thickness+2",
+        "base": [
+          90,
+          10,
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_7"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 2.2,
+        "height": "lid_thickness+2",
+        "base": [
+          90,
+          90,
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_8"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 3,
+        "height": "lid_thickness+2",
+        "base": [
+          34,
+          20,
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_9"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 3,
+        "height": "lid_thickness+2",
+        "base": [
+          66,
+          20,
+          "lid_z-1"
+        ],
+        "operation": "cut",
+        "targets": [
+          "Structural_lid"
+        ],
+        "name": "Mount_or_passage_10"
+      }
+    }
+  ]
+}

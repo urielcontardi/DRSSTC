@@ -1,0 +1,1801 @@
+{
+  "status": "conservative box and clamp endpoints; no thermal qualification",
+  "checks": [
+    {
+      "case": "W96_L96",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L96_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L100_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L104_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L108_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W96_L112_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L96_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L100_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L104_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L108_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W100_L112_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L96_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L100_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L104_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L108_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W104_L112_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L96_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L100_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L104_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L108_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W108_L112_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L96_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L100_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L104_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L108_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger1",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger1",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger1",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger2",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger2",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger2",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger3",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger3",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger3",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger4",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger4",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "W112_L112_finger4",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H20_cradle",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H20_cradle",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H20_cradle",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H25_cradle",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H25_cradle",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H25_cradle",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H30_cradle",
+      "reference": "base",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H30_cradle",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "case": "H30_cradle",
+      "reference": "sink occupied box",
+      "overlap_mm3": 0
+    }
+  ],
+  "failures": []
+}

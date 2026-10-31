@@ -1,0 +1,14 @@
+IMPRIMIR: um modelo por arquivo. A quantidade está no nome.
+
+__1x = uma cópia; __2x = duas cópias; __4x = quatro cópias.
+14 modelos diferentes, 27 peças no total contando as repetições.
+Não é necessário imprimir todas na mesma mesa.
+
+Os calços de 4 mm e 1 mm são empilhados em pares (5 mm por apoio) para o dissipador de 25 mm de altura.
+Parafusos e porcas são comprados, não impressos.
+O suporte do fio primário continua pendente.
+
+Guia completo: ../mechanical/case-v5/README.md
+
+Unidades: milímetros. Peças orientadas e apoiadas em Z=0.
+Protótipo de encaixe; conferir tolerâncias, material e montagem térmica antes de operar.

@@ -1,0 +1,21 @@
+file,quantity,orientation_x_degrees
+09_pcb_washer_1.stl,1,0
+09_pcb_washer_2.stl,1,0
+06_foot_1.stl,1,0
+06_foot_2.stl,1,0
+06_foot_3.stl,1,0
+06_foot_4.stl,1,0
+08_heatsink_clamp_1.stl,1,0
+08_heatsink_clamp_2.stl,1,0
+01_lower_tray.stl,1,0
+02_upper_sleeve.stl,1,0
+03_C14_inlet_plate.stl,1,90
+04_structural_lid.stl,1,180
+05_modular_deck_NO_WIRE_HOLDER.stl,1,180
+07_secondary_base_clamp.stl,1,0
+10_secondary_top_clamp.stl,1,180
+11_topload_pedestal.stl,1,0
+90_coupon_M3_M4.stl,1,already oriented
+91_coupon_tongue.stl,1,already oriented
+92_coupon_groove.stl,1,already oriented
+93_coupon_tube_60p6.stl,1,already oriented

@@ -1,0 +1,388 @@
+{
+  "status": "CONCEPT, not released for final printing or energizing",
+  "dimensions_mm": {
+    "case": [
+      196.0,
+      196.0,
+      97.0
+    ],
+    "assembly_height": 417.0,
+    "secondary": [
+      60,
+      280
+    ],
+    "toroid": [
+      150,
+      40
+    ],
+    "primary_outer_diameter": 176,
+    "pcb": [
+      100,
+      100
+    ],
+    "heatsink": [
+      100,
+      100,
+      30
+    ]
+  },
+  "coordinate_system": "PCB XY 0..100; PCB bottom Z=0; component datum Z=1.595",
+  "sink_top_z_mm": -5.305,
+  "heatsink_center_xy_mm": [
+    50,
+    50
+  ],
+  "mounting_holes_xy_mm": [
+    [
+      6,
+      94
+    ],
+    [
+      94,
+      94
+    ],
+    [
+      94,
+      6
+    ]
+  ],
+  "PE_hole_left_free_xy_mm": [
+    6,
+    6
+  ],
+  "checks": [
+    {
+      "part": "01_lower_tray",
+      "reference": "PCB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "secondary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "primary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "toroid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "06_separate_feet",
+      "reference": "PCB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "06_separate_feet",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "06_separate_feet",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "06_separate_feet",
+      "reference": "secondary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "06_separate_feet",
+      "reference": "primary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "06_separate_feet",
+      "reference": "toroid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "PCB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "secondary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "primary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "toroid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "PCB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "secondary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "primary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "toroid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "PCB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "secondary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "primary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "toroid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "PCB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "secondary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "primary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "toroid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "07_top_cap_concept",
+      "reference": "PCB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "07_top_cap_concept",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "07_top_cap_concept",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "07_top_cap_concept",
+      "reference": "secondary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "07_top_cap_concept",
+      "reference": "primary",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "07_top_cap_concept",
+      "reference": "toroid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "06_separate_feet",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "05_resonator_deck",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "01_lower_tray",
+      "reference": "07_top_cap_concept",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "06_separate_feet",
+      "reference": "07_top_cap_concept",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "06_separate_feet",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "05_resonator_deck",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "02_upper_sleeve",
+      "reference": "07_top_cap_concept",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "06_separate_feet",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "05_resonator_deck",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "03_C14_inlet_plate",
+      "reference": "07_top_cap_concept",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "06_separate_feet",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "05_resonator_deck",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "04_structural_lid",
+      "reference": "07_top_cap_concept",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "06_separate_feet",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "05_resonator_deck",
+      "reference": "07_top_cap_concept",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "PCB",
+      "reference": "heatsink",
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "PCB",
+      "reference": "C14",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "pending": [
+    "tube OD and enamel pitch measurements",
+    "thermal isolators and insulated fasteners",
+    "sink retention/clamping hardware",
+    "optical connector/cable fit",
+    "thermal and electrical validation",
+    "print tolerances/material"
+  ]
+}

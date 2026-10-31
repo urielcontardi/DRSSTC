@@ -1,0 +1,26 @@
+{
+  "selection": "annealed bare copper tube",
+  "outer_diameter_mm": 3,
+  "wall_mm": 0.5,
+  "inner_diameter_mm": 2,
+  "copper_area_mm2": 3.9269908169872414,
+  "frequency_hz": 233442.11697,
+  "skin_depth_mm": 0.1367765833929727,
+  "wall_skin_depth_ratio": 3.6555965034120677,
+  "spiral_centerline_length_m": 3.342901538603923,
+  "purchase_continuous_length_m": 4,
+  "dc_resistance_ohm_per_m_at20C": 0.004390384598155788,
+  "isolated_skin_effect_estimate_ohm_per_m": 0.013374562154710412,
+  "full_spiral_isolated_skin_effect_estimate_ohm": 0.044709844405135236,
+  "holder_groove_diameter_mm": 3.6,
+  "holder_radial_clearance_mm": 0.3,
+  "radial_center_pitch_mm": 5,
+  "nominal_conductor_gap_mm": 2,
+  "nominal_web_between_grooves_mm": 1.4,
+  "holder_status": "dimensioned for 3 mm OD tube; fit coupon to check printer",
+  "electrical_status": "conductor selected; operating current/pulse/duty envelope not qualified",
+  "sources": [
+    "https://www.wcmagnetics.com/resource/winding-losses-in-high-frequency-transformers-magnetics2009/",
+    "https://www.bengs-modellbau.de/en/Copper-tube-soft/5014"
+  ]
+}

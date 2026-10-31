@@ -1,0 +1,40 @@
+{
+  "wall_mm": 3.0,
+  "inside_margin_mm": 17,
+  "lid_bottom_z_mm": 46,
+  "lid_thickness_mm": 6,
+  "thermal_pad_nominal_mm": 0.3,
+  "bottom_z_mm": -48,
+  "fiber_window_y_mm": 28.35,
+  "fiber_window_width_mm": 16.0,
+  "fiber_window_bottom_z_mm": -0.5,
+  "fiber_window_height_mm": 14.0,
+  "status": "mechanical assembly prototype; print fit coupon and verify purchased components",
+  "secondary_tube_od_mm": 60,
+  "secondary_tube_height_mm": 280,
+  "secondary_winding_height_mm": 213.36,
+  "secondary_winding_bottom_mm": 30,
+  "primary_inner_diameter_mm": 90,
+  "primary_pitch_mm": 5,
+  "primary_wire_diameter_mm": 3,
+  "primary_turns": 8,
+  "toroid_od_mm": 150,
+  "toroid_section_mm": 40,
+  "corner_radius_mm": 8,
+  "resonator_deck_diameter_mm": 180,
+  "primary_status": "DEFERRED BY USER; no wire holder or conductor selected in this revision",
+  "heatsink_nominal_width_mm": 104,
+  "heatsink_nominal_length_mm": 100,
+  "heatsink_nominal_height_mm": 25,
+  "heatsink_plan_adjustment_range_mm": [
+    96,
+    112
+  ],
+  "heatsink_height_adjustment_range_mm": [
+    20,
+    30
+  ],
+  "heatsink_height_max_mm": 30,
+  "heatsink_shim_stack_mm": 5,
+  "heatsink_reference_status": "user dimensioned drawing: 104 x 25 profile, 5 mm base, 13 fins, 8 mm pitch, 1.6 mm fin thickness; 100 mm extrusion; crown radii approximate"
+}

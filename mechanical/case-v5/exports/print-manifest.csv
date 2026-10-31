@@ -1,0 +1,38 @@
+file,quantity,orientation_x_degrees,purpose
+12_shim_4mm_1.stl,1,0,nominal 104x100x25 assembly
+12_shim_1mm_1.stl,1,0,nominal 104x100x25 assembly
+12_shim_4mm_2.stl,1,0,nominal 104x100x25 assembly
+12_shim_1mm_2.stl,1,0,nominal 104x100x25 assembly
+12_shim_4mm_3.stl,1,0,nominal 104x100x25 assembly
+12_shim_1mm_3.stl,1,0,nominal 104x100x25 assembly
+12_shim_4mm_4.stl,1,0,nominal 104x100x25 assembly
+12_shim_1mm_4.stl,1,0,nominal 104x100x25 assembly
+13_universal_heatsink_cradle.stl,1,0,nominal 104x100x25 assembly
+09_pcb_washer_1.stl,1,0,nominal 104x100x25 assembly
+09_pcb_washer_2.stl,1,0,nominal 104x100x25 assembly
+06_foot_1.stl,1,0,nominal 104x100x25 assembly
+06_foot_2.stl,1,0,nominal 104x100x25 assembly
+06_foot_3.stl,1,0,nominal 104x100x25 assembly
+06_foot_4.stl,1,0,nominal 104x100x25 assembly
+08_adjustable_heatsink_finger_1.stl,1,180,nominal 104x100x25 assembly
+08_adjustable_heatsink_finger_2.stl,1,180,nominal 104x100x25 assembly
+08_adjustable_heatsink_finger_3.stl,1,180,nominal 104x100x25 assembly
+08_adjustable_heatsink_finger_4.stl,1,180,nominal 104x100x25 assembly
+01_lower_tray.stl,1,0,nominal 104x100x25 assembly
+02_upper_sleeve.stl,1,0,nominal 104x100x25 assembly
+03_C14_inlet_plate.stl,1,-90,nominal 104x100x25 assembly
+04_structural_lid.stl,1,180,nominal 104x100x25 assembly
+05_modular_deck_NO_WIRE_HOLDER.stl,1,180,nominal 104x100x25 assembly
+07_secondary_base_clamp.stl,1,0,nominal 104x100x25 assembly
+10_secondary_top_clamp.stl,1,180,nominal 104x100x25 assembly
+11_topload_pedestal.stl,1,0,nominal 104x100x25 assembly
+90_coupon_M3_M4.stl,1,already oriented,fit coupon / sample
+91_coupon_tongue.stl,1,already oriented,fit coupon / sample
+92_coupon_groove.stl,1,already oriented,fit coupon / sample
+93_coupon_tube_60p6.stl,1,already oriented,fit coupon / sample
+94_fiber_access_sample.stl,1,already oriented,fit coupon / sample
+spare-shims/shim_0p5mm_PRINT_4_PER_LAYER.stl,4,already oriented,optional; print 4 per selected layer
+spare-shims/shim_1mm_PRINT_4_PER_LAYER.stl,4,already oriented,optional; print 4 per selected layer
+spare-shims/shim_2mm_PRINT_4_PER_LAYER.stl,4,already oriented,optional; print 4 per selected layer
+spare-shims/shim_4mm_PRINT_4_PER_LAYER.stl,4,already oriented,optional; print 4 per selected layer
+spare-shims/shim_8mm_PRINT_4_PER_LAYER.stl,4,already oriented,optional; print 4 per selected layer

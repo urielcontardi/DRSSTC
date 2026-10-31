@@ -1,0 +1,8 @@
+# Preserve exported CAD/mesh bytes and avoid textual diffs of generated geometry.
+*.step binary
+*.stp binary
+*.stl binary
+*.sc binary
+mechanical/**/exports/viewer_meshes.json -diff
+mechanical/**/exports/case-viewer.html -diff
+mechanical/**/exports/case-preview.svg -diff

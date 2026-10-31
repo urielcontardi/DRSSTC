@@ -1,0 +1,4196 @@
+{
+  "driver_length_mm": 25,
+  "M3_driver_diameter_mm": 3.6,
+  "M4_driver_diameter_mm": 4.4,
+  "checks": [
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_94",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "PCB_94_6",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_1",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_2",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_3",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Foot_4",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_1",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Heatsink_2",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_1",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_2",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_3",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Sleeve_4",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_7",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_21_35",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_7",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Adapter_71_35",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_25",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "C14_67",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_1",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_2",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_3",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lid_4",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_1",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_2",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_3",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Deck_4",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "stage": "assembly sequence",
+      "reference": "toroid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_1",
+      "stage": "top module preassembly",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_2",
+      "stage": "top module preassembly",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_3",
+      "stage": "top module preassembly",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Top_cap_4",
+      "stage": "top module preassembly",
+      "reference": "tube",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "09_pcb_washer_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "06_foot_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "06_foot_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "06_foot_3",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "06_foot_4",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_1",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "08_heatsink_clamp_2",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "03_C14_inlet_plate",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "04_structural_lid",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "05_modular_deck_NO_WIRE_HOLDER",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "07_secondary_base_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "10_secondary_top_clamp",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "11_topload_pedestal",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "PCB",
+      "overlap_mm3": 0
+    },
+    {
+      "joint": "Toroid",
+      "stage": "top module preassembly",
+      "reference": "tube",
+      "overlap_mm3": 0
+    }
+  ],
+  "failures": []
+}

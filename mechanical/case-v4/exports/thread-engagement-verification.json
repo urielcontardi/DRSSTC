@@ -1,0 +1,191 @@
+{
+  "status": "nominal geometry only; thread runouts and part tolerances not simulated",
+  "checks": [
+    {
+      "joint": "PCB_94_94",
+      "nominal_nut_thread_engagement_mm": 2.4,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "PCB_94_6",
+      "nominal_nut_thread_engagement_mm": 2.4,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Foot_1",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Foot_2",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Foot_3",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Foot_4",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Heatsink_1",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000004,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Heatsink_2",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000004,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_1",
+      "nominal_nut_thread_engagement_mm": 2.4,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_2",
+      "nominal_nut_thread_engagement_mm": 2.4,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_3",
+      "nominal_nut_thread_engagement_mm": 2.4,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_4",
+      "nominal_nut_thread_engagement_mm": 2.4,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Adapter_21_7",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000057,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Adapter_21_35",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000057,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Adapter_71_7",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000057,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Adapter_71_35",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000057,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "C14_25",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000057,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "C14_67",
+      "nominal_nut_thread_engagement_mm": 2.4000000000000057,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lid_1",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lid_2",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lid_3",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lid_4",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Deck_1",
+      "nominal_nut_thread_engagement_mm": 3.200000000000003,
+      "nut_thickness_mm": 3.2
+    },
+    {
+      "joint": "Deck_2",
+      "nominal_nut_thread_engagement_mm": 3.200000000000003,
+      "nut_thickness_mm": 3.2
+    },
+    {
+      "joint": "Deck_3",
+      "nominal_nut_thread_engagement_mm": 3.200000000000003,
+      "nut_thickness_mm": 3.2
+    },
+    {
+      "joint": "Deck_4",
+      "nominal_nut_thread_engagement_mm": 3.200000000000003,
+      "nut_thickness_mm": 3.2
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999986,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_1",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999773,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_2",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999773,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_3",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999773,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_4",
+      "nominal_nut_thread_engagement_mm": 2.3999999999999773,
+      "nut_thickness_mm": 2.4
+    },
+    {
+      "joint": "Toroid",
+      "nominal_nut_thread_engagement_mm": 3.1999999999999886,
+      "nut_thickness_mm": 3.2
+    }
+  ],
+  "failures": []
+}

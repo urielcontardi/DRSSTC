@@ -1,0 +1,221 @@
+{
+  "checks": [
+    {
+      "joint": "Cradle_1",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Cradle_2",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Cradle_3",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Cradle_4",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "PCB_94_94",
+      "engagement_mm": 2.4,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "PCB_94_6",
+      "engagement_mm": 2.4,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Foot_1",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Foot_2",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Foot_3",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Foot_4",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Heatsink_1",
+      "engagement_mm": 2.4000000000000004,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Heatsink_2",
+      "engagement_mm": 2.4000000000000004,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Heatsink_3",
+      "engagement_mm": 2.4000000000000004,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Heatsink_4",
+      "engagement_mm": 2.4000000000000004,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_1",
+      "engagement_mm": 2.4,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_2",
+      "engagement_mm": 2.4,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_3",
+      "engagement_mm": 2.4,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Sleeve_4",
+      "engagement_mm": 2.4,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Adapter_21_7",
+      "engagement_mm": 2.4000000000000057,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Adapter_21_35",
+      "engagement_mm": 2.4000000000000057,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Adapter_71_7",
+      "engagement_mm": 2.4000000000000057,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Adapter_71_35",
+      "engagement_mm": 2.4000000000000057,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "C14_25",
+      "engagement_mm": 2.4000000000000057,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "C14_67",
+      "engagement_mm": 2.4000000000000057,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lid_1",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lid_2",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lid_3",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lid_4",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Deck_1",
+      "engagement_mm": 3.200000000000003,
+      "nut_height_mm": 3.2
+    },
+    {
+      "joint": "Deck_2",
+      "engagement_mm": 3.200000000000003,
+      "nut_height_mm": 3.2
+    },
+    {
+      "joint": "Deck_3",
+      "engagement_mm": 3.200000000000003,
+      "nut_height_mm": 3.2
+    },
+    {
+      "joint": "Deck_4",
+      "engagement_mm": 3.200000000000003,
+      "nut_height_mm": 3.2
+    },
+    {
+      "joint": "Lower_collar_flange_1",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_flange_2",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_flange_3",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_flange_4",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Lower_collar_pinch",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Upper_collar_pinch",
+      "engagement_mm": 2.3999999999999986,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_1",
+      "engagement_mm": 2.3999999999999773,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_2",
+      "engagement_mm": 2.3999999999999773,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_3",
+      "engagement_mm": 2.3999999999999773,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Top_cap_4",
+      "engagement_mm": 2.3999999999999773,
+      "nut_height_mm": 2.4
+    },
+    {
+      "joint": "Toroid",
+      "engagement_mm": 3.1999999999999886,
+      "nut_height_mm": 3.2
+    }
+  ],
+  "failures": [],
+  "status": "nominal thread envelope; tolerances and runout not simulated"
+}

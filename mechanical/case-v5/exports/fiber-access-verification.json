@@ -1,0 +1,26 @@
+{
+  "status": "reserved approach and latch finger envelopes; actual plug fit remains a physical check",
+  "checks": [
+    {
+      "probe": "straight_plug_approach_10x7p6",
+      "part": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "probe": "straight_plug_approach_10x7p6",
+      "part": "02_upper_sleeve",
+      "overlap_mm3": 0
+    },
+    {
+      "probe": "rear_latch_finger_10x15",
+      "part": "01_lower_tray",
+      "overlap_mm3": 0
+    },
+    {
+      "probe": "rear_latch_finger_10x15",
+      "part": "02_upper_sleeve",
+      "overlap_mm3": 0
+    }
+  ],
+  "failures": []
+}

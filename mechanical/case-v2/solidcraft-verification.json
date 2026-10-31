@@ -1,0 +1,260 @@
+{
+  "expected_lid_volume_mm3": 153049.25314954555,
+  "measured_lid_volume_mm3": 153049.51192733264,
+  "relative_error": 1.690813785648615e-06,
+  "healthy_features": 11,
+  "measurement": {
+    "bodies": [
+      {
+        "area_mm2": 80203.56415808377,
+        "bbox": {
+          "max": [
+            148.0,
+            148.0,
+            52.99999999999956
+          ],
+          "min": [
+            -48.0,
+            -48.0,
+            48.999999999999005
+          ]
+        },
+        "center_of_mass": [
+          49.99999999999999,
+          50.04432253317722,
+          50.99999999999932
+        ],
+        "closed": true,
+        "density_g_cm3": 1.29,
+        "edges": 32,
+        "face_types": {
+          "cylinder": 10,
+          "plane": 6
+        },
+        "faces": 16,
+        "kernel": {
+          "edges": 72,
+          "faces": 26,
+          "shells": 1,
+          "vertices": 48
+        },
+        "mass_g": 197.43387038625912,
+        "material": "Default",
+        "name": "Structural_lid",
+        "vertices": 28,
+        "volume_mm3": 153049.51192733264
+      }
+    ],
+    "body_count": 1,
+    "params": [
+      {
+        "comment": "",
+        "error": null,
+        "expression": "196 mm",
+        "model": false,
+        "name": "case_width",
+        "unit": "mm",
+        "value": 196.0
+      },
+      {
+        "comment": "",
+        "error": null,
+        "expression": "4 mm",
+        "model": false,
+        "name": "lid_thickness",
+        "unit": "mm",
+        "value": 4.0
+      },
+      {
+        "comment": "",
+        "error": null,
+        "expression": "49 mm",
+        "model": false,
+        "name": "lid_z",
+        "unit": "mm",
+        "value": 49.0
+      },
+      {
+        "comment": "",
+        "error": null,
+        "expression": "3 mm",
+        "model": false,
+        "name": "wall",
+        "unit": "mm",
+        "value": 3.0
+      }
+    ],
+    "sketches": [],
+    "timeline": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 1,
+        "ms": 0.579292,
+        "name": "Lid_blank",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "BoxFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 7.999375,
+        "name": "Mount_or_passage_1",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 3,
+        "ms": 5.884666999999999,
+        "name": "Mount_or_passage_2",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 4,
+        "ms": 6.323208,
+        "name": "Mount_or_passage_3",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 5,
+        "ms": 6.35725,
+        "name": "Mount_or_passage_4",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 6,
+        "ms": 6.848458,
+        "name": "Mount_or_passage_5",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 7,
+        "ms": 7.13775,
+        "name": "Mount_or_passage_6",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 8,
+        "ms": 7.54975,
+        "name": "Mount_or_passage_7",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 9,
+        "ms": 8.492792000000001,
+        "name": "Mount_or_passage_8",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 10,
+        "ms": 9.387125,
+        "name": "Mount_or_passage_9",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 11,
+        "ms": 10.015167,
+        "name": "Mount_or_passage_10",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      }
+    ],
+    "total": {
+      "area_mm2": 80203.56415808377,
+      "edges": 32,
+      "faces": 16,
+      "mass_g": 197.43387038625912,
+      "open_bodies_skipped": 0,
+      "vertices": 28,
+      "volume_mm3": 153049.51192733264
+    }
+  },
+  "thickness_change_check": {
+    "lid_thickness_mm": 5,
+    "expected_volume_mm3": 191311.56643693193,
+    "measured_volume_mm3": 191311.88990917278,
+    "all_features_healthy": true
+  }
+}
