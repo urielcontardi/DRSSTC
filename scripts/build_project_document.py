@@ -1,8 +1,7 @@
 """Build an offline project notebook with the verified PCB mesh and calculations.
 
 Run: python3 -B scripts/build_project_document.py
-The archived case ZIP supplies only the existing PCB tessellation/renderer.
-No removed mechanical files are restored.
+Viewer inputs live in docs/project/viewer/.
 """
 from pathlib import Path
 import base64,hashlib,html,json,shutil,subprocess,tempfile,zipfile,sys
@@ -16,15 +15,13 @@ from sexpr import parse,children,prop
 
 result=json.loads((ROOT/'docs/design/resonator-results.json').read_text())
 inputs=json.loads((ROOT/'docs/design/resonator-inputs.json').read_text())
-step=ROOT/'production/pcb/2026-10-20-3d/ARCSTRIKE-PCB-complete.step'
-archive=ROOT/'production/case/v1/ARCSTRIKE-case-v1-CONCEPT.zip'
-with zipfile.ZipFile(archive) as z:
-    assert hashlib.sha256(z.read('case-v1/reference/ARCSTRIKE-PCB-complete.step')).digest()==hashlib.sha256(step.read_bytes()).digest(), 'PCB mesh source no longer matches STEP; re-tessellate before publishing.'
-    old=z.read('case-v1/exports/case-viewer.html').decode()
-    meshes=json.JSONDecoder().raw_decode(old.split('const data=',1)[1])[0]
-    pcb=next(m for m in meshes if m['name']=='pcb_reference')
-    renderer=z.read('case-v1/viewer.js').decode()
-    preview=z.read('case-v1/render_preview.cjs').decode()
+step=ROOT/'hardware/pcb/exports/PCB-complete.step'
+viewer=OUT/'viewer'
+mesh_source=json.loads((viewer/'source.json').read_text())
+assert hashlib.sha256(step.read_bytes()).hexdigest()==mesh_source['pcb_step_sha256'], 'PCB mesh source no longer matches STEP; re-tessellate before publishing.'
+pcb=json.loads((viewer/'pcb-mesh.json').read_text())
+renderer=(viewer/'viewer.js').read_text()
+preview=(viewer/'render_preview.cjs').read_text()
 
 # Keep exact geometry. Colors below illustrate material categories only.
 palette={'Board and substrate':(.10,.38,.24),'Terminals and metal surfaces':(.72,.76,.79),
@@ -75,7 +72,7 @@ def fmt(v,n=2):return f'{v:,.{n}f}'
 tap_rows=''.join('<tr'+(' class="selected"' if r['turns']==6 else '')+f'><td>{fmt(r["turns"],1)}</td><td>{fmt(r["coil_uh"],3)}</td><td>{fmt(r["total_uh"],3)}</td><td>{fmt(r["frequency_khz"],2)}</td></tr>' for r in result['primary']['turns_table'])
 sensitivity=''.join(f'<tr><td>{r["extra_pf"]}</td><td>{fmt(r["total_pf"],2)}</td><td>{fmt(r["secondary_khz"],2)}</td><td>{fmt(r["primary_target_khz"],2)}</td></tr>' for r in result['capacitance_sensitivity'])
 coupling=''.join(f'<tr><td>{r["gap_from_primary_plane_to_secondary_winding_start_mm"]} mm</td><td>{fmt(r["k_estimate"],3)}</td></tr>' for r in result['coupling_geometry_estimates'])
-for source,dest in [(step,'PCB-complete.step'),(ROOT/'docs/design/COILS.md','COILS.md'),
+for source,dest in [(step,'PCB-complete.step'),(ROOT/'docs/design/COILS.md','COILS.md'),(ROOT/'docs/design/PRIMARY-CONDUCTOR.md','PRIMARY-CONDUCTOR.md'),
  (ROOT/'docs/design/resonator-inputs.json','inputs.json'),(ROOT/'docs/design/resonator-results.json','results.json'),
  (ROOT/'docs/reference/oneTeslaTS_User_Manual.pdf','oneTeslaTS-manual.pdf'),
  (ROOT/'docs/reference/oneTeslaTS_Parts.pdf','original-parts-list.pdf')]:shutil.copy2(source,ASSETS/dest)
@@ -95,7 +92,7 @@ manifest=dict(schema_version=1,pcb_step_sha256=hashlib.sha256(step.read_bytes())
  viewer='Canvas 2D software depth buffer; static PNG fallback; no WebGL/CDN',
  files={str(p.relative_to(OUT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.rglob('*') if p.is_file() and p.name not in ('manifest.json','document.template.html')})
 (OUT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-package=ROOT/'production/documentation/2026-10-22/ARCSTRIKE-documentation.zip'
+package=ROOT/'output/ARCSTRIKE-documentation.zip'
 package.parent.mkdir(parents=True,exist_ok=True)
 with zipfile.ZipFile(package,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
     for p in OUT.rglob('*'):

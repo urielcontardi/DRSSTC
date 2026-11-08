@@ -6,3 +6,4 @@
 mechanical/**/exports/viewer_meshes.json -diff
 mechanical/**/exports/case-viewer.html -diff
 mechanical/**/exports/case-preview.svg -diff
+docs/project/viewer/pcb-mesh.json -diff

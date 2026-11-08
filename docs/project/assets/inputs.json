@@ -21,12 +21,16 @@
     "capacitor_nf": 68.0,
     "capacitor_tolerance_percent": 10.0,
     "inner_clear_diameter_mm": 90.0,
-    "copper_area_proposed_mm2": 2.5,
-    "finished_wire_diameter_assumed_mm": 3.0,
+    "copper_area_proposed_mm2": 3.9269908169872414,
+    "finished_wire_diameter_assumed_mm": 3,
     "radial_pitch_mm": 5.0,
     "physical_turns": 8,
     "lead_inductance_assumed_uh": 0.3,
-    "cold_frequency_ratio_assumed": 0.9
+    "cold_frequency_ratio_assumed": 0.9,
+    "conductor_type": "DEFERRED BY USER; 3 mm external diameter retained only as calculation assumption",
+    "tube_outer_diameter_mm": 3,
+    "tube_wall_mm": 0.5,
+    "conductor_selection_reference": "PRIMARY-CONDUCTOR.md (historical alternative; no active conductor choice)"
   },
   "constants": {
     "copper_resistivity_ohm_mm2_per_m_at_20C": 0.017241,

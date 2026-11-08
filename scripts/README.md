@@ -23,7 +23,7 @@ uv run --with cadquery python scripts/models3d/bridge_trimmed.py
 
 Models are written to `hardware/pcb/library/3dmodels/`. The bridge generator
 uses a local KiCad installation reference, as specified in the source.
-Enclosure sources and rebuild commands are indexed in
+Enclosure sources and rebuild commands are documented in
 [mechanical/README.md](../mechanical/README.md).
 
 The active project is `hardware/pcb/oneTesla.kicad_pro`. Create `output/`
@@ -43,5 +43,6 @@ python3 -B scripts/calculate_resonator.py
 python3 -B scripts/build_project_document.py
 ```
 
-The notebook builder requires Python and Node.js. It reuses the PCB mesh from
-the enclosure package and checks its source STEP hash before rendering.
+The notebook builder requires Python and Node.js. It uses the PCB mesh in
+`docs/project/viewer/` and checks its source STEP hash before rendering.
+The offline ZIP is written to `output/ARCSTRIKE-documentation.zip` (ignored by Git).

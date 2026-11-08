@@ -1,0 +1,11 @@
+IMPRESSÃO DO GABINETE ATUAL
+
+13 modelos, 26 peças físicas. A quantidade está no nome: __1x, __2x ou __4x.
+Unidades: milímetros. Peças orientadas, apoiadas em Z=0.
+A peça 04 reúne tampa e plataforma; não há peça 05 separada.
+Na abraçadeira inferior, usar quatro M3x16.
+Lista de ferragens: ../exports/hardware-BOM.csv
+Guia de montagem e limites: ../README.md
+samples/: cupons opcionais de encaixe e acesso à fibra.
+spare-shims/: calços opcionais para outras alturas de dissipador.
+O suporte do fio primário continua pendente.

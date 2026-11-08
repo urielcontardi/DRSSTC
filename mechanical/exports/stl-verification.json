@@ -1,0 +1,375 @@
+{
+  "status": "PASS",
+  "units": "mm",
+  "vertex_weld_tolerance_mm": 1e-06,
+  "files": [
+    {
+      "file": "01_bandeja_inferior__1x.stl",
+      "triangles": 23472,
+      "vertices": 11638,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 128521.67245704119,
+      "dimensions_mm": [
+        140.0,
+        140.0,
+        49.6
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "74e0edd0f94e208d45f1b81e48a81ae4a71fa159c7579e80ed7636900b91326c"
+    },
+    {
+      "file": "02_laterais__1x.stl",
+      "triangles": 15184,
+      "vertices": 7544,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 69840.67823644668,
+      "dimensions_mm": [
+        140.0,
+        140.0,
+        47.6
+      ],
+      "bed_z_mm": 8.881784197001252e-16,
+      "sha256": "859880b7f1d9dffb108bbec453ad1846e07c26db81b8afb77e47c94f87d5f1cd"
+    },
+    {
+      "file": "03_placa_tomada_C14__1x.stl",
+      "triangles": 2656,
+      "vertices": 1316,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 4731.481372727398,
+      "dimensions_mm": [
+        56.0,
+        36.0,
+        7.0
+      ],
+      "bed_z_mm": -1.8865344117863372e-16,
+      "sha256": "1f7653132a015a2b3b9a61f2b777de5cb887f04c8d7239d274e4a147cffd26e6"
+    },
+    {
+      "file": "04_tampa_e_plataforma_unificadas__1x.stl",
+      "triangles": 25240,
+      "vertices": 12594,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 202827.1372757194,
+      "dimensions_mm": [
+        179.9214,
+        179.9214,
+        10.0
+      ],
+      "bed_z_mm": 9.999999406318238e-08,
+      "sha256": "dd19b7adf1ca986d95543c55eda83559382baa09707ead57662ce5b771c4110e"
+    },
+    {
+      "file": "06_pe__4x.stl",
+      "triangles": 1260,
+      "vertices": 630,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 203.830497981318,
+      "dimensions_mm": [
+        9.9978,
+        9.9989,
+        4.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "2abf21d186a260523b5fdad1c8d9f02bd95ccc5c49df83e3edaab4041ce31ee4"
+    },
+    {
+      "file": "07_abracadeira_base_secundario__1x.stl",
+      "triangles": 3892,
+      "vertices": 1934,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 29441.260235197224,
+      "dimensions_mm": [
+        89.9799,
+        89.9899,
+        22.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "e68b0474a85d4940453d4dab9da21a31821526f83f70ab96cb1132190c3b18d3"
+    },
+    {
+      "file": "08_presilha_dissipador__4x.stl",
+      "triangles": 464,
+      "vertices": 232,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 603.978367069325,
+      "dimensions_mm": [
+        19.0,
+        12.0,
+        5.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "19beea03b006486cc9d2bbd23dd16f37a48fb0bcf2ed9da42bd7b77f6be8404a"
+    },
+    {
+      "file": "09_arruela_PCB__2x.stl",
+      "triangles": 840,
+      "vertices": 420,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 11.510207133907283,
+      "dimensions_mm": [
+        5.9987,
+        5.9993,
+        0.6
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "91c115e9759de3eb1df7e03d39c114465e9b400777b72d6693c7a9c902fe5c18"
+    },
+    {
+      "file": "10_abracadeira_topo_secundario__1x.stl",
+      "triangles": 4690,
+      "vertices": 2333,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 23745.390777333654,
+      "dimensions_mm": [
+        80.0,
+        84.0,
+        22.0
+      ],
+      "bed_z_mm": -9.796078336531122e-15,
+      "sha256": "bbc7e4dc15762b0fd76d2e16db44ffa863a6d11ddfc077e63970380e02b83dd6"
+    },
+    {
+      "file": "11_suporte_toroide__1x.stl",
+      "triangles": 3380,
+      "vertices": 1680,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 21926.44903234264,
+      "dimensions_mm": [
+        79.9821,
+        79.991,
+        19.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "905659f360b3f7c9448a255f19acdd3c757705ac287096b38eb7976018ac32cd"
+    },
+    {
+      "file": "12_calco_4mm__4x.stl",
+      "triangles": 840,
+      "vertices": 420,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 415.82426725902434,
+      "dimensions_mm": [
+        11.9973,
+        11.9987,
+        4.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "13a8028ff77032f948576656496aee83af23eca5a87fa8b99beb66811a3d42a4"
+    },
+    {
+      "file": "13_calco_1mm__4x.stl",
+      "triangles": 840,
+      "vertices": 420,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 103.95606681475608,
+      "dimensions_mm": [
+        11.9973,
+        11.9987,
+        1.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "0708f768b0a26efd2f9a915fe615a575141293c99e3273daef58dc283804d7d2"
+    },
+    {
+      "file": "14_berco_dissipador__1x.stl",
+      "triangles": 3420,
+      "vertices": 1704,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 16772.38293176529,
+      "dimensions_mm": [
+        110.0,
+        110.0,
+        6.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "7f3986888f41279aca95dbaf55b1b65862aaca84bc8eb352e1a1a792256c6b13"
+    },
+    {
+      "file": "samples/90_coupon_M3_M4.stl",
+      "triangles": 2084,
+      "vertices": 1040,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 4478.175699058809,
+      "dimensions_mm": [
+        32.0,
+        16.0,
+        10.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "e347c5cc58cb982b6b9d431a57200aa5e6b02314bd3e23b497b89c31a0863e25"
+    },
+    {
+      "file": "samples/91_coupon_tongue.stl",
+      "triangles": 44,
+      "vertices": 24,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 1676.5439945526114,
+      "dimensions_mm": [
+        24.0,
+        16.0,
+        5.6
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "015592ceb70b5db3531fcf810159efba7e10ea4892352fa6c4ab4361de609677"
+    },
+    {
+      "file": "samples/92_coupon_groove.stl",
+      "triangles": 44,
+      "vertices": 24,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 1322.7439856357566,
+      "dimensions_mm": [
+        24.0,
+        16.0,
+        4.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "8a2f414e5d45fbad180df1b65f4b362f07ce1077511716fbab33bd280c077984"
+    },
+    {
+      "file": "samples/93_coupon_tube_60p6.stl",
+      "triangles": 1008,
+      "vertices": 504,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 4868.7069509877965,
+      "dimensions_mm": [
+        68.6,
+        68.5787,
+        6.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "1ac492394b40472d81bc6c7da315cf9ccd455ee064f110e7a4aafc6821573552"
+    },
+    {
+      "file": "samples/94_fiber_access_sample.stl",
+      "triangles": 1160,
+      "vertices": 580,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 5648.905860703253,
+      "dimensions_mm": [
+        34.0,
+        40.0,
+        15.2
+      ],
+      "bed_z_mm": -4.690530759035306e-29,
+      "sha256": "7911c7d515339358fd2150e06b2b2f4986fbd7d787744214a886002829d340b5"
+    },
+    {
+      "file": "spare-shims/shim_0p5mm_PRINT_4_PER_LAYER.stl",
+      "triangles": 1008,
+      "vertices": 504,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 51.98751385216537,
+      "dimensions_mm": [
+        12.0,
+        11.9963,
+        0.5
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "cdd35d166b98a718d33d23eb5cdcb6cff665097e4e7b5610ec98ec0175571e82"
+    },
+    {
+      "file": "spare-shims/shim_1mm_PRINT_4_PER_LAYER.stl",
+      "triangles": 1008,
+      "vertices": 504,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 103.97502770433074,
+      "dimensions_mm": [
+        12.0,
+        11.9963,
+        1.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "28498bb294c2b511e214c371f82d9eafd6a1f3c0224d7085c52c0b802ac58552"
+    },
+    {
+      "file": "spare-shims/shim_2mm_PRINT_4_PER_LAYER.stl",
+      "triangles": 1008,
+      "vertices": 504,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 207.95005540866148,
+      "dimensions_mm": [
+        12.0,
+        11.9963,
+        2.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "7e54c4703c78b6bd9b88972f07d6f0ed8e56f7edbe48563652a77a3f0848f3bd"
+    },
+    {
+      "file": "spare-shims/shim_4mm_PRINT_4_PER_LAYER.stl",
+      "triangles": 1008,
+      "vertices": 504,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 415.90011081732297,
+      "dimensions_mm": [
+        12.0,
+        11.9963,
+        4.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "c48fa92d9f29d83cd8305d7986cd9757c499bc4f9467429e1cb0de2099658877"
+    },
+    {
+      "file": "spare-shims/shim_8mm_PRINT_4_PER_LAYER.stl",
+      "triangles": 1008,
+      "vertices": 504,
+      "connected_components": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "signed_volume_mm3": 831.8002216346459,
+      "dimensions_mm": [
+        12.0,
+        11.9963,
+        8.0
+      ],
+      "bed_z_mm": 0.0,
+      "sha256": "7d1fc7cd448e79e78b8934d44f2c07c4f7958cbfeb1087d9eb09aeec2cf945fc"
+    }
+  ]
+}

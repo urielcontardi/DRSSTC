@@ -13,4 +13,4 @@ Open [oneTesla.kicad_pro](oneTesla.kicad_pro) in KiCad.
 | `fp-lib-table`, `sym-lib-table` | Local library references |
 
 Library paths use `${KIPRJMOD}/library/...`; keep the libraries alongside the project.
-See [PCB deliverables](../../production/pcb/) and [tools](../../scripts/README.md).
+See [PCB exports](exports/) and [tools](../../scripts/README.md).

@@ -43,7 +43,7 @@ new tuning calculations.
 | Additional capacitance | 1 pF | Assumed; sensitivity shown below |
 | Primary | Single-layer flat spiral | Proposed |
 | Primary clear inside diameter | 90 mm | Proposed |
-| Primary conductor | 2.5 mm² copper, assumed 3 mm insulated diameter | Geometry only; current/duty unverified |
+| Primary conductor | Deferred by user; previous calculations assume 3 mm external envelope | No active wire/tube specification; v4 holder deferred |
 | Radial center-to-center pitch | 5 mm | Nominal 2 mm insulation-to-insulation gap |
 | Physical primary turns | 8 | Adjustable connection |
 | Lead inductance | 0.30 µH | Assumed, not measured |
@@ -178,7 +178,7 @@ so isolated LC frequencies do not fully describe operation.
 3. Measure tank L/C or resonance including the actual leads, then adjust the primary tap.
 4. Establish peak current, pulse width, thermal losses, protection, and IGBT switching.
    CPR1's 3 kV DC rating alone does not establish AC voltage or RMS current capability.
-   The proposed 2.5 mm² primary conductor has not been thermally validated.
+   The selected 3 × 0.5 mm copper tube has not been thermally qualified for an operating current/duty envelope. See `PRIMARY-CONDUCTOR.md`.
 
 These calculations do not specify admissible power, output voltage, spark length,
 interrupter settings, or assembly insulation. They do not authorize direct mains testing.
@@ -202,3 +202,17 @@ python3 -B scripts/calculate_resonator.py
 
 Input: `docs/design/resonator-inputs.json`. Outputs: `resonator-results.json`,
 `primary-taps.csv`, and `capacitance-sensitivity.csv` in the same directory.
+
+## Primary conductor decision — 2026-10-30
+
+The earlier 2.5 mm² insulated-wire assumption is superseded by a bare annealed
+copper tube of 3 mm OD and 0.5 mm wall. The v3 CAD envelope stays unchanged.
+Holder grooves are 3.6 mm diameter. See [selection and calculations](PRIMARY-CONDUCTOR.md).
+The numerical tables above retain the preliminary concentric-ring geometry;
+the CAD continuous eight-turn spiral is approximately 3.343 m long and 176 mm OD.
+
+### Status after mechanical assembly request
+
+The user deferred the conductor choice. Case v4 omits wire combs and provides a
+removable holder interface. The 3 × 0.5 mm tube above is a historical candidate,
+not a manufacturing requirement.
