@@ -1,11 +1,21 @@
+# Operating system and editor files
 .DS_Store
 .history/
-*.lck
-fp-info-cache
-output/
+*.bak
+*.swp
+*.swo
+*~
+
+# Python caches and local environments
 __pycache__/
 *.py[cod]
+.venv/
 
-# Local KiCad preferences and backups
+# Generated scratch output
+/output/
+
+# Local KiCad state and automatic backups
+*.lck
+fp-info-cache
 *.kicad_prl
 *-backups/

@@ -246,11 +246,14 @@ consultar o cabo efetivamente usado se for outro modelo.
 
 ## Pasta simplificada de impressão
 
-Na raiz do repositório, `PARA-IMPRIMIR/` contém somente 14 modelos diferentes
-necessários à montagem nominal, com as quantidades nos nomes. São 27 peças
-físicas contando as repetições. `ARCSTRIKE-case-v5-PRINT.zip` contém essa pasta,
-sem cupons nem calços alternativos. O pacote ASSEMBLY conserva os arquivos
-completos, alternativas e cupons.
+A seleção atual está em [production/case/v5-unified/print](../../production/case/v5-unified/print/):
+13 modelos diferentes, 26 peças físicas contando as quantidades dos nomes.
+Ela incorpora a tampa e plataforma unificadas; siga o
+[guia da substituição](../case-v5-unified/README.md) para as ferragens atualizadas.
+
+O pacote histórico `ARCSTRIKE-case-v5-PRINT.zip` mantém a v5 original com
+14 modelos e 27 peças, incluindo tampa e plataforma separadas. O pacote
+ASSEMBLY conserva os arquivos completos dessa revisão, alternativas e cupons.
 
 Os 37 STLs completos passaram na checagem de malha fechada, componente único,
 orientação das faces e apoio em Z=0. O relatório é `exports/stl-verification.json`.

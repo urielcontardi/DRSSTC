@@ -1,4 +1,15 @@
-# Deliverables
+# Entregáveis
+
+## Impressão atual — v5 com tampa unificada
+
+- [STLs individuais](case/v5-unified/print/): 13 modelos, 26 peças; quantidades nos nomes.
+- [Instruções de impressão](case/v5-unified/print/LEIA-ME.txt).
+- [Guia da tampa unificada](../mechanical/case-v5-unified/README.md): montagem e ferragens atualizadas.
+- [Tampa unificada — pacote](case/v5-unified/TAMPA-UNIFICADA.zip): reposição das peças 04 e 05.
+
+Os pacotes abaixo são entregas por revisão. Os ZIPs v5 originais ainda usam
+tampa e plataforma separadas; para uma montagem nova, use a seleção atual acima.
+Os manifests SHA256 acompanham os pacotes que possuem verificação de integridade.
 
 ## PCB
 

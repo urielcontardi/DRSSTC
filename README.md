@@ -1,48 +1,74 @@
-# ARCSTRIKE / DRSSTC
+# ARCSTRIKE
 
-KiCad electronics, resonator calculations, and a concept enclosure for a dual-resonant solid-state Tesla coil.
+Projeto de uma **DRSSTC — bobina de Tesla de estado sólido com dupla ressonância**.
+Reúne eletrônica em KiCad, cálculos do ressonador, gabinete paramétrico e arquivos
+para fabricação e impressão 3D.
 
-## Quick access
+![Montagem mecânica da case v5](mechanical/case-v5/assembly-solidcraft.png)
 
-| Task | File |
+**Revisão mecânica atual:** case v5 com tampa e plataforma unificadas.
+O projeto está em fase de protótipo: encaixes físicos, comportamento térmico e
+isolação elétrica ainda precisam de validação. O suporte do fio primário está pendente.
+
+## Comece aqui
+
+| Objetivo | Acesso |
 | --- | --- |
-| Print only the merged lid/deck replacement; reuse the existing v5 prints | [Unified lid STL](PARA-IMPRIMIR/04_tampa_e_plataforma_unificadas__1x.stl) |
-| Print the latest enclosure — 13 unique STLs, quantities in filenames | [PARA-IMPRIMIR](PARA-IMPRIMIR/) |
-| Edit the schematic and PCB in KiCad | [oneTesla.kicad_pro](hardware/pcb/oneTesla.kicad_pro) |
-| Read the project notebook | [Project notebook](docs/project/PROJECT-DRSSTC.html) |
-| Review the coil calculations | [Coil design](docs/design/COILS.md) |
-| Import the assembled PCB into CAD | [Complete PCB — STEP](production/pcb/2026-10-20-3d/ARCSTRIKE-PCB-complete.step) |
-| Review integrated enclosure and coils | [Enclosure v5 source and instructions](mechanical/case-v5/README.md) |
-| Open enclosure in SolidCraft | [Assembly with unified lid](mechanical/case-v5-unified/ARCSTRIKE-tampa-unificada.sc) |
-| Download enclosure STEP, STLs, viewer, and source files | [Enclosure v5 package](production/case/v5/ARCSTRIKE-case-v5-ASSEMBLY.zip) |
-| Download the offline notebook and references | [Documentation package](production/documentation/2026-10-22/ARCSTRIKE-documentation.zip) |
+| Imprimir o gabinete atual | [STLs — 13 modelos, 26 peças](production/case/v5-unified/print/) |
+| Atualizar uma case v5 já impressa | [Tampa unificada e alterações de ferragens](mechanical/case-v5-unified/README.md) |
+| Consultar a montagem da base v5 | [Guia mecânico e lista de ferragens](mechanical/case-v5/README.md) |
+| Editar a eletrônica | [Projeto KiCad](hardware/pcb/oneTesla.kicad_pro) · [Guia da PCB](hardware/pcb/README.md) |
+| Consultar os cálculos | [Projeto das bobinas](docs/design/COILS.md) |
+| Explorar a documentação offline | [Caderno HTML](docs/project/PROJECT-DRSSTC.html) |
+| Importar a montagem atual em CAD | [STEP com tampa unificada](mechanical/case-v5-unified/exports/ARCSTRIKE-v5-tampa-unificada.step) |
+| Consultar pacotes e revisões | [Entregáveis](production/README.md) |
 
-## Directory structure
+Para uma case v5 já impressa, somente a tampa unificada precisa ser impressa.
+Ela substitui as peças 04 e 05; a abraçadeira inferior passa a usar quatro
+M3×16. Consulte o guia antes de montar. Os ZIPs da v5 original conservam a
+tampa e a plataforma separadas.
 
-| Directory | Contents |
-| --- | --- |
-| `hardware/pcb/` | Active KiCad project, schematic, PCB, rules, and local libraries |
-| `docs/design/` | Design inputs, calculations, and results |
-| `docs/project/` | Offline HTML notebook, template, and assets |
-| `docs/reference/` | Manuals, datasheets, and original Eagle reference files |
-| `production/` | Deliverables and exports organized by type and revision |
-| `scripts/` | Calculation, generation, extraction, and validation tools |
-| `output/` | Temporary tool output; ignored by Git |
+## Organização
 
-Open the KiCad project in `hardware/pcb/`. Its libraries stay alongside it,
-preserving `${KIPRJMOD}/library/...` references. Run scripts from the repository root.
+```text
+hardware/pcb/       Projeto KiCad e bibliotecas locais
+mechanical/         Fontes CAD, parâmetros e verificações por revisão
+production/         Pacotes de entrega, Gerbers, STEP e seleção de impressão
+docs/               Cálculos, caderno do projeto e referências técnicas
+scripts/            Ferramentas de geração, cálculo e validação
+output/             Resultados temporários locais (fora do Git)
+```
 
-The current enclosure source is in `mechanical/case-v5/`. The ZIP includes its
-source files, SolidCraft assembly, STEP, STLs and offline viewer. This is a
-mechanical concept with unverified physical fits, fasteners, thermal and
-electrical behavior; consult its README.
+As fontes editáveis ficam em `hardware/` e `mechanical/`. Os entregáveis em
+`production/` representam a revisão indicada no caminho e não se atualizam
+quando as fontes mudam. Revisões mecânicas anteriores permanecem disponíveis
+para rastreabilidade; o [índice mecânico](mechanical/README.md) identifica cada uma.
 
-## Indexes
+## Ferramentas e reprodução
 
-- [Documentation](docs/README.md)
-- [Deliverables](production/README.md)
-- [Tools and commands](scripts/README.md)
-- [Electronics project](hardware/pcb/README.md)
+Execute os comandos na raiz do repositório. Use Python 3 para os cálculos,
+KiCad para a eletrônica e CadQuery via `uv` para os modelos paramétricos.
+O caderno HTML também usa Node.js; as montagens `.sc` abrem no SolidCraft.
 
-Deliverables represent the revisions named in their directories. They are not
-updated automatically when the active PCB changes.
+```sh
+# Recalcular o ressonador
+python3 -B scripts/calculate_resonator.py
+
+# Verificar a malha da tampa unificada
+python3 -B mechanical/case-v5-unified/verify_stls.py
+
+# Reconstruir a tampa e a montagem atual (requer uv e CadQuery)
+uv run --with cadquery python mechanical/case-v5-unified/build.py
+```
+
+Os comandos de reconstrução escrevem nos diretórios de exportação. Confira o
+diff e os relatórios antes de atualizar entregáveis. Mantenha as bibliotecas
+junto ao projeto KiCad para preservar os caminhos `${KIPRJMOD}/library/...`.
+
+## Documentação
+
+- [Índice técnico e referências](docs/README.md)
+- [Revisões e reconstrução mecânica](mechanical/README.md)
+- [Pacotes de fabricação e impressão](production/README.md)
+- [Ferramentas e comandos de validação](scripts/README.md)
+- [Convenções para manutenção](CONTRIBUTING.md)

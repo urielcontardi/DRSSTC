@@ -66,7 +66,7 @@ added=merged.cut(old);removed=old.cut(merged)
 assert added.cut(zone).Volume()<.02,'Unexpected added material outside approved changes'
 assert removed.cut(zone).Volume()<.02,'An existing mating interface changed'
 # Record source meshes to make compatibility traceable to the already printed set.
-source_hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (HERE.parents[1]/'PARA-IMPRIMIR').glob('*.stl') if not p.name.startswith(('04_','05_'))}
+source_hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (HERE.parents[1]/'production/case/v5-unified/print').glob('*.stl') if not p.name.startswith(('04_','05_'))}
 report=dict(status='PASS: replacement compatible with unchanged v5 parts in CAD',dimensions_mm=[180,180,10],bottom_z_mm=46,top_z_mm=56,tube_seat_z_mm=52,print_rotation_x_deg=180,printed_parts_replaced=['04_tampa__1x.stl','05_plataforma__1x.stl'],other_printed_parts_modified=[],retired_hardware={'M4x10 DIN912':4,'M4 DIN934':4},clamp_hardware_change='Replace 4 x M3x8 with 4 x M3x16; reuse the same 4 x M3 DIN934 nuts',nut_loading_well_depth_mm=2.6,checks=checks,added_volume_mm3=added.Volume(),removed_volume_mm3=removed.Volume(),allowed_change_regions='only former lid/deck M4 joint and relocation of M3 clamp nuts to the underside',unchanged_print_file_sha256=source_hashes)
 (OUT/'verification.json').write_text(json.dumps(report,indent=2)+'\n')
 assembly=cq.Assembly(name='ARCSTRIKE_v5_UNIFIED_LID_REPLACEMENT')

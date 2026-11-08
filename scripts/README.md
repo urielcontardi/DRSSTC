@@ -23,8 +23,8 @@ uv run --with cadquery python scripts/models3d/bridge_trimmed.py
 
 Models are written to `hardware/pcb/library/3dmodels/`. The bridge generator
 uses a local KiCad installation reference, as specified in the source.
-Enclosure source files and instructions are in the
-[enclosure v1 package](../production/case/v1/ARCSTRIKE-case-v1-CONCEPT.zip).
+Enclosure sources and rebuild commands are indexed in
+[mechanical/README.md](../mechanical/README.md).
 
 The active project is `hardware/pcb/oneTesla.kicad_pro`. Create `output/`
 before exporting temporary data:

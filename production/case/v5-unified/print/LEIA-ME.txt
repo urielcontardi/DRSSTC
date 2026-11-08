@@ -4,7 +4,7 @@ Imprima somente 04_tampa_e_plataforma_unificadas__1x.stl se o restante já estiv
 Ela substitui as antigas peças 04 e 05; todas as demais peças são aproveitadas.
 Na abraçadeira inferior, usar 4 parafusos M3x16 em vez de M3x8. Reutilizar as 4 porcas M3.
 Os 4 parafusos M4x10 e porcas da antiga união entre tampa/plataforma não são usados.
-Guia desta alteração: ../mechanical/case-v5-unified/README.md
+Guia desta alteração: ../../../../mechanical/case-v5-unified/README.md
 
 IMPRIMIR: um modelo por arquivo. A quantidade está no nome.
 
@@ -16,7 +16,7 @@ Os calços de 4 mm e 1 mm são empilhados em pares (5 mm por apoio) para o dissi
 Parafusos e porcas são comprados, não impressos.
 O suporte do fio primário continua pendente.
 
-Guia das demais peças: ../mechanical/case-v5/README.md
+Guia das demais peças: ../../../../mechanical/case-v5/README.md
 
 Unidades: milímetros. Peças orientadas e apoiadas em Z=0.
 Protótipo de encaixe; conferir tolerâncias, material e montagem térmica antes de operar.
